@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 3,
+  "levelId": 5,
+  "name": "天宫之巅",
+  "width": 5800,
+  "platforms": [
+    [
+      0,
+      910,
+      5800,
+      170
+    ],
+    [
+      2896,
+      690,
+      330,
+      28
+    ]
+  ],
+  "hazards": [
+    [
+      3016,
+      1006,
+      90,
+      74
+    ]
+  ],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 天宫之巅战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1877,
+      "cameraLeft": 90,
+      "cameraRight": 1967,
+      "waveDelay": 0.9,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 819
+            },
+            {
+              "type": "phoenix",
+              "x": 1238
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 819
+            },
+            {
+              "type": "phoenix",
+              "x": 1238
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 天宫之巅战场",
+      "triggerX": 2007,
+      "lockLeft": 1947,
+      "lockRight": 3643,
+      "cameraLeft": 1857,
+      "cameraRight": 3733,
+      "waveDelay": 0.9,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 2586
+            },
+            {
+              "type": "phoenix",
+              "x": 3004
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 2586
+            },
+            {
+              "type": "phoenix",
+              "x": 3004
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 天宫之巅深处",
+      "triggerX": 3773,
+      "lockLeft": 3713,
+      "lockRight": 5410,
+      "cameraLeft": 3623,
+      "cameraRight": 5500,
+      "waveDelay": 0.9,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "phoenixBoss",
+              "x": 4562
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "fire",
+  "dropPool": "level_05_main",
+  "stageBoss": false
+}

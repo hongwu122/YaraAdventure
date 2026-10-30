@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "levels": [
+    {
+      "levelId": 1,
+      "poolId": "starter_materials_and_common",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "凡品~灵秀"
+    },
+    {
+      "levelId": 2,
+      "poolId": "starter_materials_and_common",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "凡品~灵秀"
+    },
+    {
+      "levelId": 3,
+      "poolId": "starter_materials_and_common",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "凡品~灵秀"
+    },
+    {
+      "levelId": 4,
+      "poolId": "starter_materials_and_common",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "凡品~灵秀"
+    },
+    {
+      "levelId": 5,
+      "poolId": "starter_materials_and_common",
+      "bossMaterial": "专属Boss材料",
+      "rarityTarget": "凡品~灵秀"
+    },
+    {
+      "levelId": 6,
+      "poolId": "mid_materials_and_verdant_arcane",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "灵秀~玄品"
+    },
+    {
+      "levelId": 7,
+      "poolId": "mid_materials_and_verdant_arcane",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "灵秀~玄品"
+    },
+    {
+      "levelId": 8,
+      "poolId": "mid_materials_and_verdant_arcane",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "灵秀~玄品"
+    },
+    {
+      "levelId": 9,
+      "poolId": "mid_materials_and_verdant_arcane",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "灵秀~玄品"
+    },
+    {
+      "levelId": 10,
+      "poolId": "mid_materials_and_verdant_arcane",
+      "bossMaterial": "专属Boss材料",
+      "rarityTarget": "灵秀~玄品"
+    },
+    {
+      "levelId": 11,
+      "poolId": "v39_mid_immortal",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "玄品~仙珍"
+    },
+    {
+      "levelId": 12,
+      "poolId": "v39_mid_immortal",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "玄品~仙珍"
+    },
+    {
+      "levelId": 13,
+      "poolId": "v39_mid_immortal",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "玄品~仙珍"
+    },
+    {
+      "levelId": 14,
+      "poolId": "v39_mid_immortal",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "玄品~仙珍"
+    },
+    {
+      "levelId": 15,
+      "poolId": "v39_mid_immortal",
+      "bossMaterial": "专属Boss材料",
+      "rarityTarget": "玄品~仙珍"
+    },
+    {
+      "levelId": 16,
+      "poolId": "v39_late_heaven",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "仙珍~天工"
+    },
+    {
+      "levelId": 17,
+      "poolId": "v39_late_heaven",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "仙珍~天工"
+    },
+    {
+      "levelId": 18,
+      "poolId": "v39_late_heaven",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "仙珍~天工"
+    },
+    {
+      "levelId": 19,
+      "poolId": "v39_late_heaven",
+      "bossMaterial": "通用精英/首领材料",
+      "rarityTarget": "仙珍~天工"
+    },
+    {
+      "levelId": 20,
+      "poolId": "v39_late_heaven",
+      "bossMaterial": "专属Boss材料",
+      "rarityTarget": "仙珍~天工"
+    }
+  ]
+}

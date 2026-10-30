@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Aster",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          35,
+          21,
+          407,
+          481
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          539,
+          40,
+          431,
+          468
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          35,
+          519,
+          431,
+          468
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          513,
+          544,
+          498,
+          467
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          26,
+          1051,
+          457,
+          434
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          523,
+          1052,
+          467,
+          435
+        ]
+      ]
+    }
+  }
+}

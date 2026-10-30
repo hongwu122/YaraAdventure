@@ -1,0 +1,55 @@
+{
+  "id": "abyssling",
+  "gameId": "abyssling",
+  "name": "深渊灵",
+  "category": "monster",
+  "version": "6.4",
+  "element": "dark",
+  "stageLevels": [
+    9,
+    10,
+    19
+  ],
+  "status": "concept_art_complete_model_and_prerender_pending",
+  "sourceArt": "concept_sheet.webp",
+  "portrait": "portrait.webp",
+  "model": {
+    "expected": "model/abyssling.glb",
+    "present": false,
+    "note": "Real GLB pending; no fake model included."
+  },
+  "renderSpec": {
+    "frameSize": [
+      512,
+      512
+    ],
+    "format": "webp",
+    "alpha": true,
+    "anchor": [
+      0.5,
+      0.92
+    ]
+  },
+  "requiredActions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Turn",
+    "Spawn",
+    "AttackA",
+    "AttackB",
+    "HurtLight",
+    "HurtHeavy",
+    "Knockback",
+    "Stun",
+    "Knockdown",
+    "Getup",
+    "Dead"
+  ],
+  "designBrief": "披风包裹的深渊小灵体，核心眼/晶体发光，轮廓圆润，避免巨型触手。",
+  "designRules": {
+    "ordinaryMonsterLightweight": true,
+    "bossMustHaveUniqueSilhouette": false,
+    "bossScaleOnlyForbidden": false
+  }
+}

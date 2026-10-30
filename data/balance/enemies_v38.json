@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "enemies": {
+    "peachling": {
+      "label": "桃灵",
+      "element": "wood",
+      "hp": 55,
+      "damage": 13,
+      "speed": 78,
+      "lootTable": "normal",
+      "elite": false
+    },
+    "redpanda": {
+      "label": "竹笠狸兵",
+      "element": "wood",
+      "hp": 75,
+      "damage": 17,
+      "speed": 92,
+      "lootTable": "redpanda",
+      "elite": false
+    },
+    "golem": {
+      "label": "古寺石守",
+      "element": "earth",
+      "hp": 105,
+      "damage": 22,
+      "speed": 55,
+      "lootTable": "normal",
+      "elite": false
+    },
+    "jiangshi": {
+      "label": "符僵",
+      "element": "earth",
+      "hp": 82,
+      "damage": 18,
+      "speed": 72,
+      "lootTable": "normal",
+      "elite": false
+    },
+    "fireling": {
+      "label": "熔火灵",
+      "element": "fire",
+      "hp": 88,
+      "damage": 19,
+      "speed": 76,
+      "lootTable": "normal",
+      "elite": false
+    },
+    "phoenix": {
+      "label": "云羽灵",
+      "element": "metal",
+      "hp": 115,
+      "damage": 24,
+      "speed": 108,
+      "lootTable": "normal",
+      "elite": false
+    },
+    "frostling": {
+      "label": "霜灵",
+      "element": "water",
+      "hp": 92,
+      "damage": 20,
+      "speed": 78,
+      "lootTable": "normal",
+      "elite": false
+    },
+    "shadowfox": {
+      "label": "蜃影狐",
+      "element": "water",
+      "hp": 96,
+      "damage": 21,
+      "speed": 100,
+      "lootTable": "normal",
+      "elite": false
+    },
+    "runegolem": {
+      "label": "龙纹石守",
+      "element": "earth",
+      "hp": 125,
+      "damage": 25,
+      "speed": 58,
+      "lootTable": "normal",
+      "elite": false
+    },
+    "sunling": {
+      "label": "神木曜灵",
+      "element": "wood",
+      "hp": 105,
+      "damage": 22,
+      "speed": 90,
+      "lootTable": "normal",
+      "elite": false
+    },
+    "abyssling": {
+      "label": "归墟灵",
+      "element": "fire",
+      "hp": 130,
+      "damage": 27,
+      "speed": 88,
+      "lootTable": "normal",
+      "elite": false
+    },
+    "golemElite": {
+      "label": "镇碑石卫",
+      "element": "earth",
+      "hp": 165,
+      "damage": 28,
+      "speed": 60,
+      "lootTable": "elite",
+      "elite": true,
+      "extraAttack": "elite_quake"
+    }
+  },
+  "bosses": {
+    "peachGuardian": {
+      "label": "桃灵头领",
+      "levelId": 1,
+      "element": "wood",
+      "hp": 460,
+      "damage": 25,
+      "lootTable": "boss_peach",
+      "boss": true
+    },
+    "redpandaBoss": {
+      "label": "竹笠教头",
+      "levelId": 2,
+      "element": "wood",
+      "hp": 430,
+      "damage": 26,
+      "lootTable": "boss_generic",
+      "boss": true
+    },
+    "golemBoss": {
+      "label": "玄石护法",
+      "levelId": 3,
+      "element": "earth",
+      "hp": 520,
+      "damage": 30,
+      "lootTable": "boss_generic",
+      "boss": true
+    },
+    "firelingBoss": {
+      "label": "赤焰长老",
+      "levelId": 4,
+      "element": "fire",
+      "hp": 560,
+      "damage": 32,
+      "lootTable": "boss_generic",
+      "boss": true
+    },
+    "phoenixBoss": {
+      "label": "霁羽天凰",
+      "levelId": 5,
+      "element": "metal",
+      "hp": 610,
+      "damage": 34,
+      "lootTable": "boss_generic",
+      "boss": true
+    },
+    "frostlingBoss": {
+      "label": "霜心灵主",
+      "levelId": 6,
+      "element": "water",
+      "hp": 650,
+      "damage": 36,
+      "lootTable": "boss_generic",
+      "boss": true
+    },
+    "shadowfoxBoss": {
+      "label": "蜃夜巡守",
+      "levelId": 7,
+      "element": "water",
+      "hp": 690,
+      "damage": 38,
+      "lootTable": "boss_generic",
+      "boss": true
+    },
+    "runegolemBoss": {
+      "label": "龙纹石将",
+      "levelId": 8,
+      "element": "earth",
+      "hp": 740,
+      "damage": 41,
+      "lootTable": "boss_generic",
+      "boss": true
+    },
+    "sunlingBoss": {
+      "label": "神木灵尊",
+      "levelId": 9,
+      "element": "wood",
+      "hp": 800,
+      "damage": 44,
+      "lootTable": "boss_generic",
+      "boss": true
+    },
+    "abysslingBoss": {
+      "label": "归墟炎主",
+      "levelId": 10,
+      "element": "fire",
+      "hp": 880,
+      "damage": 48,
+      "lootTable": "boss_generic",
+      "boss": true
+    }
+  }
+}

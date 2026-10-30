@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Yara",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          156,
+          18,
+          255,
+          488
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          570,
+          26,
+          358,
+          481
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          55,
+          514,
+          400,
+          501
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          549,
+          530,
+          448,
+          492
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          94,
+          1029,
+          398,
+          471
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          560,
+          1028,
+          401,
+          472
+        ]
+      ]
+    }
+  }
+}

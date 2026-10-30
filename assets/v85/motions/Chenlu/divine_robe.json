@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Chenlu",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          100,
+          10,
+          338,
+          502
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          555,
+          20,
+          402,
+          492
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          84,
+          525,
+          365,
+          479
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          533,
+          535,
+          468,
+          489
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          70,
+          1037,
+          409,
+          466
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          569,
+          1040,
+          394,
+          455
+        ]
+      ]
+    }
+  }
+}

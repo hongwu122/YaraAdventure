@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "levelId": 3,
+  "name": "古寺秘境",
+  "width": 5400,
+  "platforms": [[0,910,1700,170],[1780,910,1680,170],[3540,910,1860,170],[1110,790,360,28],[2820,785,400,28],[4380,800,420,28]],
+  "hazards": [[1700,1020,80,60],[3460,1020,80,60]],
+  "coins": [450,1020,1490,2180,2780,3370,4050,4800],
+  "rooms": [
+    {"id":"A","label":"A区 · 山门石阶","triggerX":430,"lockLeft":250,"lockRight":1570,"cameraLeft":160,"cameraRight":1700,"waveDelay":0.75,"waves":[{"label":"第1波","enemies":[{"type":"golem","x":840},{"type":"golem","x":1270}]}]},
+    {"id":"B","label":"B区 · 残钟前庭","triggerX":1980,"lockLeft":1870,"lockRight":3350,"cameraLeft":1740,"cameraRight":3470,"waveDelay":0.95,"waves":[{"label":"第1波","enemies":[{"type":"golem","x":2260},{"type":"golem","x":2740}]},{"label":"第2波","enemies":[{"type":"golem","x":2120},{"type":"golemElite","x":2620},{"type":"golem","x":3120}]}]},
+    {"id":"C","label":"C区 · 石灯内殿","triggerX":3770,"lockLeft":3630,"lockRight":5260,"cameraLeft":3520,"cameraRight":5400,"waveDelay":1.05,"waves":[{"label":"第1波","enemies":[{"type":"golem","x":4040},{"type":"golem","x":4520}]},{"label":"第2波","enemies":[{"type":"golemElite","x":4150},{"type":"golem","x":4720}]},{"label":"第3波","enemies":[{"type":"golemElite","x":4400},{"type":"golem","x":4920}]}]}
+  ]
+}

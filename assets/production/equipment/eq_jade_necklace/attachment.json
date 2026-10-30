@@ -1,0 +1,34 @@
+{
+  "id": "eq_jade_necklace",
+  "name": "清玉坠链",
+  "slot": "necklace",
+  "slotCN": "项链",
+  "rarity": "灵秀",
+  "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+  "attachBone": "Neck",
+  "localPosition": [
+    0,
+    0,
+    0
+  ],
+  "localRotation": [
+    0,
+    0,
+    0
+  ],
+  "localScale": [
+    1,
+    1,
+    1
+  ],
+  "allowMirror": true,
+  "notes": "玉坠与银链",
+  "deliverablesPresent": [
+    "icon.webp",
+    "preview.webp",
+    "attachment.json"
+  ],
+  "missingDeliverables": [
+    "attachment.glb"
+  ]
+}

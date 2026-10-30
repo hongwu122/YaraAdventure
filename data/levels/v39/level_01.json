@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 3,
+  "levelId": 1,
+  "name": "桃花山谷",
+  "width": 5200,
+  "platforms": [
+    [
+      0,
+      910,
+      5200,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 桃花山谷战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1677,
+      "cameraLeft": 90,
+      "cameraRight": 1767,
+      "waveDelay": 0.82,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "redpanda",
+              "x": 752
+            },
+            {
+              "type": "peachling",
+              "x": 1104
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 桃花山谷战场",
+      "triggerX": 1807,
+      "lockLeft": 1747,
+      "lockRight": 3243,
+      "cameraLeft": 1657,
+      "cameraRight": 3333,
+      "waveDelay": 0.82,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "redpanda",
+              "x": 2319
+            },
+            {
+              "type": "peachling",
+              "x": 2671
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "redpanda",
+              "x": 2319
+            },
+            {
+              "type": "peachling",
+              "x": 2671
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 桃花山谷深处",
+      "triggerX": 3373,
+      "lockLeft": 3313,
+      "lockRight": 4810,
+      "cameraLeft": 3223,
+      "cameraRight": 4900,
+      "waveDelay": 0.82,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "peachlingBoss",
+              "x": 4062
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "metal",
+  "dropPool": "level_01_main",
+  "stageBoss": false
+}

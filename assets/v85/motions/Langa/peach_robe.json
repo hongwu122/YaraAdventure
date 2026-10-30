@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Langa",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "peach_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          58,
+          31,
+          390,
+          480
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "peach_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          526,
+          63,
+          428,
+          447
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "peach_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          39,
+          533,
+          432,
+          459
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "peach_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          512,
+          550,
+          483,
+          474
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "peach_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          20,
+          1079,
+          485,
+          411
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "peach_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          538,
+          1062,
+          465,
+          428
+        ]
+      ]
+    }
+  }
+}

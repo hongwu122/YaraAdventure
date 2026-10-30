@@ -1,0 +1,108 @@
+{
+  "id": "Chenlu",
+  "displayName": "辰露",
+  "number": "005",
+  "playable": true,
+  "title": "磐岩守心",
+  "role": "守御 / 重击 / 控场",
+  "element": "earth",
+  "elementLabel": "土",
+  "description": "以山岩为盾，以沉稳之势护佑同行。",
+  "baseStats": {
+    "hp": 380,
+    "mp": 120,
+    "attack": 25,
+    "defense": 20,
+    "speed": 285,
+    "crit": 0.07,
+    "healBonus": 0.18
+  },
+  "basicAttack": {
+    "type": "stone_hammer_chain",
+    "pattern": "J-J-J",
+    "summary": "岩锤三连，第三击造成较强硬直。",
+    "element": "earth",
+    "status": "stun",
+    "damageType": "impact",
+    "stagger": 0.4
+  },
+  "skills": [
+    {
+      "key": "L",
+      "name": "岩步",
+      "role": "位移",
+      "element": "earth",
+      "damageType": "impact",
+      "status": "stun",
+      "stagger": 0.4
+    },
+    {
+      "key": "U",
+      "name": "磐石震",
+      "role": "范围重击",
+      "element": "earth",
+      "damageType": "impact",
+      "status": "stun",
+      "stagger": 0.4
+    },
+    {
+      "key": "I",
+      "name": "岩灵弹",
+      "role": "远程",
+      "element": "earth",
+      "damageType": "impact",
+      "status": "stun",
+      "stagger": 0.4
+    },
+    {
+      "key": "Space",
+      "name": "山岳守心",
+      "role": "无双",
+      "element": "earth",
+      "damageType": "impact",
+      "status": "stun",
+      "stagger": 0.4
+    }
+  ],
+  "growthDefaults": {
+    "level": 1,
+    "exp": 0,
+    "nextExp": 100,
+    "skillPoints": 0,
+    "equipment": {
+      "weapon": null,
+      "head": null,
+      "body": null,
+      "waist": null,
+      "shoes": null,
+      "talisman": null,
+      "necklace": null
+    },
+    "skills": {},
+    "stats": {
+      "vit": 0,
+      "spi": 0,
+      "agi": 0,
+      "pow": 0
+    },
+    "pillBonus": {
+      "hp": 0,
+      "mp": 0
+    }
+  },
+  "render": {
+    "mode": "sprite-2d",
+    "portrait": "../../v82/characters/Chenlu/portrait.png",
+    "previewAngles": [
+      "../../v82/characters/Chenlu/portrait.png"
+    ],
+    "model": {
+      "type": "none",
+      "installed": false
+    }
+  },
+  "version": "8.2",
+  "combatAssets": {
+    "animations": "../../v82/characters/Chenlu/animations.json"
+  }
+}

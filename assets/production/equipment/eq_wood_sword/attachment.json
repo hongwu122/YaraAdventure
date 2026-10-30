@@ -1,0 +1,34 @@
+{
+  "id": "eq_wood_sword",
+  "name": "桃木小剑",
+  "slot": "weapon",
+  "slotCN": "武器",
+  "rarity": "灵秀",
+  "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+  "attachBone": "Hand_R",
+  "localPosition": [
+    0,
+    0,
+    0
+  ],
+  "localRotation": [
+    0,
+    0,
+    0
+  ],
+  "localScale": [
+    1,
+    1,
+    1
+  ],
+  "allowMirror": false,
+  "notes": "桃木剑身、护手温润",
+  "deliverablesPresent": [
+    "icon.webp",
+    "preview.webp",
+    "attachment.json"
+  ],
+  "missingDeliverables": [
+    "attachment.glb"
+  ]
+}

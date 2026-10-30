@@ -1,0 +1,14 @@
+{
+  "id": "spring",
+  "states": [
+    {
+      "state": "loop_01",
+      "file": "states/loop_01.webp"
+    },
+    {
+      "state": "loop_02",
+      "file": "states/loop_02.webp"
+    }
+  ],
+  "transparentBackground": true
+}

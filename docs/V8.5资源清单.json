@@ -1,0 +1,3958 @@
+{
+  "equipmentCount": 43,
+  "grades": [
+    "common",
+    "verdant",
+    "arcane",
+    "immortal",
+    "heaven",
+    "divine",
+    "primordial"
+  ],
+  "slots": [
+    "weapon",
+    "head",
+    "body",
+    "waist",
+    "shoes",
+    "talisman",
+    "necklace"
+  ],
+  "motionPacks": 30,
+  "authoredPoses": 180,
+  "equipment": [
+    {
+      "id": "eq_wood_sword",
+      "name": "桃木短剑",
+      "grade": "common",
+      "slot": "weapon",
+      "icon": "assets/v85/items/eq_wood_sword.png"
+    },
+    {
+      "id": "eq_cloth_band",
+      "name": "行旅发带",
+      "grade": "common",
+      "slot": "head",
+      "icon": "assets/v85/items/eq_cloth_band.png"
+    },
+    {
+      "id": "eq_travel_robe",
+      "name": "青麻衣甲",
+      "grade": "common",
+      "slot": "body",
+      "icon": "assets/v82/wearables/linen_robe.png"
+    },
+    {
+      "id": "eq_hemp_belt",
+      "name": "云纹腰绦",
+      "grade": "immortal",
+      "slot": "waist",
+      "icon": "assets/v85/items/eq_hemp_belt.png"
+    },
+    {
+      "id": "eq_cloud_shoes",
+      "name": "轻云履",
+      "grade": "arcane",
+      "slot": "shoes",
+      "icon": "assets/v82/wearables/cloud_shoes.png"
+    },
+    {
+      "id": "eq_peach_charm",
+      "name": "桃息符",
+      "grade": "verdant",
+      "slot": "talisman",
+      "icon": "assets/v82/items/eq_peach_charm.png"
+    },
+    {
+      "id": "eq_wood_necklace",
+      "name": "木珠项链",
+      "grade": "common",
+      "slot": "necklace",
+      "icon": "assets/v82/items/eq_wood_necklace.png"
+    },
+    {
+      "id": "eq_bamboo_blade",
+      "name": "翠竹灵刃",
+      "grade": "verdant",
+      "slot": "weapon",
+      "icon": "assets/v8/items/eq_bamboo_blade.png"
+    },
+    {
+      "id": "eq_mystic_mail",
+      "name": "玄纹轻甲",
+      "grade": "verdant",
+      "slot": "body",
+      "icon": "assets/v82/wearables/jade_armor.png"
+    },
+    {
+      "id": "eq_blue_necklace",
+      "name": "澄灵坠",
+      "grade": "arcane",
+      "slot": "necklace",
+      "icon": "assets/v82/items/eq_blue_necklace.png"
+    },
+    {
+      "id": "eq_peach_blossom_sword",
+      "name": "桃华照影",
+      "grade": "heaven",
+      "slot": "weapon",
+      "icon": "assets/v82/items/eq_peach_blossom_sword.png"
+    },
+    {
+      "id": "eq_heaven_step",
+      "name": "天工踏月履",
+      "grade": "heaven",
+      "slot": "shoes",
+      "icon": "assets/v85/items/eq_heaven_step.png"
+    },
+    {
+      "id": "eq_divine_talisman",
+      "name": "神铸·赤霄印",
+      "grade": "divine",
+      "slot": "talisman",
+      "icon": "assets/v82/items/eq_divine_talisman.png"
+    },
+    {
+      "id": "eq_spirit_saber",
+      "name": "流光灵刃",
+      "grade": "arcane",
+      "slot": "weapon",
+      "icon": "assets/v8/items/eq_spirit_saber.png"
+    },
+    {
+      "id": "eq_peach_hairpin",
+      "name": "桃瓣发簪",
+      "grade": "heaven",
+      "slot": "head",
+      "icon": "assets/v8/items/eq_peach_hairpin.png"
+    },
+    {
+      "id": "eq_bamboo_headband",
+      "name": "翠竹额饰",
+      "grade": "verdant",
+      "slot": "head",
+      "icon": "assets/v85/items/eq_bamboo_headband.png"
+    },
+    {
+      "id": "eq_moon_crown",
+      "name": "望月冠饰",
+      "grade": "divine",
+      "slot": "head",
+      "icon": "assets/v85/items/eq_moon_crown.png"
+    },
+    {
+      "id": "eq_cloud_robe",
+      "name": "流云法衣",
+      "grade": "arcane",
+      "slot": "body",
+      "icon": "assets/v82/wearables/cloud_robe.png"
+    },
+    {
+      "id": "eq_star_brocade",
+      "name": "星锦灵衣",
+      "grade": "immortal",
+      "slot": "body",
+      "icon": "assets/v82/wearables/star_robe.png"
+    },
+    {
+      "id": "eq_linen_sash",
+      "name": "素麻腰带",
+      "grade": "common",
+      "slot": "waist",
+      "icon": "assets/v85/items/eq_linen_sash.png"
+    },
+    {
+      "id": "eq_spirit_belt",
+      "name": "聚灵束带",
+      "grade": "arcane",
+      "slot": "waist",
+      "icon": "assets/v85/items/eq_spirit_belt.png"
+    },
+    {
+      "id": "eq_jade_waist",
+      "name": "鸣玉腰佩",
+      "grade": "verdant",
+      "slot": "waist",
+      "icon": "assets/v85/items/eq_jade_waist.png"
+    },
+    {
+      "id": "eq_straw_shoes",
+      "name": "踏云草履",
+      "grade": "common",
+      "slot": "shoes",
+      "icon": "assets/v82/wearables/straw_shoes.png"
+    },
+    {
+      "id": "eq_thunder_boots",
+      "name": "逐电灵靴",
+      "grade": "divine",
+      "slot": "shoes",
+      "icon": "assets/v82/wearables/thunder_boots.png"
+    },
+    {
+      "id": "eq_peach_talisman",
+      "name": "桃灵符印",
+      "grade": "heaven",
+      "slot": "talisman",
+      "icon": "assets/v8/items/eq_peach_talisman.png"
+    },
+    {
+      "id": "eq_spirit_talisman",
+      "name": "聚灵符箓",
+      "grade": "arcane",
+      "slot": "talisman",
+      "icon": "assets/v82/items/eq_spirit_talisman.png"
+    },
+    {
+      "id": "eq_sun_talisman",
+      "name": "曜阳法宝",
+      "grade": "divine",
+      "slot": "talisman",
+      "icon": "assets/v82/items/eq_sun_talisman.png"
+    },
+    {
+      "id": "eq_shell_necklace",
+      "name": "贝珠项链",
+      "grade": "immortal",
+      "slot": "necklace",
+      "icon": "assets/v85/items/eq_shell_necklace.png"
+    },
+    {
+      "id": "eq_jade_necklace",
+      "name": "清玉坠链",
+      "grade": "verdant",
+      "slot": "necklace",
+      "icon": "assets/v82/items/eq_jade_necklace.png"
+    },
+    {
+      "id": "eq_lotus_necklace",
+      "name": "莲华灵链",
+      "grade": "heaven",
+      "slot": "necklace",
+      "icon": "assets/v82/items/eq_lotus_necklace.png"
+    },
+    {
+      "id": "eq_plain_seal",
+      "name": "青铜护符",
+      "grade": "common",
+      "slot": "talisman",
+      "icon": "assets/v85/items/eq_plain_seal.png"
+    },
+    {
+      "id": "eq_bamboo_shoes",
+      "name": "翠竹轻履",
+      "grade": "verdant",
+      "slot": "shoes",
+      "icon": "assets/v85/items/eq_bamboo_shoes.png"
+    },
+    {
+      "id": "eq_frost_circlet",
+      "name": "霜月额饰",
+      "grade": "arcane",
+      "slot": "head",
+      "icon": "assets/v85/items/eq_frost_circlet.png"
+    },
+    {
+      "id": "eq_amethyst_sword",
+      "name": "紫霄灵剑",
+      "grade": "immortal",
+      "slot": "weapon",
+      "icon": "assets/v85/items/eq_amethyst_sword.png"
+    },
+    {
+      "id": "eq_violet_hairpin",
+      "name": "紫藤发簪",
+      "grade": "immortal",
+      "slot": "head",
+      "icon": "assets/v85/items/eq_violet_hairpin.png"
+    },
+    {
+      "id": "eq_violet_boots",
+      "name": "紫云仙履",
+      "grade": "immortal",
+      "slot": "shoes",
+      "icon": "assets/v85/items/eq_violet_boots.png"
+    },
+    {
+      "id": "eq_moon_orb",
+      "name": "紫月灵珠",
+      "grade": "immortal",
+      "slot": "talisman",
+      "icon": "assets/v85/items/eq_moon_orb.png"
+    },
+    {
+      "id": "eq_peach_robe",
+      "name": "桃华仙衣",
+      "grade": "heaven",
+      "slot": "body",
+      "icon": "assets/v85/items/eq_peach_robe.png"
+    },
+    {
+      "id": "eq_crimson_sash",
+      "name": "赤霞凤绦",
+      "grade": "heaven",
+      "slot": "waist",
+      "icon": "assets/v85/items/eq_crimson_sash.png"
+    },
+    {
+      "id": "eq_sun_sword",
+      "name": "曜阳神剑",
+      "grade": "divine",
+      "slot": "weapon",
+      "icon": "assets/v85/items/eq_sun_sword.png"
+    },
+    {
+      "id": "eq_divine_robe",
+      "name": "曜阳神袍",
+      "grade": "divine",
+      "slot": "body",
+      "icon": "assets/v85/items/eq_divine_robe.png"
+    },
+    {
+      "id": "eq_divine_sash",
+      "name": "金霄云带",
+      "grade": "divine",
+      "slot": "waist",
+      "icon": "assets/v85/items/eq_divine_sash.png"
+    },
+    {
+      "id": "eq_sun_necklace",
+      "name": "曜日灵链",
+      "grade": "divine",
+      "slot": "necklace",
+      "icon": "assets/v85/items/eq_sun_necklace.png"
+    }
+  ],
+  "motions": {
+    "Yara_linen_robe": {
+      "image": "assets/v85/motions/Yara/linen_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            131,
+            17,
+            414,
+            499
+          ],
+          "hand": [
+            0.7333333333333333,
+            0.7025641025641025
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            61,
+            21,
+            397,
+            508
+          ],
+          "hand": [
+            0.717948717948718,
+            0.6102564102564103
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            102,
+            3,
+            449,
+            486
+          ],
+          "hand": [
+            0.8307692307692308,
+            0.5384615384615384
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            49,
+            9,
+            470,
+            507
+          ],
+          "hand": [
+            0.8717948717948718,
+            0.5128205128205128
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            97,
+            0,
+            473,
+            468
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            86,
+            0,
+            446,
+            469
+          ],
+          "hand": [
+            0.8615384615384616,
+            0.35384615384615387
+          ],
+          "supportHand": [
+            0.56298828125,
+            0.7304529989919355
+          ]
+        }
+      ]
+    },
+    "Yara_jade_armor": {
+      "image": "assets/v85/motions/Yara/jade_armor.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            156,
+            18,
+            411,
+            506
+          ],
+          "hand": [
+            0.7589743589743589,
+            0.7282051282051282
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            58,
+            26,
+            416,
+            507
+          ],
+          "hand": [
+            0.7589743589743589,
+            0.6
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            55,
+            2,
+            455,
+            503
+          ],
+          "hand": [
+            0.8461538461538461,
+            0.5076923076923077
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            37,
+            18,
+            485,
+            510
+          ],
+          "hand": [
+            0.9076923076923077,
+            0.48205128205128206
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            94,
+            5,
+            492,
+            476
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            48,
+            4,
+            449,
+            476
+          ],
+          "hand": [
+            0.8,
+            0.3487179487179487
+          ],
+          "supportHand": [
+            0.5934466019417476,
+            0.7182569781553398
+          ]
+        }
+      ]
+    },
+    "Yara_cloud_robe": {
+      "image": "assets/v85/motions/Yara/cloud_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            127,
+            8,
+            398,
+            503
+          ],
+          "hand": [
+            0.7384615384615385,
+            0.6102564102564103
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            87,
+            13,
+            450,
+            499
+          ],
+          "hand": [
+            0.8102564102564103,
+            0.5794871794871795
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            64,
+            1,
+            458,
+            496
+          ],
+          "hand": [
+            0.841025641025641,
+            0.5333333333333333
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            45,
+            4,
+            478,
+            507
+          ],
+          "hand": [
+            0.9076923076923077,
+            0.49230769230769234
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            72,
+            11,
+            488,
+            474
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            51,
+            22,
+            463,
+            477
+          ],
+          "hand": [
+            0.8,
+            0.26153846153846155
+          ],
+          "supportHand": [
+            0.44495044530264816,
+            0.7752847178436317
+          ]
+        }
+      ]
+    },
+    "Yara_star_robe": {
+      "image": "assets/v85/motions/Yara/star_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            155,
+            8,
+            429,
+            502
+          ],
+          "hand": [
+            0.764102564102564,
+            0.7230769230769231
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            86,
+            17,
+            405,
+            502
+          ],
+          "hand": [
+            0.7384615384615385,
+            0.5846153846153846
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            102,
+            2,
+            479,
+            498
+          ],
+          "hand": [
+            0.8871794871794871,
+            0.4666666666666667
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            41,
+            11,
+            472,
+            508
+          ],
+          "hand": [
+            0.8666666666666667,
+            0.5128205128205128
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            99,
+            8,
+            492,
+            477
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            69,
+            8,
+            462,
+            480
+          ],
+          "hand": [
+            0.8307692307692308,
+            0.3128205128205128
+          ],
+          "supportHand": [
+            0.5390953256302521,
+            0.7208180147058824
+          ]
+        }
+      ]
+    },
+    "Yara_peach_robe": {
+      "image": "assets/v85/motions/Yara/peach_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            132,
+            8,
+            412,
+            506
+          ],
+          "hand": [
+            0.764102564102564,
+            0.5948717948717949
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            14,
+            14,
+            407,
+            499
+          ],
+          "hand": [
+            0.7384615384615385,
+            0.5948717948717949
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            45,
+            0,
+            467,
+            491
+          ],
+          "hand": [
+            0.8769230769230769,
+            0.46153846153846156
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            15,
+            6,
+            481,
+            512
+          ],
+          "hand": [
+            0.9076923076923077,
+            0.49230769230769234
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            71,
+            4,
+            469,
+            480
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            44,
+            9,
+            444,
+            470
+          ],
+          "hand": [
+            0.8512820512820513,
+            0.35384615384615387
+          ],
+          "supportHand": [
+            0.5367683531746031,
+            0.7200210813492064
+          ]
+        }
+      ]
+    },
+    "Yara_divine_robe": {
+      "image": "assets/v85/motions/Yara/divine_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            137,
+            22,
+            398,
+            499
+          ],
+          "hand": [
+            0.7384615384615385,
+            0.6051282051282051
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            46,
+            22,
+            424,
+            498
+          ],
+          "hand": [
+            0.7846153846153846,
+            0.5692307692307692
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            61,
+            1,
+            447,
+            495
+          ],
+          "hand": [
+            0.8205128205128205,
+            0.5128205128205128
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            25,
+            3,
+            475,
+            497
+          ],
+          "hand": [
+            0.8923076923076924,
+            0.48205128205128206
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            73,
+            7,
+            471,
+            464
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            77,
+            7,
+            446,
+            464
+          ],
+          "hand": [
+            0.8153846153846154,
+            0.358974358974359
+          ],
+          "supportHand": [
+            0.5385377798507462,
+            0.7301739997927031
+          ]
+        }
+      ]
+    },
+    "Aster_linen_robe": {
+      "image": "assets/v85/motions/Aster/linen_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            37,
+            20,
+            445,
+            512
+          ],
+          "hand": [
+            0.7743589743589744,
+            0.7025641025641025
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            18,
+            23,
+            467,
+            512
+          ],
+          "hand": [
+            0.8512820512820513,
+            0.5794871794871795
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            28,
+            15,
+            464,
+            495
+          ],
+          "hand": [
+            0.8205128205128205,
+            0.48717948717948717
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            36,
+            485,
+            507
+          ],
+          "hand": [
+            0.9076923076923077,
+            0.5333333333333333
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            27,
+            20,
+            474,
+            452
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            5,
+            13,
+            484,
+            451
+          ],
+          "hand": [
+            0.8564102564102564,
+            0.35384615384615387
+          ],
+          "supportHand": [
+            0.5007875504032258,
+            0.7564579133064516
+          ]
+        }
+      ]
+    },
+    "Aster_jade_armor": {
+      "image": "assets/v85/motions/Aster/jade_armor.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            57,
+            16,
+            472,
+            512
+          ],
+          "hand": [
+            0.7897435897435897,
+            0.7333333333333333
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            29,
+            41,
+            486,
+            507
+          ],
+          "hand": [
+            0.8564102564102564,
+            0.6
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            34,
+            20,
+            474,
+            495
+          ],
+          "hand": [
+            0.8102564102564103,
+            0.6153846153846154
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            31,
+            16,
+            494,
+            512
+          ],
+          "hand": [
+            0.9128205128205128,
+            0.49230769230769234
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            23,
+            13,
+            502,
+            466
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            13,
+            10,
+            485,
+            469
+          ],
+          "hand": [
+            0.8615384615384616,
+            0.2923076923076923
+          ],
+          "supportHand": [
+            0.5007486979166667,
+            0.7584309895833333
+          ]
+        }
+      ]
+    },
+    "Aster_cloud_robe": {
+      "image": "assets/v85/motions/Aster/cloud_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            50,
+            15,
+            449,
+            509
+          ],
+          "hand": [
+            0.7282051282051282,
+            0.7025641025641025
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            18,
+            37,
+            473,
+            502
+          ],
+          "hand": [
+            0.8102564102564103,
+            0.5794871794871795
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            13,
+            7,
+            489,
+            486
+          ],
+          "hand": [
+            0.8871794871794871,
+            0.4358974358974359
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            18,
+            497,
+            497
+          ],
+          "hand": [
+            0.9076923076923077,
+            0.49743589743589745
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            12,
+            4,
+            507,
+            476
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            8,
+            2,
+            499,
+            474
+          ],
+          "hand": [
+            0.8564102564102564,
+            0.358974358974359
+          ],
+          "supportHand": [
+            0.5245686534749034,
+            0.7132902992277992
+          ]
+        }
+      ]
+    },
+    "Aster_star_robe": {
+      "image": "assets/v85/motions/Aster/star_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            35,
+            21,
+            442,
+            502
+          ],
+          "hand": [
+            0.7282051282051282,
+            0.6564102564102564
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            27,
+            40,
+            458,
+            508
+          ],
+          "hand": [
+            0.7692307692307693,
+            0.5897435897435898
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            35,
+            7,
+            466,
+            475
+          ],
+          "hand": [
+            0.8205128205128205,
+            0.4358974358974359
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            1,
+            32,
+            499,
+            499
+          ],
+          "hand": [
+            0.9230769230769231,
+            0.49743589743589745
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            26,
+            27,
+            483,
+            461
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            11,
+            28,
+            478,
+            463
+          ],
+          "hand": [
+            0.8153846153846154,
+            0.4256410256410256
+          ],
+          "supportHand": [
+            0.5696123231132075,
+            0.7139408903301887
+          ]
+        }
+      ]
+    },
+    "Aster_peach_robe": {
+      "image": "assets/v85/motions/Aster/peach_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            45,
+            21,
+            462,
+            512
+          ],
+          "hand": [
+            0.7794871794871795,
+            0.7538461538461538
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            47,
+            464,
+            512
+          ],
+          "hand": [
+            0.841025641025641,
+            0.6153846153846154
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            19,
+            31,
+            500,
+            490
+          ],
+          "hand": [
+            0.8717948717948718,
+            0.5641025641025641
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            41,
+            487,
+            512
+          ],
+          "hand": [
+            0.9128205128205128,
+            0.5641025641025641
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            35,
+            11,
+            512,
+            470
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            22,
+            23,
+            489,
+            469
+          ],
+          "hand": [
+            0.841025641025641,
+            0.358974358974359
+          ],
+          "supportHand": [
+            0.5488731971153846,
+            0.7339242788461539
+          ]
+        }
+      ]
+    },
+    "Aster_divine_robe": {
+      "image": "assets/v85/motions/Aster/divine_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            35,
+            23,
+            448,
+            512
+          ],
+          "hand": [
+            0.7435897435897436,
+            0.6358974358974359
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            7,
+            34,
+            473,
+            501
+          ],
+          "hand": [
+            0.8512820512820513,
+            0.5538461538461539
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            24,
+            0,
+            499,
+            474
+          ],
+          "hand": [
+            0.8153846153846154,
+            0.6564102564102564
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            4,
+            505,
+            506
+          ],
+          "hand": [
+            0.9230769230769231,
+            0.47692307692307695
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            22,
+            7,
+            502,
+            474
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            13,
+            11,
+            497,
+            476
+          ],
+          "hand": [
+            0.8871794871794871,
+            0.3128205128205128
+          ],
+          "supportHand": [
+            0.5046636158350979,
+            0.7387599672445738
+          ]
+        }
+      ]
+    },
+    "Moyu_linen_robe": {
+      "image": "assets/v85/motions/Moyu/linen_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            85,
+            9,
+            451,
+            512
+          ],
+          "hand": [
+            0.764102564102564,
+            0.7128205128205128
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            15,
+            48,
+            488,
+            512
+          ],
+          "hand": [
+            0.8717948717948718,
+            0.5948717948717949
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            50,
+            13,
+            484,
+            500
+          ],
+          "hand": [
+            0.9076923076923077,
+            0.49230769230769234
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            4,
+            34,
+            492,
+            504
+          ],
+          "hand": [
+            0.9230769230769231,
+            0.5538461538461539
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            42,
+            14,
+            512,
+            485
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            30,
+            10,
+            483,
+            481
+          ],
+          "hand": [
+            0.8871794871794871,
+            0.3076923076923077
+          ],
+          "supportHand": [
+            0.5604383680555556,
+            0.7387152777777778
+          ]
+        }
+      ]
+    },
+    "Moyu_jade_armor": {
+      "image": "assets/v85/motions/Moyu/jade_armor.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            79,
+            16,
+            441,
+            506
+          ],
+          "hand": [
+            0.7897435897435897,
+            0.7333333333333333
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            6,
+            26,
+            491,
+            506
+          ],
+          "hand": [
+            0.7948717948717948,
+            0.6102564102564103
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            42,
+            5,
+            506,
+            501
+          ],
+          "hand": [
+            0.8205128205128205,
+            0.5435897435897435
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            8,
+            3,
+            504,
+            512
+          ],
+          "hand": [
+            0.9435897435897436,
+            0.5333333333333333
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            59,
+            22,
+            512,
+            464
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            19,
+            12,
+            484,
+            462
+          ],
+          "hand": [
+            0.8717948717948718,
+            0.3487179487179487
+          ],
+          "supportHand": [
+            0.5108403604497355,
+            0.7454892113095238
+          ]
+        }
+      ]
+    },
+    "Moyu_cloud_robe": {
+      "image": "assets/v85/motions/Moyu/cloud_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            87,
+            13,
+            455,
+            512
+          ],
+          "hand": [
+            0.8102564102564103,
+            0.5897435897435898
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            35,
+            39,
+            471,
+            512
+          ],
+          "hand": [
+            0.8102564102564103,
+            0.6051282051282051
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            36,
+            22,
+            480,
+            502
+          ],
+          "hand": [
+            0.8256410256410256,
+            0.5384615384615384
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            2,
+            23,
+            484,
+            512
+          ],
+          "hand": [
+            0.9128205128205128,
+            0.5487179487179488
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            50,
+            21,
+            512,
+            459
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            29,
+            21,
+            484,
+            464
+          ],
+          "hand": [
+            0.8358974358974359,
+            0.2923076923076923
+          ],
+          "supportHand": [
+            0.42699615280777536,
+            0.699206094762419
+          ]
+        }
+      ]
+    },
+    "Moyu_star_robe": {
+      "image": "assets/v85/motions/Moyu/star_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            56,
+            19,
+            455,
+            511
+          ],
+          "hand": [
+            0.7743589743589744,
+            0.7230769230769231
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            29,
+            26,
+            505,
+            499
+          ],
+          "hand": [
+            0.8153846153846154,
+            0.6358974358974359
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            41,
+            6,
+            487,
+            478
+          ],
+          "hand": [
+            0.8,
+            0.49743589743589745
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            28,
+            488,
+            507
+          ],
+          "hand": [
+            0.9076923076923077,
+            0.5230769230769231
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            40,
+            21,
+            502,
+            458
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            6,
+            25,
+            477,
+            462
+          ],
+          "hand": [
+            0.8256410256410256,
+            0.4153846153846154
+          ],
+          "supportHand": [
+            0.5453576319721115,
+            0.7190379108565738
+          ]
+        }
+      ]
+    },
+    "Moyu_peach_robe": {
+      "image": "assets/v85/motions/Moyu/peach_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            61,
+            20,
+            431,
+            512
+          ],
+          "hand": [
+            0.7692307692307693,
+            0.7128205128205128
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            28,
+            48,
+            481,
+            507
+          ],
+          "hand": [
+            0.8358974358974359,
+            0.6461538461538462
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            35,
+            16,
+            489,
+            501
+          ],
+          "hand": [
+            0.8717948717948718,
+            0.517948717948718
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            16,
+            20,
+            483,
+            510
+          ],
+          "hand": [
+            0.9230769230769231,
+            0.5076923076923077
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            31,
+            12,
+            495,
+            462
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            35,
+            23,
+            484,
+            470
+          ],
+          "hand": [
+            0.8564102564102564,
+            0.3128205128205128
+          ],
+          "supportHand": [
+            0.5652412280701754,
+            0.7191611842105263
+          ]
+        }
+      ]
+    },
+    "Moyu_divine_robe": {
+      "image": "assets/v85/motions/Moyu/divine_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            65,
+            12,
+            436,
+            506
+          ],
+          "hand": [
+            0.7589743589743589,
+            0.6871794871794872
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            6,
+            24,
+            450,
+            502
+          ],
+          "hand": [
+            0.7487179487179487,
+            0.5538461538461539
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            54,
+            0,
+            481,
+            482
+          ],
+          "hand": [
+            0.8615384615384616,
+            0.48205128205128206
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            8,
+            457,
+            512
+          ],
+          "hand": [
+            0.8717948717948718,
+            0.48205128205128206
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            16,
+            16,
+            512,
+            469
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            25,
+            40,
+            493,
+            471
+          ],
+          "hand": [
+            0.8307692307692308,
+            0.30256410256410254
+          ],
+          "supportHand": [
+            0.52294921875,
+            0.6810238486842105
+          ]
+        }
+      ]
+    },
+    "Langa_linen_robe": {
+      "image": "assets/v85/motions/Langa/linen_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            43,
+            7,
+            451,
+            497
+          ],
+          "hand": [
+            0.7435897435897436,
+            0.5538461538461539
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            8,
+            32,
+            441,
+            493
+          ],
+          "hand": [
+            0.7435897435897436,
+            0.5538461538461539
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            29,
+            0,
+            446,
+            478
+          ],
+          "hand": [
+            0.8205128205128205,
+            0.38461538461538464
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            11,
+            502,
+            508
+          ],
+          "hand": [
+            0.9282051282051282,
+            0.4461538461538462
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            20,
+            17,
+            510,
+            445
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            8,
+            13,
+            493,
+            443
+          ],
+          "hand": [
+            0.8666666666666667,
+            0.19487179487179487
+          ],
+          "supportHand": [
+            0.5288985093147227,
+            0.7013998278801236
+          ]
+        }
+      ]
+    },
+    "Langa_jade_armor": {
+      "image": "assets/v85/motions/Langa/jade_armor.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            70,
+            28,
+            448,
+            512
+          ],
+          "hand": [
+            0.7948717948717948,
+            0.7435897435897436
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            12,
+            37,
+            432,
+            512
+          ],
+          "hand": [
+            0.764102564102564,
+            0.5846153846153846
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            39,
+            22,
+            472,
+            484
+          ],
+          "hand": [
+            0.8717948717948718,
+            0.46153846153846156
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            19,
+            481,
+            512
+          ],
+          "hand": [
+            0.8871794871794871,
+            0.46153846153846156
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            36,
+            9,
+            511,
+            458
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            13,
+            5,
+            474,
+            463
+          ],
+          "hand": [
+            0.8102564102564103,
+            0.2923076923076923
+          ],
+          "supportHand": [
+            0.5595034246575342,
+            0.7240475171232876
+          ]
+        }
+      ]
+    },
+    "Langa_cloud_robe": {
+      "image": "assets/v85/motions/Langa/cloud_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            64,
+            25,
+            460,
+            512
+          ],
+          "hand": [
+            0.8051282051282052,
+            0.6
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            12,
+            30,
+            449,
+            500
+          ],
+          "hand": [
+            0.7948717948717948,
+            0.5538461538461539
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            48,
+            14,
+            469,
+            453
+          ],
+          "hand": [
+            0.8512820512820513,
+            0.46153846153846156
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            16,
+            483,
+            500
+          ],
+          "hand": [
+            0.9025641025641026,
+            0.4717948717948718
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            37,
+            15,
+            498,
+            456
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            17,
+            20,
+            488,
+            457
+          ],
+          "hand": [
+            0.8358974358974359,
+            0.27692307692307694
+          ],
+          "supportHand": [
+            0.49624720982142856,
+            0.6879371279761904
+          ]
+        }
+      ]
+    },
+    "Langa_star_robe": {
+      "image": "assets/v85/motions/Langa/star_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            37,
+            17,
+            465,
+            512
+          ],
+          "hand": [
+            0.7897435897435897,
+            0.7384615384615385
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            38,
+            425,
+            512
+          ],
+          "hand": [
+            0.7538461538461538,
+            0.558974358974359
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            47,
+            21,
+            484,
+            484
+          ],
+          "hand": [
+            0.8564102564102564,
+            0.4307692307692308
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            38,
+            481,
+            512
+          ],
+          "hand": [
+            0.9076923076923077,
+            0.49743589743589745
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            51,
+            33,
+            500,
+            457
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            14,
+            471,
+            456
+          ],
+          "hand": [
+            0.8051282051282052,
+            0.2717948717948718
+          ],
+          "supportHand": [
+            0.5846216622652582,
+            0.7045218358763693
+          ]
+        }
+      ]
+    },
+    "Langa_peach_robe": {
+      "image": "assets/v85/motions/Langa/peach_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            58,
+            31,
+            448,
+            511
+          ],
+          "hand": [
+            0.7435897435897436,
+            0.558974358974359
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            14,
+            63,
+            442,
+            510
+          ],
+          "hand": [
+            0.7692307692307693,
+            0.558974358974359
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            39,
+            21,
+            471,
+            480
+          ],
+          "hand": [
+            0.8512820512820513,
+            0.48205128205128206
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            0,
+            38,
+            483,
+            512
+          ],
+          "hand": [
+            0.9025641025641026,
+            0.48205128205128206
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            20,
+            55,
+            505,
+            466
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            26,
+            38,
+            491,
+            466
+          ],
+          "hand": [
+            0.8358974358974359,
+            0.3230769230769231
+          ],
+          "supportHand": [
+            0.5441337719298246,
+            0.7191954495614035
+          ]
+        }
+      ]
+    },
+    "Langa_divine_robe": {
+      "image": "assets/v85/motions/Langa/divine_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            54,
+            12,
+            455,
+            512
+          ],
+          "hand": [
+            0.7743589743589744,
+            0.5333333333333333
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            6,
+            54,
+            457,
+            512
+          ],
+          "hand": [
+            0.8512820512820513,
+            0.5846153846153846
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            44,
+            14,
+            474,
+            484
+          ],
+          "hand": [
+            0.8717948717948718,
+            0.4564102564102564
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            10,
+            30,
+            491,
+            512
+          ],
+          "hand": [
+            0.9179487179487179,
+            0.47692307692307695
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            27,
+            19,
+            490,
+            478
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            7,
+            13,
+            497,
+            475
+          ],
+          "hand": [
+            0.8512820512820513,
+            0.2512820512820513
+          ],
+          "supportHand": [
+            0.5489042207792207,
+            0.7874644886363636
+          ]
+        }
+      ]
+    },
+    "Chenlu_linen_robe": {
+      "image": "assets/v85/motions/Chenlu/linen_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            89,
+            29,
+            439,
+            512
+          ],
+          "hand": [
+            0.7743589743589744,
+            0.7897435897435897
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            33,
+            47,
+            458,
+            512
+          ],
+          "hand": [
+            0.764102564102564,
+            0.6871794871794872
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            82,
+            37,
+            481,
+            512
+          ],
+          "hand": [
+            0.8871794871794871,
+            0.6
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            47,
+            47,
+            462,
+            512
+          ],
+          "hand": [
+            0.8717948717948718,
+            0.6153846153846154
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            91,
+            42,
+            474,
+            471
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            71,
+            43,
+            473,
+            476
+          ],
+          "hand": [
+            0.9025641025641026,
+            0.4461538461538462
+          ],
+          "supportHand": [
+            0.4752619219653179,
+            0.7401711524566474
+          ]
+        }
+      ]
+    },
+    "Chenlu_jade_armor": {
+      "image": "assets/v85/motions/Chenlu/jade_armor.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            119,
+            25,
+            442,
+            512
+          ],
+          "hand": [
+            0.7948717948717948,
+            0.6564102564102564
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            93,
+            35,
+            469,
+            512
+          ],
+          "hand": [
+            0.8102564102564103,
+            0.6153846153846154
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            92,
+            23,
+            455,
+            509
+          ],
+          "hand": [
+            0.8205128205128205,
+            0.558974358974359
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            53,
+            35,
+            487,
+            512
+          ],
+          "hand": [
+            0.9076923076923077,
+            0.5333333333333333
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            81,
+            35,
+            483,
+            466
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            51,
+            42,
+            463,
+            467
+          ],
+          "hand": [
+            0.8307692307692308,
+            0.39487179487179486
+          ],
+          "supportHand": [
+            0.5552029079861112,
+            0.6936848958333334
+          ]
+        }
+      ]
+    },
+    "Chenlu_cloud_robe": {
+      "image": "assets/v85/motions/Chenlu/cloud_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            116,
+            12,
+            446,
+            512
+          ],
+          "hand": [
+            0.7743589743589744,
+            0.7538461538461538
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            54,
+            16,
+            452,
+            512
+          ],
+          "hand": [
+            0.7948717948717948,
+            0.6051282051282051
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            70,
+            12,
+            464,
+            480
+          ],
+          "hand": [
+            0.8717948717948718,
+            0.5230769230769231
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            12,
+            15,
+            472,
+            511
+          ],
+          "hand": [
+            0.8923076923076924,
+            0.5128205128205128
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            67,
+            5,
+            501,
+            481
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            42,
+            7,
+            485,
+            478
+          ],
+          "hand": [
+            0.9076923076923077,
+            0.4
+          ],
+          "supportHand": [
+            0.36600067284689,
+            0.7282819976076556
+          ]
+        }
+      ]
+    },
+    "Chenlu_peach_robe": {
+      "image": "assets/v85/motions/Chenlu/peach_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            116,
+            33,
+            434,
+            512
+          ],
+          "hand": [
+            0.7948717948717948,
+            0.6461538461538462
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            45,
+            54,
+            458,
+            512
+          ],
+          "hand": [
+            0.8205128205128205,
+            0.6461538461538462
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            39,
+            33,
+            477,
+            512
+          ],
+          "hand": [
+            0.9076923076923077,
+            0.5435897435897435
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            18,
+            46,
+            485,
+            512
+          ],
+          "hand": [
+            0.9128205128205128,
+            0.5435897435897435
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            42,
+            34,
+            511,
+            465
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            32,
+            29,
+            486,
+            463
+          ],
+          "hand": [
+            0.841025641025641,
+            0.3641025641025641
+          ],
+          "supportHand": [
+            0.5603323271780303,
+            0.7261851917613636
+          ]
+        }
+      ]
+    },
+    "Chenlu_divine_robe": {
+      "image": "assets/v85/motions/Chenlu/divine_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            100,
+            10,
+            438,
+            512
+          ],
+          "hand": [
+            0.7589743589743589,
+            0.7384615384615385
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            43,
+            20,
+            445,
+            512
+          ],
+          "hand": [
+            0.7897435897435897,
+            0.6102564102564103
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            84,
+            13,
+            449,
+            492
+          ],
+          "hand": [
+            0.8307692307692308,
+            0.49743589743589745
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            21,
+            23,
+            489,
+            512
+          ],
+          "hand": [
+            0.9128205128205128,
+            0.5333333333333333
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            70,
+            13,
+            479,
+            479
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            57,
+            16,
+            451,
+            471
+          ],
+          "hand": [
+            0.8358974358974359,
+            0.3487179487179487
+          ],
+          "supportHand": [
+            0.5487445688502673,
+            0.7455123384581105
+          ]
+        }
+      ]
+    },
+    "Chenlu_star_robe": {
+      "image": "assets/v85/motions/Chenlu/star_robe.png",
+      "cell": [
+        512,
+        512
+      ],
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            94,
+            9,
+            424,
+            512
+          ],
+          "hand": [
+            0.7794871794871795,
+            0.7076923076923077
+          ]
+        },
+        {
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "bounds": [
+            84,
+            9,
+            451,
+            512
+          ],
+          "hand": [
+            0.7743589743589744,
+            0.5846153846153846
+          ]
+        },
+        {
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            75,
+            13,
+            475,
+            481
+          ],
+          "hand": [
+            0.8871794871794871,
+            0.358974358974359
+          ]
+        },
+        {
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "bounds": [
+            26,
+            5,
+            448,
+            512
+          ],
+          "hand": [
+            0.8205128205128205,
+            0.5846153846153846
+          ]
+        },
+        {
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            75,
+            1,
+            474,
+            485
+          ],
+          "hand": [
+            0.6,
+            0.78
+          ]
+        },
+        {
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "bounds": [
+            46,
+            1,
+            443,
+            485
+          ],
+          "hand": [
+            0.7897435897435897,
+            0.5384615384615384
+          ],
+          "supportHand": [
+            0.5365101207386364,
+            0.6979610558712122
+          ]
+        }
+      ]
+    }
+  }
+}

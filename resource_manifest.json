@@ -1,0 +1,290 @@
+{
+  "manifestVersion": 2,
+  "appVersion": "8.2",
+  "generatedFor": "YaraAdventure_V8.2",
+  "policy": "Counts distinguish authored primary poses, shared state definitions and mirrored frame files. This is an interface/resource iteration; full campaign balance is not certified.",
+  "summary": {
+    "entities": 29,
+    "playableCharacters": 5,
+    "monsters": 11,
+    "bosses": 13,
+    "items": 38,
+    "equipment": 30,
+    "individualCharacterFrameFiles": 480,
+    "primaryCharacterPoseSequences": 60,
+    "characterStateDefinitions": 140,
+    "newBackgrounds": 10,
+    "totalLevelBackgrounds": 20,
+    "newTerrainStrips": 6,
+    "newEquipmentIcons": 12
+  },
+  "logicalResources": [
+    {
+      "category": "monster",
+      "id": "abyssling",
+      "status": "ready_2d",
+      "runtime": "assets/v8/abyssling/animations.json",
+      "actions": 17,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "abysslingBoss",
+      "status": "ready_2d",
+      "runtime": "assets/v8/abysslingBoss/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "monster",
+      "id": "fireling",
+      "status": "ready_2d",
+      "runtime": "assets/v8/fireling/animations.json",
+      "actions": 17,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "firelingBoss",
+      "status": "ready_2d",
+      "runtime": "assets/v8/firelingBoss/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "monster",
+      "id": "frostling",
+      "status": "ready_2d",
+      "runtime": "assets/v8/frostling/animations.json",
+      "actions": 17,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "frostlingBoss",
+      "status": "ready_2d",
+      "runtime": "assets/v8/frostlingBoss/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "monster",
+      "id": "golem",
+      "status": "ready_2d",
+      "runtime": "assets/v8/golem/animations.json",
+      "actions": 19,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "golemBoss",
+      "status": "ready_2d",
+      "runtime": "assets/v8/golemBoss/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "golemBoss_stage20",
+      "status": "ready_2d",
+      "runtime": "assets/v8/golemBoss_stage20/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "monster",
+      "id": "jiangshi",
+      "status": "ready_2d",
+      "runtime": "assets/v8/jiangshi/animations.json",
+      "actions": 17,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "jiangshiBoss",
+      "status": "ready_2d",
+      "runtime": "assets/v8/jiangshiBoss/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "monster",
+      "id": "peachling",
+      "status": "ready_2d",
+      "runtime": "assets/v8/peachling/animations.json",
+      "actions": 19,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "peachlingBoss",
+      "status": "ready_2d",
+      "runtime": "assets/v8/peachlingBoss/animations.json",
+      "actions": 19,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "monster",
+      "id": "phoenix",
+      "status": "ready_2d",
+      "runtime": "assets/v8/phoenix/animations.json",
+      "actions": 17,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "phoenixBoss",
+      "status": "ready_2d",
+      "runtime": "assets/v8/phoenixBoss/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "phoenixBoss_stage15",
+      "status": "ready_2d",
+      "runtime": "assets/v8/phoenixBoss_stage15/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "monster",
+      "id": "redpanda",
+      "status": "ready_2d",
+      "runtime": "assets/v8/redpanda/animations.json",
+      "actions": 19,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "redpandaBoss",
+      "status": "ready_2d",
+      "runtime": "assets/v8/redpandaBoss/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "monster",
+      "id": "runegolem",
+      "status": "ready_2d",
+      "runtime": "assets/v8/runegolem/animations.json",
+      "actions": 17,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "runegolemBoss",
+      "status": "ready_2d",
+      "runtime": "assets/v8/runegolemBoss/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "monster",
+      "id": "shadowfox",
+      "status": "ready_2d",
+      "runtime": "assets/v8/shadowfox/animations.json",
+      "actions": 17,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "shadowfoxBoss",
+      "status": "ready_2d",
+      "runtime": "assets/v8/shadowfoxBoss/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "monster",
+      "id": "sunling",
+      "status": "ready_2d",
+      "runtime": "assets/v8/sunling/animations.json",
+      "actions": 17,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "boss",
+      "id": "sunlingBoss",
+      "status": "ready_2d",
+      "runtime": "assets/v8/sunlingBoss/animations.json",
+      "actions": 21,
+      "notes": "Sparse authored poses; some states share pose assets. Left-facing frames are mirrored."
+    },
+    {
+      "category": "character",
+      "id": "Yara",
+      "status": "ready_2d",
+      "runtime": "assets/v82/characters/Yara/animations.json",
+      "actions": 28,
+      "primaryActions": 12,
+      "individualRightFrames": 48,
+      "mirroredLeftFrames": 48,
+      "notes": "12 primary four-pose sequences. Secondary states share poses; left frames are mirrored; wearable attachments use pose anchors."
+    },
+    {
+      "category": "character",
+      "id": "Aster",
+      "status": "ready_2d",
+      "runtime": "assets/v82/characters/Aster/animations.json",
+      "actions": 28,
+      "primaryActions": 12,
+      "individualRightFrames": 48,
+      "mirroredLeftFrames": 48,
+      "notes": "12 primary four-pose sequences. Secondary states share poses; left frames are mirrored; wearable attachments use pose anchors."
+    },
+    {
+      "category": "character",
+      "id": "Moyu",
+      "status": "ready_2d",
+      "runtime": "assets/v82/characters/Moyu/animations.json",
+      "actions": 28,
+      "primaryActions": 12,
+      "individualRightFrames": 48,
+      "mirroredLeftFrames": 48,
+      "notes": "12 primary four-pose sequences. Secondary states share poses; left frames are mirrored; wearable attachments use pose anchors."
+    },
+    {
+      "category": "character",
+      "id": "Langa",
+      "status": "ready_2d",
+      "runtime": "assets/v82/characters/Langa/animations.json",
+      "actions": 28,
+      "primaryActions": 12,
+      "individualRightFrames": 48,
+      "mirroredLeftFrames": 48,
+      "notes": "12 primary four-pose sequences. Secondary states share poses; left frames are mirrored; wearable attachments use pose anchors."
+    },
+    {
+      "category": "character",
+      "id": "Chenlu",
+      "status": "ready_2d",
+      "runtime": "assets/v82/characters/Chenlu/animations.json",
+      "actions": 28,
+      "primaryActions": 12,
+      "individualRightFrames": 48,
+      "mirroredLeftFrames": 48,
+      "notes": "12 primary four-pose sequences. Secondary states share poses; left frames are mirrored; wearable attachments use pose anchors."
+    }
+  ],
+  "limitations": [
+    "Some legacy animation states share poses and left directions are mirrored.",
+    "Equipment uses transparent attachments, not individually painted costume frames.",
+    "Background illustrations are scenery; decorative ledges are not all collision surfaces.",
+    "Levels 11–20 reuse some backgrounds.",
+    "Long-term normal-stat balance, all Boss move combinations and low-end performance are not certified."
+  ],
+  "v81Resources": {
+    "effects": "assets/v81/effects",
+    "terrain": "assets/v81/terrain",
+    "facilities": "assets/v81/facilities",
+    "audio": "assets/v81/audio",
+    "newPoseStates": [
+      "hurt_light",
+      "stun",
+      "dash",
+      "musou"
+    ]
+  },
+  "releaseDate": "2026-10-06"
+}

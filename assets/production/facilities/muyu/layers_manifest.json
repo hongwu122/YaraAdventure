@@ -1,0 +1,14 @@
+{
+  "id": "muyu",
+  "states": [
+    {
+      "state": "hit_01",
+      "file": "states/hit_01.webp"
+    },
+    {
+      "state": "hit_02",
+      "file": "states/hit_02.webp"
+    }
+  ],
+  "transparentBackground": true
+}

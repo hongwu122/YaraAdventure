@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 3,
+  "levelId": 15,
+  "name": "昆仑玉阙",
+  "width": 7300,
+  "platforms": [
+    [
+      0,
+      910,
+      7300,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140,
+    6660
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 昆仑玉阙战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1470,
+      "cameraLeft": 90,
+      "cameraRight": 1560,
+      "waveDelay": 1.1,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 683
+            },
+            {
+              "type": "phoenix",
+              "x": 967
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 612
+            },
+            {
+              "type": "phoenix",
+              "x": 825
+            },
+            {
+              "type": "phoenix",
+              "x": 1038
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 昆仑玉阙战场",
+      "triggerX": 1600,
+      "lockLeft": 1540,
+      "lockRight": 2830,
+      "cameraLeft": 1450,
+      "cameraRight": 2920,
+      "waveDelay": 1.1,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 2043
+            },
+            {
+              "type": "phoenix",
+              "x": 2327
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 1972
+            },
+            {
+              "type": "phoenix",
+              "x": 2185
+            },
+            {
+              "type": "phoenix",
+              "x": 2398
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 1972
+            },
+            {
+              "type": "phoenix",
+              "x": 2185
+            },
+            {
+              "type": "golemElite",
+              "x": 2398
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 昆仑玉阙战场",
+      "triggerX": 2960,
+      "lockLeft": 2900,
+      "lockRight": 4190,
+      "cameraLeft": 2810,
+      "cameraRight": 4280,
+      "waveDelay": 1.1,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 3403
+            },
+            {
+              "type": "phoenix",
+              "x": 3687
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 3332
+            },
+            {
+              "type": "phoenix",
+              "x": 3545
+            },
+            {
+              "type": "phoenix",
+              "x": 3758
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 昆仑玉阙战场",
+      "triggerX": 4320,
+      "lockLeft": 4260,
+      "lockRight": 5550,
+      "cameraLeft": 4170,
+      "cameraRight": 5640,
+      "waveDelay": 1.1,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 4763
+            },
+            {
+              "type": "phoenix",
+              "x": 5047
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 4692
+            },
+            {
+              "type": "phoenix",
+              "x": 4905
+            },
+            {
+              "type": "phoenix",
+              "x": 5118
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "frostling",
+              "x": 4692
+            },
+            {
+              "type": "phoenix",
+              "x": 4905
+            },
+            {
+              "type": "golemElite",
+              "x": 5118
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "E",
+      "label": "E区 · 昆仑玉阙深处",
+      "triggerX": 5680,
+      "lockLeft": 5620,
+      "lockRight": 6910,
+      "cameraLeft": 5530,
+      "cameraRight": 7000,
+      "waveDelay": 1.1,
+      "waves": [
+        {
+          "label": "Boss 第一阶段",
+          "enemies": [
+            {
+              "type": "phoenixBoss",
+              "x": 6265
+            }
+          ]
+        },
+        {
+          "label": "Boss 第二阶段 · 场景异变",
+          "enemies": [
+            {
+              "type": "phoenixBoss",
+              "x": 6265
+            }
+          ]
+        }
+      ],
+      "sceneShift": true
+    }
+  ],
+  "environmentElement": "fire",
+  "dropPool": "level_15_main",
+  "stageBoss": true
+}

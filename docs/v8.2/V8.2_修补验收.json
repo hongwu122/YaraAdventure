@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Yara jump_up 单帧",
+    "pass": true
+  },
+  {
+    "name": "Yara jump_fall 单帧",
+    "pass": true
+  },
+  {
+    "name": "Yara attack_1 单帧",
+    "pass": true
+  },
+  {
+    "name": "Yara attack_1 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Yara skill_U 单帧",
+    "pass": true
+  },
+  {
+    "name": "Yara skill_U 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Yara skill_I 单帧",
+    "pass": true
+  },
+  {
+    "name": "Yara skill_I 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Yara musou 单帧",
+    "pass": true
+  },
+  {
+    "name": "Aster jump_up 单帧",
+    "pass": true
+  },
+  {
+    "name": "Aster jump_fall 单帧",
+    "pass": true
+  },
+  {
+    "name": "Aster attack_1 单帧",
+    "pass": true
+  },
+  {
+    "name": "Aster attack_1 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Aster skill_U 单帧",
+    "pass": true
+  },
+  {
+    "name": "Aster skill_U 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Aster skill_I 单帧",
+    "pass": true
+  },
+  {
+    "name": "Aster skill_I 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Aster musou 单帧",
+    "pass": true
+  },
+  {
+    "name": "Moyu jump_up 单帧",
+    "pass": true
+  },
+  {
+    "name": "Moyu jump_fall 单帧",
+    "pass": true
+  },
+  {
+    "name": "Moyu attack_1 单帧",
+    "pass": true
+  },
+  {
+    "name": "Moyu attack_1 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Moyu skill_U 单帧",
+    "pass": true
+  },
+  {
+    "name": "Moyu skill_U 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Moyu skill_I 单帧",
+    "pass": true
+  },
+  {
+    "name": "Moyu skill_I 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Moyu musou 单帧",
+    "pass": true
+  },
+  {
+    "name": "Langa jump_up 单帧",
+    "pass": true
+  },
+  {
+    "name": "Langa jump_fall 单帧",
+    "pass": true
+  },
+  {
+    "name": "Langa attack_1 单帧",
+    "pass": true
+  },
+  {
+    "name": "Langa attack_1 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Langa skill_U 单帧",
+    "pass": true
+  },
+  {
+    "name": "Langa skill_U 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Langa skill_I 单帧",
+    "pass": true
+  },
+  {
+    "name": "Langa skill_I 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Langa musou 单帧",
+    "pass": true
+  },
+  {
+    "name": "Chenlu jump_up 单帧",
+    "pass": true
+  },
+  {
+    "name": "Chenlu jump_fall 单帧",
+    "pass": true
+  },
+  {
+    "name": "Chenlu attack_1 单帧",
+    "pass": true
+  },
+  {
+    "name": "Chenlu attack_1 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Chenlu skill_U 单帧",
+    "pass": true
+  },
+  {
+    "name": "Chenlu skill_U 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Chenlu skill_I 单帧",
+    "pass": true
+  },
+  {
+    "name": "Chenlu skill_I 有效攻击阶段",
+    "pass": true
+  },
+  {
+    "name": "Chenlu musou 单帧",
+    "pass": true
+  },
+  {
+    "name": "j 实际命中伤害",
+    "pass": true
+  },
+  {
+    "name": "u 实际命中伤害",
+    "pass": true
+  },
+  {
+    "name": "i 实际命中伤害",
+    "pass": true
+  },
+  {
+    "name": "覆盖存档绑定新角色",
+    "pass": true
+  },
+  {
+    "name": "删除存档清空格子",
+    "pass": true
+  },
+  {
+    "name": "七设施标签常驻",
+    "pass": true
+  }
+]

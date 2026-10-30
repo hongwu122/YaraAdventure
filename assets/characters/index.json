@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 3,
+  "characters": [
+    {
+      "id": "Yara",
+      "displayName": "Yara",
+      "folder": "Yara",
+      "data": "character.json",
+      "playable": true,
+      "order": 1
+    },
+    {
+      "id": "Aster",
+      "displayName": "星遥",
+      "folder": "Aster",
+      "data": "character.json",
+      "playable": true,
+      "order": 2
+    },
+    {
+      "id": "Moyu",
+      "displayName": "墨羽",
+      "folder": "Moyu",
+      "data": "character.json",
+      "playable": true,
+      "order": 3
+    },
+    {
+      "id": "Langa",
+      "displayName": "岚歌",
+      "folder": "Langa",
+      "data": "character.json",
+      "playable": false,
+      "order": 4
+    },
+    {
+      "id": "Chenlu",
+      "folder": "Chenlu",
+      "data": "character.json",
+      "order": 5
+    }
+  ],
+  "version": "8.2"
+}

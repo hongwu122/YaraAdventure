@@ -1,0 +1,680 @@
+{
+  "schemaVersion": 1,
+  "dungeons": [
+    {
+      "id": "herb_valley",
+      "name": "百草秘谷",
+      "type": "material",
+      "entryAfterLevel": 4,
+      "recommendedLevel": 6,
+      "recommendedElement": "water",
+      "rewardFocus": "炼丹/锻造材料",
+      "background": "assets/backgrounds/level9_divine_tree.webp",
+      "enemy": "peachling",
+      "boss": "golemBoss",
+      "waves": [
+        2,
+        2,
+        3
+      ],
+      "levelConfig": {
+        "width": 4700,
+        "platforms": [
+          [
+            0,
+            910,
+            4700,
+            170
+          ]
+        ],
+        "hazards": [],
+        "coins": [
+          500,
+          1200,
+          2100,
+          3100,
+          4000
+        ],
+        "rooms": [
+          {
+            "id": "A",
+            "label": "A区 · 百草秘谷",
+            "triggerX": 190,
+            "lockLeft": 150,
+            "lockRight": 1527,
+            "cameraLeft": 70,
+            "cameraRight": 1607,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "peachling",
+                    "x": 510
+                  },
+                  {
+                    "type": "peachling",
+                    "x": 830
+                  }
+                ]
+              },
+              {
+                "label": "第2波",
+                "enemies": [
+                  {
+                    "type": "peachling",
+                    "x": 510
+                  },
+                  {
+                    "type": "peachling",
+                    "x": 830
+                  },
+                  {
+                    "type": "peachling",
+                    "x": 1150
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "B",
+            "label": "B区 · 百草秘谷",
+            "triggerX": 1637,
+            "lockLeft": 1597,
+            "lockRight": 2973,
+            "cameraLeft": 1517,
+            "cameraRight": 3053,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "peachling",
+                    "x": 1957
+                  },
+                  {
+                    "type": "peachling",
+                    "x": 2277
+                  }
+                ]
+              },
+              {
+                "label": "第2波",
+                "enemies": [
+                  {
+                    "type": "peachling",
+                    "x": 1957
+                  },
+                  {
+                    "type": "peachling",
+                    "x": 2277
+                  },
+                  {
+                    "type": "peachling",
+                    "x": 2597
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "C",
+            "label": "C区 · 百草秘谷",
+            "triggerX": 3083,
+            "lockLeft": 3043,
+            "lockRight": 4420,
+            "cameraLeft": 2963,
+            "cameraRight": 4500,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "peachling",
+                    "x": 3403
+                  },
+                  {
+                    "type": "peachling",
+                    "x": 3723
+                  }
+                ]
+              },
+              {
+                "label": "第2波",
+                "enemies": [
+                  {
+                    "type": "peachling",
+                    "x": 3403
+                  },
+                  {
+                    "type": "peachling",
+                    "x": 3723
+                  },
+                  {
+                    "type": "peachling",
+                    "x": 4043
+                  }
+                ]
+              },
+              {
+                "label": "第3波",
+                "enemies": [
+                  {
+                    "type": "golemBoss",
+                    "x": 3732
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "iron_tomb",
+      "name": "玄铁兵冢",
+      "type": "equipment",
+      "entryAfterLevel": 8,
+      "recommendedLevel": 12,
+      "recommendedElement": "wood",
+      "rewardFocus": "装备掉率提升",
+      "background": "assets/backgrounds/level8_dragon_ruins.webp",
+      "enemy": "golem",
+      "boss": "runegolemBoss",
+      "waves": [
+        2,
+        3,
+        3
+      ],
+      "levelConfig": {
+        "width": 4700,
+        "platforms": [
+          [
+            0,
+            910,
+            4700,
+            170
+          ]
+        ],
+        "hazards": [],
+        "coins": [
+          500,
+          1200,
+          2100,
+          3100,
+          4000
+        ],
+        "rooms": [
+          {
+            "id": "A",
+            "label": "A区 · 玄铁兵冢",
+            "triggerX": 190,
+            "lockLeft": 150,
+            "lockRight": 1527,
+            "cameraLeft": 70,
+            "cameraRight": 1607,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "golem",
+                    "x": 510
+                  },
+                  {
+                    "type": "golem",
+                    "x": 830
+                  }
+                ]
+              },
+              {
+                "label": "第2波",
+                "enemies": [
+                  {
+                    "type": "golem",
+                    "x": 510
+                  },
+                  {
+                    "type": "golem",
+                    "x": 830
+                  },
+                  {
+                    "type": "golem",
+                    "x": 1150
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "B",
+            "label": "B区 · 玄铁兵冢",
+            "triggerX": 1637,
+            "lockLeft": 1597,
+            "lockRight": 2973,
+            "cameraLeft": 1517,
+            "cameraRight": 3053,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "golem",
+                    "x": 1957
+                  },
+                  {
+                    "type": "golem",
+                    "x": 2277
+                  }
+                ]
+              },
+              {
+                "label": "第2波",
+                "enemies": [
+                  {
+                    "type": "golem",
+                    "x": 1957
+                  },
+                  {
+                    "type": "golem",
+                    "x": 2277
+                  },
+                  {
+                    "type": "golem",
+                    "x": 2597
+                  }
+                ]
+              },
+              {
+                "label": "第3波",
+                "enemies": [
+                  {
+                    "type": "golem",
+                    "x": 1957
+                  },
+                  {
+                    "type": "golem",
+                    "x": 2277
+                  },
+                  {
+                    "type": "golem",
+                    "x": 2597
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "C",
+            "label": "C区 · 玄铁兵冢",
+            "triggerX": 3083,
+            "lockLeft": 3043,
+            "lockRight": 4420,
+            "cameraLeft": 2963,
+            "cameraRight": 4500,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "golem",
+                    "x": 3403
+                  },
+                  {
+                    "type": "golem",
+                    "x": 3723
+                  }
+                ]
+              },
+              {
+                "label": "第2波",
+                "enemies": [
+                  {
+                    "type": "golem",
+                    "x": 3403
+                  },
+                  {
+                    "type": "golem",
+                    "x": 3723
+                  },
+                  {
+                    "type": "golem",
+                    "x": 4043
+                  }
+                ]
+              },
+              {
+                "label": "第3波",
+                "enemies": [
+                  {
+                    "type": "runegolemBoss",
+                    "x": 3732
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "boss_realm",
+      "name": "旧王秘境",
+      "type": "boss",
+      "entryAfterLevel": 10,
+      "recommendedLevel": 16,
+      "recommendedElement": "water",
+      "rewardFocus": "Boss专属材料/高品质装备",
+      "background": "assets/v82/backgrounds/level15.webp",
+      "enemy": "abyssling",
+      "boss": "abysslingBoss",
+      "waves": [
+        1,
+        1,
+        2
+      ],
+      "levelConfig": {
+        "width": 4700,
+        "platforms": [
+          [
+            0,
+            910,
+            4700,
+            170
+          ]
+        ],
+        "hazards": [],
+        "coins": [
+          500,
+          1200,
+          2100,
+          3100,
+          4000
+        ],
+        "rooms": [
+          {
+            "id": "A",
+            "label": "A区 · 旧王秘境",
+            "triggerX": 190,
+            "lockLeft": 150,
+            "lockRight": 1527,
+            "cameraLeft": 70,
+            "cameraRight": 1607,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "abyssling",
+                    "x": 510
+                  },
+                  {
+                    "type": "abyssling",
+                    "x": 830
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "B",
+            "label": "B区 · 旧王秘境",
+            "triggerX": 1637,
+            "lockLeft": 1597,
+            "lockRight": 2973,
+            "cameraLeft": 1517,
+            "cameraRight": 3053,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "abyssling",
+                    "x": 1957
+                  },
+                  {
+                    "type": "abyssling",
+                    "x": 2277
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "C",
+            "label": "C区 · 旧王秘境",
+            "triggerX": 3083,
+            "lockLeft": 3043,
+            "lockRight": 4420,
+            "cameraLeft": 2963,
+            "cameraRight": 4500,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "abyssling",
+                    "x": 3403
+                  },
+                  {
+                    "type": "abyssling",
+                    "x": 3723
+                  }
+                ]
+              },
+              {
+                "label": "第2波",
+                "enemies": [
+                  {
+                    "type": "abysslingBoss",
+                    "x": 3732
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "five_trial",
+      "name": "五行试炼台",
+      "type": "element",
+      "entryAfterLevel": 12,
+      "recommendedLevel": 20,
+      "recommendedElement": "metal",
+      "rewardFocus": "五行材料/技能资源",
+      "background": "assets/v87/backgrounds/five-trial.png",
+      "enemy": "runegolem",
+      "boss": "golemBoss",
+      "waves": [
+        2,
+        3,
+        3
+      ],
+      "levelConfig": {
+        "width": 4700,
+        "platforms": [
+          [
+            0,
+            910,
+            4700,
+            170
+          ]
+        ],
+        "hazards": [],
+        "coins": [
+          500,
+          1200,
+          2100,
+          3100,
+          4000
+        ],
+        "rooms": [
+          {
+            "id": "A",
+            "label": "A区 · 五行试炼台",
+            "triggerX": 190,
+            "lockLeft": 150,
+            "lockRight": 1527,
+            "cameraLeft": 70,
+            "cameraRight": 1607,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "runegolem",
+                    "x": 510
+                  },
+                  {
+                    "type": "runegolem",
+                    "x": 830
+                  }
+                ]
+              },
+              {
+                "label": "第2波",
+                "enemies": [
+                  {
+                    "type": "runegolem",
+                    "x": 510
+                  },
+                  {
+                    "type": "runegolem",
+                    "x": 830
+                  },
+                  {
+                    "type": "runegolem",
+                    "x": 1150
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "B",
+            "label": "B区 · 五行试炼台",
+            "triggerX": 1637,
+            "lockLeft": 1597,
+            "lockRight": 2973,
+            "cameraLeft": 1517,
+            "cameraRight": 3053,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "runegolem",
+                    "x": 1957
+                  },
+                  {
+                    "type": "runegolem",
+                    "x": 2277
+                  }
+                ]
+              },
+              {
+                "label": "第2波",
+                "enemies": [
+                  {
+                    "type": "runegolem",
+                    "x": 1957
+                  },
+                  {
+                    "type": "runegolem",
+                    "x": 2277
+                  },
+                  {
+                    "type": "runegolem",
+                    "x": 2597
+                  }
+                ]
+              },
+              {
+                "label": "第3波",
+                "enemies": [
+                  {
+                    "type": "runegolem",
+                    "x": 1957
+                  },
+                  {
+                    "type": "runegolem",
+                    "x": 2277
+                  },
+                  {
+                    "type": "runegolem",
+                    "x": 2597
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "C",
+            "label": "C区 · 五行试炼台",
+            "triggerX": 3083,
+            "lockLeft": 3043,
+            "lockRight": 4420,
+            "cameraLeft": 2963,
+            "cameraRight": 4500,
+            "waveDelay": 0.9,
+            "waves": [
+              {
+                "label": "第1波",
+                "enemies": [
+                  {
+                    "type": "runegolem",
+                    "x": 3403
+                  },
+                  {
+                    "type": "runegolem",
+                    "x": 3723
+                  }
+                ]
+              },
+              {
+                "label": "第2波",
+                "enemies": [
+                  {
+                    "type": "runegolem",
+                    "x": 3403
+                  },
+                  {
+                    "type": "runegolem",
+                    "x": 3723
+                  },
+                  {
+                    "type": "runegolem",
+                    "x": 4043
+                  }
+                ]
+              },
+              {
+                "label": "第3波",
+                "enemies": [
+                  {
+                    "type": "golemBoss",
+                    "x": 3732
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "Yara",
+  "version": "4.3",
+  "preferredRenderer": "threejs-gltf",
+  "modelPath": "assets/characters/Yara_v43/model/yara.glb",
+  "modelAvailable": false,
+  "fallback": {
+    "type": "pseudo3d-layered-webp",
+    "master": "assets/characters/Yara_v43/showcase/yara_front_master.webp",
+    "supportsPointerOrbit": true,
+    "supportsWheelZoom": true,
+    "supportsAutoRotate": true,
+    "inputAzimuthRange": [
+      0,
+      360
+    ]
+  },
+  "camera": {
+    "fov": 28,
+    "near": 0.1,
+    "far": 100,
+    "position": [
+      0,
+      1.15,
+      4.6
+    ],
+    "target": [
+      0,
+      1.0,
+      0
+    ]
+  },
+  "model": {
+    "scale": 1.0,
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "shadow": true
+  },
+  "animationClips": [
+    "Idle",
+    "Run",
+    "Turn",
+    "JumpStart",
+    "JumpLoop",
+    "DoubleJump",
+    "Fall",
+    "Land",
+    "Attack01",
+    "Attack02",
+    "Attack03",
+    "SkillU",
+    "SkillI",
+    "Dash",
+    "Musou",
+    "HurtLight",
+    "HurtHeavy",
+    "Knockback",
+    "Stun",
+    "Knockdown",
+    "Getup",
+    "Dead",
+    "Cultivate"
+  ],
+  "replaceContract": "Drop a validated yara.glb at modelPath and include local Three.js + GLTFLoader; the viewer automatically prefers GLB over fallback."
+}

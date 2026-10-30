@@ -1,0 +1,195 @@
+/* Yara Adventure Diary V6.7 — single-screen layout foundation */
+:root{
+  --v67-scale:1;
+  --v67-head:clamp(72px,9.2dvh,94px);
+  --v67-gap:clamp(8px,1.1dvh,16px);
+  --v67-pad-x:clamp(14px,2.2vw,34px);
+  --v67-pad-y:clamp(10px,1.5dvh,20px);
+  --v67-radius:clamp(12px,1.15vw,18px);
+  --v67-panel:rgba(7,15,26,.78);
+}
+html,body,#app{width:100%;height:100%;height:100dvh;max-height:100dvh;overflow:hidden!important}
+body{overscroll-behavior:none}
+.view{position:absolute!important;inset:0!important;width:100%!important;height:100dvh!important;min-height:0!important;max-height:100dvh!important;overflow:hidden!important}
+.view.active{display:block}
+.minimal-head,.v49-head{height:var(--v67-head)!important;min-height:var(--v67-head)!important;max-height:var(--v67-head)!important;padding-top:0!important;padding-bottom:0!important}
+.page-title h2,.v49-title h2{font-size:clamp(26px,3.8dvh,42px)!important}
+.page-title span,.v49-title small{font-size:clamp(8px,1.05dvh,10px)!important}
+
+/* Main menu */
+.menu-view{height:100dvh!important;overflow:hidden!important}
+.menu-brand{top:clamp(28px,5dvh,56px)!important;left:clamp(30px,4.5vw,86px)!important}
+.menu-brand h1{font-size:clamp(48px,7.2dvh,82px)!important}
+.aaa-menu{top:52%!important;left:clamp(32px,4.8vw,92px)!important;width:clamp(300px,27vw,410px)!important}
+.aaa-item{padding:clamp(7px,1.25dvh,12px) 2px!important}
+.menu-status-v43{top:clamp(24px,5dvh,60px)!important;right:clamp(28px,4.4vw,84px)!important;max-height:42dvh;overflow:hidden}
+.menu-utility{bottom:clamp(18px,3.4dvh,34px)!important}
+.menu-version{bottom:clamp(14px,2.4dvh,26px)!important}
+
+/* World map */
+.route-view{overflow:hidden!important}
+.route-view>.minimal-head{position:absolute!important;left:0;right:0;top:0}
+.route-summary{top:calc(var(--v67-head) + 8px)!important;max-width:min(82vw,980px)!important;white-space:nowrap;overflow:hidden}
+.journey-map{position:absolute!important;inset:0!important;height:100%!important;min-height:0!important;overflow:hidden!important}
+.route-legend{position:absolute!important;bottom:clamp(10px,1.7dvh,18px)!important;left:50%!important;transform:translateX(-50%)!important;max-width:94vw;white-space:nowrap;overflow:hidden}
+
+/* Character showcase */
+.character-v35-view{overflow:hidden!important}
+.character-stage-v35{
+  position:absolute!important;left:0;right:0;top:var(--v67-head);bottom:0;
+  width:100%!important;max-width:1720px!important;height:auto!important;min-height:0!important;
+  margin:0 auto!important;padding:var(--v67-gap) var(--v67-pad-x) var(--v67-pad-y)!important;
+  grid-template-columns:clamp(205px,17vw,275px) minmax(360px,1fr) clamp(300px,25vw,405px)!important;
+  gap:var(--v67-gap)!important;align-items:stretch!important;overflow:hidden!important
+}
+.roster-v35,.character-dossier-v35,.turntable-v35{min-height:0!important;height:100%!important;overflow:hidden!important}
+.roster-v35{padding:clamp(12px,1.6dvh,20px) clamp(10px,1.1vw,16px)!important;display:flex;flex-direction:column}
+.roster-list-v35{min-height:0;overflow:hidden;gap:clamp(2px,.45dvh,5px)!important}
+.roster-item-v35{padding:clamp(5px,.8dvh,9px) 6px!important;grid-template-columns:clamp(38px,4.2dvh,50px) 1fr auto!important;gap:8px!important}
+.roster-item-v35 img{width:clamp(38px,4.8dvh,50px)!important;height:clamp(46px,5.8dvh,61px)!important}
+.roster-v35>p{margin-top:auto!important;padding-top:8px!important;font-size:clamp(8px,1.05dvh,10px)!important;line-height:1.45!important}
+.turntable-v35{min-height:0!important;display:grid!important;place-items:center!important}
+.turntable-v35 img{height:min(66dvh,650px)!important;width:min(44vw,540px)!important;max-height:calc(100dvh - var(--v67-head) - 58px)!important}
+.turntable-ring{width:min(50dvh,520px)!important;height:min(50dvh,520px)!important}
+.turntable-floor{bottom:clamp(34px,5.4dvh,56px)!important;width:min(42vw,520px)!important}
+.angle-hint{bottom:clamp(4px,.8dvh,12px)!important}
+.v44-view-controls{top:clamp(8px,1.2dvh,14px)!important}
+.v66-animation-controls{bottom:clamp(28px,4.2dvh,42px)!important}
+.character-dossier-v35{padding:clamp(14px,2dvh,28px) clamp(14px,1.6vw,28px)!important}
+.character-dossier-v35 h3{font-size:clamp(42px,6.6dvh,68px)!important;margin:clamp(8px,1.4dvh,15px) 0 2px!important}
+.character-dossier-v35>p{font-size:clamp(9px,1.2dvh,11px)!important;line-height:1.55!important;margin:clamp(6px,1dvh,12px) 0!important}
+.char-growth-snapshot{margin:clamp(8px,1.3dvh,14px) 0!important;gap:10px!important}
+.v35-stats{margin:clamp(8px,1.4dvh,15px) 0!important;gap:clamp(4px,.7dvh,7px)!important}
+.basic-logic{margin-top:clamp(8px,1.4dvh,14px)!important;padding-top:8px!important}
+.skill-strip-v35{margin-top:8px!important;gap:4px!important}
+.skill-strip-v35>span{padding:clamp(4px,.7dvh,7px) 0!important}
+.char-equipment-v36{margin-top:8px!important;padding-top:8px!important;max-height:10dvh;overflow:hidden}
+
+/* Growth hall */
+.growth-hall-view,.v48-growth-view{overflow:hidden!important}
+.v48-growth-scene,.growth-scene{position:absolute!important;left:0;right:0;top:var(--v67-head);bottom:0;height:auto!important;min-height:0!important;overflow:hidden!important}
+.v48-growth-caption{top:clamp(18px,3dvh,34px)!important;left:clamp(30px,4.4vw,78px)!important;padding:clamp(10px,1.5dvh,16px) 18px!important}
+.v48-growth-caption h3{font-size:clamp(26px,4dvh,38px)!important}
+.v48-growth-character{height:min(45dvh,420px)!important}
+.v48-growth-dock{bottom:clamp(10px,1.8dvh,20px)!important;max-width:76vw;overflow:hidden}
+.v48-growth-dock button{min-width:clamp(65px,5vw,82px)!important;padding:clamp(6px,.9dvh,9px) clamp(8px,.8vw,12px)!important}
+.v48-growth-tip{bottom:clamp(10px,1.9dvh,20px)!important}
+
+/* Economy: entire view fixed; only inventory grids may internally scroll */
+.economy-v36-view{overflow:hidden!important}
+.economy-head-v36{height:var(--v67-head)!important;min-height:var(--v67-head)!important}
+.economy-tabs-v36{position:absolute!important;z-index:8!important;left:0;right:0;top:var(--v67-head);height:clamp(42px,5.5dvh,54px);max-width:none!important;margin:0!important;padding:0 var(--v67-pad-x)!important;align-items:end;gap:clamp(16px,2vw,28px)!important}
+.economy-tabs-v36 button{padding:8px 2px 10px!important}
+.economy-shell-v36{
+  position:absolute!important;z-index:2!important;left:0;right:0;top:calc(var(--v67-head) + clamp(42px,5.5dvh,54px));bottom:0;
+  width:100%!important;max-width:1600px!important;height:auto!important;min-height:0!important;
+  margin:0 auto!important;padding:var(--v67-gap) var(--v67-pad-x) var(--v67-pad-y)!important;
+  display:grid!important;grid-template-columns:minmax(0,1fr) clamp(260px,22vw,340px)!important;gap:var(--v67-gap)!important;overflow:hidden!important
+}
+.economy-main-v36,.economy-side-v36{height:100%!important;min-height:0!important;overflow:hidden!important;padding:clamp(12px,1.7dvh,22px)!important}
+.economy-main-v36{overflow:hidden!important}
+.economy-side-v36{overflow:auto!important;overscroll-behavior:contain}
+.v47-equipment-page,.v47-inventory-page,.v47-shop-page,.equipment-layout-v36{height:100%!important;min-height:0!important;max-height:100%!important;overflow:hidden!important}
+.item-grid-v36,.bag-list-v36,.v47-bag-grid,.v47-equipment-list,.v47-shop-list{max-height:none!important;height:auto!important;min-height:0!important;overflow:auto!important;overscroll-behavior:contain}
+/* neutralize old small-width stack behavior */
+.economy-shell-v36{grid-template-columns:minmax(0,1fr) clamp(245px,22vw,330px)!important}
+
+/* Sanctum */
+.cultivation-v37-view,.v48-sanctum-view{overflow:hidden!important}
+.v48-sanctum-stage,.sanctum-stage{position:absolute!important;left:0;right:0;top:var(--v67-head);bottom:0;height:auto!important;min-height:0!important;overflow:hidden!important}
+.v48-realm-rail{top:clamp(10px,1.6dvh,18px)!important;bottom:clamp(10px,1.6dvh,18px)!important;width:clamp(205px,18vw,290px)!important;padding:clamp(10px,1.4dvh,16px)!important}
+.v48-realm-summary h3{font-size:clamp(24px,3.7dvh,34px)!important;margin:5px 0 8px!important}
+.v48-realm-track{margin:clamp(4px,.8dvh,8px) 0!important;overflow:hidden!important}
+.v48-realm-node{min-height:clamp(15px,2.1dvh,21px)!important;font-size:clamp(8px,1.15dvh,10px)!important}
+.v48-realm-node small{font-size:7px!important}
+.v48-breakthrough-trigger{padding:clamp(7px,1dvh,10px)!important}
+.v48-character-zone{top:19%!important;height:64%!important}
+.v48-character-zone .cultivator-avatar{height:min(48dvh,440px)!important}
+.v48-facility-hud{top:clamp(12px,2dvh,24px)!important;max-height:calc(100% - 90px)!important;width:clamp(260px,22vw,360px)!important;overflow:auto!important}
+.v48-bottom-strip{bottom:clamp(8px,1.5dvh,15px)!important;min-height:46px!important;max-height:58px!important}
+
+/* Unified V4.9 pages */
+.v49-skill-view,.v49-codex-view,.v49-help-view,.v49-settings-view{height:100dvh!important;overflow:hidden!important}
+.v49-skill-shell,.v49-codex-shell,.v49-help-shell,.v49-settings-shell{
+  position:absolute!important;left:0;right:0;top:var(--v67-head);bottom:0;
+  height:auto!important;min-height:0!important;max-height:none!important;overflow:hidden!important
+}
+.v49-head{height:var(--v67-head)!important;min-height:var(--v67-head)!important;padding:0 var(--v67-pad-x)!important}
+
+/* Skill tree */
+.v49-skill-shell{grid-template-columns:clamp(155px,15vw,220px) minmax(430px,1fr) clamp(235px,21vw,315px)!important;gap:var(--v67-gap)!important;padding:var(--v67-gap) var(--v67-pad-x) var(--v67-pad-y)!important}
+.v49-skill-roster,.v49-skill-atlas-wrap,.v49-skill-detail{height:100%!important;min-height:0!important;overflow:hidden!important}
+.v49-skill-roster{overflow:auto!important}
+.v49-skill-atlas{height:calc(100% - 34px)!important;min-height:0!important;transform-origin:center center}
+.v49-skill-detail{overflow:auto!important}
+
+/* Codex */
+.v49-codex-shell{grid-template-columns:clamp(150px,14vw,205px) minmax(410px,1fr) clamp(260px,23vw,350px)!important;padding:var(--v67-gap) var(--v67-pad-x) var(--v67-pad-y)!important}
+.v49-codex-nav,.v49-codex-gallery,.v49-codex-detail{height:100%!important;min-height:0!important;overflow:hidden!important}
+.v49-codex-tabs{overflow:auto!important;min-height:0!important}
+.v49-codex-gallery{display:flex!important;flex-direction:column!important}
+.v49-codex-heading{flex:0 0 auto}
+.v49-codex-entries{min-height:0!important;overflow:auto!important;overscroll-behavior:contain}
+.v49-codex-detail{overflow:auto!important}
+
+/* Help */
+.v49-help-shell{padding:var(--v67-gap) var(--v67-pad-x) var(--v67-pad-y)!important}
+.v49-help-page{height:100%!important;max-width:1420px!important;overflow:hidden!important}
+.v49-key-grid{height:100%!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;grid-template-rows:repeat(3,minmax(0,1fr));gap:var(--v67-gap)!important}
+.v49-key-card{min-height:0!important;height:100%!important;padding:clamp(9px,1.25dvh,14px)!important;grid-template-columns:clamp(78px,9vw,118px) 1fr!important;gap:clamp(8px,1vw,14px)!important}
+.v49-key-card.wide{grid-column:span 2!important}
+.v49-motion{height:min(12dvh,108px)!important;min-height:64px!important}
+.v49-key-card h3{font-size:clamp(13px,1.8dvh,17px)!important;margin:4px 0 5px!important}
+.v49-key-card p{font-size:clamp(8px,1.15dvh,10px)!important;line-height:1.4!important}
+.v49-mechanics-grid{height:100%!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(3,minmax(0,1fr));gap:var(--v67-gap)!important}
+.v49-mechanic-panel{min-height:0!important;height:100%!important;padding:clamp(10px,1.35dvh,18px)!important;overflow:hidden!important}
+.v49-mechanic-panel.timeline,.v49-mechanic-panel.elements{grid-column:span 2!important}
+.v49-mechanic-panel h3{font-size:clamp(15px,2dvh,20px)!important;margin:4px 0 8px!important}
+.v49-mechanic-panel p{font-size:clamp(8px,1.15dvh,10px)!important;line-height:1.4!important;margin:6px 0!important}
+.v49-timeline{height:clamp(30px,4.5dvh,42px)!important;margin:6px 0!important}
+.v49-hitbox-demo{height:clamp(58px,8dvh,80px)!important}
+
+/* Settings */
+.v49-settings-shell{grid-template-columns:clamp(130px,12vw,180px) minmax(420px,1fr) clamp(220px,19vw,285px)!important;gap:var(--v67-gap)!important;padding:var(--v67-gap) var(--v67-pad-x) var(--v67-pad-y)!important}
+.v49-settings-nav,.v49-settings-content,.v49-settings-status{height:100%!important;min-height:0!important;overflow:hidden!important}
+.v49-settings-content{padding:clamp(8px,1.1dvh,13px)!important;gap:clamp(6px,.9dvh,10px)!important;grid-template-rows:repeat(3,minmax(0,1fr))!important}
+.v49-settings-card{height:100%!important;min-height:0!important;padding:clamp(10px,1.4dvh,16px)!important;grid-template-columns:clamp(38px,4.5dvh,50px) 1fr!important;gap:clamp(9px,1vw,14px)!important;overflow:hidden!important}
+.v49-settings-icon{width:clamp(38px,4.8dvh,48px)!important;height:clamp(38px,4.8dvh,48px)!important}
+.v49-settings-card h3,.v49-settings-status h3{font-size:clamp(18px,2.5dvh,23px)!important;margin:2px 0 5px!important}
+.v49-settings-card p{margin:4px 0!important;line-height:1.4!important}
+.v49-settings-card label{margin:clamp(4px,.65dvh,7px) 0!important}
+.v49-quality-switch{margin:6px 0!important}
+.v49-settings-status{padding:clamp(12px,1.7dvh,20px)!important;overflow:auto!important}
+
+/* No legacy responsive rule may turn main pages into document flow */
+@media (max-width:900px){
+  .v49-skill-view,.v49-codex-view,.v49-help-view,.v49-settings-view{overflow:hidden!important}
+  .v49-skill-shell,.v49-codex-shell,.v49-help-shell,.v49-settings-shell{height:auto!important;min-height:0!important}
+}
+/* Transformed full-screen backdrops can enlarge scrollWidth even when clipped. V6.7 keeps them exact viewport size. */
+.menu-bg,.growth-bg,.economy-v36-bg,.v48-growth-view .growth-bg,.v48-sanctum-view .sanctum-bg{transform:none!important}
+.route-bg,.char-stage-bg,.sanctum-bg,.sanctum-shade,.growth-bg,.growth-shade,.economy-v36-bg,.economy-v36-shade,.v49-scene-bg,.v49-scene-shade{max-width:100%;max-height:100%;overflow:hidden!important}
+/* Economy V4.7 internals: remove legacy 730/620px document-height assumptions. */
+.v47-equipment-page{height:100%!important;min-height:0!important;grid-template-columns:clamp(210px,22vw,280px) minmax(0,1fr)!important;overflow:hidden!important}
+.v47-character-stats{height:100%!important;min-height:0!important;padding:clamp(12px,1.8dvh,24px) clamp(12px,1.3vw,22px)!important;overflow:hidden!important}
+.v47-character-stats>p{margin:2px 0 clamp(8px,1.4dvh,14px)!important}.v47-level-line{padding:7px 0 10px!important}.v47-stat-list{margin-top:8px!important}.v47-stat-row{min-height:clamp(28px,4.2dvh,38px)!important}.v47-bonus-block{margin-top:10px!important;padding:10px!important}
+.v47-equipment-center{height:100%!important;min-height:0!important;padding:clamp(8px,1.2dvh,16px)!important;grid-template-rows:minmax(0,1fr) auto clamp(72px,13dvh,92px)!important;overflow:hidden!important}
+.v47-yara-stage{height:100%!important;min-height:0!important}.v47-yara-image{height:min(42dvh,350px)!important;bottom:clamp(42px,7dvh,60px)!important}.v47-viewer-note{bottom:8px!important;padding:5px 9px!important}
+.v47-equip-bag-head{margin:4px 0 6px!important}.v47-equip-grid{height:100%!important;min-height:0!important;grid-template-columns:repeat(7,minmax(58px,1fr))!important;gap:6px!important;overflow:auto!important;align-content:start}.v47-bag-cell{height:70px!important;padding:4px!important}.v47-cell-icon{height:43px!important}.v47-cell-icon img{width:40px!important;height:40px!important}
+.v47-compare-empty,.v47-compare-panel,.v47-detail-empty,.v47-bag-detail,.v47-shop-purchase{min-height:0!important;height:auto!important}.v47-compare-ghost{height:min(28dvh,220px)!important;margin-top:clamp(12px,2dvh,26px)!important}
+.v47-inventory-page{height:100%!important;min-height:0!important;grid-template-rows:clamp(46px,7dvh,60px) minmax(0,1fr) 38px!important}.v47-inventory-grid{height:100%!important;max-height:none!important;grid-template-columns:repeat(8,minmax(64px,1fr))!important;grid-auto-rows:clamp(78px,11dvh,96px)!important;padding:clamp(8px,1.2dvh,14px)!important;gap:7px!important}.v47-bag-footer{height:38px!important}.v47-bag-toolbar{height:auto!important;padding:0 14px!important}.v47-filter-tabs button{padding-bottom:10px!important}.v47-bag-toolbar select{margin-bottom:8px!important}
+.v47-bag-detail-icon{width:clamp(82px,12dvh,112px)!important;height:clamp(82px,12dvh,112px)!important;margin:clamp(10px,1.5dvh,18px) auto 8px!important}.v47-bag-detail-icon img{width:82%!important;height:82%!important}.v47-rarity-line{margin:3px 0 10px!important}.v47-item-meta{margin:10px 0!important}.v47-batch-actions{margin-top:10px!important;gap:5px!important}.v47-batch-actions button{padding:7px!important}
+.v47-shop-page{height:100%!important;min-height:0!important;grid-template-columns:clamp(250px,29vw,340px) minmax(0,1fr)!important}.v47-shop-list{height:100%!important;min-height:0!important;padding:clamp(10px,1.5dvh,18px) 12px!important;display:flex!important;flex-direction:column!important;overflow:hidden!important}.v47-shop-scroll{min-height:0!important;max-height:none!important;overflow:auto!important}.v47-shop-focus{height:100%!important;min-height:0!important;padding:clamp(12px,2dvh,24px) clamp(18px,3vw,48px)!important}.v47-shop-showcase{width:min(23dvh,190px)!important;height:min(23dvh,190px)!important;margin-bottom:10px!important}.v47-shop-showcase img{width:78%!important;height:78%!important}.v47-shop-focus h2{font-size:clamp(26px,4dvh,34px)!important;margin:5px 0!important}.v47-shop-focus>p{line-height:1.5!important}
+
+/* V7.0 final single-screen hardening: decorative scene backgrounds must not enlarge
+   the scrollable box. Earlier 1.015 transforms were visually harmless but made
+   scrollWidth/scrollHeight exceed the viewport by a few pixels. */
+.v49-skill-view>.v49-scene-bg,
+.v49-codex-view>.v49-scene-bg,
+.v49-help-view>.v49-scene-bg,
+.v49-settings-view>.v49-scene-bg{
+  inset:0!important;
+  width:100%!important;
+  height:100%!important;
+  transform:none!important;
+}

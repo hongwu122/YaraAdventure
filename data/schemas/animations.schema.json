@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "yara-adventure/animations.schema.json",
+  "title": "Yara Adventure Animation Metadata",
+  "type": "object",
+  "required": ["schemaVersion", "entity", "spritesheet", "animations"],
+  "properties": {
+    "schemaVersion": {"type": "integer", "minimum": 1},
+    "entity": {"type": "string", "minLength": 1},
+    "spritesheet": {"type": "string", "minLength": 1},
+    "cols": {"type": "integer", "minimum": 1},
+    "rows": {"type": "integer", "minimum": 1},
+    "cellWidth": {"type": "integer", "minimum": 1},
+    "cellHeight": {"type": "integer", "minimum": 1},
+    "directionMode": {"enum": ["explicit", "mirror-horizontal", "none"]},
+    "animations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["row", "frames", "fps"],
+        "properties": {
+          "row": {"type": "integer", "minimum": 0},
+          "frames": {"type": "integer", "minimum": 1},
+          "fps": {"type": "number", "exclusiveMinimum": 0},
+          "loop": {"type": "boolean"},
+          "prototype": {"type": "boolean"},
+          "activeFrames": {"type": "array", "items": {"type": "integer", "minimum": 0}},
+          "reactionLock": {"type": "number", "minimum": 0},
+          "timing": {
+            "type": "object",
+            "required": ["windup", "active", "recover"],
+            "properties": {
+              "windup": {"type": "number", "minimum": 0},
+              "active": {"type": "number", "minimum": 0},
+              "recover": {"type": "number", "minimum": 0}
+            }
+          },
+          "hitbox": {"type": "object"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Moyu",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          65,
+          12,
+          371,
+          494
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          518,
+          24,
+          444,
+          478
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          54,
+          512,
+          427,
+          482
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          512,
+          520,
+          457,
+          504
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          16,
+          1040,
+          496,
+          453
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          537,
+          1064,
+          468,
+          431
+        ]
+      ]
+    }
+  }
+}

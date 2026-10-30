@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Moyu",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          87,
+          13,
+          368,
+          499
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          547,
+          39,
+          436,
+          473
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          36,
+          534,
+          444,
+          480
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          514,
+          535,
+          482,
+          489
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          50,
+          1045,
+          462,
+          438
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          541,
+          1045,
+          455,
+          443
+        ]
+      ]
+    }
+  }
+}

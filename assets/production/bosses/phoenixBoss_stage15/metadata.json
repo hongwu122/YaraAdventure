@@ -1,0 +1,56 @@
+{
+  "id": "phoenixBoss_stage15",
+  "gameId": "phoenixBoss",
+  "name": "昆仑天凰·第15关",
+  "category": "stage_boss",
+  "version": "6.4",
+  "element": "fire",
+  "stageLevels": [
+    15
+  ],
+  "status": "stage_boss_visual_spec_complete_model_and_prerender_pending",
+  "sourceArt": "concept_sheet.webp",
+  "portrait": "portrait.webp",
+  "model": {
+    "expected": "model/phoenixBoss_stage15.glb",
+    "present": false,
+    "note": "Real GLB pending; no fake model included."
+  },
+  "renderSpec": {
+    "frameSize": [
+      768,
+      768
+    ],
+    "format": "webp",
+    "alpha": true,
+    "anchor": [
+      0.5,
+      0.92
+    ]
+  },
+  "requiredActions": [
+    "Phase1",
+    "Idle",
+    "Walk",
+    "Turn",
+    "AttackA",
+    "AttackB",
+    "AttackC",
+    "Special01",
+    "Special02",
+    "Ultimate",
+    "Hurt",
+    "Stagger",
+    "Knockback",
+    "PhaseChange",
+    "Phase2",
+    "Death"
+  ],
+  "designBrief": "第15关阶段Boss强化：昆仑玉阙。Phase2要求金白天火、昆仑玉环与翼冠展开；Ultimate：天凰焚穹。",
+  "designRules": {
+    "bossMustHaveUniqueSilhouette": true,
+    "bossScaleOnlyForbidden": true,
+    "phase2VisualChangeRequired": true,
+    "ultimateRequired": true
+  }
+}

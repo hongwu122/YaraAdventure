@@ -1,0 +1,10 @@
+(() => {
+'use strict';
+const NS={loaded:false,levels:null,enemies:null};
+async function load(){if(NS.loaded)return NS;[NS.levels,NS.enemies]=await Promise.all([fetch('data/balance/levels_v39.json',{cache:'no-store'}).then(r=>r.json()),fetch('data/balance/enemies_v38.json',{cache:'no-store'}).then(r=>r.json())]);NS.loaded=true;return NS}
+function level(id){return NS.levels?.levels?.find(x=>Number(x.id)===Number(id))||null}
+function enemy(type,boss=false){return (boss?NS.enemies?.bosses:NS.enemies?.enemies)?.[type]||null}
+function power(save,derived){const cid=save.selectedCharacter||'Yara',p=save.characters?.[cid]||save.profile||{},eq=window.YaraV36Economy?.equipmentBonus?.(save,cid)||{};return Math.round((p.level||1)*55+(derived?.maxHp||320)*.55+(derived?.maxMp||120)*.22+(eq.attack||0)*7+(derived?.defense||0)*5+(derived?.crit||.08)*240)}
+function deathAdvice(save,derived,levelId){const r=level(levelId)||{},score=power(save,derived),cid=save.selectedCharacter||'Yara',lv=save.characters?.[cid]?.level||save.profile?.level||1,items=[];if(lv<(r.recommendedLevel||1))items.push(`等级偏低：当前 Lv.${lv}，建议 Lv.${r.recommendedLevel}`);if(score<(r.recommendedPower||0)*.9)items.push(`战力偏低：当前 ${score}，建议约 ${r.recommendedPower}`);const defenseLow=(derived?.defense||0)<Math.max(4,(Number(levelId)||1)*1.6);items.push(defenseLow?'推荐装备：优先更换更高品质衣甲 / 头饰提升容错':'推荐装备：优先比较武器 / 法宝的攻击与五行收益');if(r.bossWeakness)items.push(`Boss弱点：${window.YaraV38Elements?.elementLabel?.(r.bossWeakness)||r.bossWeakness}；推荐五行：${window.YaraV38Elements?.elementLabel?.(r.recommendedElement)||r.recommendedElement}`);const skill={Yara:'建议技能：L闪现躲前摇，U回风斩打硬直，I远程补刀',Aster:'建议技能：L星移拉开距离，I星坠持续压制，U星环保命',Moyu:'建议技能：L影遁穿身，U焰刃打爆发，I飞羽镖收尾'}[cid]||'建议技能：保留位移技能躲Boss大招';items.push(skill);if(r.tip)items.push(`关卡提示：${r.tip}`);return{level:r,power:score,items:items.slice(0,5),recommendedEquipment:items.find(x=>x.startsWith('推荐装备')),bossWeakness:r.bossWeakness,recommendedSkill:skill}}
+window.YaraV38Difficulty={load,level,enemy,power,deathAdvice,state:NS};
+})();

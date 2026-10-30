@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 3,
+  "levelId": 11,
+  "name": "青丘雾林",
+  "width": 6700,
+  "platforms": [
+    [
+      0,
+      910,
+      6700,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 青丘雾林战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1660,
+      "cameraLeft": 90,
+      "cameraRight": 1750,
+      "waveDelay": 1.02,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "redpanda",
+              "x": 747
+            },
+            {
+              "type": "shadowfox",
+              "x": 1093
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "redpanda",
+              "x": 660
+            },
+            {
+              "type": "shadowfox",
+              "x": 920
+            },
+            {
+              "type": "shadowfox",
+              "x": 1180
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 青丘雾林战场",
+      "triggerX": 1790,
+      "lockLeft": 1730,
+      "lockRight": 3210,
+      "cameraLeft": 1640,
+      "cameraRight": 3300,
+      "waveDelay": 1.02,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "redpanda",
+              "x": 2297
+            },
+            {
+              "type": "shadowfox",
+              "x": 2643
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "redpanda",
+              "x": 2210
+            },
+            {
+              "type": "shadowfox",
+              "x": 2470
+            },
+            {
+              "type": "shadowfox",
+              "x": 2730
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "redpanda",
+              "x": 2210
+            },
+            {
+              "type": "shadowfox",
+              "x": 2470
+            },
+            {
+              "type": "golemElite",
+              "x": 2730
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 青丘雾林战场",
+      "triggerX": 3340,
+      "lockLeft": 3280,
+      "lockRight": 4760,
+      "cameraLeft": 3190,
+      "cameraRight": 4850,
+      "waveDelay": 1.02,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "redpanda",
+              "x": 3847
+            },
+            {
+              "type": "shadowfox",
+              "x": 4193
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "redpanda",
+              "x": 3760
+            },
+            {
+              "type": "shadowfox",
+              "x": 4020
+            },
+            {
+              "type": "shadowfox",
+              "x": 4280
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 青丘雾林深处",
+      "triggerX": 4890,
+      "lockLeft": 4830,
+      "lockRight": 6310,
+      "cameraLeft": 4740,
+      "cameraRight": 6400,
+      "waveDelay": 1.02,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "shadowfoxBoss",
+              "x": 5570
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "metal",
+  "dropPool": "level_11_main",
+  "stageBoss": false
+}

@@ -1,0 +1,140 @@
+/* V8.2: square controls, independent scrolling, readable item surfaces. */
+:root{--v82-gold:#bba67b;--v82-ink:#101b25;--v82-line:#9babb329}
+[hidden]{display:none!important}
+button,input,select,.view article,.view aside,.view nav,.view section,.view .glass,.pause-card,#v37FacilityDrawer{border-radius:0!important}
+button::before,button::after{border-radius:0!important}
+.view button{font-size:16px!important;font-weight:500!important;box-shadow:none!important;text-shadow:none!important}
+.view button:not(.v48-scene-hotspot):not(.v48-sanctum-hit){transition:background .15s,border-color .15s!important;transform:none!important}
+.view small{font-size:13px!important;line-height:1.65!important}
+.view p{font-size:16px!important;line-height:1.75!important}
+button:focus-visible{outline:2px solid #dcc69b;outline-offset:3px}
+.aaa-item::before,.aaa-item::after,.v49-settings-nav button::before{display:none!important}
+.aaa-item{border-left:0!important}.aaa-index{display:none!important}.aaa-note{font-size:12px!important}
+#menuView .menu-save-tools,#menuView .save-tools{display:none!important}
+.v82-landing{background:#09131f url('../assets/backgrounds/level1_peach_valley.webp') center/cover no-repeat;color:#efe8d9}
+.v82-home-shade{position:absolute;inset:0;background:linear-gradient(90deg,#05121ff2 0%,#071523b3 50%,#07152326)}
+.v82-landing main{position:relative;max-width:620px;margin:8vh 0 0 8vw;padding:30px}
+.v82-landing h1{font:56px KaiTi,serif;letter-spacing:5px;margin:24px 0}
+.v82-landing nav{display:grid;gap:14px;margin-top:40px}
+.v82-landing nav button{padding:20px 24px;text-align:left;background:#112435cb;color:#f3e9d4;border:1px solid #bba67b66;font-size:23px!important}
+.v82-landing nav span{display:block;color:#9cabb8;font-size:14px;margin-top:8px}.v82-landing button:hover{background:#263542}
+.v82-page-header{height:88px;display:flex;align-items:center;gap:40px;padding:20px 4vw;background:#0a1520}
+.v82-page-header button{background:transparent;border:0;color:#e8dbc2;padding:14px}.v82-page-header h2{font:30px KaiTi,serif}
+#slotsView{background:#0a1520;color:#e6dfd2;overflow:auto!important}
+.v82-slots-main{max-width:1350px;margin:auto;padding:28px 4vw 50px}
+#v82Creation label{display:flex;align-items:center;gap:25px;font-size:18px}#v82SlotName{width:min(420px,70vw);padding:14px;background:#1d2b38;border:1px solid #acb6bd55;color:#eee;font:18px 'Microsoft YaHei',sans-serif}
+#v82ChooseCharacter{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin:24px 0}
+#v82ChooseCharacter button{background:#122231;border:1px solid #bba67b44;color:#d9d8d3;padding:15px;display:grid;justify-items:center;gap:8px}
+#v82ChooseCharacter button.active{border-color:#e5cc98;background:#2b3440}#v82ChooseCharacter img{height:135px;width:100%;object-fit:contain}
+#v82SlotsGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}#v82SlotsGrid button{background:#142331;border:1px solid #bba67b55;color:#e6ded0;text-align:left;padding:24px;min-height:165px}
+#v82SlotsGrid button h3{font-size:22px;margin:15px 0 8px}#v82SlotsGrid button:disabled{opacity:.45}#v82SlotsGrid span{font-size:13px;color:#a6b5c0}
+#v82SlotNotice{color:#d9c096}
+.economy-shell-v36{height:calc(100% - 156px)!important;min-height:0!important;grid-template-columns:minmax(0,1fr) 310px!important;padding:24px!important;gap:22px!important}
+#economyMain{overflow:hidden!important;min-width:0!important;min-height:0!important}.v68-equipment{grid-template-columns:190px minmax(0,1fr)!important;gap:20px!important;height:100%!important}
+.v68-gear-stage{display:grid!important;grid-template-columns:minmax(250px,.9fr) minmax(260px,1.1fr)!important;grid-template-rows:minmax(0,1fr)!important;height:100%!important;min-height:0!important;padding:20px!important;gap:24px!important;overflow:hidden!important;align-items:start!important;background:#101c27e8!important}
+.v82-character-pane{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;min-height:0;max-height:100%;overflow:auto;padding-top:0}
+#v80Equipment{order:-1;flex-shrink:0;align-self:flex-start!important;justify-self:start!important;width:100%!important;max-width:340px!important;max-height:365px!important;height:auto!important;margin:0 0 20px!important;grid-column:auto!important;grid-row:auto!important}
+.v81-slot-grid{grid-column:auto!important;grid-row:auto!important;width:100%;display:grid!important;grid-template-columns:repeat(4,minmax(45px,1fr))!important;gap:9px!important;flex-shrink:0}
+.v81-slot-grid .v68-slot{height:78px!important;border:1px solid #9babb345!important;padding:8px!important;background:#172431!important}
+.v81-slot-grid .v68-slot small{font-size:13px!important;margin-top:8px!important;color:#d8d5c9!important}
+.v81-slot-grid::before{content:'当前穿戴 · 点击槽位卸下';font-size:14px;line-height:1.5;padding-bottom:5px}
+.v68-quick-rack{grid-column:2!important;grid-row:1!important;position:relative!important;transform:none!important;display:grid!important;grid-template-columns:repeat(4,minmax(54px,1fr))!important;height:auto!important;max-height:100%!important;overflow-y:auto!important;overflow-x:hidden!important;gap:10px!important;padding:0 8px 16px 0!important;align-content:start!important;align-self:start!important}
+.v68-quick-rack::before{position:sticky;top:0;background:#101c27;z-index:2;padding:10px 0;font-size:14px;content:'装备物品栏 · 悬停比较'}
+.v68-rack-item,.v81-empty-slot{height:82px!important;border-radius:0!important;border-width:1px!important}.v68-rack-item img{width:58px!important;height:58px!important}
+.v68-stat-list b{font-size:22px!important}.v68-stat-list span{font-size:14px!important}.v68-stat-rail{overflow:auto!important}.v68-stat-rail h3{font-size:34px!important}
+.v68-inventory{height:100%!important;grid-template-columns:160px minmax(0,1fr)!important}.v68-bag-main{display:flex!important;flex-direction:column!important;min-height:0!important;height:100%!important}
+.v68-bag-toolbar{flex-shrink:0;min-height:60px!important;padding:10px!important}.v68-filter button,.v82-shop-filter button{font-size:16px!important;padding:10px 18px!important;border:1px solid #bba67b33!important;background:#172531!important;color:#b9c4cb!important}
+.v68-filter button.active,.v82-shop-filter button.active{background:#3d3b32!important;border-color:#c5ac77!important;color:#f1dfb8!important}
+.v68-grid-wrap{overflow:auto!important;min-height:0!important;flex:1}.v68-grid{grid-template-columns:repeat(auto-fill,minmax(105px,1fr))!important;grid-auto-rows:140px!important;gap:12px!important;padding:12px!important}
+.v68-cell{height:140px!important;display:flex!important;flex-direction:column!important;justify-content:flex-start!important;align-items:center!important;padding:12px 6px!important;background:#12212f!important;border:1px solid color-mix(in srgb,var(--rar) 48%,transparent)!important}
+.v68-cell>span{position:static!important;height:76px!important;width:76px!important;display:flex!important;align-items:center;justify-content:center;background:none!important;border:0!important;border-radius:0!important}
+.v68-cell img{width:65px!important;height:65px!important;position:static!important;transform:none!important}.v68-cell small{position:static!important;margin-top:12px!important;transform:none!important;font-size:14px!important;line-height:1.3!important;color:#e6e1d4!important;white-space:normal!important;text-align:center;word-break:break-word}
+.v68-cell>b{position:absolute!important;top:8px!important;right:8px!important;bottom:auto!important;font-size:14px!important}
+.v68-bag-detail>small,.v68-compare>small,.v68-shop-purchase>small{display:block;position:static!important;margin-bottom:20px!important;font-size:14px!important;color:#aab7c1!important}
+.v68-bag-detail .hero-icon{width:130px!important;height:130px!important;border:0!important;background:none!important}.v68-bag-detail h3{font-size:25px!important;margin-top:24px!important}
+.v68-bag-detail,.v68-compare,.v68-shop-purchase{background:#0d1924f0!important;border:1px solid #9babb322!important;padding:22px!important;color:#e9e0d0!important}
+.v68-mini-gear,.v68-bag-meta>span,.v68-batch button{border-radius:0!important;border:1px solid #9babb329!important;background:#142330!important}.v68-mini-gear img{width:80px!important;height:80px!important;border:0!important;border-radius:0!important}
+.v47-gold-btn,.v68-buy,.v68-equip-now,.sanctum-primary,.v49-primary-btn{background:#bba67b!important;color:#14212c!important;border:1px solid #d9c7a0!important;border-radius:0!important;box-shadow:none!important;min-height:48px!important;font-size:18px!important}
+.v68-shop{height:100%!important;padding:18px!important;background:#101c27e8!important}.v82-shop-filter{display:flex;gap:12px;position:sticky;top:-18px;padding:14px 0;background:#101c27;z-index:3;margin-bottom:20px}
+.v68-shop-shelf{grid-template-columns:repeat(auto-fill,minmax(120px,1fr))!important;gap:15px!important}.v68-shop-card{height:174px!important;padding:15px 10px!important;background:#152331!important;border-width:1px!important}
+.v68-shop-card img{width:70px!important;height:70px!important}.v68-shop-card b{font-size:16px!important;margin-top:12px}.v68-shop-card small,.v68-shop-card em{font-size:14px!important;margin-top:6px}
+#growthDockV48{position:absolute!important;left:30px!important;top:115px!important;bottom:auto!important;right:auto!important;transform:none!important;display:flex!important;gap:10px!important;width:auto!important;padding:0!important;background:none!important;border:0!important;z-index:20!important}
+#growthDockV48 button{padding:12px 22px!important;background:#101d29eb!important;border:1px solid #bba67b66!important;color:#e7dabe!important}#growthDockV48 i{display:none!important}
+.v48-overview-copy{top:180px!important}.v48-hotspot-label{border-radius:0!important}.v48-growth-header h2{font-size:30px!important}
+.v49-settings-nav{display:flex!important;flex-direction:column!important;gap:15px!important;padding:20px!important}.v49-settings-nav button{background:#142330;color:#d1c6b4;border:1px solid #9babb333;padding:16px;text-align:left}.v49-settings-nav button.active{border-color:#c4ad7d;color:#f2dfb1}
+.v49-settings-card{border-radius:0!important}.v49-settings-content{display:block!important;overflow:auto!important}.v49-settings-card[hidden]{display:none!important}.v49-settings-card label{font-size:18px!important;display:flex;align-items:center;gap:25px;margin:25px 0}.v49-settings-card input[type=range]{width:min(300px,60vw)}
+.pause-panel,#v82Result{position:absolute;inset:0;background:#06121cc9;z-index:80;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(5px)}
+.pause-card,#v82Result article{width:min(680px,90vw);background:#112331f5!important;color:#eee3cf!important;border:1px solid #bba67b66!important;border-radius:0!important;padding:36px!important;box-shadow:0 25px 80px #0008}
+.pause-card h2,#v82Result h2{font:34px KaiTi,serif;color:#e8d9b7!important;margin-bottom:25px}.pause-card button,#v82Result button{background:#233442!important;color:#e7dec9!important;border:1px solid #bba67b66!important;padding:15px 20px;border-radius:0!important;font-size:18px!important}
+#v82Result article small{color:#b9a987}#v82Result nav{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:30px}
+@media(max-width:1100px){.economy-shell-v36{grid-template-columns:minmax(0,1fr) 250px!important;padding:12px!important;gap:12px!important}.v68-equipment{grid-template-columns:140px minmax(0,1fr)!important}.v68-gear-stage{grid-template-columns:minmax(180px,.8fr) minmax(180px,1.2fr)!important;padding:12px!important;gap:12px!important}.v68-quick-rack{grid-template-columns:repeat(3,minmax(50px,1fr))!important}.v81-slot-grid{grid-template-columns:repeat(3,minmax(40px,1fr))!important}.v68-stat-rail{padding:12px!important}#v82SlotsGrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.economy-shell-v36{display:block!important;overflow:auto!important}.v68-equipment{display:block!important;height:auto!important}.v68-stat-rail{display:none!important}.v68-gear-stage{min-height:650px!important;height:650px!important;grid-template-columns:45% 55%!important}.v68-inventory{grid-template-columns:1fr!important}.v68-bag-scene{display:none!important}#economySide{height:auto!important;margin-top:16px!important}.v82-landing h1{font-size:36px}.v82-landing main{margin:3vh 0 0;padding:25px}#v82ChooseCharacter{gap:6px}#v82ChooseCharacter button{padding:6px}#v82ChooseCharacter img{height:80px}#v82SlotsGrid{gap:10px}#growthDockV48{left:12px!important;top:100px!important;gap:5px!important}#growthDockV48 button{padding:10px!important;font-size:14px!important}}
+#shanhaiView{background:#091521!important;color:#e7dfd1!important;overflow:hidden!important}#shanhaiView>.v82-page-header{height:88px!important}#shanhaiView>.v82-page-header p{color:#9cabb5;font-size:14px!important;margin-left:auto}#shanhaiView>.v82-page-header span{font-size:13px;color:#c3ad80}
+.v82-catalog{height:calc(100% - 88px);display:grid;grid-template-columns:170px 255px minmax(320px,1fr) 280px;gap:18px;padding:20px;min-height:0}.v82-catalog>aside,.v82-catalog>section{min-width:0;min-height:0;overflow:auto;background:#101e2c;border:1px solid #8194a01c;padding:20px}
+.v82-catalog-nav{display:flex;flex-direction:column;gap:12px}.v82-catalog-nav button{padding:13px 10px;background:#182937;color:#bdc8cc;border:1px solid #839aa026;text-align:left;display:flex;justify-content:space-between}.v82-catalog-nav button.active{color:#efdab1;border-color:#c3ac77;background:#323a3e}.v82-catalog-nav b{font-size:12px;color:#8f9fa8}
+.v82-catalog-list{display:flex;flex-direction:column}.v82-catalog-list>label{color:#9aabb5;font-size:14px}.v82-catalog-list input{width:100%;padding:12px;margin:10px 0 18px;background:#0b1723;color:#e0ded7;border:1px solid #9babb339;font:15px 'Microsoft YaHei'}#v82CatalogEntries{flex:1;min-height:0;overflow:auto}#v82CatalogEntries button{width:100%;display:flex;gap:12px;align-items:center;background:#132432;color:#d6dfe1;border:1px solid #9babb322;padding:10px;margin-bottom:10px;text-align:left}#v82CatalogEntries button.active{border-color:#d6bd83;background:#2e393e}#v82CatalogEntries img{height:58px;width:58px;object-fit:contain}#v82CatalogEntries small{display:block;color:#8e9eaa;font-size:12px!important;overflow-wrap:anywhere}.v82-catalog-pages{display:flex;align-items:center;gap:9px;padding-top:15px}.v82-catalog-pages button{font-size:13px!important;padding:8px;background:#243746;color:#c3cbd0;border:1px solid #9babb329}.v82-catalog-pages span{font-size:12px}.v82-resource-kind{font-size:30px;color:#bba67b;width:58px;text-align:center}
+#v82CatalogStage{display:flex;flex-direction:column;padding:12px!important;background:radial-gradient(ellipse at 50% 50%,#253442,#101c27)!important}.v82-resource-stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden}.v82-resource-stage canvas,.v82-resource-stage>img{width:100%;height:100%;object-fit:contain;max-height:100%}.v82-resource-stage.is-landscape>img{object-fit:contain}.v82-action-controls{display:flex;flex-wrap:wrap;gap:10px;padding:18px 5px 8px;align-items:center;color:#c2cdd3;font-size:15px}.v82-action-controls select{padding:10px;background:#142533;color:#e5dcc9;border:1px solid #9babb33f;font:15px 'Microsoft YaHei';max-width:170px}.v82-action-controls button{padding:10px;font-size:14px!important;background:#203542;color:#d1d7d5;border:1px solid #9babb33f}.v82-action-controls input{width:100%;accent-color:#cbb27d}.v82-action-controls span{font-size:13px;color:#9dacb9}.v82-resource-tags{display:flex;flex-wrap:wrap;gap:8px}.v82-resource-tags span{padding:6px 8px;border:1px solid #bba67b33;color:#cfbf9b;font-size:13px}#v82CatalogDetail h3{font:30px KaiTi,serif;margin:20px 0}#v82CatalogDetail>small{color:#9d967f}#v82CatalogDetail a{color:#d7c295;display:block;padding:12px 0;font-size:15px}.v82-resource-path{overflow-wrap:anywhere;color:#798e9d;font-size:12px!important}.v82-resource-note{color:#9cabb2;font-size:14px!important}.v82-ground-preview{padding:15px 10px;background:#122431}.v82-ground-preview small{color:#bdc2b8}.v82-ground-preview img{display:block;width:100%;height:85px;object-fit:contain}.v82-audio-art{font-size:120px;color:#bba67b;margin:auto}.v82-resource-stage audio{position:absolute;bottom:100px;width:70%}
+@media(max-width:1150px){.v82-catalog{grid-template-columns:140px 200px minmax(250px,1fr) 210px;gap:10px;padding:12px}.v82-catalog>aside,.v82-catalog>section{padding:12px}.v82-catalog-nav button{font-size:14px!important}}
+@media(max-width:800px){#shanhaiView{overflow:auto!important}.v82-catalog{height:auto;grid-template-columns:150px 1fr;min-height:650px}.v82-catalog-nav{grid-column:1;grid-row:1}.v82-catalog-list{grid-column:2;grid-row:1;height:330px}#v82CatalogStage{grid-column:1/-1;min-height:480px}#v82CatalogDetail{grid-column:1/-1}#shanhaiView>.v82-page-header p,#shanhaiView>.v82-page-header span{display:none}}
+#app .view button,#app .view input,#app .view select,#app .view button::before,#app .view button::after,#app .view .v68-cell>span,#app .view .v68-mini-gear,#app .view .v68-mini-gear img{border-radius:0!important}
+#app .v82-character-pane{overflow:hidden!important}#app #v80Equipment{max-height:285px!important;margin-bottom:10px!important}#app .v81-slot-grid .v68-slot{height:70px!important}#app .v81-slot-grid{gap:8px!important}
+#app .view button{font-family:'Microsoft YaHei',sans-serif!important}#menuView .menu-bottom,#menuView .menu-actions{display:none!important}
+
+#app .view aside,#app .view section,#app .view article,#app .v68-stat-rail,#app #economySide{border-radius:0!important}
+.v82-resource-stage:has(audio){flex-direction:column}.v82-resource-stage audio{position:static!important;width:90%!important;margin-bottom:35px}
+
+/* Character preview yields space to its complete seven-slot grid. */
+#app .v82-character-pane{display:grid!important;grid-template-rows:minmax(120px,1fr) auto!important;height:100%!important;max-height:100%!important;min-height:0!important;align-items:start!important;justify-items:start!important;gap:10px!important}
+#app #v80Equipment{width:100%!important;height:100%!important;max-height:none!important;max-width:none!important;object-fit:contain!important;margin:0!important;min-height:0!important;align-self:start!important}
+#app .v81-slot-grid{grid-template-columns:repeat(4,minmax(40px,1fr))!important;gap:7px!important;align-self:end!important}
+#app .v81-slot-grid::before{grid-column:1/-1!important;font-size:14px!important;padding:0!important}
+#app .v81-slot-grid .v68-slot{height:78px!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;padding:5px!important;gap:3px!important;overflow:hidden!important}
+#app .v81-slot-grid .v68-slot img{position:static!important;width:40px!important;height:40px!important;max-height:40px!important;object-fit:contain!important;transform:none!important}
+#app .v81-slot-grid .v68-slot small{position:static!important;display:block!important;margin:0!important;line-height:18px!important;font-size:13px!important;color:#dcd7c7!important}
+#app .v68-stat-sub{font-size:14px!important;line-height:1.65!important}
+
+#app .v50-save-actions{display:grid;grid-template-columns:repeat(2,minmax(120px,1fr));gap:15px;max-width:650px;margin:25px 0}#app .v49-settings-status span,#app .v49-settings-status b{font-size:14px!important}#v82SaveMessage{color:#c8b68b}
+/* Keep grid placement stable when older short-window rules hide decoration. */
+#app .v68-inventory{display:grid!important;grid-template-columns:160px minmax(0,1fr)!important}
+#app .v68-bag-scene{display:block!important;grid-column:1!important;grid-row:1!important}
+#app .v68-bag-main{grid-column:2!important;grid-row:1!important;min-width:0!important}
+#app .v68-bag-toolbar{gap:12px!important;flex-wrap:wrap!important}
+#app .v68-filter{flex-wrap:wrap!important}
+#app .v68-filter button{white-space:nowrap!important}
+#app .v68-bag-toolbar select,#app .v68-bag-footer{font-size:13px!important;line-height:1.5!important}
+#app .v68-bag-footer{gap:12px!important;flex-wrap:wrap!important;padding:10px!important}
+@media(max-width:900px){#app .v68-inventory{grid-template-columns:minmax(0,1fr)!important}#app .v68-bag-scene{display:none!important}#app .v68-bag-main{grid-column:1!important}}
+#app #growthDockV48 button{font-size:18px!important;line-height:1.4!important}
+#app #growthAccount{font-size:14px!important}
+#v37FacilityDrawer.sanctum-drawer.v48-facility-hud,#v37FacilityDrawer.sanctum-drawer.v48-facility-hud button,#v37FacilityDrawer.sanctum-drawer.v48-facility-hud section,#v37FacilityDrawer.sanctum-drawer.v48-facility-hud article{border-radius:0!important}
+#v37FacilityDrawer.sanctum-drawer.v48-facility-hud{border:1px solid #bba67b55!important;background:#112331f5!important}
+#v37FacilityDrawer.sanctum-drawer.v48-facility-hud button,#v37FacilityDrawer.sanctum-drawer.v48-facility-hud p,#v37FacilityDrawer.sanctum-drawer.v48-facility-hud span{font-size:16px!important;line-height:1.6!important}
+
+/* V8.2 targeted repair: readable menu and visible scene interactions. */
+#app #menuView .aaa-item{display:flex!important;align-items:center!important;gap:25px!important;width:100%!important;min-height:60px!important;padding:12px 20px!important}
+#app #menuView .aaa-label{white-space:nowrap!important;writing-mode:horizontal-tb!important;min-width:140px!important;flex:none!important}
+#app #menuView .aaa-note{white-space:nowrap!important;flex:1!important}#app .aaa-menu::before{display:none!important}
+#app #growthDockV48{left:auto!important;right:24px!important;top:105px!important;background:rgba(12,25,34,.76)!important;padding:10px!important;gap:8px!important;border:1px solid #ccb78a44!important;backdrop-filter:blur(8px)}
+#app .v48-overview-copy{display:none!important}
+#app .v48-hotspot-label,#app .v48-object-label{opacity:1!important;visibility:visible!important;transform:none!important;pointer-events:none!important;background:#10202cd9!important;padding:7px 12px!important;white-space:nowrap!important}
+#app .v48-hotspot-label small{display:none!important}#app .v48-scene-hotspot:hover .v48-hotspot-label small,#app .v48-scene-hotspot:focus-visible .v48-hotspot-label small{display:block!important;font-size:14px!important}
+#app #growthDockV48 button,#app .economy-tabs-v36 button{transition:transform .18s,background .18s,color .18s!important}
+#app #growthDockV48 button:hover,#app .economy-tabs-v36 button:hover{transform:translateY(-2px)!important;background:#34474b!important;color:#ffe5ad!important}
+#app .economy-tabs-v36{justify-content:flex-end!important;background:#10202bd9!important;padding-right:25px!important;gap:15px!important}
+#app .v82-slot-card{position:relative;display:flex;flex-direction:column;background:#132430;border:1px solid #bba67b55;min-height:180px}
+#app .v82-slot-card>[data-slot-index]{flex:1;width:100%;border:0!important;background:transparent!important;text-align:left;padding:18px!important}
+#app .v82-delete-slot{align-self:flex-end;margin:0 14px 12px;padding:6px 12px!important;min-height:0!important;font-size:14px!important;color:#e1a5a5!important;background:#34252b!important;border:1px solid #ad7c7c66!important}
+#app .v48-facility-art{max-width:220px;max-height:190px;object-fit:contain;display:block;margin:0 auto 12px;filter:drop-shadow(0 7px 10px #0006)}
+
+#app .v82-scene-prop{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none;filter:drop-shadow(0 8px 9px #0005);transition:filter .18s}
+#app .v48-scene-hotspot:hover .v82-scene-prop{filter:brightness(1.13) drop-shadow(0 8px 9px #0005)}
+
+#app #menuView .aaa-item[hidden]{display:none!important}
+#app #growthDockV48{top:14px!important}
+#app #growthHotspots .facility-spirit_array .v48-hotspot-label{bottom:5px!important;left:30%!important}
+#app #growthHotspots .facility-cushion .v48-hotspot-label{bottom:-8px!important}
+@media(max-width:600px){#app #growthDockV48{right:8px!important;padding:5px!important;gap:4px!important}#app #growthDockV48 button{font-size:14px!important;padding:8px 12px!important}#app .v48-hotspot-label b{font-size:14px!important}#app .v48-hotspot-label{padding:5px 7px!important}}
+
+#app .v48-growth-caption{display:none!important}
+.v48-facility-art{max-width:220px;max-height:170px;object-fit:contain;display:block;margin:0 auto 12px;filter:drop-shadow(0 7px 10px #0006)}
+#app #growthHotspots .facility-cushion .v48-hotspot-label{bottom:40%!important;left:90%!important;z-index:4!important}

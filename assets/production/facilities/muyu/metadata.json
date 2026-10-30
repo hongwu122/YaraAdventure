@@ -1,0 +1,16 @@
+{
+  "id": "muyu",
+  "name": "木鱼",
+  "description": "hit动画",
+  "states": [
+    "hit_01",
+    "hit_02"
+  ],
+  "deliverablesPresent": [
+    "preview.webp",
+    "states/hit_01.webp",
+    "states/hit_02.webp"
+  ],
+  "realGLB": false,
+  "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+}

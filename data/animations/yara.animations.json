@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entity": "Yara",
+  "spritesheet": "assets/characters/Yara/spritesheet.webp",
+  "notes": "V3.1 timing prototype. Existing Yara sheet is reused; V3.2 should replace placeholder reaction mappings with dedicated art frames.",
+  "animations": {
+    "idle": {"row": 0, "frames": 6, "fps": 5},
+    "run": {"row": 1, "frames": 8, "fps": 11},
+    "jump": {"row": 1, "frames": 8, "fps": 10},
+    "attack": {
+      "row": 7,
+      "frames": 6,
+      "fps": 15,
+      "timing": {"windup": 0.08, "active": 0.10, "recover": 0.12},
+      "hitbox": {"forward": 138, "height": 140, "damageScale": 1.0}
+    },
+    "hurt": {"row": 5, "frames": 3, "fps": 12, "prototype": true},
+    "knockback": {"row": 5, "frames": 4, "fps": 10, "prototype": true},
+    "stun": {"row": 0, "frames": 4, "fps": 5, "prototype": true},
+    "dead": {"row": 5, "frames": 8, "fps": 7}
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "spirit_array",
+  "name": "聚灵阵",
+  "description": "法阵粒子光环",
+  "states": [
+    "idle",
+    "active",
+    "levelup"
+  ],
+  "deliverablesPresent": [
+    "preview.webp",
+    "states/idle.webp",
+    "states/active.webp",
+    "states/levelup.webp"
+  ],
+  "realGLB": false,
+  "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+}

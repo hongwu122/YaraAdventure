@@ -1,0 +1,56 @@
+{
+  "id": "frostlingBoss",
+  "gameId": "frostlingBoss",
+  "name": "霜灵冰女王",
+  "category": "boss",
+  "version": "6.4",
+  "element": "water",
+  "stageLevels": [
+    6,
+    14
+  ],
+  "status": "concept_art_complete_model_and_prerender_pending",
+  "sourceArt": "concept_sheet.webp",
+  "portrait": "portrait.webp",
+  "model": {
+    "expected": "model/frostlingBoss.glb",
+    "present": false,
+    "note": "Real GLB pending; no fake model included."
+  },
+  "renderSpec": {
+    "frameSize": [
+      768,
+      768
+    ],
+    "format": "webp",
+    "alpha": true,
+    "anchor": [
+      0.5,
+      0.92
+    ]
+  },
+  "requiredActions": [
+    "Phase1",
+    "Idle",
+    "Walk",
+    "Turn",
+    "AttackA",
+    "AttackB",
+    "AttackC",
+    "Special01",
+    "Special02",
+    "Ultimate",
+    "Hurt",
+    "Stagger",
+    "Knockback",
+    "PhaseChange",
+    "Phase2",
+    "Death"
+  ],
+  "designBrief": "独立冰雪女王轮廓：晶冠、冰翼/披风、长柄冰晶法器；Phase2冰晶王座碎裂并形成浮空冰刃。",
+  "designRules": {
+    "ordinaryMonsterLightweight": false,
+    "bossMustHaveUniqueSilhouette": true,
+    "bossScaleOnlyForbidden": true
+  }
+}

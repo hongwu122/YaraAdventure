@@ -1,0 +1,22 @@
+{
+  "version": "7.0",
+  "reason": "Levels 11-20 and sample dungeons only had low-resolution placeholder backgrounds. V7.0 uses documented high-resolution shared backgrounds already present in the project until unique chapter art is produced.",
+  "mainline": {
+    "11": "assets/backgrounds/level7_night_mirage.webp",
+    "12": "assets/backgrounds/level8_dragon_ruins.webp",
+    "13": "assets/backgrounds/level3_ancient_temple.webp",
+    "14": "assets/backgrounds/level6_frost_bridge.webp",
+    "15": "assets/backgrounds/level5_sky_palace.webp",
+    "16": "assets/backgrounds/level7_night_mirage.webp",
+    "17": "assets/backgrounds/level8_dragon_ruins.webp",
+    "18": "assets/backgrounds/level6_frost_bridge.webp",
+    "19": "assets/backgrounds/level9_divine_tree.webp",
+    "20": "assets/backgrounds/level10_abyss.webp"
+  },
+  "dungeons": {
+    "herb_valley": "assets/backgrounds/level9_divine_tree.webp",
+    "iron_tomb": "assets/backgrounds/level8_dragon_ruins.webp",
+    "boss_secret": "assets/backgrounds/level10_abyss.webp",
+    "element_trial": "assets/backgrounds/level5_sky_palace.webp"
+  }
+}

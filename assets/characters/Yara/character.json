@@ -1,0 +1,107 @@
+{
+  "id": "Yara",
+  "displayName": "Yara",
+  "number": "001",
+  "playable": true,
+  "title": "灵府看守 · 山海剑心",
+  "role": "均衡剑士 / 高机动 / 中近距离",
+  "element": "metal",
+  "elementLabel": "金",
+  "description": "原始 Q 版形象，2D 动作与装备外观。",
+  "baseStats": {
+    "hp": 320,
+    "mp": 120,
+    "attack": 26,
+    "defense": 12,
+    "speed": 320,
+    "crit": 0.08
+  },
+  "basicAttack": {
+    "type": "combo_melee",
+    "pattern": "J-J-J",
+    "summary": "三段剑式，第三段拥有更强硬直。",
+    "element": "metal",
+    "status": "bleed",
+    "damageType": "slash",
+    "stagger": 0.2
+  },
+  "skills": [
+    {
+      "key": "L",
+      "name": "流光闪",
+      "role": "位移 / 后摇取消",
+      "element": "metal",
+      "status": null,
+      "damageType": "movement",
+      "stagger": 0
+    },
+    {
+      "key": "U",
+      "name": "回风斩",
+      "role": "近身范围",
+      "element": "metal",
+      "status": "armor_break",
+      "damageType": "slash",
+      "stagger": 0.48
+    },
+    {
+      "key": "I",
+      "name": "星芒弹",
+      "role": "中距牵制",
+      "element": "water",
+      "status": "slow",
+      "damageType": "arcane",
+      "stagger": 0.22
+    },
+    {
+      "key": "Space",
+      "name": "无双",
+      "role": "爆发",
+      "element": "metal",
+      "status": "armor_break",
+      "damageType": "arcane",
+      "stagger": 0.75
+    }
+  ],
+  "growthDefaults": {
+    "level": 1,
+    "exp": 0,
+    "nextExp": 100,
+    "skillPoints": 0,
+    "equipment": {
+      "weapon": null,
+      "head": null,
+      "body": null,
+      "waist": null,
+      "shoes": null,
+      "talisman": null,
+      "necklace": null
+    },
+    "skills": {},
+    "stats": {
+      "vit": 0,
+      "spi": 0,
+      "agi": 0,
+      "pow": 0
+    },
+    "pillBonus": {
+      "hp": 0,
+      "mp": 0
+    }
+  },
+  "render": {
+    "mode": "sprite-2d",
+    "portrait": "../../v82/characters/Yara/portrait.png",
+    "previewAngles": [
+      "../../v82/characters/Yara/portrait.png"
+    ],
+    "model": {
+      "type": "none",
+      "installed": false
+    }
+  },
+  "combatAssets": {
+    "animations": "../../v82/characters/Yara/animations.json"
+  },
+  "version": "8.2"
+}

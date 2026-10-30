@@ -1,0 +1,34 @@
+{
+  "id": "eq_star_brocade",
+  "name": "星锦灵衣",
+  "slot": "body",
+  "slotCN": "衣甲",
+  "rarity": "玄品",
+  "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+  "attachBone": "Chest",
+  "localPosition": [
+    0,
+    0,
+    0
+  ],
+  "localRotation": [
+    0,
+    0,
+    0
+  ],
+  "localScale": [
+    1,
+    1,
+    1
+  ],
+  "allowMirror": true,
+  "notes": "星纹披衣、肩袖略华丽",
+  "deliverablesPresent": [
+    "icon.webp",
+    "preview.webp",
+    "attachment.json"
+  ],
+  "missingDeliverables": [
+    "attachment.glb"
+  ]
+}

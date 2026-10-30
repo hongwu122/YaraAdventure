@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 3,
+  "entity": "phoenixBoss",
+  "version": "6.6",
+  "anchor": [
+    0.5,
+    0.92
+  ],
+  "productionStatus": "INDEPENDENT_BOSS_VISUAL_FALLBACK_REAL_ACTIONS_PENDING",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 1,
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "walk": {
+      "frames": 1,
+      "fps": 1,
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "run": {
+      "frames": 1,
+      "fps": 1,
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "spawn": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "attack": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "attack_A": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "attack_B": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "attack_C": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "special": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "special_01": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "special_02": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "hurt": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "hurt_light": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "hurt_heavy": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "knockback": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "stun": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "phase_change": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    },
+    "dead": {
+      "frames": 1,
+      "fps": 1,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "directions": {
+        "right": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp",
+        "left": "../../../assets/production/bosses/phoenixBoss_stage15/portrait.webp"
+      },
+      "v66StaticFallback": true
+    }
+  },
+  "stateAliases": {
+    "attack_melee": "attack",
+    "attack_dash": "attack",
+    "attack_slam": "attack",
+    "death": "dead",
+    "Hurt": "hurt",
+    "Stagger": "hurt",
+    "PhaseChange": "phase_change"
+  }
+}

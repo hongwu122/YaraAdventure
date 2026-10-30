@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 3,
+  "levelId": 19,
+  "name": "天雷禁地",
+  "width": 7900,
+  "platforms": [
+    [
+      0,
+      910,
+      7900,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140,
+    6660,
+    7180
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 天雷禁地战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1590,
+      "cameraLeft": 90,
+      "cameraRight": 1680,
+      "waveDelay": 1.18,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 723
+            },
+            {
+              "type": "runegolem",
+              "x": 1047
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 642
+            },
+            {
+              "type": "runegolem",
+              "x": 885
+            },
+            {
+              "type": "runegolem",
+              "x": 1128
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 天雷禁地战场",
+      "triggerX": 1720,
+      "lockLeft": 1660,
+      "lockRight": 3070,
+      "cameraLeft": 1570,
+      "cameraRight": 3160,
+      "waveDelay": 1.18,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 2203
+            },
+            {
+              "type": "runegolem",
+              "x": 2527
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 2122
+            },
+            {
+              "type": "runegolem",
+              "x": 2365
+            },
+            {
+              "type": "runegolem",
+              "x": 2608
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 2122
+            },
+            {
+              "type": "runegolem",
+              "x": 2365
+            },
+            {
+              "type": "golemElite",
+              "x": 2608
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 天雷禁地战场",
+      "triggerX": 3200,
+      "lockLeft": 3140,
+      "lockRight": 4550,
+      "cameraLeft": 3050,
+      "cameraRight": 4640,
+      "waveDelay": 1.18,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 3683
+            },
+            {
+              "type": "runegolem",
+              "x": 4007
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 3554
+            },
+            {
+              "type": "runegolem",
+              "x": 3748
+            },
+            {
+              "type": "runegolem",
+              "x": 3942
+            },
+            {
+              "type": "abyssling",
+              "x": 4136
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 天雷禁地战场",
+      "triggerX": 4680,
+      "lockLeft": 4620,
+      "lockRight": 6030,
+      "cameraLeft": 4530,
+      "cameraRight": 6120,
+      "waveDelay": 1.18,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 5163
+            },
+            {
+              "type": "runegolem",
+              "x": 5487
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 5034
+            },
+            {
+              "type": "runegolem",
+              "x": 5228
+            },
+            {
+              "type": "runegolem",
+              "x": 5422
+            },
+            {
+              "type": "abyssling",
+              "x": 5616
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 5034
+            },
+            {
+              "type": "runegolem",
+              "x": 5228
+            },
+            {
+              "type": "runegolem",
+              "x": 5422
+            },
+            {
+              "type": "golemElite",
+              "x": 5616
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "E",
+      "label": "E区 · 天雷禁地深处",
+      "triggerX": 6160,
+      "lockLeft": 6100,
+      "lockRight": 7510,
+      "cameraLeft": 6010,
+      "cameraRight": 7600,
+      "waveDelay": 1.18,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "runegolemBoss",
+              "x": 6805
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "fire",
+  "dropPool": "level_19_main",
+  "stageBoss": false
+}

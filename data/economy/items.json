@@ -1,0 +1,842 @@
+{
+  "version": "8.2",
+  "rarities": {
+    "common": {
+      "name": "凡品",
+      "color": "#ece8dc",
+      "rank": 0
+    },
+    "verdant": {
+      "name": "灵秀",
+      "color": "#73c18b",
+      "rank": 1
+    },
+    "arcane": {
+      "name": "玄品",
+      "color": "#66adeb",
+      "rank": 2
+    },
+    "immortal": {
+      "name": "仙珍",
+      "color": "#b58be9",
+      "rank": 3
+    },
+    "heaven": {
+      "name": "天工",
+      "color": "#e36c78",
+      "rank": 4
+    },
+    "divine": {
+      "name": "神铸",
+      "color": "#f1ce70",
+      "rank": 5
+    },
+    "primordial": {
+      "name": "太初",
+      "color": "#f2d782",
+      "rank": 6,
+      "reserved": true
+    }
+  },
+  "slots": {
+    "weapon": "武器",
+    "head": "头饰",
+    "body": "衣甲",
+    "waist": "腰饰",
+    "shoes": "鞋履",
+    "talisman": "法宝",
+    "necklace": "项链"
+  },
+  "items": [
+    {
+      "id": "potion_red",
+      "name": "回春露",
+      "category": "consumable",
+      "subtype": "potion_hp",
+      "rarity": "common",
+      "icon": "assets/v8/items/potion_red.png",
+      "stackMax": 99,
+      "buy": 18,
+      "sell": 5,
+      "effect": {
+        "hpFlat": 90
+      },
+      "desc": "恢复少量生命。"
+    },
+    {
+      "id": "potion_blue",
+      "name": "凝神露",
+      "category": "consumable",
+      "subtype": "potion_mp",
+      "rarity": "common",
+      "icon": "assets/v8/items/potion_blue.png",
+      "stackMax": 99,
+      "buy": 20,
+      "sell": 6,
+      "effect": {
+        "mpFlat": 55
+      },
+      "desc": "恢复少量灵力。"
+    },
+    {
+      "id": "mat_peach_petal",
+      "name": "桃灵花瓣",
+      "category": "material",
+      "rarity": "common",
+      "icon": "assets/v8/items/mat_peach_petal.png",
+      "stackMax": 999,
+      "buy": 8,
+      "sell": 2,
+      "desc": "桃灵身上常见的轻质材料。"
+    },
+    {
+      "id": "mat_bamboo_fiber",
+      "name": "青竹纤维",
+      "category": "material",
+      "rarity": "common",
+      "icon": "assets/v8/items/mat_bamboo_fiber.png",
+      "stackMax": 999,
+      "buy": 10,
+      "sell": 3,
+      "desc": "可用于低阶装备与炼制。"
+    },
+    {
+      "id": "mat_spirit_dust",
+      "name": "灵尘",
+      "category": "material",
+      "rarity": "verdant",
+      "icon": "assets/v8/items/mat_spirit_dust.png",
+      "stackMax": 999,
+      "buy": 22,
+      "sell": 7,
+      "desc": "分解装备后常见的灵性粉尘。"
+    },
+    {
+      "id": "mat_refined_iron",
+      "name": "精铁",
+      "category": "material",
+      "rarity": "verdant",
+      "icon": "assets/v8/items/mat_refined_iron.png",
+      "stackMax": 999,
+      "buy": 24,
+      "sell": 8,
+      "desc": "强化与锻造的基础金属。"
+    },
+    {
+      "id": "mat_peach_core",
+      "name": "桃源灵核",
+      "category": "material",
+      "rarity": "immortal",
+      "icon": "assets/v8/items/mat_peach_core.png",
+      "stackMax": 99,
+      "buy": 0,
+      "sell": 60,
+      "bossOnly": true,
+      "desc": "第一关镇守者掉落的专属核心。"
+    },
+    {
+      "id": "quest_old_map",
+      "name": "残缺山海图",
+      "category": "quest",
+      "rarity": "common",
+      "icon": "assets/v8/items/quest_old_map.png",
+      "stackMax": 9,
+      "buy": 80,
+      "sell": 0,
+      "desc": "一张无法出售的任务物品。"
+    },
+    {
+      "id": "eq_wood_sword",
+      "name": "桃木短剑",
+      "category": "equipment",
+      "slot": "weapon",
+      "rarity": "common",
+      "icon": "assets/v85/items/eq_wood_sword.png",
+      "buy": 60,
+      "sell": 13,
+      "stats": {
+        "attack": 4
+      },
+      "desc": "最基础的练习剑。 武器技能：木剑清风。基础清风斩，没有额外状态。",
+      "weaponSkill": {
+        "name": "木剑清风",
+        "effect": "wood",
+        "description": "基础清风斩，没有额外状态。"
+      }
+    },
+    {
+      "id": "eq_cloth_band",
+      "name": "行旅发带",
+      "category": "equipment",
+      "slot": "head",
+      "rarity": "common",
+      "icon": "assets/v85/items/eq_cloth_band.png",
+      "buy": 48,
+      "sell": 11,
+      "stats": {
+        "hp": 18,
+        "defense": 1
+      },
+      "desc": "轻便耐用的旅人头饰。"
+    },
+    {
+      "id": "eq_travel_robe",
+      "name": "青麻衣甲",
+      "category": "equipment",
+      "slot": "body",
+      "rarity": "common",
+      "icon": "assets/v82/wearables/linen_robe.png",
+      "buy": 72,
+      "sell": 16,
+      "stats": {
+        "hp": 32,
+        "defense": 3
+      },
+      "desc": "柔韧的基础衣甲。"
+    },
+    {
+      "id": "eq_hemp_belt",
+      "name": "云纹腰绦",
+      "category": "equipment",
+      "slot": "waist",
+      "rarity": "immortal",
+      "icon": "assets/v85/items/eq_hemp_belt.png",
+      "buy": 408,
+      "sell": 90,
+      "stats": {
+        "mp": 58,
+        "hp": 24
+      },
+      "desc": "紫色云纹绳结与银饰编成的仙珍腰绦。"
+    },
+    {
+      "id": "eq_cloud_shoes",
+      "name": "轻云履",
+      "category": "equipment",
+      "slot": "shoes",
+      "rarity": "arcane",
+      "icon": "assets/v82/wearables/cloud_shoes.png",
+      "buy": 252,
+      "sell": 55,
+      "stats": {
+        "speed": 24,
+        "defense": 3
+      },
+      "desc": "脚步更轻，适合闪转。"
+    },
+    {
+      "id": "eq_peach_charm",
+      "name": "桃息符",
+      "category": "equipment",
+      "slot": "talisman",
+      "rarity": "verdant",
+      "icon": "assets/v82/items/eq_peach_charm.png",
+      "buy": 158,
+      "sell": 35,
+      "stats": {
+        "mp": 24,
+        "cooldown": 0.03
+      },
+      "desc": "带有微弱桃源灵息的法宝。"
+    },
+    {
+      "id": "eq_wood_necklace",
+      "name": "木珠项链",
+      "category": "equipment",
+      "slot": "necklace",
+      "rarity": "common",
+      "icon": "assets/v82/items/eq_wood_necklace.png",
+      "buy": 54,
+      "sell": 12,
+      "stats": {
+        "hp": 20,
+        "mp": 8
+      },
+      "desc": "朴素但实用的护身项链。"
+    },
+    {
+      "id": "eq_bamboo_blade",
+      "name": "翠竹灵刃",
+      "category": "equipment",
+      "slot": "weapon",
+      "rarity": "verdant",
+      "icon": "assets/v8/items/eq_bamboo_blade.png",
+      "buy": 150,
+      "sell": 33,
+      "stats": {
+        "attack": 8,
+        "speed": 6
+      },
+      "desc": "竹笠狸兵常用的轻刃。 武器技能：翠竹缠灵。伤害提高 4%，技能命中有概率附加缠绕。",
+      "weaponSkill": {
+        "name": "翠竹缠灵",
+        "effect": "bamboo",
+        "description": "伤害提高 4%，技能命中有概率附加缠绕。"
+      }
+    },
+    {
+      "id": "eq_mystic_mail",
+      "name": "玄纹轻甲",
+      "category": "equipment",
+      "slot": "body",
+      "rarity": "verdant",
+      "icon": "assets/v82/wearables/jade_armor.png",
+      "buy": 180,
+      "sell": 40,
+      "stats": {
+        "hp": 50,
+        "defense": 6
+      },
+      "desc": "玄纹流转，可明显提升防护。"
+    },
+    {
+      "id": "eq_blue_necklace",
+      "name": "澄灵坠",
+      "category": "equipment",
+      "slot": "necklace",
+      "rarity": "arcane",
+      "icon": "assets/v82/items/eq_blue_necklace.png",
+      "buy": 252,
+      "sell": 55,
+      "stats": {
+        "mp": 40,
+        "crit": 0.03
+      },
+      "desc": "澄澈灵光凝成的坠饰。"
+    },
+    {
+      "id": "eq_peach_blossom_sword",
+      "name": "桃华照影",
+      "category": "equipment",
+      "slot": "weapon",
+      "rarity": "heaven",
+      "icon": "assets/v82/items/eq_peach_blossom_sword.png",
+      "buy": 720,
+      "sell": 158,
+      "stats": {
+        "attack": 24,
+        "crit": 0.06,
+        "speed": 10
+      },
+      "exclusive": "桃花山谷Boss",
+      "desc": "桃花灵使的稀有掉落。 武器技能：桃华灼影。伤害提高 12%，技能命中有概率附加灼烧。",
+      "weaponSkill": {
+        "name": "桃华灼影",
+        "effect": "peach",
+        "description": "伤害提高 12%，技能命中有概率附加灼烧。"
+      }
+    },
+    {
+      "id": "eq_heaven_step",
+      "name": "天工踏月履",
+      "category": "equipment",
+      "slot": "shoes",
+      "rarity": "heaven",
+      "icon": "assets/v85/items/eq_heaven_step.png",
+      "buy": 648,
+      "sell": 143,
+      "stats": {
+        "speed": 32,
+        "crit": 0.04,
+        "cooldown": 0.05
+      },
+      "exclusive": "高阶Boss",
+      "desc": "踏月无痕，工艺已近仙家。"
+    },
+    {
+      "id": "eq_divine_talisman",
+      "name": "神铸·赤霄印",
+      "category": "equipment",
+      "slot": "talisman",
+      "rarity": "divine",
+      "icon": "assets/v82/items/eq_divine_talisman.png",
+      "buy": 1050,
+      "sell": 231,
+      "stats": {
+        "attack": 22,
+        "hp": 90,
+        "mp": 55,
+        "crit": 0.07
+      },
+      "exclusive": "高阶Boss极低概率",
+      "desc": "以赤霄灵火凝成的宝印，提升生命、攻击与灵力。"
+    },
+    {
+      "id": "eq_spirit_saber",
+      "name": "流光灵刃",
+      "category": "equipment",
+      "slot": "weapon",
+      "rarity": "arcane",
+      "icon": "assets/v8/items/eq_spirit_saber.png",
+      "buy": 280,
+      "sell": 62,
+      "stats": {
+        "attack": 13,
+        "speed": 8
+      },
+      "desc": "弯月形灵刃，青白流光。穿戴后显示 2D 外观。 武器技能：流光凝霜。伤害提高 7%，技能命中有概率附加减速。",
+      "weaponSkill": {
+        "name": "流光凝霜",
+        "effect": "spirit",
+        "description": "伤害提高 7%，技能命中有概率附加减速。"
+      }
+    },
+    {
+      "id": "eq_peach_hairpin",
+      "name": "桃瓣发簪",
+      "category": "equipment",
+      "slot": "head",
+      "rarity": "heaven",
+      "icon": "assets/v8/items/eq_peach_hairpin.png",
+      "buy": 576,
+      "sell": 127,
+      "stats": {
+        "hp": 95,
+        "defense": 9,
+        "crit": 0.04
+      },
+      "desc": "小巧桃花簪。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_bamboo_headband",
+      "name": "翠竹额饰",
+      "category": "equipment",
+      "slot": "head",
+      "rarity": "verdant",
+      "icon": "assets/v85/items/eq_bamboo_headband.png",
+      "buy": 120,
+      "sell": 26,
+      "stats": {
+        "hp": 35,
+        "defense": 3
+      },
+      "desc": "竹纹发箍与玉珠。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_moon_crown",
+      "name": "望月冠饰",
+      "category": "equipment",
+      "slot": "head",
+      "rarity": "divine",
+      "icon": "assets/v85/items/eq_moon_crown.png",
+      "buy": 800,
+      "sell": 176,
+      "stats": {
+        "hp": 140,
+        "defense": 12,
+        "mp": 45
+      },
+      "desc": "半月冠环、垂星穗。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_cloud_robe",
+      "name": "流云法衣",
+      "category": "equipment",
+      "slot": "body",
+      "rarity": "arcane",
+      "icon": "assets/v82/wearables/cloud_robe.png",
+      "buy": 336,
+      "sell": 74,
+      "stats": {
+        "hp": 82,
+        "defense": 9
+      },
+      "desc": "云纹白青法衣。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_star_brocade",
+      "name": "星锦灵衣",
+      "category": "equipment",
+      "slot": "body",
+      "rarity": "immortal",
+      "icon": "assets/v82/wearables/star_robe.png",
+      "buy": 576,
+      "sell": 127,
+      "stats": {
+        "hp": 105,
+        "defense": 12,
+        "mp": 35
+      },
+      "desc": "星纹披衣、肩袖略华丽。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_linen_sash",
+      "name": "素麻腰带",
+      "category": "equipment",
+      "slot": "waist",
+      "rarity": "common",
+      "icon": "assets/v85/items/eq_linen_sash.png",
+      "buy": 51,
+      "sell": 11,
+      "stats": {
+        "mp": 16
+      },
+      "desc": "朴素细腰带。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_spirit_belt",
+      "name": "聚灵束带",
+      "category": "equipment",
+      "slot": "waist",
+      "rarity": "arcane",
+      "icon": "assets/v85/items/eq_spirit_belt.png",
+      "buy": 238,
+      "sell": 52,
+      "stats": {
+        "mp": 46,
+        "cooldown": 0.03
+      },
+      "desc": "灵纹束带，挂小玉牌。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_jade_waist",
+      "name": "鸣玉腰佩",
+      "category": "equipment",
+      "slot": "waist",
+      "rarity": "verdant",
+      "icon": "assets/v85/items/eq_jade_waist.png",
+      "buy": 128,
+      "sell": 28,
+      "stats": {
+        "mp": 32,
+        "hp": 20
+      },
+      "desc": "双玉佩与流苏。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_straw_shoes",
+      "name": "踏云草履",
+      "category": "equipment",
+      "slot": "shoes",
+      "rarity": "common",
+      "icon": "assets/v82/wearables/straw_shoes.png",
+      "buy": 54,
+      "sell": 12,
+      "stats": {
+        "speed": 9
+      },
+      "desc": "草履形轻鞋。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_thunder_boots",
+      "name": "逐电灵靴",
+      "category": "equipment",
+      "slot": "shoes",
+      "rarity": "divine",
+      "icon": "assets/v82/wearables/thunder_boots.png",
+      "buy": 900,
+      "sell": 198,
+      "stats": {
+        "speed": 42,
+        "crit": 0.05
+      },
+      "desc": "鞋边带电纹。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_peach_talisman",
+      "name": "桃灵符印",
+      "category": "equipment",
+      "slot": "talisman",
+      "rarity": "heaven",
+      "icon": "assets/v8/items/eq_peach_talisman.png",
+      "buy": 756,
+      "sell": 166,
+      "stats": {
+        "attack": 18,
+        "mp": 55
+      },
+      "desc": "桃形小符牌。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_spirit_talisman",
+      "name": "聚灵符箓",
+      "category": "equipment",
+      "slot": "talisman",
+      "rarity": "arcane",
+      "icon": "assets/v82/items/eq_spirit_talisman.png",
+      "buy": 294,
+      "sell": 65,
+      "stats": {
+        "attack": 9,
+        "mp": 28
+      },
+      "desc": "圆形符盘与灵纹。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_sun_talisman",
+      "name": "曜阳法宝",
+      "category": "equipment",
+      "slot": "talisman",
+      "rarity": "divine",
+      "icon": "assets/v82/items/eq_sun_talisman.png",
+      "buy": 1050,
+      "sell": 231,
+      "stats": {
+        "attack": 23,
+        "mp": 70
+      },
+      "desc": "日轮法盘。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_shell_necklace",
+      "name": "贝珠项链",
+      "category": "equipment",
+      "slot": "necklace",
+      "rarity": "immortal",
+      "icon": "assets/v85/items/eq_shell_necklace.png",
+      "buy": 432,
+      "sell": 95,
+      "stats": {
+        "hp": 72,
+        "mp": 22,
+        "crit": 0.04
+      },
+      "desc": "紫贝与淡紫灵珠编成的仙珍项链。"
+    },
+    {
+      "id": "eq_jade_necklace",
+      "name": "清玉坠链",
+      "category": "equipment",
+      "slot": "necklace",
+      "rarity": "verdant",
+      "icon": "assets/v82/items/eq_jade_necklace.png",
+      "buy": 135,
+      "sell": 30,
+      "stats": {
+        "hp": 34,
+        "crit": 0.02
+      },
+      "desc": "玉坠与银链。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_lotus_necklace",
+      "name": "莲华灵链",
+      "category": "equipment",
+      "slot": "necklace",
+      "rarity": "heaven",
+      "icon": "assets/v82/items/eq_lotus_necklace.png",
+      "buy": 648,
+      "sell": 143,
+      "stats": {
+        "hp": 90,
+        "crit": 0.05
+      },
+      "desc": "莲形坠饰与浮光。穿戴后显示 2D 外观。"
+    },
+    {
+      "id": "eq_plain_seal",
+      "name": "青铜护符",
+      "category": "equipment",
+      "slot": "talisman",
+      "rarity": "common",
+      "stats": {
+        "attack": 3,
+        "mp": 12
+      },
+      "buy": 63,
+      "sell": 14,
+      "desc": "凡品·法宝，已制作独立透明素材。",
+      "icon": "assets/v85/items/eq_plain_seal.png"
+    },
+    {
+      "id": "eq_bamboo_shoes",
+      "name": "翠竹轻履",
+      "category": "equipment",
+      "slot": "shoes",
+      "rarity": "verdant",
+      "stats": {
+        "speed": 16,
+        "defense": 2
+      },
+      "buy": 135,
+      "sell": 30,
+      "desc": "灵秀·鞋履，已制作独立透明素材。",
+      "icon": "assets/v85/items/eq_bamboo_shoes.png"
+    },
+    {
+      "id": "eq_frost_circlet",
+      "name": "霜月额饰",
+      "category": "equipment",
+      "slot": "head",
+      "rarity": "arcane",
+      "stats": {
+        "hp": 58,
+        "mp": 24,
+        "defense": 5
+      },
+      "buy": 224,
+      "sell": 49,
+      "desc": "玄品·头饰，已制作独立透明素材。",
+      "icon": "assets/v85/items/eq_frost_circlet.png"
+    },
+    {
+      "id": "eq_amethyst_sword",
+      "name": "紫霄灵剑",
+      "category": "equipment",
+      "slot": "weapon",
+      "rarity": "immortal",
+      "stats": {
+        "attack": 19,
+        "mp": 24,
+        "crit": 0.04
+      },
+      "buy": 480,
+      "sell": 106,
+      "desc": "仙珍·武器，已制作独立透明素材。 武器技能：紫霄破甲。伤害提高 10%，技能命中有概率附加破甲。",
+      "icon": "assets/v85/items/eq_amethyst_sword.png",
+      "weaponSkill": {
+        "name": "紫霄破甲",
+        "effect": "amethyst",
+        "description": "伤害提高 10%，技能命中有概率附加破甲。"
+      }
+    },
+    {
+      "id": "eq_violet_hairpin",
+      "name": "紫藤发簪",
+      "category": "equipment",
+      "slot": "head",
+      "rarity": "immortal",
+      "stats": {
+        "hp": 78,
+        "mp": 32,
+        "defense": 7
+      },
+      "buy": 384,
+      "sell": 84,
+      "desc": "仙珍·头饰，已制作独立透明素材。",
+      "icon": "assets/v85/items/eq_violet_hairpin.png"
+    },
+    {
+      "id": "eq_violet_boots",
+      "name": "紫云仙履",
+      "category": "equipment",
+      "slot": "shoes",
+      "rarity": "immortal",
+      "stats": {
+        "speed": 31,
+        "defense": 5
+      },
+      "buy": 432,
+      "sell": 95,
+      "desc": "仙珍·鞋履，已制作独立透明素材。",
+      "icon": "assets/v85/items/eq_violet_boots.png"
+    },
+    {
+      "id": "eq_moon_orb",
+      "name": "紫月灵珠",
+      "category": "equipment",
+      "slot": "talisman",
+      "rarity": "immortal",
+      "stats": {
+        "attack": 13,
+        "mp": 44,
+        "cooldown": 0.04
+      },
+      "buy": 504,
+      "sell": 111,
+      "desc": "仙珍·法宝，已制作独立透明素材。",
+      "icon": "assets/v85/items/eq_moon_orb.png"
+    },
+    {
+      "id": "eq_peach_robe",
+      "name": "桃华仙衣",
+      "category": "equipment",
+      "slot": "body",
+      "rarity": "heaven",
+      "stats": {
+        "hp": 136,
+        "defense": 15,
+        "crit": 0.03
+      },
+      "buy": 864,
+      "sell": 190,
+      "desc": "天工·衣甲，已制作独立透明素材。",
+      "icon": "assets/v85/items/eq_peach_robe.png"
+    },
+    {
+      "id": "eq_crimson_sash",
+      "name": "赤霞凤绦",
+      "category": "equipment",
+      "slot": "waist",
+      "rarity": "heaven",
+      "stats": {
+        "mp": 68,
+        "hp": 35,
+        "cooldown": 0.05
+      },
+      "buy": 612,
+      "sell": 135,
+      "desc": "天工·腰饰，已制作独立透明素材。",
+      "icon": "assets/v85/items/eq_crimson_sash.png"
+    },
+    {
+      "id": "eq_sun_sword",
+      "name": "曜阳神剑",
+      "category": "equipment",
+      "slot": "weapon",
+      "rarity": "divine",
+      "stats": {
+        "attack": 32,
+        "mp": 45,
+        "crit": 0.08
+      },
+      "buy": 1000,
+      "sell": 220,
+      "desc": "神铸·武器，已制作独立透明素材。 武器技能：曜日神焰。伤害提高 16%，技能命中有概率附加灼烧。",
+      "icon": "assets/v85/items/eq_sun_sword.png",
+      "weaponSkill": {
+        "name": "曜日神焰",
+        "effect": "sun",
+        "description": "伤害提高 16%，技能命中有概率附加灼烧。"
+      }
+    },
+    {
+      "id": "eq_divine_robe",
+      "name": "曜阳神袍",
+      "category": "equipment",
+      "slot": "body",
+      "rarity": "divine",
+      "stats": {
+        "hp": 180,
+        "defense": 21,
+        "mp": 50
+      },
+      "buy": 1200,
+      "sell": 264,
+      "desc": "神铸·衣甲，已制作独立透明素材。",
+      "icon": "assets/v85/items/eq_divine_robe.png"
+    },
+    {
+      "id": "eq_divine_sash",
+      "name": "金霄云带",
+      "category": "equipment",
+      "slot": "waist",
+      "rarity": "divine",
+      "stats": {
+        "mp": 88,
+        "hp": 55,
+        "cooldown": 0.06
+      },
+      "buy": 850,
+      "sell": 187,
+      "desc": "神铸·腰饰，已制作独立透明素材。",
+      "icon": "assets/v85/items/eq_divine_sash.png"
+    },
+    {
+      "id": "eq_sun_necklace",
+      "name": "曜日灵链",
+      "category": "equipment",
+      "slot": "necklace",
+      "rarity": "divine",
+      "stats": {
+        "hp": 125,
+        "mp": 35,
+        "crit": 0.07
+      },
+      "buy": 900,
+      "sell": 198,
+      "desc": "神铸·项链，已制作独立透明素材。",
+      "icon": "assets/v85/items/eq_sun_necklace.png"
+    }
+  ]
+}

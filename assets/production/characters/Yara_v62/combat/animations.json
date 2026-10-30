@@ -1,0 +1,635 @@
+{
+  "schemaVersion": 2,
+  "character": "Yara",
+  "version": "6.2",
+  "sourceModelRequired": "../model/yara_v61.blend or yara_v61.glb",
+  "productionStatus": "PIPELINE_READY_SOURCE_3D_MODEL_MISSING",
+  "render": {
+    "frameSize": [
+      512,
+      512
+    ],
+    "background": "transparent",
+    "colorMode": "RGBA",
+    "camera": "orthographic_side_right",
+    "anchor": [
+      0.5,
+      0.92
+    ],
+    "baselinePx": 471,
+    "paddingPx": 16,
+    "alphaEdgePolicy": "no_black_white_fringe"
+  },
+  "directionPolicy": {
+    "defaultProductionDirection": "right",
+    "mirrorWhenSafe": true,
+    "produceBothDirectionsFor": [
+      "Turn",
+      "Attack01",
+      "Attack02",
+      "Attack03",
+      "SkillU",
+      "SkillI",
+      "Musou",
+      "CastStart",
+      "CastLoop"
+    ]
+  },
+  "animations": {
+    "Idle": {
+      "clip": "Idle",
+      "file": "idle_right.webp",
+      "fps": 24,
+      "frameCount": 48,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Subtle breathing, eye motion optional, feet/root completely fixed. Must remain spatially stationary for 10s loop test."
+    },
+    "Walk": {
+      "clip": "Walk",
+      "file": "walk_right.webp",
+      "fps": 24,
+      "frameCount": 24,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Natural chibi walk cycle; foot plant readable; no global translation baked."
+    },
+    "Run": {
+      "clip": "Run",
+      "file": "run_right.webp",
+      "fps": 24,
+      "frameCount": 18,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "True leg run cycle with body lean and weight shift. Never move whole character as a flat sprite."
+    },
+    "Turn": {
+      "clip": "Turn",
+      "file": "turn_right.webp",
+      "fps": 24,
+      "frameCount": 8,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Readable torso/head/hip turn. Not a mirrored instant swap. Export both sides only if asymmetry requires."
+    },
+    "JumpStart": {
+      "clip": "JumpStart",
+      "file": "jump_start_right.webp",
+      "fps": 24,
+      "frameCount": 7,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Compression -> push-off. Game physics owns vertical translation."
+    },
+    "JumpLoop": {
+      "clip": "JumpLoop",
+      "file": "jump_loop_right.webp",
+      "fps": 24,
+      "frameCount": 12,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Airborne rising/neutral loop pose; keep feet baseline normalized in render output."
+    },
+    "DoubleJump": {
+      "clip": "DoubleJump",
+      "file": "double_jump_right.webp",
+      "fps": 24,
+      "frameCount": 10,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Clear second impulse: tuck, twist, leg kick or compact spin; visually distinct from first jump."
+    },
+    "Fall": {
+      "clip": "Fall",
+      "file": "fall_right.webp",
+      "fps": 24,
+      "frameCount": 12,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Falling silhouette with slightly raised arms/hair lift; game physics owns descent."
+    },
+    "Land": {
+      "clip": "Land",
+      "file": "land_right.webp",
+      "fps": 24,
+      "frameCount": 8,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Contact, knee compression, recovery. No foot sliding."
+    },
+    "Attack01": {
+      "clip": "Attack01",
+      "file": "attack_1_right.webp",
+      "fps": 24,
+      "frameCount": 12,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Fast opening slash. Body twist and weapon arm motion must be real.",
+      "combatPhases": {
+        "windupEndFrame": 4,
+        "activeEndFrame": 7,
+        "recoverEndFrame": 11
+      }
+    },
+    "Attack02": {
+      "clip": "Attack02",
+      "file": "attack_2_right.webp",
+      "fps": 24,
+      "frameCount": 13,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Second combo beat: opposite-direction or rising slash; more weight than Attack01.",
+      "combatPhases": {
+        "windupEndFrame": 4,
+        "activeEndFrame": 8,
+        "recoverEndFrame": 12
+      }
+    },
+    "Attack03": {
+      "clip": "Attack03",
+      "file": "attack_3_right.webp",
+      "fps": 24,
+      "frameCount": 17,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Heavy finisher with largest body rotation, strongest anticipation and follow-through.",
+      "combatPhases": {
+        "windupEndFrame": 6,
+        "activeEndFrame": 11,
+        "recoverEndFrame": 16
+      }
+    },
+    "SkillU": {
+      "clip": "SkillU",
+      "file": "skill_u_right.webp",
+      "fps": 24,
+      "frameCount": 22,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Close-range 回风斩. Full-body spin/arc with clear anticipation and recovery.",
+      "combatPhases": {
+        "windupEndFrame": 6,
+        "activeEndFrame": 14,
+        "recoverEndFrame": 21
+      }
+    },
+    "SkillI": {
+      "clip": "SkillI",
+      "file": "skill_i_right.webp",
+      "fps": 24,
+      "frameCount": 24,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "星芒弹 cast: gather -> aim -> release -> recoil/recover. Projectile is separate VFX, not baked into body pose.",
+      "combatPhases": {
+        "windupEndFrame": 7,
+        "activeEndFrame": 16,
+        "recoverEndFrame": 23
+      }
+    },
+    "Dash": {
+      "clip": "Dash",
+      "file": "dash_right.webp",
+      "fps": 24,
+      "frameCount": 9,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Strong forward body lean, compressed silhouette and trailing hair/sleeves. Movement handled by game.",
+      "combatPhases": {
+        "windupEndFrame": 2,
+        "activeEndFrame": 5,
+        "recoverEndFrame": 8
+      }
+    },
+    "Musou": {
+      "clip": "Musou",
+      "file": "musou_right.webp",
+      "fps": 24,
+      "frameCount": 38,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Complete burst performance: charge -> multi-hit/finisher -> recovery. Not a static pose with a circle effect.",
+      "combatPhases": {
+        "windupEndFrame": 10,
+        "activeEndFrame": 28,
+        "recoverEndFrame": 37
+      }
+    },
+    "HurtLight": {
+      "clip": "HurtLight",
+      "file": "hurt_light_right.webp",
+      "fps": 24,
+      "frameCount": 8,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Small recoil; head/shoulder reaction; recover quickly."
+    },
+    "HurtHeavy": {
+      "clip": "HurtHeavy",
+      "file": "hurt_heavy_right.webp",
+      "fps": 24,
+      "frameCount": 13,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Clearly stronger than HurtLight: torso fold, arm throw, delayed recovery."
+    },
+    "Knockback": {
+      "clip": "Knockback",
+      "file": "knockback_right.webp",
+      "fps": 24,
+      "frameCount": 16,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Body driven backward with feet losing contact/drag pose. Game applies position displacement."
+    },
+    "Stun": {
+      "clip": "Stun",
+      "file": "stun_right.webp",
+      "fps": 24,
+      "frameCount": 24,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Looping dazed body sway; feet stay planted. Status icon/VFX separate."
+    },
+    "Knockdown": {
+      "clip": "Knockdown",
+      "file": "knockdown_right.webp",
+      "fps": 24,
+      "frameCount": 14,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Loss of balance to grounded pose. Distinct from knockback."
+    },
+    "Getup": {
+      "clip": "Getup",
+      "file": "getup_right.webp",
+      "fps": 24,
+      "frameCount": 17,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Grounded -> kneel -> stand; end exactly aligned to Idle baseline."
+    },
+    "Death": {
+      "clip": "Death",
+      "file": "dead_right.webp",
+      "fps": 24,
+      "frameCount": 26,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Readable defeat with final hold pose. No abrupt disappearing."
+    },
+    "Cultivate": {
+      "clip": "Cultivate",
+      "file": "cultivate_right.webp",
+      "fps": 24,
+      "frameCount": 48,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "True seated cultivation/meditation pose with subtle breathing and sleeve/hair secondary motion."
+    },
+    "Victory": {
+      "clip": "Victory",
+      "file": "victory_right.webp",
+      "fps": 24,
+      "frameCount": 29,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Short celebratory pose suitable for stage clear."
+    },
+    "Interact": {
+      "clip": "Interact",
+      "file": "interact_right.webp",
+      "fps": 24,
+      "frameCount": 19,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Generic hand-forward interaction usable for shrine/NPC/object."
+    },
+    "CastStart": {
+      "clip": "CastStart",
+      "file": "cast_start_right.webp",
+      "fps": 24,
+      "frameCount": 13,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Enter casting posture; transitions to CastLoop."
+    },
+    "CastLoop": {
+      "clip": "CastLoop",
+      "file": "cast_loop_right.webp",
+      "fps": 24,
+      "frameCount": 24,
+      "frameSize": [
+        512,
+        512
+      ],
+      "layout": "horizontal_strip",
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "status": "awaiting_real_v61_model_animation_and_render",
+      "notes": "Looping sustained cast posture. No baked projectile/VFX."
+    }
+  }
+}

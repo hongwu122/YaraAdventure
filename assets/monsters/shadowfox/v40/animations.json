@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "entityId": "shadowfox",
+  "atlasMode": "strip-per-action",
+  "directions": [
+    "right",
+    "left"
+  ],
+  "defaultFps": 8,
+  "animations": {
+    "idle": {
+      "frames": 8,
+      "fps": 8,
+      "loop": true,
+      "directions": {
+        "right": "idle_right.webp",
+        "left": "idle_left.webp"
+      }
+    },
+    "run": {
+      "frames": 8,
+      "fps": 8,
+      "loop": true,
+      "directions": {
+        "right": "run_right.webp",
+        "left": "run_left.webp"
+      }
+    },
+    "attack": {
+      "frames": 8,
+      "fps": 8,
+      "loop": false,
+      "timing": {
+        "windup": 0.5,
+        "active": 0.16,
+        "recover": 0.55
+      },
+      "directions": {
+        "right": "attack_right.webp",
+        "left": "attack_left.webp"
+      }
+    },
+    "hurt_light": {
+      "frames": 5,
+      "fps": 8,
+      "loop": false,
+      "directions": {
+        "right": "hurt_light_right.webp",
+        "left": "hurt_light_left.webp"
+      }
+    },
+    "hurt_heavy": {
+      "frames": 5,
+      "fps": 8,
+      "loop": false,
+      "directions": {
+        "right": "hurt_heavy_right.webp",
+        "left": "hurt_heavy_left.webp"
+      }
+    },
+    "knockback": {
+      "frames": 5,
+      "fps": 8,
+      "loop": false,
+      "directions": {
+        "right": "knockback_right.webp",
+        "left": "knockback_left.webp"
+      }
+    },
+    "stun": {
+      "frames": 5,
+      "fps": 8,
+      "loop": true,
+      "directions": {
+        "right": "stun_right.webp",
+        "left": "stun_left.webp"
+      }
+    },
+    "knockdown": {
+      "frames": 7,
+      "fps": 8,
+      "loop": false,
+      "directions": {
+        "right": "knockdown_right.webp",
+        "left": "knockdown_left.webp"
+      }
+    },
+    "getup": {
+      "frames": 7,
+      "fps": 8,
+      "loop": false,
+      "directions": {
+        "right": "getup_right.webp",
+        "left": "getup_left.webp"
+      }
+    },
+    "dead": {
+      "frames": 7,
+      "fps": 8,
+      "loop": false,
+      "directions": {
+        "right": "dead_right.webp",
+        "left": "dead_left.webp"
+      }
+    }
+  }
+}

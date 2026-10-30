@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 3,
+  "levelId": 3,
+  "name": "古寺秘境",
+  "width": 5500,
+  "platforms": [
+    [
+      0,
+      910,
+      5500,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 古寺秘境战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1777,
+      "cameraLeft": 90,
+      "cameraRight": 1867,
+      "waveDelay": 0.86,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "jiangshi",
+              "x": 786
+            },
+            {
+              "type": "golem",
+              "x": 1171
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 古寺秘境战场",
+      "triggerX": 1907,
+      "lockLeft": 1847,
+      "lockRight": 3443,
+      "cameraLeft": 1757,
+      "cameraRight": 3533,
+      "waveDelay": 0.86,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "jiangshi",
+              "x": 2452
+            },
+            {
+              "type": "golem",
+              "x": 2838
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "jiangshi",
+              "x": 2452
+            },
+            {
+              "type": "golem",
+              "x": 2838
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 古寺秘境深处",
+      "triggerX": 3573,
+      "lockLeft": 3513,
+      "lockRight": 5110,
+      "cameraLeft": 3423,
+      "cameraRight": 5200,
+      "waveDelay": 0.86,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "golemBoss",
+              "x": 4312
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "wood",
+  "dropPool": "level_03_main",
+  "stageBoss": false
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "herbs": [
+    {
+      "id": "spirit_grass",
+      "label": "灵草",
+      "icon": "🌱",
+      "baseSeconds": 55,
+      "unlockGardenLevel": 1,
+      "baseYield": 1
+    },
+    {
+      "id": "red_ginseng",
+      "label": "赤参",
+      "icon": "🪴",
+      "baseSeconds": 130,
+      "unlockGardenLevel": 2,
+      "baseYield": 1
+    },
+    {
+      "id": "snow_lotus",
+      "label": "雪莲",
+      "icon": "🪷",
+      "baseSeconds": 260,
+      "unlockGardenLevel": 3,
+      "baseYield": 1
+    },
+    {
+      "id": "fire_pith",
+      "label": "火髓",
+      "icon": "🔥",
+      "baseSeconds": 360,
+      "unlockGardenLevel": 4,
+      "baseYield": 1
+    },
+    {
+      "id": "dragon_leaf",
+      "label": "龙涎叶",
+      "icon": "🍃",
+      "baseSeconds": 520,
+      "unlockGardenLevel": 5,
+      "baseYield": 1
+    },
+    {
+      "id": "star_dust",
+      "label": "星尘",
+      "icon": "✨",
+      "baseSeconds": 780,
+      "unlockGardenLevel": 5,
+      "baseYield": 1
+    }
+  ]
+}

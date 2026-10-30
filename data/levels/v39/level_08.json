@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 3,
+  "levelId": 8,
+  "name": "龙窟遗城",
+  "width": 6250,
+  "platforms": [
+    [
+      0,
+      910,
+      6250,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 龙窟遗城战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1548,
+      "cameraLeft": 90,
+      "cameraRight": 1638,
+      "waveDelay": 0.96,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 709
+            },
+            {
+              "type": "runegolem",
+              "x": 1018
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 632
+            },
+            {
+              "type": "runegolem",
+              "x": 864
+            },
+            {
+              "type": "golemElite",
+              "x": 1096
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 龙窟遗城战场",
+      "triggerX": 1678,
+      "lockLeft": 1618,
+      "lockRight": 2985,
+      "cameraLeft": 1528,
+      "cameraRight": 3075,
+      "waveDelay": 0.96,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 2147
+            },
+            {
+              "type": "runegolem",
+              "x": 2456
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 2069
+            },
+            {
+              "type": "runegolem",
+              "x": 2301
+            },
+            {
+              "type": "runegolem",
+              "x": 2533
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 龙窟遗城战场",
+      "triggerX": 3115,
+      "lockLeft": 3055,
+      "lockRight": 4422,
+      "cameraLeft": 2965,
+      "cameraRight": 4512,
+      "waveDelay": 0.96,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 3584
+            },
+            {
+              "type": "runegolem",
+              "x": 3893
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 3507
+            },
+            {
+              "type": "runegolem",
+              "x": 3739
+            },
+            {
+              "type": "runegolem",
+              "x": 3971
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 3507
+            },
+            {
+              "type": "runegolem",
+              "x": 3739
+            },
+            {
+              "type": "golemElite",
+              "x": 3971
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 龙窟遗城深处",
+      "triggerX": 4552,
+      "lockLeft": 4492,
+      "lockRight": 5860,
+      "cameraLeft": 4402,
+      "cameraRight": 5950,
+      "waveDelay": 0.96,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "runegolemBoss",
+              "x": 5176
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "wood",
+  "dropPool": "level_08_main",
+  "stageBoss": false
+}

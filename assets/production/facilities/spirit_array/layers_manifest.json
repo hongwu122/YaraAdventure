@@ -1,0 +1,18 @@
+{
+  "id": "spirit_array",
+  "states": [
+    {
+      "state": "idle",
+      "file": "states/idle.webp"
+    },
+    {
+      "state": "active",
+      "file": "states/active.webp"
+    },
+    {
+      "state": "levelup",
+      "file": "states/levelup.webp"
+    }
+  ],
+  "transparentBackground": true
+}

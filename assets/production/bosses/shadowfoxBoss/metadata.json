@@ -1,0 +1,57 @@
+{
+  "id": "shadowfoxBoss",
+  "gameId": "shadowfoxBoss",
+  "name": "九尾幽月",
+  "category": "boss",
+  "version": "6.4",
+  "element": "dark",
+  "stageLevels": [
+    7,
+    11,
+    17
+  ],
+  "status": "concept_art_complete_model_and_prerender_pending",
+  "sourceArt": "concept_sheet.webp",
+  "portrait": "portrait.webp",
+  "model": {
+    "expected": "model/shadowfoxBoss.glb",
+    "present": false,
+    "note": "Real GLB pending; no fake model included."
+  },
+  "renderSpec": {
+    "frameSize": [
+      768,
+      768
+    ],
+    "format": "webp",
+    "alpha": true,
+    "anchor": [
+      0.5,
+      0.92
+    ]
+  },
+  "requiredActions": [
+    "Phase1",
+    "Idle",
+    "Walk",
+    "Turn",
+    "AttackA",
+    "AttackB",
+    "AttackC",
+    "Special01",
+    "Special02",
+    "Ultimate",
+    "Hurt",
+    "Stagger",
+    "Knockback",
+    "PhaseChange",
+    "Phase2",
+    "Death"
+  ],
+  "designBrief": "独立九尾暗影狐：九尾、月蚀纹、黑紫灵焰与额饰；Phase2尾焰展开形成月蚀轮。",
+  "designRules": {
+    "ordinaryMonsterLightweight": false,
+    "bossMustHaveUniqueSilhouette": true,
+    "bossScaleOnlyForbidden": true
+  }
+}

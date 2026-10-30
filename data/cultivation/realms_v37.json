@@ -1,0 +1,765 @@
+{
+  "schemaVersion": 1,
+  "maxOfflineHours": 10,
+  "stages": [
+    {
+      "index": 0,
+      "id": "mortal",
+      "label": "凡人",
+      "group": "凡人",
+      "phase": "凡人",
+      "needExp": 220,
+      "breakthrough": {
+        "stones": 0,
+        "materials": {}
+      }
+    },
+    {
+      "index": 1,
+      "id": "qi_1",
+      "label": "练气1层",
+      "group": "练气",
+      "phase": "1层",
+      "needExp": 340,
+      "breakthrough": {
+        "stones": 40,
+        "materials": {
+          "spirit_grass": 1
+        }
+      }
+    },
+    {
+      "index": 2,
+      "id": "qi_2",
+      "label": "练气2层",
+      "group": "练气",
+      "phase": "2层",
+      "needExp": 420,
+      "breakthrough": {
+        "stones": 55,
+        "materials": {
+          "spirit_grass": 1
+        }
+      }
+    },
+    {
+      "index": 3,
+      "id": "qi_3",
+      "label": "练气3层",
+      "group": "练气",
+      "phase": "3层",
+      "needExp": 500,
+      "breakthrough": {
+        "stones": 70,
+        "materials": {
+          "spirit_grass": 1
+        }
+      }
+    },
+    {
+      "index": 4,
+      "id": "qi_4",
+      "label": "练气4层",
+      "group": "练气",
+      "phase": "4层",
+      "needExp": 580,
+      "breakthrough": {
+        "stones": 85,
+        "materials": {
+          "spirit_grass": 1
+        }
+      }
+    },
+    {
+      "index": 5,
+      "id": "qi_5",
+      "label": "练气5层",
+      "group": "练气",
+      "phase": "5层",
+      "needExp": 660,
+      "breakthrough": {
+        "stones": 100,
+        "materials": {
+          "spirit_grass": 1
+        }
+      }
+    },
+    {
+      "index": 6,
+      "id": "qi_6",
+      "label": "练气6层",
+      "group": "练气",
+      "phase": "6层",
+      "needExp": 740,
+      "breakthrough": {
+        "stones": 115,
+        "materials": {
+          "spirit_grass": 2
+        }
+      }
+    },
+    {
+      "index": 7,
+      "id": "qi_7",
+      "label": "练气7层",
+      "group": "练气",
+      "phase": "7层",
+      "needExp": 820,
+      "breakthrough": {
+        "stones": 130,
+        "materials": {
+          "spirit_grass": 2
+        }
+      }
+    },
+    {
+      "index": 8,
+      "id": "qi_8",
+      "label": "练气8层",
+      "group": "练气",
+      "phase": "8层",
+      "needExp": 900,
+      "breakthrough": {
+        "stones": 145,
+        "materials": {
+          "spirit_grass": 2
+        }
+      }
+    },
+    {
+      "index": 9,
+      "id": "qi_9",
+      "label": "练气9层",
+      "group": "练气",
+      "phase": "9层",
+      "needExp": 980,
+      "breakthrough": {
+        "stones": 160,
+        "materials": {
+          "spirit_grass": 3
+        }
+      }
+    },
+    {
+      "index": 10,
+      "id": "r0_0",
+      "label": "筑基初期",
+      "group": "筑基",
+      "phase": "初期",
+      "needExp": 1100,
+      "breakthrough": {
+        "stones": 220,
+        "materials": {
+          "spirit_grass": 2,
+          "red_ginseng": 0
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 11,
+      "id": "r0_1",
+      "label": "筑基中期",
+      "group": "筑基",
+      "phase": "中期",
+      "needExp": 1450,
+      "breakthrough": {
+        "stones": 310,
+        "materials": {
+          "spirit_grass": 2,
+          "red_ginseng": 0
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 12,
+      "id": "r0_2",
+      "label": "筑基后期",
+      "group": "筑基",
+      "phase": "后期",
+      "needExp": 1800,
+      "breakthrough": {
+        "stones": 400,
+        "materials": {
+          "spirit_grass": 2,
+          "red_ginseng": 0
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 13,
+      "id": "r0_3",
+      "label": "筑基圆满",
+      "group": "筑基",
+      "phase": "圆满",
+      "needExp": 2150,
+      "breakthrough": {
+        "stones": 490,
+        "materials": {
+          "spirit_grass": 2,
+          "red_ginseng": 0
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 14,
+      "id": "r1_0",
+      "label": "金丹初期",
+      "group": "金丹",
+      "phase": "初期",
+      "needExp": 2000,
+      "breakthrough": {
+        "stones": 460,
+        "materials": {
+          "spirit_grass": 3,
+          "red_ginseng": 0
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 15,
+      "id": "r1_1",
+      "label": "金丹中期",
+      "group": "金丹",
+      "phase": "中期",
+      "needExp": 2350,
+      "breakthrough": {
+        "stones": 550,
+        "materials": {
+          "spirit_grass": 3,
+          "red_ginseng": 0
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 16,
+      "id": "r1_2",
+      "label": "金丹后期",
+      "group": "金丹",
+      "phase": "后期",
+      "needExp": 2700,
+      "breakthrough": {
+        "stones": 640,
+        "materials": {
+          "spirit_grass": 3,
+          "red_ginseng": 0
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 17,
+      "id": "r1_3",
+      "label": "金丹圆满",
+      "group": "金丹",
+      "phase": "圆满",
+      "needExp": 3050,
+      "breakthrough": {
+        "stones": 730,
+        "materials": {
+          "spirit_grass": 3,
+          "red_ginseng": 0
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 18,
+      "id": "r2_0",
+      "label": "元婴初期",
+      "group": "元婴",
+      "phase": "初期",
+      "needExp": 2900,
+      "breakthrough": {
+        "stones": 700,
+        "materials": {
+          "spirit_grass": 4,
+          "red_ginseng": 1,
+          "snow_lotus": 1
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 19,
+      "id": "r2_1",
+      "label": "元婴中期",
+      "group": "元婴",
+      "phase": "中期",
+      "needExp": 3250,
+      "breakthrough": {
+        "stones": 790,
+        "materials": {
+          "spirit_grass": 4,
+          "red_ginseng": 1,
+          "snow_lotus": 1
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 20,
+      "id": "r2_2",
+      "label": "元婴后期",
+      "group": "元婴",
+      "phase": "后期",
+      "needExp": 3600,
+      "breakthrough": {
+        "stones": 880,
+        "materials": {
+          "spirit_grass": 4,
+          "red_ginseng": 1,
+          "snow_lotus": 1
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 21,
+      "id": "r2_3",
+      "label": "元婴圆满",
+      "group": "元婴",
+      "phase": "圆满",
+      "needExp": 3950,
+      "breakthrough": {
+        "stones": 970,
+        "materials": {
+          "spirit_grass": 4,
+          "red_ginseng": 1,
+          "snow_lotus": 1
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 22,
+      "id": "r3_0",
+      "label": "化神初期",
+      "group": "化神",
+      "phase": "初期",
+      "needExp": 3800,
+      "breakthrough": {
+        "stones": 940,
+        "materials": {
+          "spirit_grass": 5,
+          "red_ginseng": 2,
+          "snow_lotus": 2
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 23,
+      "id": "r3_1",
+      "label": "化神中期",
+      "group": "化神",
+      "phase": "中期",
+      "needExp": 4150,
+      "breakthrough": {
+        "stones": 1030,
+        "materials": {
+          "spirit_grass": 5,
+          "red_ginseng": 2,
+          "snow_lotus": 2
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 24,
+      "id": "r3_2",
+      "label": "化神后期",
+      "group": "化神",
+      "phase": "后期",
+      "needExp": 4500,
+      "breakthrough": {
+        "stones": 1120,
+        "materials": {
+          "spirit_grass": 5,
+          "red_ginseng": 2,
+          "snow_lotus": 2
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 25,
+      "id": "r3_3",
+      "label": "化神圆满",
+      "group": "化神",
+      "phase": "圆满",
+      "needExp": 4850,
+      "breakthrough": {
+        "stones": 1210,
+        "materials": {
+          "spirit_grass": 5,
+          "red_ginseng": 2,
+          "snow_lotus": 2
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 26,
+      "id": "r4_0",
+      "label": "炼虚初期",
+      "group": "炼虚",
+      "phase": "初期",
+      "needExp": 4700,
+      "breakthrough": {
+        "stones": 1180,
+        "materials": {
+          "spirit_grass": 6,
+          "red_ginseng": 3,
+          "snow_lotus": 3
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 27,
+      "id": "r4_1",
+      "label": "炼虚中期",
+      "group": "炼虚",
+      "phase": "中期",
+      "needExp": 5050,
+      "breakthrough": {
+        "stones": 1270,
+        "materials": {
+          "spirit_grass": 6,
+          "red_ginseng": 3,
+          "snow_lotus": 3
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 28,
+      "id": "r4_2",
+      "label": "炼虚后期",
+      "group": "炼虚",
+      "phase": "后期",
+      "needExp": 5400,
+      "breakthrough": {
+        "stones": 1360,
+        "materials": {
+          "spirit_grass": 6,
+          "red_ginseng": 3,
+          "snow_lotus": 3
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 29,
+      "id": "r4_3",
+      "label": "炼虚圆满",
+      "group": "炼虚",
+      "phase": "圆满",
+      "needExp": 5750,
+      "breakthrough": {
+        "stones": 1450,
+        "materials": {
+          "spirit_grass": 6,
+          "red_ginseng": 3,
+          "snow_lotus": 3
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 30,
+      "id": "r5_0",
+      "label": "合体初期",
+      "group": "合体",
+      "phase": "初期",
+      "needExp": 5600,
+      "breakthrough": {
+        "stones": 1420,
+        "materials": {
+          "spirit_grass": 7,
+          "red_ginseng": 4,
+          "snow_lotus": 4
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 31,
+      "id": "r5_1",
+      "label": "合体中期",
+      "group": "合体",
+      "phase": "中期",
+      "needExp": 5950,
+      "breakthrough": {
+        "stones": 1510,
+        "materials": {
+          "spirit_grass": 7,
+          "red_ginseng": 4,
+          "snow_lotus": 4
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 32,
+      "id": "r5_2",
+      "label": "合体后期",
+      "group": "合体",
+      "phase": "后期",
+      "needExp": 6300,
+      "breakthrough": {
+        "stones": 1600,
+        "materials": {
+          "spirit_grass": 7,
+          "red_ginseng": 4,
+          "snow_lotus": 4
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 33,
+      "id": "r5_3",
+      "label": "合体圆满",
+      "group": "合体",
+      "phase": "圆满",
+      "needExp": 6650,
+      "breakthrough": {
+        "stones": 1690,
+        "materials": {
+          "spirit_grass": 7,
+          "red_ginseng": 4,
+          "snow_lotus": 4
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 34,
+      "id": "r6_0",
+      "label": "大乘初期",
+      "group": "大乘",
+      "phase": "初期",
+      "needExp": 6500,
+      "breakthrough": {
+        "stones": 1660,
+        "materials": {
+          "spirit_grass": 8,
+          "red_ginseng": 5,
+          "snow_lotus": 5
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 35,
+      "id": "r6_1",
+      "label": "大乘中期",
+      "group": "大乘",
+      "phase": "中期",
+      "needExp": 6850,
+      "breakthrough": {
+        "stones": 1750,
+        "materials": {
+          "spirit_grass": 8,
+          "red_ginseng": 5,
+          "snow_lotus": 5
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 36,
+      "id": "r6_2",
+      "label": "大乘后期",
+      "group": "大乘",
+      "phase": "后期",
+      "needExp": 7200,
+      "breakthrough": {
+        "stones": 1840,
+        "materials": {
+          "spirit_grass": 8,
+          "red_ginseng": 5,
+          "snow_lotus": 5
+        },
+        "pill": null
+      }
+    },
+    {
+      "index": 37,
+      "id": "r6_3",
+      "label": "大乘圆满",
+      "group": "大乘",
+      "phase": "圆满",
+      "needExp": 7550,
+      "breakthrough": {
+        "stones": 1930,
+        "materials": {
+          "spirit_grass": 8,
+          "red_ginseng": 5,
+          "snow_lotus": 5
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 38,
+      "id": "tribulation_1",
+      "label": "渡劫1重",
+      "group": "渡劫",
+      "phase": "1重",
+      "needExp": 7750,
+      "breakthrough": {
+        "stones": 3250,
+        "materials": {
+          "snow_lotus": 3,
+          "dragon_leaf": 1,
+          "star_dust": 0
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 39,
+      "id": "tribulation_2",
+      "label": "渡劫2重",
+      "group": "渡劫",
+      "phase": "2重",
+      "needExp": 9000,
+      "breakthrough": {
+        "stones": 3900,
+        "materials": {
+          "snow_lotus": 3,
+          "dragon_leaf": 1,
+          "star_dust": 0
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 40,
+      "id": "tribulation_3",
+      "label": "渡劫3重",
+      "group": "渡劫",
+      "phase": "3重",
+      "needExp": 10250,
+      "breakthrough": {
+        "stones": 4550,
+        "materials": {
+          "snow_lotus": 4,
+          "dragon_leaf": 1,
+          "star_dust": 0
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 41,
+      "id": "tribulation_4",
+      "label": "渡劫4重",
+      "group": "渡劫",
+      "phase": "4重",
+      "needExp": 11500,
+      "breakthrough": {
+        "stones": 5200,
+        "materials": {
+          "snow_lotus": 4,
+          "dragon_leaf": 2,
+          "star_dust": 0
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 42,
+      "id": "tribulation_5",
+      "label": "渡劫5重",
+      "group": "渡劫",
+      "phase": "5重",
+      "needExp": 12750,
+      "breakthrough": {
+        "stones": 5850,
+        "materials": {
+          "snow_lotus": 4,
+          "dragon_leaf": 2,
+          "star_dust": 1
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 43,
+      "id": "tribulation_6",
+      "label": "渡劫6重",
+      "group": "渡劫",
+      "phase": "6重",
+      "needExp": 14000,
+      "breakthrough": {
+        "stones": 6500,
+        "materials": {
+          "snow_lotus": 5,
+          "dragon_leaf": 3,
+          "star_dust": 2
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 44,
+      "id": "tribulation_7",
+      "label": "渡劫7重",
+      "group": "渡劫",
+      "phase": "7重",
+      "needExp": 15250,
+      "breakthrough": {
+        "stones": 7150,
+        "materials": {
+          "snow_lotus": 5,
+          "dragon_leaf": 3,
+          "star_dust": 3
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 45,
+      "id": "tribulation_8",
+      "label": "渡劫8重",
+      "group": "渡劫",
+      "phase": "8重",
+      "needExp": 16500,
+      "breakthrough": {
+        "stones": 7800,
+        "materials": {
+          "snow_lotus": 5,
+          "dragon_leaf": 4,
+          "star_dust": 4
+        },
+        "pill": "breakthrough_pill"
+      }
+    },
+    {
+      "index": 46,
+      "id": "tribulation_9",
+      "label": "渡劫9重",
+      "group": "渡劫",
+      "phase": "9重",
+      "needExp": 17750,
+      "breakthrough": {
+        "stones": 8450,
+        "materials": {
+          "snow_lotus": 6,
+          "dragon_leaf": 4,
+          "star_dust": 5
+        },
+        "pill": "breakthrough_pill"
+      }
+    }
+  ]
+}

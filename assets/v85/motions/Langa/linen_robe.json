@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Langa",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          43,
+          7,
+          408,
+          490
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          520,
+          32,
+          433,
+          461
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          29,
+          512,
+          417,
+          478
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          512,
+          523,
+          502,
+          497
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          20,
+          1041,
+          490,
+          428
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          520,
+          1037,
+          485,
+          430
+        ]
+      ]
+    }
+  }
+}

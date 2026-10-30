@@ -1,0 +1,18 @@
+{
+  "id": "alchemy_furnace",
+  "name": "丹炉",
+  "description": "炼丹火焰",
+  "states": [
+    "idle",
+    "flame",
+    "craft_success"
+  ],
+  "deliverablesPresent": [
+    "preview.webp",
+    "states/idle.webp",
+    "states/flame.webp",
+    "states/craft_success.webp"
+  ],
+  "realGLB": false,
+  "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+}

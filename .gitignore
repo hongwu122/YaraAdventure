@@ -1,0 +1,9 @@
+saves/
+test-saves/
+__pycache__/
+*.pyc
+*.log
+.env*
+preview/
+archive/
+releases/

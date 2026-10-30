@@ -1,0 +1,149 @@
+{
+  "version": "6.4",
+  "source": "YaraAdventure_V5.0/data/levels/v39",
+  "notes": "V6.4只新制 frostling/shadowfox/abyssling/runegolem/jiangshi/sunling 与对应独立Boss；其他第6~20关沿用V6.3已有资源。第10/15/20阶段Boss强化为专门阶段规格。",
+  "levels": {
+    "6": {
+      "name": "霜桥雪岭",
+      "monsters": [
+        "frostling",
+        "shadowfox"
+      ],
+      "boss": "frostlingBoss"
+    },
+    "7": {
+      "name": "夜海蜃楼",
+      "monsters": [
+        "shadowfox",
+        "runegolem"
+      ],
+      "boss": "shadowfoxBoss"
+    },
+    "8": {
+      "name": "龙窟遗城",
+      "monsters": [
+        "runegolem",
+        "sunling",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "runegolemBoss"
+    },
+    "9": {
+      "name": "神木浮屿",
+      "monsters": [
+        "abyssling",
+        "sunling",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "sunlingBoss"
+    },
+    "10": {
+      "name": "归墟天外",
+      "monsters": [
+        "abyssling",
+        "peachling(V6.3)",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "abysslingBoss",
+      "stageBoss": true,
+      "phaseSpec": "Phase1 → PhaseChange → Phase2 + Ultimate"
+    },
+    "11": {
+      "name": "青丘雾林",
+      "monsters": [
+        "shadowfox",
+        "redpanda(V6.3)",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "shadowfoxBoss"
+    },
+    "12": {
+      "name": "雷泽荒原",
+      "monsters": [
+        "runegolem",
+        "golem(V6.3)",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "runegolemBoss"
+    },
+    "13": {
+      "name": "赤沙古道",
+      "monsters": [
+        "jiangshi",
+        "fireling(V6.3)",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "firelingBoss(V6.3)"
+    },
+    "14": {
+      "name": "镜湖天阶",
+      "monsters": [
+        "frostling",
+        "fireling(V6.3)",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "frostlingBoss"
+    },
+    "15": {
+      "name": "昆仑玉阙",
+      "monsters": [
+        "frostling",
+        "phoenix(V6.3)",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "phoenixBoss_stage15",
+      "gameBossId": "phoenixBoss",
+      "stageBoss": true,
+      "phaseSpec": "Phase1 → PhaseChange → Phase2 + Ultimate",
+      "sourceFromV63": "celestial_phoenix"
+    },
+    "16": {
+      "name": "幽都鬼市",
+      "monsters": [
+        "jiangshi",
+        "shadowfox",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "jiangshiBoss"
+    },
+    "17": {
+      "name": "星河渡口",
+      "monsters": [
+        "runegolem",
+        "shadowfox",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "shadowfoxBoss"
+    },
+    "18": {
+      "name": "苍梧神木",
+      "monsters": [
+        "sunling",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "sunlingBoss"
+    },
+    "19": {
+      "name": "天雷禁地",
+      "monsters": [
+        "abyssling",
+        "runegolem",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "runegolemBoss"
+    },
+    "20": {
+      "name": "九霄神庭",
+      "monsters": [
+        "golem(V6.3)",
+        "peachling(V6.3)",
+        "golemElite(V6.3/legacy)"
+      ],
+      "boss": "golemBoss_stage20",
+      "gameBossId": "golemBoss",
+      "stageBoss": true,
+      "phaseSpec": "Phase1 → PhaseChange → Phase2 + Ultimate",
+      "sourceFromV63": "stone_guardian"
+    }
+  }
+}

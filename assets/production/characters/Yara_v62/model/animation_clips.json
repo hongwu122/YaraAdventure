@@ -1,0 +1,342 @@
+{
+  "character": "Yara_v62",
+  "sourceRig": "Yara_v61_Skeleton",
+  "clips": [
+    {
+      "name": "Idle",
+      "fps": 24,
+      "frames": 48,
+      "durationSec": 2.0,
+      "loop": true,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Subtle breathing, eye motion optional, feet/root completely fixed. Must remain spatially stationary for 10s loop test."
+    },
+    {
+      "name": "Walk",
+      "fps": 24,
+      "frames": 24,
+      "durationSec": 1.0,
+      "loop": true,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Natural chibi walk cycle; foot plant readable; no global translation baked."
+    },
+    {
+      "name": "Run",
+      "fps": 24,
+      "frames": 18,
+      "durationSec": 0.75,
+      "loop": true,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "True leg run cycle with body lean and weight shift. Never move whole character as a flat sprite."
+    },
+    {
+      "name": "Turn",
+      "fps": 24,
+      "frames": 8,
+      "durationSec": 0.33,
+      "loop": false,
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Readable torso/head/hip turn. Not a mirrored instant swap. Export both sides only if asymmetry requires."
+    },
+    {
+      "name": "JumpStart",
+      "fps": 24,
+      "frames": 7,
+      "durationSec": 0.29,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Compression -> push-off. Game physics owns vertical translation."
+    },
+    {
+      "name": "JumpLoop",
+      "fps": 24,
+      "frames": 12,
+      "durationSec": 0.5,
+      "loop": true,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Airborne rising/neutral loop pose; keep feet baseline normalized in render output."
+    },
+    {
+      "name": "DoubleJump",
+      "fps": 24,
+      "frames": 10,
+      "durationSec": 0.42,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Clear second impulse: tuck, twist, leg kick or compact spin; visually distinct from first jump."
+    },
+    {
+      "name": "Fall",
+      "fps": 24,
+      "frames": 12,
+      "durationSec": 0.5,
+      "loop": true,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Falling silhouette with slightly raised arms/hair lift; game physics owns descent."
+    },
+    {
+      "name": "Land",
+      "fps": 24,
+      "frames": 8,
+      "durationSec": 0.33,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Contact, knee compression, recovery. No foot sliding."
+    },
+    {
+      "name": "Attack01",
+      "fps": 24,
+      "frames": 12,
+      "durationSec": 0.5,
+      "loop": false,
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "combatPhases": {
+        "windupEndFrame": 4,
+        "activeEndFrame": 7,
+        "recoverEndFrame": 11
+      },
+      "direction": "Fast opening slash. Body twist and weapon arm motion must be real."
+    },
+    {
+      "name": "Attack02",
+      "fps": 24,
+      "frames": 13,
+      "durationSec": 0.54,
+      "loop": false,
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "combatPhases": {
+        "windupEndFrame": 4,
+        "activeEndFrame": 8,
+        "recoverEndFrame": 12
+      },
+      "direction": "Second combo beat: opposite-direction or rising slash; more weight than Attack01."
+    },
+    {
+      "name": "Attack03",
+      "fps": 24,
+      "frames": 17,
+      "durationSec": 0.71,
+      "loop": false,
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "combatPhases": {
+        "windupEndFrame": 6,
+        "activeEndFrame": 11,
+        "recoverEndFrame": 16
+      },
+      "direction": "Heavy finisher with largest body rotation, strongest anticipation and follow-through."
+    },
+    {
+      "name": "SkillU",
+      "fps": 24,
+      "frames": 22,
+      "durationSec": 0.92,
+      "loop": false,
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "combatPhases": {
+        "windupEndFrame": 6,
+        "activeEndFrame": 14,
+        "recoverEndFrame": 21
+      },
+      "direction": "Close-range 回风斩. Full-body spin/arc with clear anticipation and recovery."
+    },
+    {
+      "name": "SkillI",
+      "fps": 24,
+      "frames": 24,
+      "durationSec": 1.0,
+      "loop": false,
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "combatPhases": {
+        "windupEndFrame": 7,
+        "activeEndFrame": 16,
+        "recoverEndFrame": 23
+      },
+      "direction": "星芒弹 cast: gather -> aim -> release -> recoil/recover. Projectile is separate VFX, not baked into body pose."
+    },
+    {
+      "name": "Dash",
+      "fps": 24,
+      "frames": 9,
+      "durationSec": 0.38,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": {
+        "windupEndFrame": 2,
+        "activeEndFrame": 5,
+        "recoverEndFrame": 8
+      },
+      "direction": "Strong forward body lean, compressed silhouette and trailing hair/sleeves. Movement handled by game."
+    },
+    {
+      "name": "Musou",
+      "fps": 24,
+      "frames": 38,
+      "durationSec": 1.58,
+      "loop": false,
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "combatPhases": {
+        "windupEndFrame": 10,
+        "activeEndFrame": 28,
+        "recoverEndFrame": 37
+      },
+      "direction": "Complete burst performance: charge -> multi-hit/finisher -> recovery. Not a static pose with a circle effect."
+    },
+    {
+      "name": "HurtLight",
+      "fps": 24,
+      "frames": 8,
+      "durationSec": 0.33,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Small recoil; head/shoulder reaction; recover quickly."
+    },
+    {
+      "name": "HurtHeavy",
+      "fps": 24,
+      "frames": 13,
+      "durationSec": 0.54,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Clearly stronger than HurtLight: torso fold, arm throw, delayed recovery."
+    },
+    {
+      "name": "Knockback",
+      "fps": 24,
+      "frames": 16,
+      "durationSec": 0.67,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Body driven backward with feet losing contact/drag pose. Game applies position displacement."
+    },
+    {
+      "name": "Stun",
+      "fps": 24,
+      "frames": 24,
+      "durationSec": 1.0,
+      "loop": true,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Looping dazed body sway; feet stay planted. Status icon/VFX separate."
+    },
+    {
+      "name": "Knockdown",
+      "fps": 24,
+      "frames": 14,
+      "durationSec": 0.58,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Loss of balance to grounded pose. Distinct from knockback."
+    },
+    {
+      "name": "Getup",
+      "fps": 24,
+      "frames": 17,
+      "durationSec": 0.71,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Grounded -> kneel -> stand; end exactly aligned to Idle baseline."
+    },
+    {
+      "name": "Death",
+      "fps": 24,
+      "frames": 26,
+      "durationSec": 1.08,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Readable defeat with final hold pose. No abrupt disappearing."
+    },
+    {
+      "name": "Cultivate",
+      "fps": 24,
+      "frames": 48,
+      "durationSec": 2.0,
+      "loop": true,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "True seated cultivation/meditation pose with subtle breathing and sleeve/hair secondary motion."
+    },
+    {
+      "name": "Victory",
+      "fps": 24,
+      "frames": 29,
+      "durationSec": 1.21,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Short celebratory pose suitable for stage clear."
+    },
+    {
+      "name": "Interact",
+      "fps": 24,
+      "frames": 19,
+      "durationSec": 0.79,
+      "loop": false,
+      "mirrorSafe": true,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Generic hand-forward interaction usable for shrine/NPC/object."
+    },
+    {
+      "name": "CastStart",
+      "fps": 24,
+      "frames": 13,
+      "durationSec": 0.54,
+      "loop": false,
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Enter casting posture; transitions to CastLoop."
+    },
+    {
+      "name": "CastLoop",
+      "fps": 24,
+      "frames": 24,
+      "durationSec": 1.0,
+      "loop": true,
+      "mirrorSafe": false,
+      "rootMotion": "locked",
+      "combatPhases": null,
+      "direction": "Looping sustained cast posture. No baked projectile/VFX."
+    }
+  ]
+}

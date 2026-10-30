@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 3,
+  "levelId": 20,
+  "name": "九霄神庭",
+  "width": 8050,
+  "platforms": [
+    [
+      0,
+      910,
+      8050,
+      170
+    ],
+    [
+      2617,
+      690,
+      330,
+      28
+    ],
+    [
+      5354,
+      690,
+      330,
+      28
+    ]
+  ],
+  "hazards": [
+    [
+      2737,
+      1006,
+      90,
+      74
+    ],
+    [
+      5474,
+      1006,
+      90,
+      74
+    ]
+  ],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140,
+    6660,
+    7180,
+    7700
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 九霄神庭战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1620,
+      "cameraLeft": 90,
+      "cameraRight": 1710,
+      "waveDelay": 1.2,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 733
+            },
+            {
+              "type": "golem",
+              "x": 1067
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 650
+            },
+            {
+              "type": "golem",
+              "x": 900
+            },
+            {
+              "type": "golemElite",
+              "x": 1150
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 九霄神庭战场",
+      "triggerX": 1750,
+      "lockLeft": 1690,
+      "lockRight": 3130,
+      "cameraLeft": 1600,
+      "cameraRight": 3220,
+      "waveDelay": 1.2,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 2243
+            },
+            {
+              "type": "golem",
+              "x": 2577
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 2160
+            },
+            {
+              "type": "golem",
+              "x": 2410
+            },
+            {
+              "type": "golem",
+              "x": 2660
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 2160
+            },
+            {
+              "type": "golem",
+              "x": 2410
+            },
+            {
+              "type": "golem",
+              "x": 2660
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 九霄神庭战场",
+      "triggerX": 3260,
+      "lockLeft": 3200,
+      "lockRight": 4640,
+      "cameraLeft": 3110,
+      "cameraRight": 4730,
+      "waveDelay": 1.2,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 3753
+            },
+            {
+              "type": "golem",
+              "x": 4087
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 3620
+            },
+            {
+              "type": "golem",
+              "x": 3820
+            },
+            {
+              "type": "golem",
+              "x": 4020
+            },
+            {
+              "type": "golemElite",
+              "x": 4220
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 九霄神庭战场",
+      "triggerX": 4770,
+      "lockLeft": 4710,
+      "lockRight": 6150,
+      "cameraLeft": 4620,
+      "cameraRight": 6240,
+      "waveDelay": 1.2,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 5263
+            },
+            {
+              "type": "golem",
+              "x": 5597
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 5130
+            },
+            {
+              "type": "golem",
+              "x": 5330
+            },
+            {
+              "type": "golem",
+              "x": 5530
+            },
+            {
+              "type": "peachling",
+              "x": 5730
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 5130
+            },
+            {
+              "type": "golem",
+              "x": 5330
+            },
+            {
+              "type": "golem",
+              "x": 5530
+            },
+            {
+              "type": "peachling",
+              "x": 5730
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "E",
+      "label": "E区 · 九霄神庭深处",
+      "triggerX": 6280,
+      "lockLeft": 6220,
+      "lockRight": 7660,
+      "cameraLeft": 6130,
+      "cameraRight": 7750,
+      "waveDelay": 1.2,
+      "waves": [
+        {
+          "label": "Boss 第一阶段",
+          "enemies": [
+            {
+              "type": "golemBoss",
+              "x": 6940
+            }
+          ]
+        },
+        {
+          "label": "Boss 第二阶段 · 场景异变",
+          "enemies": [
+            {
+              "type": "golemBoss",
+              "x": 6940
+            }
+          ]
+        }
+      ],
+      "sceneShift": true
+    }
+  ],
+  "environmentElement": "wood",
+  "dropPool": "level_20_main",
+  "stageBoss": true
+}

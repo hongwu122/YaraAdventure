@@ -1,0 +1,127 @@
+/* V6.7 height-first compact modes. Width breakpoints never stack major columns. */
+@media (max-height:900px){
+  :root{--v67-head:82px;--v67-gap:10px;--v67-pad-y:10px}
+  .v35-section-kicker,.char-head-note,.v49-head-mark{font-size:8px!important}
+  .character-dossier-v35 h3{font-size:52px!important}
+  .v48-growth-caption p{line-height:1.45!important}
+  .v49-codex-entry{min-height:94px!important}
+  .v49-codex-entry-copy{padding:9px!important}
+  .v49-codex-thumb{min-height:82px}
+}
+@media (max-height:820px){
+  :root{--v67-head:74px;--v67-gap:8px;--v67-pad-y:8px}
+  .page-title span,.v49-title small,.char-head-note{display:none!important}
+  .page-title h2,.v49-title h2{font-size:30px!important}
+  .roster-v35>p{display:none!important}
+  .roster-item-v35{padding:4px!important}
+  .roster-item-v35 img{width:38px!important;height:44px!important}
+  .character-dossier-v35{padding:13px 16px!important}
+  .character-dossier-v35 h3{font-size:44px!important;margin:7px 0 1px!important}
+  .character-role-v35{margin:8px 0 5px!important;font-size:11px!important}
+  .character-dossier-v35>p{font-size:9px!important;line-height:1.35!important;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .char-growth-snapshot{margin:6px 0!important}
+  .v35-stats{margin:6px 0!important;gap:3px!important}
+  .v35-stat{grid-template-columns:38px 38px 1fr!important;gap:6px!important}
+  .basic-logic{margin-top:6px!important;padding-top:6px!important}
+  .skill-strip-v35{margin-top:5px!important}
+  .skill-strip-v35>span{padding:3px 0!important}
+  .char-equipment-v36{display:none!important}
+  .turntable-v35 img{max-height:calc(100dvh - var(--v67-head) - 48px)!important}
+  .v66-animation-controls{bottom:24px!important;padding:4px 6px!important}
+  .v66-animation-controls button{padding:4px 8px!important;font-size:10px!important}
+  .v44-view-controls button{padding:4px 7px!important;font-size:9px!important}
+  .v48-growth-caption{width:min(360px,29vw)!important}
+  .v48-growth-caption p{display:none!important}
+  .v48-growth-dock button{padding:6px 8px!important;min-width:62px!important}
+  .v48-growth-tip{display:none!important}
+  .v48-realm-rail{padding:9px 11px!important}
+  .v48-realm-summary small{display:none!important}
+  .v48-realm-summary h3{font-size:27px!important}
+  .v48-realm-node{min-height:16px!important;font-size:9px!important}
+  .v48-facility-hud{max-height:calc(100% - 64px)!important}
+  .v49-codex-heading{padding-bottom:10px!important}
+  .v49-codex-heading h3{font-size:26px!important}
+  .v49-codex-entry{min-height:82px!important;grid-template-columns:72px 1fr!important}
+  .v49-codex-entry p{display:none!important}
+  .v49-key-card small,.v49-mechanic-panel small{display:none!important}
+  .v49-system-keys{gap:4px!important}
+  .v49-settings-card small{display:none!important}
+  .v49-settings-card p{font-size:9px!important}
+  .v49-settings-nav>span{padding:8px!important}
+  .v49-settings-note{display:none!important}
+}
+@media (max-height:768px){
+  :root{--v67-head:68px;--v67-gap:7px;--v67-pad-y:6px;--v67-pad-x:18px}
+  .back-btn kbd,.v49-back kbd{display:none!important}
+  .aaa-item{padding:6px 2px!important}.aaa-label{font-size:18px!important}.aaa-note{font-size:8px!important}
+  .menu-status-v43{padding:12px 14px!important}.menu-status-v43>div{padding:5px 0!important}
+  .economy-tabs-v36{height:40px!important}
+  .economy-shell-v36{top:calc(var(--v67-head) + 40px)!important}
+  .economy-main-v36,.economy-side-v36{padding:10px!important}
+  .v47-detail-title h2,.v47-shop-focus h2{font-size:27px!important}
+  .v47-item-icon,.v47-shop-showcase img{max-width:120px!important;max-height:120px!important}
+  .v48-bottom-strip{display:none!important}
+  .v48-realm-track{margin:2px 0!important}
+  .v48-realm-node{min-height:14px!important}
+  .v48-realm-node small{display:none!important}
+  .v48-character-zone .meditation-caption{bottom:-4px!important}
+  .v49-skill-shell{grid-template-columns:145px minmax(390px,1fr) 225px!important}
+  .v49-skill-node{transform:scale(.88);transform-origin:center}
+  .v49-codex-shell{grid-template-columns:138px minmax(360px,1fr) 245px!important}
+  .v49-codex-tabs button{padding:7px 5px!important}
+  .v49-codex-detail{padding:13px!important}
+  .v49-key-card{grid-template-columns:70px 1fr!important;padding:8px!important}
+  .v49-motion{height:68px!important;min-height:58px!important}
+  .v49-key-card h3{font-size:13px!important}.v49-key-card p{font-size:8px!important}
+  .v49-mechanic-panel{padding:8px!important}.v49-mechanic-panel h3{font-size:14px!important}
+  .v49-settings-shell{grid-template-columns:118px minmax(360px,1fr) 210px!important}
+  .v49-settings-card{padding:8px!important;grid-template-columns:34px 1fr!important}
+  .v49-settings-icon{width:34px!important;height:34px!important;font-size:16px!important}
+  .v49-settings-card h3{font-size:17px!important}.v49-settings-card label{font-size:9px!important;margin:3px 0!important}
+  .v49-quality-switch button{min-width:52px!important;padding:5px!important}
+  .v49-settings-status{padding:10px!important}.v49-settings-status>div{padding:6px 0!important}
+}
+@media (max-height:700px){
+  :root{--v67-head:62px;--v67-gap:6px;--v67-pad-y:5px;--v67-pad-x:14px}
+  .minimal-head,.v49-head{padding-left:14px!important;padding-right:14px!important}
+  .page-title h2,.v49-title h2{font-size:26px!important}
+  .menu-brand{top:20px!important}.menu-brand h1{font-size:46px!important}.menu-subtitle{display:none!important}
+  .menu-status-v43{display:none!important}.menu-utility span{display:none!important}
+  .character-stage-v35{grid-template-columns:185px minmax(330px,1fr) 285px!important}
+  .roster-item-v35 small,.dossier-top em,.character-dossier-v35>p{display:none!important}
+  .turntable-v35 img{max-height:calc(100dvh - var(--v67-head) - 34px)!important}
+  .character-dossier-v35 h3{font-size:38px!important}
+  .skill-strip-v35 small{display:none!important}
+  .v48-growth-caption{display:none!important}.v48-growth-dock{bottom:8px!important}
+  .v48-realm-rail{width:190px!important;left:10px!important}.v48-facility-hud{right:10px!important;width:260px!important}
+  .v49-skill-shell{grid-template-columns:125px minmax(330px,1fr) 200px!important}
+  .v49-codex-shell{grid-template-columns:122px minmax(320px,1fr) 220px!important}
+  .v49-codex-entry{min-height:70px!important;grid-template-columns:58px 1fr!important}
+  .v49-codex-entry strong{font-size:13px!important}
+  .v49-help-tabs{gap:3px!important}.v49-help-tabs button{padding:5px 7px!important}
+  .v49-key-card{grid-template-columns:60px 1fr!important}.v49-motion{height:58px!important}.v49-key-card p{display:none!important}
+  .v49-settings-shell{grid-template-columns:104px minmax(330px,1fr) 190px!important}
+  .v49-settings-card p,.v49-settings-card dl{display:none!important}
+  .v49-settings-status p{display:none!important}
+}
+
+/* Width compaction without stacking. Designed down to ~1090 CSS px (1366 at 125% zoom). */
+@media (max-width:1300px){
+  :root{--v67-pad-x:16px}
+  .character-stage-v35{grid-template-columns:210px minmax(350px,1fr) 300px!important}
+  .character-dossier-v35{padding-left:16px!important;padding-right:16px!important}
+  .economy-shell-v36{grid-template-columns:minmax(0,1fr) 260px!important}
+  .v49-skill-shell{grid-template-columns:150px minmax(400px,1fr) 240px!important}
+  .v49-codex-shell{grid-template-columns:140px minmax(380px,1fr) 255px!important}
+  .v49-settings-shell{grid-template-columns:120px minmax(400px,1fr) 220px!important}
+  .v49-head-mark{display:none!important}
+}
+@media (max-width:1120px){
+  .character-stage-v35{grid-template-columns:180px minmax(330px,1fr) 270px!important}
+  .roster-item-v35{grid-template-columns:36px 1fr!important}.roster-item-v35 em{display:none!important}.roster-item-v35 img{width:36px!important;height:43px!important}
+  .economy-shell-v36{grid-template-columns:minmax(0,1fr) 230px!important}
+  .v49-skill-shell{grid-template-columns:125px minmax(350px,1fr) 205px!important}
+  .v49-codex-shell{grid-template-columns:115px minmax(340px,1fr) 220px!important}
+  .v49-settings-shell{grid-template-columns:100px minmax(340px,1fr) 190px!important}
+  .v49-settings-nav{padding:10px!important}
+}

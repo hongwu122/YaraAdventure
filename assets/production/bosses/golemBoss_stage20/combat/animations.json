@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "asset": "golemBoss_stage20",
+  "version": "6.4",
+  "category": "stage_boss",
+  "frameSize": [
+    768,
+    768
+  ],
+  "anchor": [
+    0.5,
+    0.92
+  ],
+  "transparentBackgroundTarget": true,
+  "status": "production_plan_only",
+  "animations": {
+    "Phase1": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "Idle": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "Walk": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "Turn": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "AttackA": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "AttackB": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "AttackC": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "Special01": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "Special02": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "Ultimate": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "Hurt": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "Stagger": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "Knockback": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "PhaseChange": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "Phase2": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    },
+    "Death": {
+      "status": "pending_3d_animation_and_prerender",
+      "sourceConcept": "../concept_sheet.webp"
+    }
+  },
+  "phaseSpec": {
+    "Phase1": {
+      "requirement": "独立基础Boss形态"
+    },
+    "PhaseChange": {
+      "requirement": "专用变身动作"
+    },
+    "Phase2": {
+      "requirement": "轮廓/材质/VFX三者至少两项明显变化，禁止只放大或单纯改色"
+    },
+    "Ultimate": {
+      "requirement": "专属全身爆发动作"
+    }
+  }
+}

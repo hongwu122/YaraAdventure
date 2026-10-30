@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "characterId": "Chenlu",
+  "displayName": "辰露",
+  "element": "earth",
+  "branches": [
+    {
+      "id": "basic",
+      "label": "岩势",
+      "nodes": [
+        "basic_i",
+        "basic_ii",
+        "basic_iii"
+      ]
+    },
+    {
+      "id": "mobility",
+      "label": "岩步",
+      "nodes": [
+        "mobility_i",
+        "mobility_ii",
+        "mobility_iii"
+      ]
+    },
+    {
+      "id": "core",
+      "label": "磐石",
+      "nodes": [
+        "core_i",
+        "core_ii",
+        "core_iii"
+      ]
+    },
+    {
+      "id": "musou",
+      "label": "山岳守心",
+      "nodes": [
+        "musou_i",
+        "musou_ii",
+        "musou_iii"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "basic_i",
+      "name": "岩势 I",
+      "branch": "basic",
+      "cost": 1,
+      "description": "基础伤害 +8%",
+      "effect": {
+        "damagePct": 0.08
+      },
+      "requires": []
+    },
+    {
+      "id": "basic_ii",
+      "name": "岩势 II",
+      "branch": "basic",
+      "cost": 1,
+      "description": "第三段硬直 +12%",
+      "effect": {
+        "staggerPct": 0.12
+      },
+      "requires": [
+        "basic_i"
+      ]
+    },
+    {
+      "id": "basic_iii",
+      "name": "岩势 III",
+      "branch": "basic",
+      "cost": 1,
+      "description": "元素状态触发率 +8%",
+      "effect": {
+        "statusChance": 0.08
+      },
+      "requires": [
+        "basic_ii"
+      ]
+    },
+    {
+      "id": "mobility_i",
+      "name": "岩步 I",
+      "branch": "mobility",
+      "cost": 1,
+      "description": "位移距离 +10%",
+      "effect": {
+        "dashDistancePct": 0.1
+      },
+      "requires": []
+    },
+    {
+      "id": "mobility_ii",
+      "name": "岩步 II",
+      "branch": "mobility",
+      "cost": 1,
+      "description": "冷却 -8%",
+      "effect": {
+        "cooldownPct": -0.08
+      },
+      "requires": [
+        "mobility_i"
+      ]
+    },
+    {
+      "id": "mobility_iii",
+      "name": "岩步 III",
+      "branch": "mobility",
+      "cost": 1,
+      "description": "位移后短暂无敌 +0.12秒",
+      "effect": {
+        "invulnAdd": 0.12
+      },
+      "requires": [
+        "mobility_ii"
+      ]
+    },
+    {
+      "id": "core_i",
+      "name": "磐石 I",
+      "branch": "core",
+      "cost": 1,
+      "description": "核心技能伤害 +10%",
+      "effect": {
+        "coreDamagePct": 0.1
+      },
+      "requires": []
+    },
+    {
+      "id": "core_ii",
+      "name": "磐石 II",
+      "branch": "core",
+      "cost": 1,
+      "description": "元素状态持续 +15%",
+      "effect": {
+        "statusDurationPct": 0.15
+      },
+      "requires": [
+        "core_i"
+      ]
+    },
+    {
+      "id": "core_iii",
+      "name": "磐石 III",
+      "branch": "core",
+      "cost": 1,
+      "description": "命中额外硬直 +18%",
+      "effect": {
+        "staggerPct": 0.18
+      },
+      "requires": [
+        "core_ii"
+      ]
+    },
+    {
+      "id": "musou_i",
+      "name": "山岳守心 I",
+      "branch": "musou",
+      "cost": 1,
+      "description": "无双伤害 +10%",
+      "effect": {
+        "musouDamagePct": 0.1
+      },
+      "requires": []
+    },
+    {
+      "id": "musou_ii",
+      "name": "山岳守心 II",
+      "branch": "musou",
+      "cost": 1,
+      "description": "无双范围 +12%",
+      "effect": {
+        "radiusPct": 0.12
+      },
+      "requires": [
+        "musou_i"
+      ]
+    },
+    {
+      "id": "musou_iii",
+      "name": "山岳守心 III",
+      "branch": "musou",
+      "cost": 1,
+      "description": "结束后获得3秒增益",
+      "effect": {
+        "postBuffSec": 3
+      },
+      "requires": [
+        "musou_ii"
+      ]
+    }
+  ],
+  "reset": {
+    "firstFree": true,
+    "laterCost": {
+      "type": "pill",
+      "id": "marrow_pill",
+      "count": 1
+    }
+  }
+}

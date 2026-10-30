@@ -1,0 +1,52 @@
+{
+  "asset": "Yara_v61",
+  "version": "6.1",
+  "validationStatus": "BLOCKED_BY_MISSING_REAL_3D_MODEL",
+  "checks": {
+    "approvedFrontReferencePresent": true,
+    "proportionSheetPresent": true,
+    "matchesFrontReference": null,
+    "sameCharacterAcrossViews": null,
+    "trianglesInBudget": null,
+    "materialsSeparated": null,
+    "cleanSilhouette": null,
+    "noMajorClipping": null,
+    "sleeveHelperBones": null,
+    "hairHelperBones": null,
+    "requiredBlendshapesPresent": null,
+    "requiredBonesPresent": null,
+    "originAtFeetCenter": null,
+    "threeJsLoadable": null
+  },
+  "missingRealFiles": [
+    "model/yara_v61.blend",
+    "model/yara_v61.glb",
+    "reference/back.webp",
+    "reference/left.webp",
+    "reference/right.webp",
+    "reference/front_left.webp",
+    "reference/front_right.webp",
+    "textures/body_albedo.webp",
+    "textures/face_albedo.webp",
+    "textures/hair_albedo.webp",
+    "textures/clothing_albedo.webp",
+    "textures/normal.webp",
+    "textures/roughness.webp",
+    "textures/ao.webp",
+    "preview/turntable_01.webp",
+    "preview/turntable_02.webp",
+    "preview/turntable_03.webp"
+  ],
+  "blockingReason": "Current ChatGPT environment has no Blender or equivalent production-grade 3D modeling/rigging/export tool. Empty or fake 3D files were intentionally not created.",
+  "manualReview": {
+    "faceSimilarity": "pending",
+    "hairSimilarity": "pending",
+    "outfitSimilarity": "pending",
+    "chibiProportion": "pending",
+    "backViewConsistency": "pending",
+    "sideViewConsistency": "pending"
+  },
+  "knownIssues": [
+    "Only the user-approved front master is authoritative. Orthographic back/side views still require real 3D asset production."
+  ]
+}

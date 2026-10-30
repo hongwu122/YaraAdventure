@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 3,
+  "levelId": 14,
+  "name": "镜湖天阶",
+  "width": 7150,
+  "platforms": [
+    [
+      0,
+      910,
+      7150,
+      170
+    ],
+    [
+      2311,
+      690,
+      330,
+      28
+    ],
+    [
+      4742,
+      690,
+      330,
+      28
+    ]
+  ],
+  "hazards": [
+    [
+      2431,
+      1006,
+      90,
+      74
+    ],
+    [
+      4862,
+      1006,
+      90,
+      74
+    ]
+  ],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140,
+    6660
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 镜湖天阶战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1772,
+      "cameraLeft": 90,
+      "cameraRight": 1862,
+      "waveDelay": 1.08,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "fireling",
+              "x": 784
+            },
+            {
+              "type": "frostling",
+              "x": 1168
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "fireling",
+              "x": 688
+            },
+            {
+              "type": "frostling",
+              "x": 976
+            },
+            {
+              "type": "golemElite",
+              "x": 1264
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 镜湖天阶战场",
+      "triggerX": 1902,
+      "lockLeft": 1842,
+      "lockRight": 3435,
+      "cameraLeft": 1752,
+      "cameraRight": 3525,
+      "waveDelay": 1.08,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "fireling",
+              "x": 2447
+            },
+            {
+              "type": "frostling",
+              "x": 2831
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "fireling",
+              "x": 2351
+            },
+            {
+              "type": "frostling",
+              "x": 2639
+            },
+            {
+              "type": "frostling",
+              "x": 2927
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "fireling",
+              "x": 2351
+            },
+            {
+              "type": "frostling",
+              "x": 2639
+            },
+            {
+              "type": "frostling",
+              "x": 2927
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 镜湖天阶战场",
+      "triggerX": 3565,
+      "lockLeft": 3505,
+      "lockRight": 5098,
+      "cameraLeft": 3415,
+      "cameraRight": 5188,
+      "waveDelay": 1.08,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "fireling",
+              "x": 4109
+            },
+            {
+              "type": "frostling",
+              "x": 4493
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "fireling",
+              "x": 4013
+            },
+            {
+              "type": "frostling",
+              "x": 4301
+            },
+            {
+              "type": "golemElite",
+              "x": 4589
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 镜湖天阶深处",
+      "triggerX": 5228,
+      "lockLeft": 5168,
+      "lockRight": 6760,
+      "cameraLeft": 5078,
+      "cameraRight": 6850,
+      "waveDelay": 1.08,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "frostlingBoss",
+              "x": 5964
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "earth",
+  "dropPool": "level_14_main",
+  "stageBoss": false
+}

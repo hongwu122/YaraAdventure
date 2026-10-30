@@ -1,0 +1,54 @@
+{
+  "id": "jiangshi",
+  "gameId": "jiangshi",
+  "name": "僵尸",
+  "category": "monster",
+  "version": "6.4",
+  "element": "dark",
+  "stageLevels": [
+    13,
+    16
+  ],
+  "status": "concept_art_complete_model_and_prerender_pending",
+  "sourceArt": "concept_sheet.webp",
+  "portrait": "portrait.webp",
+  "model": {
+    "expected": "model/jiangshi.glb",
+    "present": false,
+    "note": "Real GLB pending; no fake model included."
+  },
+  "renderSpec": {
+    "frameSize": [
+      512,
+      512
+    ],
+    "format": "webp",
+    "alpha": true,
+    "anchor": [
+      0.5,
+      0.92
+    ]
+  },
+  "requiredActions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Turn",
+    "Spawn",
+    "AttackA",
+    "AttackB",
+    "HurtLight",
+    "HurtHeavy",
+    "Knockback",
+    "Stun",
+    "Knockdown",
+    "Getup",
+    "Dead"
+  ],
+  "designBrief": "Q版僵尸兵，额前符纸、官帽/短袍，动作以跳步和掌击为主。",
+  "designRules": {
+    "ordinaryMonsterLightweight": true,
+    "bossMustHaveUniqueSilhouette": false,
+    "bossScaleOnlyForbidden": false
+  }
+}

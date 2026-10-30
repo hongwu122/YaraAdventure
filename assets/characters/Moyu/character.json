@@ -1,0 +1,107 @@
+{
+  "id": "Moyu",
+  "displayName": "红舞",
+  "number": "003",
+  "playable": true,
+  "title": "焰羽赤心",
+  "role": "刺客 / 暴击 / 近身爆发",
+  "element": "fire",
+  "elementLabel": "火",
+  "description": "2D 动作角色。",
+  "baseStats": {
+    "hp": 270,
+    "mp": 105,
+    "attack": 30,
+    "defense": 9,
+    "speed": 350,
+    "crit": 0.16
+  },
+  "basicAttack": {
+    "type": "fast_dual_chain",
+    "pattern": "J-J-J",
+    "summary": "快速三连刃，背后命中时提高暴击收益。",
+    "element": "fire",
+    "status": "burn",
+    "damageType": "slash",
+    "stagger": 0.18
+  },
+  "skills": [
+    {
+      "key": "L",
+      "name": "影遁",
+      "role": "穿身 / 位移",
+      "element": "fire",
+      "status": null,
+      "damageType": "movement",
+      "stagger": 0
+    },
+    {
+      "key": "U",
+      "name": "焰刃",
+      "role": "近身爆发",
+      "element": "fire",
+      "status": "burn",
+      "damageType": "slash",
+      "stagger": 0.42
+    },
+    {
+      "key": "I",
+      "name": "飞羽镖",
+      "role": "远程补刀",
+      "element": "fire",
+      "status": "burn",
+      "damageType": "pierce",
+      "stagger": 0.2
+    },
+    {
+      "key": "Space",
+      "name": "赤影连杀",
+      "role": "高速爆发",
+      "element": "fire",
+      "status": "burn",
+      "damageType": "slash",
+      "stagger": 0.72
+    }
+  ],
+  "growthDefaults": {
+    "level": 1,
+    "exp": 0,
+    "nextExp": 100,
+    "skillPoints": 0,
+    "equipment": {
+      "weapon": null,
+      "head": null,
+      "body": null,
+      "waist": null,
+      "shoes": null,
+      "talisman": null,
+      "necklace": null
+    },
+    "skills": {},
+    "stats": {
+      "vit": 0,
+      "spi": 0,
+      "agi": 0,
+      "pow": 0
+    },
+    "pillBonus": {
+      "hp": 0,
+      "mp": 0
+    }
+  },
+  "render": {
+    "mode": "sprite-2d",
+    "portrait": "../../v82/characters/Moyu/portrait.png",
+    "previewAngles": [
+      "../../v82/characters/Moyu/portrait.png"
+    ],
+    "model": {
+      "type": "none",
+      "installed": false
+    }
+  },
+  "version": "8.2",
+  "combatAssets": {
+    "animations": "../../v82/characters/Moyu/animations.json"
+  }
+}

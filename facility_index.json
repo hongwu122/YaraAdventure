@@ -1,0 +1,126 @@
+{
+  "version": "6.5",
+  "count": 7,
+  "facilities": [
+    {
+      "id": "muyu",
+      "name": "木鱼",
+      "description": "hit动画",
+      "states": [
+        "hit_01",
+        "hit_02"
+      ],
+      "deliverablesPresent": [
+        "preview.webp",
+        "states/hit_01.webp",
+        "states/hit_02.webp"
+      ],
+      "realGLB": false,
+      "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+    },
+    {
+      "id": "spirit_array",
+      "name": "聚灵阵",
+      "description": "法阵粒子光环",
+      "states": [
+        "idle",
+        "active",
+        "levelup"
+      ],
+      "deliverablesPresent": [
+        "preview.webp",
+        "states/idle.webp",
+        "states/active.webp",
+        "states/levelup.webp"
+      ],
+      "realGLB": false,
+      "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+    },
+    {
+      "id": "herb_garden",
+      "name": "药圃",
+      "description": "灵草产出与收取",
+      "states": [
+        "empty",
+        "growing",
+        "ready",
+        "harvest"
+      ],
+      "deliverablesPresent": [
+        "preview.webp",
+        "states/empty.webp",
+        "states/growing.webp",
+        "states/ready.webp",
+        "states/harvest.webp"
+      ],
+      "realGLB": false,
+      "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+    },
+    {
+      "id": "alchemy_furnace",
+      "name": "丹炉",
+      "description": "炼丹火焰",
+      "states": [
+        "idle",
+        "flame",
+        "craft_success"
+      ],
+      "deliverablesPresent": [
+        "preview.webp",
+        "states/idle.webp",
+        "states/flame.webp",
+        "states/craft_success.webp"
+      ],
+      "realGLB": false,
+      "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+    },
+    {
+      "id": "library",
+      "name": "藏经阁",
+      "description": "静态建筑与知识光效",
+      "states": [
+        "idle",
+        "glow"
+      ],
+      "deliverablesPresent": [
+        "preview.webp",
+        "states/idle.webp",
+        "states/glow.webp"
+      ],
+      "realGLB": false,
+      "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+    },
+    {
+      "id": "spring",
+      "name": "灵泉",
+      "description": "水流循环",
+      "states": [
+        "loop_01",
+        "loop_02"
+      ],
+      "deliverablesPresent": [
+        "preview.webp",
+        "states/loop_01.webp",
+        "states/loop_02.webp"
+      ],
+      "realGLB": false,
+      "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+    },
+    {
+      "id": "cultivation_seat",
+      "name": "静修台",
+      "description": "打坐点与灵气圈",
+      "states": [
+        "idle",
+        "aura"
+      ],
+      "deliverablesPresent": [
+        "preview.webp",
+        "states/idle.webp",
+        "states/aura.webp"
+      ],
+      "realGLB": false,
+      "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+    }
+  ]
+}

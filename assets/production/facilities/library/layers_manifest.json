@@ -1,0 +1,14 @@
+{
+  "id": "library",
+  "states": [
+    {
+      "state": "idle",
+      "file": "states/idle.webp"
+    },
+    {
+      "state": "glow",
+      "file": "states/glow.webp"
+    }
+  ],
+  "transparentBackground": true
+}

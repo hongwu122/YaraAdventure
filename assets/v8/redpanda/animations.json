@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 3,
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 6,
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "idle_right.webp",
+        "left": "idle_left.webp"
+      }
+    },
+    "run": {
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "run_right.webp",
+        "left": "run_left.webp"
+      }
+    },
+    "walk": {
+      "frames": 2,
+      "fps": 8,
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "run_right.webp",
+        "left": "run_left.webp"
+      }
+    },
+    "attack": {
+      "frames": 3,
+      "fps": 8,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "attack_right.webp",
+        "left": "attack_left.webp"
+      }
+    },
+    "attack_1": {
+      "frames": 3,
+      "fps": 8,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "attack_right.webp",
+        "left": "attack_left.webp"
+      }
+    },
+    "hurt_light": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "hurt_light_right.webp",
+        "left": "hurt_light_left.webp"
+      }
+    },
+    "hurt_heavy": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "hurt_light_right.webp",
+        "left": "hurt_light_left.webp"
+      }
+    },
+    "dead": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "hurt_light_right.webp",
+        "left": "hurt_light_left.webp"
+      }
+    },
+    "phase_change": {
+      "frames": 3,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "attack_right.webp",
+        "left": "attack_left.webp"
+      }
+    },
+    "windup": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "idle_right.webp",
+        "left": "idle_left.webp"
+      }
+    },
+    "recover": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "idle_right.webp",
+        "left": "idle_left.webp"
+      }
+    },
+    "stun": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "hurt_light_right.webp",
+        "left": "hurt_light_left.webp"
+      }
+    },
+    "knockback": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "hurt_light_right.webp",
+        "left": "hurt_light_left.webp"
+      }
+    },
+    "knockdown": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "hurt_light_right.webp",
+        "left": "hurt_light_left.webp"
+      }
+    },
+    "getup": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "idle_right.webp",
+        "left": "idle_left.webp"
+      }
+    },
+    "attack_melee": {
+      "frames": 3,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "attack_right.webp",
+        "left": "attack_left.webp"
+      }
+    },
+    "attack_thrust": {
+      "frames": 3,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "attack_right.webp",
+        "left": "attack_left.webp"
+      }
+    },
+    "attack_slam": {
+      "frames": 3,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "attack_right.webp",
+        "left": "attack_left.webp"
+      }
+    },
+    "boss_skill": {
+      "frames": 3,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "attack_right.webp",
+        "left": "attack_left.webp"
+      }
+    }
+  },
+  "stateAliases": {
+    "hurt": "hurt_light",
+    "spawn": "idle",
+    "attack_A": "attack",
+    "attack_B": "attack",
+    "attack_C": "attack",
+    "special": "attack",
+    "special_01": "attack",
+    "special_02": "attack"
+  },
+  "entityId": "redpanda",
+  "version": "8.0",
+  "anchor": [
+    0.5,
+    0.9505208333333334
+  ],
+  "notes": "Generated distinct 2D poses; shared poses for some skill/reaction states. Fixed cell and foot baseline."
+}

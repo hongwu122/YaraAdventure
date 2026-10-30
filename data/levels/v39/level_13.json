@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 3,
+  "levelId": 13,
+  "name": "赤沙古道",
+  "width": 7000,
+  "platforms": [
+    [
+      0,
+      910,
+      7000,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140,
+    6660
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 赤沙古道战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1735,
+      "cameraLeft": 90,
+      "cameraRight": 1825,
+      "waveDelay": 1.06,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "jiangshi",
+              "x": 772
+            },
+            {
+              "type": "fireling",
+              "x": 1143
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "jiangshi",
+              "x": 679
+            },
+            {
+              "type": "fireling",
+              "x": 958
+            },
+            {
+              "type": "fireling",
+              "x": 1236
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 赤沙古道战场",
+      "triggerX": 1865,
+      "lockLeft": 1805,
+      "lockRight": 3360,
+      "cameraLeft": 1715,
+      "cameraRight": 3450,
+      "waveDelay": 1.06,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "jiangshi",
+              "x": 2397
+            },
+            {
+              "type": "fireling",
+              "x": 2768
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "jiangshi",
+              "x": 2304
+            },
+            {
+              "type": "fireling",
+              "x": 2582
+            },
+            {
+              "type": "fireling",
+              "x": 2861
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "jiangshi",
+              "x": 2304
+            },
+            {
+              "type": "fireling",
+              "x": 2582
+            },
+            {
+              "type": "golemElite",
+              "x": 2861
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 赤沙古道战场",
+      "triggerX": 3490,
+      "lockLeft": 3430,
+      "lockRight": 4985,
+      "cameraLeft": 3340,
+      "cameraRight": 5075,
+      "waveDelay": 1.06,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "jiangshi",
+              "x": 4022
+            },
+            {
+              "type": "fireling",
+              "x": 4393
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "jiangshi",
+              "x": 3929
+            },
+            {
+              "type": "fireling",
+              "x": 4208
+            },
+            {
+              "type": "fireling",
+              "x": 4486
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 赤沙古道深处",
+      "triggerX": 5115,
+      "lockLeft": 5055,
+      "lockRight": 6610,
+      "cameraLeft": 4965,
+      "cameraRight": 6700,
+      "waveDelay": 1.06,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "firelingBoss",
+              "x": 5832
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "water",
+  "dropPool": "level_13_main",
+  "stageBoss": false
+}

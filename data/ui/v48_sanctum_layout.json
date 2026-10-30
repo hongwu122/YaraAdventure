@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "version": "4.8",
+  "scene": "assets/v83/scenes/sanctum.png",
+  "character": {
+    "id": "Yara",
+    "image": "assets/v8/Yara/frames/cultivate_idle_00.png",
+    "x": 60.5,
+    "y": 70.5,
+    "w": 14.5,
+    "h": 42
+  },
+  "facilities": [
+    {
+      "id": "muyu",
+      "label": "木鱼",
+      "x": 17,
+      "y": 57,
+      "w": 17,
+      "h": 25,
+      "hint": "点击或空格敲击，获得灵石"
+    },
+    {
+      "id": "library",
+      "label": "藏经阁",
+      "x": 22,
+      "y": 88,
+      "w": 29,
+      "h": 18,
+      "hint": "典籍与修炼加成"
+    },
+    {
+      "id": "spirit_array",
+      "label": "聚灵阵",
+      "x": 43,
+      "y": 60,
+      "w": 12,
+      "h": 20,
+      "hint": "提高打坐效率"
+    },
+    {
+      "id": "cushion",
+      "label": "静修台",
+      "x": 65,
+      "y": 62,
+      "w": 22,
+      "h": 31,
+      "hint": "打坐与境界突破"
+    },
+    {
+      "id": "furnace",
+      "label": "丹炉",
+      "x": 85,
+      "y": 52,
+      "w": 14,
+      "h": 35,
+      "hint": "七类丹方炼制"
+    },
+    {
+      "id": "garden",
+      "label": "药圃",
+      "x": 93,
+      "y": 82,
+      "w": 13,
+      "h": 23,
+      "hint": "耕地、选种、浇水与采收"
+    },
+    {
+      "id": "spring",
+      "label": "灵泉",
+      "x": 31,
+      "y": 56,
+      "w": 12,
+      "h": 27,
+      "hint": "调息与恢复"
+    },
+    {
+      "id": "shop",
+      "label": "商店",
+      "x": 36,
+      "y": 23,
+      "w": 17,
+      "h": 27,
+      "hint": "山间小屋 · 购买旅途物资"
+    }
+  ],
+  "dock": [
+    {
+      "id": "equipment",
+      "label": "装备",
+      "action": "economy:equipment"
+    },
+    {
+      "id": "inventory",
+      "label": "背包",
+      "action": "economy:inventory"
+    },
+    {
+      "id": "shop",
+      "label": "商店",
+      "action": "economy:shop"
+    },
+    {
+      "id": "skills",
+      "label": "心法",
+      "action": "skillTreeView"
+    }
+  ],
+  "realms": [
+    "凡人",
+    "练气",
+    "筑基",
+    "金丹",
+    "元婴",
+    "化神",
+    "炼虚",
+    "合体",
+    "大乘",
+    "渡劫"
+  ]
+}

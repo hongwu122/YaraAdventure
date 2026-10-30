@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "yara-adventure/animations_v2.schema.json",
+  "title": "Yara Adventure V3.2 Animation Metadata",
+  "type": "object",
+  "required": ["schemaVersion", "entityId", "displayName", "entityType", "directionMode", "animations"],
+  "properties": {
+    "schemaVersion": {"const": 2},
+    "entityId": {"type": "string", "minLength": 1},
+    "displayName": {"type": "string", "minLength": 1},
+    "entityType": {"enum": ["character", "normal_enemy", "elite_enemy", "boss"]},
+    "directionMode": {"enum": ["explicit-left-right", "mirror-horizontal", "none"]},
+    "frameConvention": {"enum": ["horizontal-strip"]},
+    "animations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["frames", "fps", "loop", "frameSize", "directions"],
+        "properties": {
+          "frames": {"type": "integer", "minimum": 1},
+          "fps": {"type": "number", "exclusiveMinimum": 0},
+          "loop": {"type": "boolean"},
+          "frameSize": {
+            "type": "array", "minItems": 2, "maxItems": 2,
+            "items": {"type": "integer", "minimum": 1}
+          },
+          "directions": {
+            "type": "object",
+            "required": ["right", "left"],
+            "properties": {
+              "right": {"type": "string"},
+              "left": {"type": "string"}
+            }
+          },
+          "timing": {
+            "type": "object",
+            "required": ["windup", "active", "recover"],
+            "properties": {
+              "windup": {"type": "number", "minimum": 0},
+              "active": {"type": "number", "minimum": 0},
+              "recover": {"type": "number", "minimum": 0}
+            }
+          },
+          "hitbox": {"type": "object"},
+          "source": {"type": "object"},
+          "derivedPrototype": {"type": "boolean"},
+          "notes": {"type": "string"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "version": "8.2",
+  "frameSpec": {
+    "size": [
+      512,
+      512
+    ],
+    "format": "webp",
+    "alpha": true,
+    "anchor": [
+      0.5,
+      0.92
+    ]
+  },
+  "monsters": [
+    {
+      "id": "frostling",
+      "name": "冰灵",
+      "element": "water",
+      "levels": [
+        6,
+        14,
+        15
+      ],
+      "path": "assets/production/monsters/frostling/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/frostling/animations.json"
+    },
+    {
+      "id": "shadowfox",
+      "name": "暗影狐",
+      "element": "dark",
+      "levels": [
+        6,
+        7,
+        11,
+        16,
+        17
+      ],
+      "path": "assets/production/monsters/shadowfox/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/shadowfox/animations.json"
+    },
+    {
+      "id": "abyssling",
+      "name": "深渊灵",
+      "element": "dark",
+      "levels": [
+        9,
+        10,
+        19
+      ],
+      "path": "assets/production/monsters/abyssling/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/abyssling/animations.json"
+    },
+    {
+      "id": "runegolem",
+      "name": "符文石像",
+      "element": "earth",
+      "levels": [
+        7,
+        8,
+        12,
+        17,
+        19
+      ],
+      "path": "assets/production/monsters/runegolem/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/runegolem/animations.json"
+    },
+    {
+      "id": "jiangshi",
+      "name": "僵尸",
+      "element": "dark",
+      "levels": [
+        13,
+        16
+      ],
+      "path": "assets/production/monsters/jiangshi/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/jiangshi/animations.json"
+    },
+    {
+      "id": "sunling",
+      "name": "太阳灵",
+      "element": "fire",
+      "levels": [
+        8,
+        9,
+        18
+      ],
+      "path": "assets/production/monsters/sunling/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/sunling/animations.json"
+    }
+  ]
+}

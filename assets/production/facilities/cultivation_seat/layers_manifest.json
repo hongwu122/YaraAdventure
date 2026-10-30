@@ -1,0 +1,14 @@
+{
+  "id": "cultivation_seat",
+  "states": [
+    {
+      "state": "idle",
+      "file": "states/idle.webp"
+    },
+    {
+      "state": "aura",
+      "file": "states/aura.webp"
+    }
+  ],
+  "transparentBackground": true
+}

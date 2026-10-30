@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Langa",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          70,
+          28,
+          378,
+          484
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          524,
+          37,
+          420,
+          475
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          39,
+          534,
+          433,
+          462
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          512,
+          531,
+          481,
+          493
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          36,
+          1033,
+          475,
+          449
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          525,
+          1029,
+          461,
+          458
+        ]
+      ]
+    }
+  }
+}

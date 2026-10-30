@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Yara",
+  "displayName": "Yara",
+  "entityType": "character",
+  "directionMode": "explicit-left-right",
+  "frameConvention": "horizontal-strip",
+  "notes": "V3.2 resource pack. Each action is a 6-frame WebP strip. Left strips are explicit mirrored assets for loader simplicity; later hand-drawn asymmetrical left frames can replace them without changing metadata keys. V3.7 adds cultivate_idle as a replaceable meditation animation interface.",
+  "sources": {
+    "locomotion": {
+      "file": "spritesheets/locomotion.webp",
+      "grid": [
+        6,
+        8
+      ],
+      "cell": [
+        181,
+        181
+      ]
+    },
+    "combat": {
+      "file": "spritesheets/combat.webp",
+      "grid": [
+        6,
+        6
+      ],
+      "cell": [
+        209,
+        209
+      ]
+    },
+    "reactions": {
+      "file": "spritesheets/reactions.webp",
+      "grid": [
+        6,
+        8
+      ],
+      "cell": [
+        181,
+        181
+      ]
+    }
+  },
+  "animations": {
+    "idle": {
+      "frames": 6,
+      "fps": 6,
+      "loop": true,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/idle_right.webp",
+        "left": "actions/idle_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/locomotion.webp",
+        "row": 0
+      }
+    },
+    "run": {
+      "frames": 6,
+      "fps": 11,
+      "loop": true,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/run_right.webp",
+        "left": "actions/run_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/locomotion.webp",
+        "row": 1
+      }
+    },
+    "turn": {
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/turn_right.webp",
+        "left": "actions/turn_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/locomotion.webp",
+        "row": 2
+      }
+    },
+    "jump_start": {
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/jump_start_right.webp",
+        "left": "actions/jump_start_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/locomotion.webp",
+        "row": 3
+      }
+    },
+    "jump_up": {
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/jump_up_right.webp",
+        "left": "actions/jump_up_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/locomotion.webp",
+        "row": 4
+      }
+    },
+    "jump_fall": {
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/jump_fall_right.webp",
+        "left": "actions/jump_fall_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/locomotion.webp",
+        "row": 5
+      }
+    },
+    "double_jump": {
+      "frames": 6,
+      "fps": 13,
+      "loop": false,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/double_jump_right.webp",
+        "left": "actions/double_jump_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/locomotion.webp",
+        "row": 6
+      }
+    },
+    "land": {
+      "frames": 6,
+      "fps": 11,
+      "loop": false,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/land_right.webp",
+        "left": "actions/land_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/locomotion.webp",
+        "row": 7
+      }
+    },
+    "attack_1": {
+      "frames": 6,
+      "fps": 15,
+      "loop": false,
+      "frameSize": [
+        209,
+        209
+      ],
+      "directions": {
+        "right": "actions/attack_1_right.webp",
+        "left": "actions/attack_1_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/combat.webp",
+        "row": 0
+      },
+      "notes": "combo 1",
+      "timing": {
+        "windup": 0.09,
+        "active": 0.1,
+        "recover": 0.13
+      }
+    },
+    "attack_2": {
+      "frames": 6,
+      "fps": 15,
+      "loop": false,
+      "frameSize": [
+        209,
+        209
+      ],
+      "directions": {
+        "right": "actions/attack_2_right.webp",
+        "left": "actions/attack_2_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/combat.webp",
+        "row": 1
+      },
+      "notes": "combo 2",
+      "timing": {
+        "windup": 0.08,
+        "active": 0.11,
+        "recover": 0.14
+      }
+    },
+    "attack_3": {
+      "frames": 6,
+      "fps": 14,
+      "loop": false,
+      "frameSize": [
+        209,
+        209
+      ],
+      "directions": {
+        "right": "actions/attack_3_right.webp",
+        "left": "actions/attack_3_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/combat.webp",
+        "row": 2
+      },
+      "notes": "combo 3",
+      "timing": {
+        "windup": 0.12,
+        "active": 0.13,
+        "recover": 0.2
+      }
+    },
+    "skill_U": {
+      "frames": 6,
+      "fps": 14,
+      "loop": false,
+      "frameSize": [
+        209,
+        209
+      ],
+      "directions": {
+        "right": "actions/skill_U_right.webp",
+        "left": "actions/skill_U_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/combat.webp",
+        "row": 3
+      },
+      "notes": "回风斩",
+      "timing": {
+        "windup": 0.16,
+        "active": 0.18,
+        "recover": 0.28
+      }
+    },
+    "skill_I": {
+      "frames": 6,
+      "fps": 13,
+      "loop": false,
+      "frameSize": [
+        209,
+        209
+      ],
+      "directions": {
+        "right": "actions/skill_I_right.webp",
+        "left": "actions/skill_I_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/combat.webp",
+        "row": 4
+      },
+      "notes": "星芒弹",
+      "timing": {
+        "windup": 0.2,
+        "active": 0.12,
+        "recover": 0.3
+      }
+    },
+    "dash_L": {
+      "frames": 6,
+      "fps": 16,
+      "loop": false,
+      "frameSize": [
+        209,
+        209
+      ],
+      "directions": {
+        "right": "actions/dash_L_right.webp",
+        "left": "actions/dash_L_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/combat.webp",
+        "row": 5
+      },
+      "notes": "流光闪",
+      "timing": {
+        "windup": 0.05,
+        "active": 0.12,
+        "recover": 0.16
+      }
+    },
+    "musou": {
+      "frames": 6,
+      "fps": 13,
+      "loop": false,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/musou_right.webp",
+        "left": "actions/musou_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/reactions.webp",
+        "row": 0
+      },
+      "notes": "无双主体动作",
+      "timing": {
+        "windup": 0.28,
+        "active": 0.48,
+        "recover": 0.42
+      }
+    },
+    "hurt_light": {
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/hurt_light_right.webp",
+        "left": "actions/hurt_light_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/reactions.webp",
+        "row": 1
+      }
+    },
+    "hurt_heavy": {
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/hurt_heavy_right.webp",
+        "left": "actions/hurt_heavy_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/reactions.webp",
+        "row": 2
+      }
+    },
+    "knockback": {
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/knockback_right.webp",
+        "left": "actions/knockback_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/reactions.webp",
+        "row": 3
+      }
+    },
+    "stun": {
+      "frames": 6,
+      "fps": 7,
+      "loop": true,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/stun_right.webp",
+        "left": "actions/stun_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/reactions.webp",
+        "row": 4
+      }
+    },
+    "knockdown": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/knockdown_right.webp",
+        "left": "actions/knockdown_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/reactions.webp",
+        "row": 5
+      }
+    },
+    "getup": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/getup_right.webp",
+        "left": "actions/getup_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/reactions.webp",
+        "row": 6
+      }
+    },
+    "dead": {
+      "frames": 6,
+      "fps": 7,
+      "loop": false,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/dead_right.webp",
+        "left": "actions/dead_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheets/reactions.webp",
+        "row": 7
+      }
+    },
+    "cultivate_idle": {
+      "frames": 6,
+      "fps": 4,
+      "loop": true,
+      "frameSize": [
+        181,
+        181
+      ],
+      "directions": {
+        "right": "actions/cultivate_idle_right.webp",
+        "left": "actions/cultivate_idle_left.webp"
+      },
+      "notes": "V3.7 meditation loop. Uses a dedicated file key so later hand-drawn seated frames can replace it without changing code."
+    }
+  }
+}

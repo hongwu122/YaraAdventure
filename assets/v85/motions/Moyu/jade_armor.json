@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Moyu",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          79,
+          16,
+          362,
+          490
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          518,
+          26,
+          485,
+          480
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          42,
+          517,
+          464,
+          496
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          520,
+          515,
+          496,
+          509
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          59,
+          1046,
+          453,
+          442
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          531,
+          1036,
+          465,
+          450
+        ]
+      ]
+    }
+  }
+}

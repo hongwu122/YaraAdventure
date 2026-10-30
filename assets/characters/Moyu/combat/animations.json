@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 2,
+  "entityId": "Moyu",
+  "atlasMode": "strip-per-action",
+  "directions": [
+    "right",
+    "left"
+  ],
+  "defaultFps": 9,
+  "animations": {
+    "idle": {
+      "frames": 6,
+      "fps": 9,
+      "loop": true,
+      "directions": {
+        "right": "idle_right.webp",
+        "left": "idle_left.webp"
+      }
+    },
+    "run": {
+      "frames": 6,
+      "fps": 9,
+      "loop": true,
+      "directions": {
+        "right": "run_right.webp",
+        "left": "run_left.webp"
+      }
+    },
+    "turn": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "turn_right.webp",
+        "left": "turn_left.webp"
+      }
+    },
+    "jump_start": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "jump_start_right.webp",
+        "left": "jump_start_left.webp"
+      }
+    },
+    "jump_up": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "jump_up_right.webp",
+        "left": "jump_up_left.webp"
+      }
+    },
+    "jump_fall": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "jump_fall_right.webp",
+        "left": "jump_fall_left.webp"
+      }
+    },
+    "double_jump": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "double_jump_right.webp",
+        "left": "double_jump_left.webp"
+      }
+    },
+    "land": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "land_right.webp",
+        "left": "land_left.webp"
+      }
+    },
+    "attack_1": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "timing": {
+        "windup": 0.12,
+        "active": 0.1,
+        "recover": 0.16
+      },
+      "directions": {
+        "right": "attack_1_right.webp",
+        "left": "attack_1_left.webp"
+      }
+    },
+    "attack_2": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "timing": {
+        "windup": 0.12,
+        "active": 0.1,
+        "recover": 0.18
+      },
+      "directions": {
+        "right": "attack_2_right.webp",
+        "left": "attack_2_left.webp"
+      }
+    },
+    "attack_3": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "timing": {
+        "windup": 0.16,
+        "active": 0.12,
+        "recover": 0.22
+      },
+      "directions": {
+        "right": "attack_3_right.webp",
+        "left": "attack_3_left.webp"
+      }
+    },
+    "skill_U": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "timing": {
+        "windup": 0.22,
+        "active": 0.18,
+        "recover": 0.32
+      },
+      "directions": {
+        "right": "skill_U_right.webp",
+        "left": "skill_U_left.webp"
+      }
+    },
+    "skill_I": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "timing": {
+        "windup": 0.2,
+        "active": 0.12,
+        "recover": 0.28
+      },
+      "directions": {
+        "right": "skill_I_right.webp",
+        "left": "skill_I_left.webp"
+      }
+    },
+    "dash_L": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "timing": {
+        "windup": 0.06,
+        "active": 0.1,
+        "recover": 0.12
+      },
+      "directions": {
+        "right": "dash_L_right.webp",
+        "left": "dash_L_left.webp"
+      }
+    },
+    "musou": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "timing": {
+        "windup": 0.34,
+        "active": 0.3,
+        "recover": 0.45
+      },
+      "directions": {
+        "right": "musou_right.webp",
+        "left": "musou_left.webp"
+      }
+    },
+    "hurt_light": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "hurt_light_right.webp",
+        "left": "hurt_light_left.webp"
+      }
+    },
+    "hurt_heavy": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "hurt_heavy_right.webp",
+        "left": "hurt_heavy_left.webp"
+      }
+    },
+    "knockback": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "knockback_right.webp",
+        "left": "knockback_left.webp"
+      }
+    },
+    "stun": {
+      "frames": 6,
+      "fps": 9,
+      "loop": true,
+      "directions": {
+        "right": "stun_right.webp",
+        "left": "stun_left.webp"
+      }
+    },
+    "knockdown": {
+      "frames": 7,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "knockdown_right.webp",
+        "left": "knockdown_left.webp"
+      }
+    },
+    "getup": {
+      "frames": 7,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "getup_right.webp",
+        "left": "getup_left.webp"
+      }
+    },
+    "dead": {
+      "frames": 7,
+      "fps": 9,
+      "loop": false,
+      "directions": {
+        "right": "dead_right.webp",
+        "left": "dead_left.webp"
+      }
+    }
+  }
+}

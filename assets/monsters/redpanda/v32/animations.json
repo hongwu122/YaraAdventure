@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 2,
+  "entityId": "redpanda",
+  "displayName": "竹笠狸兵",
+  "entityType": "normal_enemy",
+  "sizeClass": "small",
+  "directionMode": "explicit-left-right",
+  "frameConvention": "horizontal-strip",
+  "source": {
+    "file": "spritesheet.webp",
+    "grid": [
+      6,
+      9
+    ],
+    "cell": [
+      170,
+      170
+    ]
+  },
+  "animations": {
+    "idle": {
+      "frames": 6,
+      "fps": 6,
+      "loop": true,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/idle_right.webp",
+        "left": "actions/idle_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 0
+      }
+    },
+    "walk": {
+      "frames": 6,
+      "fps": 9,
+      "loop": true,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/walk_right.webp",
+        "left": "actions/walk_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 1
+      }
+    },
+    "turn": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/turn_right.webp",
+        "left": "actions/turn_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 2
+      }
+    },
+    "attack": {
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/attack_right.webp",
+        "left": "actions/attack_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 3
+      },
+      "timing": {
+        "windup": 0.34,
+        "active": 0.14,
+        "recover": 0.42
+      },
+      "hitbox": {
+        "forward": 126,
+        "height": 92
+      }
+    },
+    "hurt": {
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/hurt_right.webp",
+        "left": "actions/hurt_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 4
+      }
+    },
+    "knockback": {
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/knockback_right.webp",
+        "left": "actions/knockback_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 5
+      }
+    },
+    "stun": {
+      "frames": 6,
+      "fps": 6,
+      "loop": true,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/stun_right.webp",
+        "left": "actions/stun_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 6
+      }
+    },
+    "dead": {
+      "frames": 6,
+      "fps": 7,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/dead_right.webp",
+        "left": "actions/dead_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 7
+      }
+    },
+    "spawn": {
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/spawn_right.webp",
+        "left": "actions/spawn_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 8
+      }
+    }
+  },
+  "stateAliases": {
+    "hurt_light": "hurt",
+    "hurt_heavy": "hurt",
+    "knockback": "knockback",
+    "stun": "stun",
+    "knockdown": "knockback",
+    "getup": "spawn",
+    "run": "walk",
+    "jump": "walk"
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "version": "8.2",
+  "currency": "spiritStone",
+  "stock": [
+    {
+      "item": "potion_red",
+      "unlockLevel": 1,
+      "limit": 99
+    },
+    {
+      "item": "potion_blue",
+      "unlockLevel": 1,
+      "limit": 99
+    },
+    {
+      "item": "mat_peach_petal",
+      "unlockLevel": 1,
+      "limit": 99
+    },
+    {
+      "item": "eq_wood_sword",
+      "unlockLevel": 1,
+      "limit": 1
+    },
+    {
+      "item": "eq_cloth_band",
+      "unlockLevel": 1,
+      "limit": 1
+    },
+    {
+      "item": "eq_travel_robe",
+      "unlockLevel": 1,
+      "limit": 1
+    },
+    {
+      "item": "eq_hemp_belt",
+      "unlockLevel": 6,
+      "limit": 1
+    },
+    {
+      "item": "eq_wood_necklace",
+      "unlockLevel": 1,
+      "limit": 1
+    },
+    {
+      "item": "mat_bamboo_fiber",
+      "unlockLevel": 2,
+      "limit": 99
+    },
+    {
+      "item": "eq_cloud_shoes",
+      "unlockLevel": 4,
+      "limit": 1
+    },
+    {
+      "item": "eq_peach_charm",
+      "unlockLevel": 2,
+      "limit": 1
+    },
+    {
+      "item": "eq_bamboo_blade",
+      "unlockLevel": 2,
+      "limit": 1
+    },
+    {
+      "item": "eq_spirit_saber",
+      "unlockLevel": 4,
+      "limit": 3
+    },
+    {
+      "item": "eq_peach_hairpin",
+      "unlockLevel": 8,
+      "limit": 3
+    },
+    {
+      "item": "eq_bamboo_headband",
+      "unlockLevel": 2,
+      "limit": 3
+    },
+    {
+      "item": "eq_moon_crown",
+      "unlockLevel": 10,
+      "limit": 3
+    },
+    {
+      "item": "eq_cloud_robe",
+      "unlockLevel": 4,
+      "limit": 3
+    },
+    {
+      "item": "eq_star_brocade",
+      "unlockLevel": 6,
+      "limit": 3
+    },
+    {
+      "item": "eq_linen_sash",
+      "unlockLevel": 1,
+      "limit": 3
+    },
+    {
+      "item": "eq_spirit_belt",
+      "unlockLevel": 4,
+      "limit": 3
+    },
+    {
+      "item": "eq_jade_waist",
+      "unlockLevel": 2,
+      "limit": 3
+    },
+    {
+      "item": "eq_straw_shoes",
+      "unlockLevel": 1,
+      "limit": 3
+    },
+    {
+      "item": "eq_thunder_boots",
+      "unlockLevel": 10,
+      "limit": 3
+    },
+    {
+      "item": "eq_peach_talisman",
+      "unlockLevel": 8,
+      "limit": 3
+    },
+    {
+      "item": "eq_spirit_talisman",
+      "unlockLevel": 4,
+      "limit": 3
+    },
+    {
+      "item": "eq_sun_talisman",
+      "unlockLevel": 10,
+      "limit": 3
+    },
+    {
+      "item": "eq_shell_necklace",
+      "unlockLevel": 6,
+      "limit": 3
+    },
+    {
+      "item": "eq_jade_necklace",
+      "unlockLevel": 2,
+      "limit": 3
+    },
+    {
+      "item": "eq_lotus_necklace",
+      "unlockLevel": 8,
+      "limit": 3
+    },
+    {
+      "item": "quest_old_map",
+      "unlockLevel": 1,
+      "limit": 1
+    },
+    {
+      "item": "eq_mystic_mail",
+      "limit": 1,
+      "unlockLevel": 2
+    },
+    {
+      "item": "eq_blue_necklace",
+      "limit": 1,
+      "unlockLevel": 4
+    },
+    {
+      "item": "eq_peach_blossom_sword",
+      "limit": 1,
+      "unlockLevel": 8
+    },
+    {
+      "item": "eq_heaven_step",
+      "limit": 1,
+      "unlockLevel": 8
+    },
+    {
+      "item": "eq_divine_talisman",
+      "limit": 1,
+      "unlockLevel": 10
+    },
+    {
+      "item": "eq_plain_seal",
+      "limit": 1,
+      "unlockLevel": 1
+    },
+    {
+      "item": "eq_bamboo_shoes",
+      "limit": 1,
+      "unlockLevel": 2
+    },
+    {
+      "item": "eq_frost_circlet",
+      "limit": 1,
+      "unlockLevel": 4
+    },
+    {
+      "item": "eq_amethyst_sword",
+      "limit": 1,
+      "unlockLevel": 6
+    },
+    {
+      "item": "eq_violet_hairpin",
+      "limit": 1,
+      "unlockLevel": 6
+    },
+    {
+      "item": "eq_violet_boots",
+      "limit": 1,
+      "unlockLevel": 6
+    },
+    {
+      "item": "eq_moon_orb",
+      "limit": 1,
+      "unlockLevel": 6
+    },
+    {
+      "item": "eq_peach_robe",
+      "limit": 1,
+      "unlockLevel": 8
+    },
+    {
+      "item": "eq_crimson_sash",
+      "limit": 1,
+      "unlockLevel": 8
+    },
+    {
+      "item": "eq_sun_sword",
+      "limit": 1,
+      "unlockLevel": 10
+    },
+    {
+      "item": "eq_divine_robe",
+      "limit": 1,
+      "unlockLevel": 10
+    },
+    {
+      "item": "eq_divine_sash",
+      "limit": 1,
+      "unlockLevel": 10
+    },
+    {
+      "item": "eq_sun_necklace",
+      "limit": 1,
+      "unlockLevel": 10
+    }
+  ]
+}

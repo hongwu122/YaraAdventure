@@ -1,0 +1,47 @@
+{
+  "id": "redpanda_instructor",
+  "name": "竹笠教头",
+  "category": "boss",
+  "version": "6.3",
+  "element": "wood",
+  "status": "concept_art_complete_model_pending",
+  "sourceArt": "concept_sheet.webp",
+  "portrait": "portrait.webp",
+  "model": {
+    "expected": "model/redpanda_instructor.glb",
+    "present": false,
+    "note": "Real GLB pending; no fake model included."
+  },
+  "renderSpec": {
+    "frameSize": [
+      768,
+      768
+    ],
+    "format": "webp",
+    "alpha": true,
+    "anchor": [
+      0.5,
+      0.92
+    ]
+  },
+  "requiredActions": [
+    "Idle",
+    "Walk",
+    "Turn",
+    "AttackA",
+    "AttackB",
+    "AttackC",
+    "Special01",
+    "Special02",
+    "Hurt",
+    "Stagger",
+    "Knockback",
+    "PhaseChange",
+    "Death"
+  ],
+  "designRules": {
+    "ordinaryMonsterLightweight": false,
+    "bossMustHaveUniqueSilhouette": true,
+    "bossScaleOnlyForbidden": true
+  }
+}

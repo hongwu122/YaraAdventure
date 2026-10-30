@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "player": {
+    "entityId": "Yara",
+    "comboBufferSeconds": 0.24,
+    "attacks": {
+      "attack_1": {
+        "damageScale": 1.0,
+        "hitbox": {
+          "forward": 138,
+          "height": 132
+        },
+        "reaction": "hurt_light",
+        "dashCancelFromRecover": 0.25,
+        "element": "metal",
+        "status": null,
+        "damageType": "slash",
+        "stagger": 0.12
+      },
+      "attack_2": {
+        "damageScale": 1.12,
+        "hitbox": {
+          "forward": 150,
+          "height": 136
+        },
+        "reaction": "hurt_heavy",
+        "dashCancelFromRecover": 0.2,
+        "element": "metal",
+        "status": "bleed",
+        "damageType": "slash",
+        "stagger": 0.2
+      },
+      "attack_3": {
+        "damageScale": 1.42,
+        "hitbox": {
+          "forward": 176,
+          "height": 148
+        },
+        "reaction": "knockback",
+        "dashCancelFromRecover": 0.4,
+        "element": "metal",
+        "status": "armor_break",
+        "damageType": "slash",
+        "stagger": 0.42
+      },
+      "skill_U": {
+        "damageScale": 1.9,
+        "hitbox": {
+          "forward": 220,
+          "height": 165
+        },
+        "reaction": "knockback",
+        "mp": 20,
+        "cooldown": 2.1,
+        "element": "metal",
+        "status": "bleed",
+        "damageType": "slash",
+        "stagger": 0.48
+      },
+      "skill_I": {
+        "damageScale": 1.35,
+        "projectile": true,
+        "reaction": "hurt_heavy",
+        "mp": 18,
+        "cooldown": 1.05,
+        "element": "water",
+        "status": "slow",
+        "damageType": "arcane",
+        "stagger": 0.22
+      },
+      "dash_L": {
+        "mp": 12,
+        "cooldown": 2.3,
+        "speed": 1200,
+        "invuln": 0.36,
+        "element": "metal",
+        "status": null,
+        "damageType": "movement",
+        "stagger": 0.0
+      },
+      "musou": {
+        "damageScale": 3.3,
+        "radius": 760,
+        "reaction": "knockdown",
+        "mp": 50,
+        "cooldown": 8.0,
+        "element": "metal",
+        "status": "armor_break",
+        "damageType": "arcane",
+        "stagger": 0.75
+      }
+    },
+    "reactions": {
+      "hurt_light": {
+        "duration": 0.22,
+        "controlLock": true
+      },
+      "hurt_heavy": {
+        "duration": 0.38,
+        "controlLock": true
+      },
+      "knockback": {
+        "duration": 0.46,
+        "controlLock": true
+      },
+      "stun": {
+        "duration": 0.9,
+        "controlLock": true
+      },
+      "knockdown": {
+        "duration": 0.72,
+        "controlLock": true,
+        "next": "getup"
+      },
+      "getup": {
+        "duration": 0.48,
+        "controlLock": true
+      }
+    }
+  },
+  "enemies": {
+    "peachling": {
+      "entityId": "peachling",
+      "attackLogic": "melee",
+      "attacks": [
+        {
+          "id": "peach_punch",
+          "animation": "attack",
+          "range": 88,
+          "damageScale": 1.0,
+          "reaction": "hurt_light",
+          "cooldown": [
+            0.8,
+            1.25
+          ],
+          "element": "wood",
+          "damageType": "physical",
+          "stagger": 0.15,
+          "status": "root"
+        }
+      ]
+    },
+    "redpanda": {
+      "entityId": "redpanda",
+      "attackLogic": "charged_thrust",
+      "attacks": [
+        {
+          "id": "spear_thrust",
+          "animation": "attack",
+          "range": 126,
+          "damageScale": 1.0,
+          "reaction": "hurt_heavy",
+          "cooldown": [
+            0.9,
+            1.35
+          ],
+          "chargeTell": true,
+          "element": "wood",
+          "damageType": "pierce",
+          "stagger": 0.15,
+          "status": null
+        },
+        {
+          "id": "spear_charge",
+          "animation": "attack",
+          "range": 190,
+          "damageScale": 1.25,
+          "reaction": "knockback",
+          "cooldown": [
+            1.6,
+            2.2
+          ],
+          "chargeTell": true,
+          "dash": 78,
+          "element": "wood",
+          "damageType": "pierce",
+          "stagger": 0.35,
+          "status": null
+        }
+      ]
+    },
+    "golem": {
+      "entityId": "golem",
+      "attackLogic": "slam",
+      "attacks": [
+        {
+          "id": "stone_slam",
+          "animation": "attack",
+          "range": 112,
+          "damageScale": 1.0,
+          "reaction": "knockdown",
+          "cooldown": [
+            1.0,
+            1.5
+          ],
+          "element": "earth",
+          "damageType": "impact",
+          "stagger": 0.35,
+          "status": null
+        },
+        {
+          "id": "elite_quake",
+          "animation": "attack",
+          "eliteOnly": true,
+          "range": 245,
+          "damageScale": 1.2,
+          "reaction": "stun",
+          "cooldown": [
+            1.8,
+            2.5
+          ],
+          "quake": true,
+          "element": "earth",
+          "damageType": "impact",
+          "stagger": 0.35,
+          "status": "stun"
+        }
+      ]
+    },
+    "peachGuardian": {
+      "entityId": "peachGuardian",
+      "attackLogic": "boss_cycle",
+      "attacks": [
+        {
+          "id": "petal_slash",
+          "animation": "attack_A",
+          "range": 150,
+          "damageScale": 1.0,
+          "reaction": "hurt_heavy",
+          "cooldown": [
+            0.8,
+            1.2
+          ],
+          "element": "wood",
+          "damageType": "physical",
+          "stagger": 0.15,
+          "status": null
+        },
+        {
+          "id": "peach_burst",
+          "animation": "attack_B",
+          "range": 250,
+          "damageScale": 1.12,
+          "reaction": "knockback",
+          "cooldown": [
+            1.3,
+            1.8
+          ],
+          "quake": true,
+          "element": "wood",
+          "damageType": "physical",
+          "stagger": 0.35,
+          "status": null
+        },
+        {
+          "id": "petal_orb",
+          "animation": "attack_C",
+          "range": 360,
+          "damageScale": 1.0,
+          "reaction": "stun",
+          "cooldown": [
+            1.4,
+            2.0
+          ],
+          "projectile": true,
+          "element": "wood",
+          "damageType": "physical",
+          "stagger": 0.35,
+          "status": "root"
+        }
+      ]
+    }
+  },
+  "elite": {
+    "golem_elite": {
+      "baseType": "golem",
+      "hpScale": 1.55,
+      "damageScale": 1.18,
+      "speedScale": 1.08,
+      "visualScale": 1.05,
+      "extraAttack": "elite_quake",
+      "label": "镇碑石卫"
+    }
+  }
+}

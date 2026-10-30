@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "multipliers": {
+    "advantage": 1.25,
+    "disadvantage": 0.85,
+    "neutral": 1.0
+  },
+  "cycle": {
+    "wood": "earth",
+    "earth": "water",
+    "water": "fire",
+    "fire": "metal",
+    "metal": "wood"
+  },
+  "elements": {
+    "wood": {
+      "label": "木",
+      "color": "#69b873",
+      "status": "root",
+      "statusLabel": "缠绕 / 回复"
+    },
+    "earth": {
+      "label": "土",
+      "color": "#c6a05e",
+      "status": "shield_stun",
+      "statusLabel": "护盾 / 震晕"
+    },
+    "water": {
+      "label": "水",
+      "color": "#62aee8",
+      "status": "slow",
+      "statusLabel": "迟缓"
+    },
+    "fire": {
+      "label": "火",
+      "color": "#e36c4b",
+      "status": "burn",
+      "statusLabel": "灼烧"
+    },
+    "metal": {
+      "label": "金",
+      "color": "#d9d5c7",
+      "status": "armor_break_bleed",
+      "statusLabel": "破甲 / 流血"
+    }
+  },
+  "statuses": {
+    "burn": {
+      "label": "灼烧",
+      "duration": 4.0,
+      "tickInterval": 1.0,
+      "damagePerTickScale": 0.08
+    },
+    "slow": {
+      "label": "迟缓",
+      "duration": 3.0,
+      "speedMultiplier": 0.72
+    },
+    "root": {
+      "label": "缠绕",
+      "duration": 1.25,
+      "lockMove": true
+    },
+    "regen": {
+      "label": "回春",
+      "duration": 5.0,
+      "tickInterval": 1.0,
+      "healPerTickScale": 0.05
+    },
+    "armor_break": {
+      "label": "破甲",
+      "duration": 4.0,
+      "defenseMultiplier": 0.75
+    },
+    "bleed": {
+      "label": "流血",
+      "duration": 4.0,
+      "tickInterval": 1.0,
+      "damagePerTickScale": 0.06
+    },
+    "shield": {
+      "label": "护盾",
+      "duration": 5.0,
+      "damageTakenMultiplier": 0.82
+    },
+    "stun": {
+      "label": "震晕",
+      "duration": 0.9,
+      "controlLock": true
+    }
+  }
+}

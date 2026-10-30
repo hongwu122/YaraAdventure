@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 3,
+  "levelId": 17,
+  "name": "星河渡口",
+  "width": 7600,
+  "platforms": [
+    [
+      0,
+      910,
+      7600,
+      170
+    ],
+    [
+      2464,
+      690,
+      330,
+      28
+    ],
+    [
+      5048,
+      690,
+      330,
+      28
+    ]
+  ],
+  "hazards": [
+    [
+      2584,
+      1006,
+      90,
+      74
+    ],
+    [
+      5168,
+      1006,
+      90,
+      74
+    ]
+  ],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140,
+    6660,
+    7180
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 星河渡口战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1530,
+      "cameraLeft": 90,
+      "cameraRight": 1620,
+      "waveDelay": 1.14,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 703
+            },
+            {
+              "type": "shadowfox",
+              "x": 1007
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 628
+            },
+            {
+              "type": "shadowfox",
+              "x": 855
+            },
+            {
+              "type": "shadowfox",
+              "x": 1082
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 星河渡口战场",
+      "triggerX": 1660,
+      "lockLeft": 1600,
+      "lockRight": 2950,
+      "cameraLeft": 1510,
+      "cameraRight": 3040,
+      "waveDelay": 1.14,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 2123
+            },
+            {
+              "type": "shadowfox",
+              "x": 2427
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 2048
+            },
+            {
+              "type": "shadowfox",
+              "x": 2275
+            },
+            {
+              "type": "shadowfox",
+              "x": 2502
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 2048
+            },
+            {
+              "type": "shadowfox",
+              "x": 2275
+            },
+            {
+              "type": "golemElite",
+              "x": 2502
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 星河渡口战场",
+      "triggerX": 3080,
+      "lockLeft": 3020,
+      "lockRight": 4370,
+      "cameraLeft": 2930,
+      "cameraRight": 4460,
+      "waveDelay": 1.14,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 3543
+            },
+            {
+              "type": "shadowfox",
+              "x": 3847
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 3422
+            },
+            {
+              "type": "shadowfox",
+              "x": 3604
+            },
+            {
+              "type": "shadowfox",
+              "x": 3786
+            },
+            {
+              "type": "runegolem",
+              "x": 3968
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 星河渡口战场",
+      "triggerX": 4500,
+      "lockLeft": 4440,
+      "lockRight": 5790,
+      "cameraLeft": 4350,
+      "cameraRight": 5880,
+      "waveDelay": 1.14,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 4963
+            },
+            {
+              "type": "shadowfox",
+              "x": 5267
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 4842
+            },
+            {
+              "type": "shadowfox",
+              "x": 5024
+            },
+            {
+              "type": "shadowfox",
+              "x": 5206
+            },
+            {
+              "type": "runegolem",
+              "x": 5388
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 4842
+            },
+            {
+              "type": "shadowfox",
+              "x": 5024
+            },
+            {
+              "type": "shadowfox",
+              "x": 5206
+            },
+            {
+              "type": "golemElite",
+              "x": 5388
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "E",
+      "label": "E区 · 星河渡口深处",
+      "triggerX": 5920,
+      "lockLeft": 5860,
+      "lockRight": 7210,
+      "cameraLeft": 5770,
+      "cameraRight": 7300,
+      "waveDelay": 1.14,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "shadowfoxBoss",
+              "x": 6535
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "earth",
+  "dropPool": "level_17_main",
+  "stageBoss": false
+}

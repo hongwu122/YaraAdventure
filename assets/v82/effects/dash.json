@@ -1,0 +1,27 @@
+{
+  "version": "8.2",
+  "animations": {
+    "effect": {
+      "frames": 6,
+      "fps": 12,
+      "frameImages": {
+        "right": [
+          "../../v81/effects/dash_00.png",
+          "../../v81/effects/dash_01.png",
+          "../../v81/effects/dash_02.png",
+          "../../v81/effects/dash_03.png",
+          "../../v81/effects/dash_04.png",
+          "../../v81/effects/dash_05.png"
+        ],
+        "left": [
+          "../../v81/effects/dash_00.png",
+          "../../v81/effects/dash_01.png",
+          "../../v81/effects/dash_02.png",
+          "../../v81/effects/dash_03.png",
+          "../../v81/effects/dash_04.png",
+          "../../v81/effects/dash_05.png"
+        ]
+      }
+    }
+  }
+}

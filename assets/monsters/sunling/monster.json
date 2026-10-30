@@ -1,0 +1,21 @@
+{
+  "id": "sunling",
+  "displayName": "sunling",
+  "spritesheetPath": "spritesheet.webp",
+  "cols": 8,
+  "rows": 6,
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "rowsMap": {
+    "idleRight": 0,
+    "walkRight": 1,
+    "attackRight": 2,
+    "idleLeft": 3,
+    "walkLeft": 4,
+    "attackLeft": 5
+  },
+  "attackType": "melee",
+  "damage": 19,
+  "range": 80,
+  "speed": 90
+}

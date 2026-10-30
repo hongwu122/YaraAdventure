@@ -1,0 +1,55 @@
+{
+  "id": "abysslingBoss",
+  "gameId": "abysslingBoss",
+  "name": "归墟魔灵",
+  "category": "boss",
+  "version": "6.4",
+  "element": "dark",
+  "stageLevels": [
+    10
+  ],
+  "status": "concept_art_complete_model_and_prerender_pending",
+  "sourceArt": "concept_sheet.webp",
+  "portrait": "portrait.webp",
+  "model": {
+    "expected": "model/abysslingBoss.glb",
+    "present": false,
+    "note": "Real GLB pending; no fake model included."
+  },
+  "renderSpec": {
+    "frameSize": [
+      768,
+      768
+    ],
+    "format": "webp",
+    "alpha": true,
+    "anchor": [
+      0.5,
+      0.92
+    ]
+  },
+  "requiredActions": [
+    "Phase1",
+    "Idle",
+    "Walk",
+    "Turn",
+    "AttackA",
+    "AttackB",
+    "AttackC",
+    "Special01",
+    "Special02",
+    "Ultimate",
+    "Hurt",
+    "Stagger",
+    "Knockback",
+    "PhaseChange",
+    "Phase2",
+    "Death"
+  ],
+  "designBrief": "第10关阶段Boss。巨型归墟核心与多眼虚空体，不沿用普通深渊灵体；Phase2核心开眼、外层披壳破裂。",
+  "designRules": {
+    "ordinaryMonsterLightweight": false,
+    "bossMustHaveUniqueSilhouette": true,
+    "bossScaleOnlyForbidden": true
+  }
+}

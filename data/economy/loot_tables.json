@@ -1,0 +1,538 @@
+{
+  "version": "8.0",
+  "tables": {
+    "normal": {
+      "rolls": [
+        1,
+        2
+      ],
+      "entries": [
+        {
+          "item": "mat_peach_petal",
+          "weight": 34,
+          "qty": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "potion_red",
+          "weight": 15,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "potion_blue",
+          "weight": 12,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_wood_sword",
+          "weight": 7,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_cloth_band",
+          "weight": 7,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_travel_robe",
+          "weight": 5,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_cloud_shoes",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_spirit_saber",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_peach_hairpin",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_bamboo_headband",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_moon_crown",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "redpanda": {
+      "rolls": [
+        1,
+        2
+      ],
+      "entries": [
+        {
+          "item": "mat_bamboo_fiber",
+          "weight": 42,
+          "qty": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "potion_red",
+          "weight": 14,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "potion_blue",
+          "weight": 12,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_bamboo_blade",
+          "weight": 8,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_peach_charm",
+          "weight": 5,
+          "qty": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "elite": {
+      "rolls": [
+        2,
+        3
+      ],
+      "entries": [
+        {
+          "item": "mat_refined_iron",
+          "weight": 30,
+          "qty": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "mat_spirit_dust",
+          "weight": 30,
+          "qty": [
+            1,
+            3
+          ]
+        },
+        {
+          "item": "potion_red",
+          "weight": 14,
+          "qty": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "eq_bamboo_blade",
+          "weight": 12,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_mystic_mail",
+          "weight": 7,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_blue_necklace",
+          "weight": 7,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_cloud_robe",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_star_brocade",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_linen_sash",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_spirit_belt",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_jade_waist",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_straw_shoes",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_thunder_boots",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_peach_talisman",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_spirit_talisman",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_sun_talisman",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_shell_necklace",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_jade_necklace",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_lotus_necklace",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "boss_peach": {
+      "rolls": [
+        3,
+        4
+      ],
+      "entries": [
+        {
+          "item": "mat_peach_core",
+          "weight": 42,
+          "qty": [
+            1,
+            2
+          ]
+        },
+        {
+          "item": "mat_spirit_dust",
+          "weight": 22,
+          "qty": [
+            2,
+            5
+          ]
+        },
+        {
+          "item": "eq_peach_blossom_sword",
+          "weight": 14,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_mystic_mail",
+          "weight": 11,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_blue_necklace",
+          "weight": 8,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_heaven_step",
+          "weight": 2.5,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_divine_talisman",
+          "weight": 0.5,
+          "qty": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "boss_generic": {
+      "rolls": [
+        3,
+        4
+      ],
+      "entries": [
+        {
+          "item": "mat_refined_iron",
+          "weight": 30,
+          "qty": [
+            2,
+            5
+          ]
+        },
+        {
+          "item": "mat_spirit_dust",
+          "weight": 30,
+          "qty": [
+            2,
+            5
+          ]
+        },
+        {
+          "item": "eq_mystic_mail",
+          "weight": 16,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_blue_necklace",
+          "weight": 13,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_heaven_step",
+          "weight": 9,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_divine_talisman",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_cloud_robe",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_star_brocade",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_linen_sash",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_spirit_belt",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_jade_waist",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_straw_shoes",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_thunder_boots",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_peach_talisman",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_spirit_talisman",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_sun_talisman",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_shell_necklace",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_jade_necklace",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        },
+        {
+          "item": "eq_lotus_necklace",
+          "weight": 2,
+          "qty": [
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "rules": {
+    "normal": "普通怪掉材料、药水、凡品并有少量灵秀。",
+    "elite": "精英怪提高灵秀和玄品概率。",
+    "boss": "Boss提高玄品以上概率，并可掉专属材料。"
+  }
+}

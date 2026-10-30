@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 3,
+  "levelId": 12,
+  "name": "雷泽荒原",
+  "width": 6850,
+  "platforms": [
+    [
+      0,
+      910,
+      6850,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 雷泽荒原战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1698,
+      "cameraLeft": 90,
+      "cameraRight": 1788,
+      "waveDelay": 1.04,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "golem",
+              "x": 759
+            },
+            {
+              "type": "runegolem",
+              "x": 1118
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "golem",
+              "x": 669
+            },
+            {
+              "type": "runegolem",
+              "x": 939
+            },
+            {
+              "type": "golemElite",
+              "x": 1208
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 雷泽荒原战场",
+      "triggerX": 1828,
+      "lockLeft": 1768,
+      "lockRight": 3285,
+      "cameraLeft": 1678,
+      "cameraRight": 3375,
+      "waveDelay": 1.04,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "golem",
+              "x": 2347
+            },
+            {
+              "type": "runegolem",
+              "x": 2706
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "golem",
+              "x": 2257
+            },
+            {
+              "type": "runegolem",
+              "x": 2526
+            },
+            {
+              "type": "runegolem",
+              "x": 2796
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "golem",
+              "x": 2257
+            },
+            {
+              "type": "runegolem",
+              "x": 2526
+            },
+            {
+              "type": "runegolem",
+              "x": 2796
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 雷泽荒原战场",
+      "triggerX": 3415,
+      "lockLeft": 3355,
+      "lockRight": 4872,
+      "cameraLeft": 3265,
+      "cameraRight": 4962,
+      "waveDelay": 1.04,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "golem",
+              "x": 3934
+            },
+            {
+              "type": "runegolem",
+              "x": 4293
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "golem",
+              "x": 3844
+            },
+            {
+              "type": "runegolem",
+              "x": 4114
+            },
+            {
+              "type": "golemElite",
+              "x": 4383
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 雷泽荒原深处",
+      "triggerX": 5002,
+      "lockLeft": 4942,
+      "lockRight": 6460,
+      "cameraLeft": 4852,
+      "cameraRight": 6550,
+      "waveDelay": 1.04,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "runegolemBoss",
+              "x": 5701
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "earth",
+  "dropPool": "level_12_main",
+  "stageBoss": false
+}

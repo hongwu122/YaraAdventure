@@ -1,0 +1,77 @@
+{
+  "equipment_slots": [
+    "weapon.svg",
+    "head.svg",
+    "body.svg",
+    "waist.svg",
+    "shoes.svg",
+    "talisman.svg",
+    "necklace.svg"
+  ],
+  "rarity_frames": [
+    "凡品.svg",
+    "灵秀.svg",
+    "玄品.svg",
+    "仙珍.svg",
+    "天工.svg",
+    "神铸.svg"
+  ],
+  "elemental_emblems": [
+    "metal.svg",
+    "water.svg",
+    "fire.svg",
+    "wood.svg",
+    "earth.svg"
+  ],
+  "skill_node_bases": [
+    "locked.svg",
+    "learnable.svg",
+    "learned.svg",
+    "ultimate.svg"
+  ],
+  "boss_badges": [
+    "phase_boss.svg",
+    "trial_boss.svg",
+    "world_boss.svg"
+  ],
+  "map_region_badges": [
+    "taoyuan.svg",
+    "bamboo_temple.svg",
+    "red_fire.svg",
+    "frost_sea.svg",
+    "qingqiu.svg",
+    "kunlun.svg",
+    "star_sky.svg",
+    "outer_realms.svg"
+  ],
+  "panel_corners": [
+    "corner_1.svg",
+    "corner_2.svg",
+    "corner_3.svg",
+    "corner_4.svg"
+  ],
+  "dividers": [
+    "gold_line.svg",
+    "pearl_line.svg",
+    "jade_line.svg"
+  ],
+  "tab_icons": [
+    "equipment.svg",
+    "inventory.svg",
+    "shop.svg",
+    "skill.svg",
+    "archive.svg",
+    "settings.svg"
+  ],
+  "currency_icons": [
+    "spirit_stone.svg",
+    "gold_coin.svg",
+    "dust.svg"
+  ],
+  "pill_quality_frames": [
+    "lower.svg",
+    "middle.svg",
+    "upper.svg",
+    "best.svg"
+  ]
+}

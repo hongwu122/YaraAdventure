@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+    <rect x="6" y="6" width="116" height="116" rx="24" fill="#101620" stroke="#ff6464" stroke-width="6"/>
+    <rect x="18" y="18" width="92" height="92" rx="18" fill="none" stroke="#ff646488" stroke-width="2"/>
+    <text x="64" y="118" text-anchor="middle" font-size="14" fill="#f3ebda" font-family="sans-serif">神铸</text>
+    </svg>

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Aster",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          35,
+          23,
+          413,
+          489
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          519,
+          34,
+          466,
+          467
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          24,
+          512,
+          475,
+          474
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          512,
+          516,
+          505,
+          502
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          22,
+          1031,
+          480,
+          467
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          525,
+          1035,
+          484,
+          465
+        ]
+      ]
+    }
+  }
+}

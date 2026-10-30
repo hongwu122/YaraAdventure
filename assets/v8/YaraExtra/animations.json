@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 3,
+  "animations": {
+    "attack_2": {
+      "frames": 4,
+      "fps": 12,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "attack_2_right.webp",
+        "left": "attack_2_left.webp"
+      }
+    },
+    "attack_3": {
+      "frames": 4,
+      "fps": 10,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "attack_3_right.webp",
+        "left": "attack_3_left.webp"
+      }
+    },
+    "skill_I": {
+      "frames": 4,
+      "fps": 10,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "skill_I_right.webp",
+        "left": "skill_I_left.webp"
+      }
+    },
+    "hurt_light": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "hurt_light_right.webp",
+        "left": "hurt_light_left.webp"
+      }
+    },
+    "hurt_heavy": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "hurt_heavy_right.webp",
+        "left": "hurt_heavy_left.webp"
+      }
+    },
+    "knockdown": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "knockdown_right.webp",
+        "left": "knockdown_left.webp"
+      }
+    },
+    "dead": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "dead_right.webp",
+        "left": "dead_left.webp"
+      }
+    },
+    "getup": {
+      "frames": 2,
+      "fps": 8,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "getup_right.webp",
+        "left": "getup_left.webp"
+      }
+    },
+    "stun": {
+      "frames": 1,
+      "fps": 6,
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.9505208333333334
+      ],
+      "directions": {
+        "right": "stun_right.webp",
+        "left": "stun_left.webp"
+      }
+    }
+  },
+  "stateAliases": {},
+  "entityId": "YaraExtra",
+  "version": "8.0",
+  "anchor": [
+    0.5,
+    0.9505208333333334
+  ],
+  "notes": "Generated distinct 2D poses; shared poses for some skill/reaction states. Fixed cell and foot baseline."
+}

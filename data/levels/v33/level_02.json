@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "levelId": 2,
+  "name": "翠竹密林",
+  "width": 5200,
+  "platforms": [[0,910,1640,170],[1720,910,1640,170],[3440,910,1760,170],[1080,785,320,28],[2760,800,360,28],[4200,790,390,28]],
+  "hazards": [[1640,1020,80,60],[3360,1020,80,60]],
+  "coins": [430,960,1420,2100,2660,3260,3900,4580],
+  "rooms": [
+    {"id":"A","label":"A区 · 竹径伏兵","triggerX":420,"lockLeft":240,"lockRight":1510,"cameraLeft":160,"cameraRight":1640,"waveDelay":0.7,"waves":[{"label":"第1波","enemies":[{"type":"redpanda","x":820},{"type":"redpanda","x":1160}]}]},
+    {"id":"B","label":"B区 · 听风桥","triggerX":1900,"lockLeft":1810,"lockRight":3260,"cameraLeft":1690,"cameraRight":3370,"waveDelay":0.9,"waves":[{"label":"第1波","enemies":[{"type":"redpanda","x":2210},{"type":"redpanda","x":2580}]},{"label":"第2波","enemies":[{"type":"redpanda","x":2090},{"type":"redpanda","x":2450},{"type":"redpanda","x":2920}]}]},
+    {"id":"C","label":"C区 · 竹海围场","triggerX":3650,"lockLeft":3520,"lockRight":5050,"cameraLeft":3410,"cameraRight":5200,"waveDelay":1.0,"waves":[{"label":"第1波","enemies":[{"type":"redpanda","x":3930},{"type":"redpanda","x":4360}]},{"label":"第2波","enemies":[{"type":"redpanda","x":3810},{"type":"redpanda","x":4210},{"type":"redpanda","x":4680}]},{"label":"第3波","enemies":[{"type":"redpanda","x":3920},{"type":"redpanda","x":4300},{"type":"redpanda","x":4760}]}]}
+  ]
+}

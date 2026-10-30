@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 3,
+  "levelId": 16,
+  "name": "幽都鬼市",
+  "width": 7450,
+  "platforms": [
+    [
+      0,
+      910,
+      7450,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140,
+    6660,
+    7180
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 幽都鬼市战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1500,
+      "cameraLeft": 90,
+      "cameraRight": 1590,
+      "waveDelay": 1.12,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 693
+            },
+            {
+              "type": "jiangshi",
+              "x": 987
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 620
+            },
+            {
+              "type": "jiangshi",
+              "x": 840
+            },
+            {
+              "type": "golemElite",
+              "x": 1060
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 幽都鬼市战场",
+      "triggerX": 1630,
+      "lockLeft": 1570,
+      "lockRight": 2890,
+      "cameraLeft": 1480,
+      "cameraRight": 2980,
+      "waveDelay": 1.12,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 2083
+            },
+            {
+              "type": "jiangshi",
+              "x": 2377
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 2010
+            },
+            {
+              "type": "jiangshi",
+              "x": 2230
+            },
+            {
+              "type": "jiangshi",
+              "x": 2450
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 2010
+            },
+            {
+              "type": "jiangshi",
+              "x": 2230
+            },
+            {
+              "type": "jiangshi",
+              "x": 2450
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 幽都鬼市战场",
+      "triggerX": 3020,
+      "lockLeft": 2960,
+      "lockRight": 4280,
+      "cameraLeft": 2870,
+      "cameraRight": 4370,
+      "waveDelay": 1.12,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 3473
+            },
+            {
+              "type": "jiangshi",
+              "x": 3767
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 3356
+            },
+            {
+              "type": "jiangshi",
+              "x": 3532
+            },
+            {
+              "type": "jiangshi",
+              "x": 3708
+            },
+            {
+              "type": "golemElite",
+              "x": 3884
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 幽都鬼市战场",
+      "triggerX": 4410,
+      "lockLeft": 4350,
+      "lockRight": 5670,
+      "cameraLeft": 4260,
+      "cameraRight": 5760,
+      "waveDelay": 1.12,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 4863
+            },
+            {
+              "type": "jiangshi",
+              "x": 5157
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 4746
+            },
+            {
+              "type": "jiangshi",
+              "x": 4922
+            },
+            {
+              "type": "jiangshi",
+              "x": 5098
+            },
+            {
+              "type": "shadowfox",
+              "x": 5274
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 4746
+            },
+            {
+              "type": "jiangshi",
+              "x": 4922
+            },
+            {
+              "type": "jiangshi",
+              "x": 5098
+            },
+            {
+              "type": "shadowfox",
+              "x": 5274
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "E",
+      "label": "E区 · 幽都鬼市深处",
+      "triggerX": 5800,
+      "lockLeft": 5740,
+      "lockRight": 7060,
+      "cameraLeft": 5650,
+      "cameraRight": 7150,
+      "waveDelay": 1.12,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "jiangshiBoss",
+              "x": 6400
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "metal",
+  "dropPool": "level_16_main",
+  "stageBoss": false
+}

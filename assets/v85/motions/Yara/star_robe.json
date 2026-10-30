@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Yara",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          155,
+          8,
+          274,
+          494
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          598,
+          17,
+          319,
+          485
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          102,
+          514,
+          377,
+          496
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          553,
+          523,
+          431,
+          497
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          99,
+          1032,
+          393,
+          469
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "star_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          581,
+          1032,
+          393,
+          472
+        ]
+      ]
+    }
+  }
+}

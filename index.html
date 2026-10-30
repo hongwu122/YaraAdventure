@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Yara冒险日记 · V8.5</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="ui/theme_v49.css">
+<link rel="stylesheet" href="ui/layout_v67.css">
+<link rel="stylesheet" href="ui/responsive_v67.css">
+  <link rel="stylesheet" href="ui/style_v68.css">
+  <link rel="stylesheet" href="ui/style_v69.css">
+<link rel="stylesheet" href="ui/style_v80.css">
+<link rel="stylesheet" href="ui/style_v81.css">
+<link rel="stylesheet" href="ui/style_v82.css">
+<link rel="stylesheet" href="ui/style_v83.css">
+</head>
+<body><div id="v81Boot" role="status" aria-live="polite"><h2>Yara冒险日记</h2><p id="v81BootText">正在准备游戏…</p></div>
+<div id="app">
+  <!-- V3.4 主菜单：场景大图 + 透明文字菜单，不再使用卡片矩阵 -->
+  <section id="landingView" class="view v82-landing"><div class="v82-home-shade"></div><main><small>YARA ADVENTURE · V8.5</small><h1>Yara冒险日记</h1><p>五行入山海，各赴一程。</p><nav><button id="v82New">开始冒险<span>选择角色，创建新的旅程</span></button><button id="v82Continue">继续冒险<span id="v82LastSlot">继续上次的存档</span></button><button id="v82Load">读取存档<span>八个独立存档位置</span></button></nav><p id="v82HomeStatus"></p></main></section>
+<section id="slotsView" class="view"><header class="v82-page-header"><button id="v82SlotsBack">← 返回</button><h2 id="v82SlotsTitle">读取存档</h2></header><main class="v82-slots-main"><div id="v82Creation"><label>冒险名称<input id="v82SlotName" maxlength="24" placeholder="为这段旅程取一个名字"></label><div id="v82ChooseCharacter"></div></div><div id="v82SlotsGrid"></div><p id="v82SlotNotice" role="status"></p></main></section>
+<section id="menuView" class="view active menu-view">
+    <div class="menu-bg"></div>
+    <div class="menu-film"></div>
+    <div class="menu-grain"></div>
+    <div class="menu-brand">
+      <div class="menu-eyebrow">YARA ADVENTURE DIARY</div>
+      <h1>Yara冒险日记</h1>
+      <div class="menu-subtitle">山海有路，剑意随行。</div>
+    </div>
+
+    <nav class="aaa-menu" aria-label="主菜单">
+      <div class="aaa-line"></div>
+      <button class="aaa-item is-primary" id="continueBtn"><span class="aaa-index">01</span><span class="aaa-label">继续冒险</span><span class="aaa-note">Continue</span></button>
+      <button class="aaa-item" id="levelBtn"><span class="aaa-index">02</span><span class="aaa-label">诸界舆图</span><span class="aaa-note">World Map</span></button>
+      <button class="aaa-item" id="shanhaiBtn"><span class="aaa-index">03</span><span class="aaa-label">山海录</span><span class="aaa-note">Archive</span></button>
+      <button class="aaa-item" id="characterBtn"><span class="aaa-index">04</span><span class="aaa-label">角色展台</span><span class="aaa-note">Characters</span></button>
+      <button class="aaa-item" id="cultivateBtn"><span class="aaa-index">05</span><span class="aaa-label">我的洞天</span><span class="aaa-note">Sanctum</span></button>
+      <button class="aaa-item" id="helpBtn"><span class="aaa-index">06</span><span class="aaa-label">操作说明</span><span class="aaa-note">Controls</span></button>
+      <button class="aaa-item" id="settingsBtn"><span class="aaa-index">07</span><span class="aaa-label">设置</span><span class="aaa-note">Settings</span></button>
+    </nav>
+
+
+    <aside id="menuStatusV43" class="menu-status-v43">
+      <small>ACTIVE PROFILE</small>
+      <div><span>角色</span><b id="menuCharV43">Yara</b></div>
+      <div><span>等级</span><b id="menuLevelV43">Lv.1</b></div>
+      <div><span>境界</span><b id="menuRealmV43">凡人</b></div>
+      <div><span>战力</span><b id="menuPowerV43">0</b></div>
+      <div><span>主线</span><b id="menuStoryV43">1 / 20</b></div>
+    </aside>
+    <div class="menu-utility">
+      <button id="saveBtn">保存</button>
+      <i></i>
+      <button id="exportBtn">导出存档</button>
+      <button id="importBtn">导入存档</button>
+      <input id="importFile" type="file" accept="application/json,.json" hidden>
+      <span id="saveStatus">正在检查存档方式…</span>
+    </div>
+    <div class="menu-version">V8.5 · 2D ACTION EDITION</div>
+  </section>
+
+  <!-- 天路式选关 -->
+  <section id="levelView" class="view route-view">
+    <div class="route-bg"></div>
+    <header class="minimal-head light-head">
+      <button class="back-btn" data-back aria-label="返回主菜单"><span class="back-icon">←</span><span>返回</span><kbd>ESC</kbd></button>
+      <div class="page-title compact"><span>THE WORLD MAP OF REALMS</span><h2>诸界舆图</h2></div>
+      <div class="head-actions"><button class="micro-action" id="unlockBtn">开发模式 · 解锁20关</button></div>
+    </header>
+    <div id="playerSummary" class="route-summary"></div>
+    <main id="levelGrid" class="journey-map" aria-label="主线关卡地图" data-draggable-map="true"></main>
+    <footer class="route-legend"><span><i class="dot cleared"></i>已通关</span><span><i class="dot current"></i>当前可挑战</span><span><i class="dot locked"></i>未解锁 / 云雾遮蔽</span><span><i class="dot dungeon"></i>副本支路 / 特殊地点</span><span><i class="dot boss"></i>阶段Boss地标</span></footer>
+  </section>
+
+  <!-- V3.5 角色展台：数据驱动注册 + WebP 伪3D拖动展示 -->
+  <section id="characterView" class="view character-v35-view">
+    <div class="char-stage-bg"></div>
+    <header class="minimal-head light-head v35-char-head">
+      <button class="back-btn" data-back><span class="back-icon">←</span><span>返回</span><kbd>ESC</kbd></button>
+      <div class="page-title compact"><span>CHARACTER SHOWCASE</span><h2>角色展台</h2></div>
+      <div class="char-head-note">2D 角色 · 动作与穿戴预览</div>
+    </header>
+    <main class="character-stage-v35">
+      <aside class="roster-v35">
+        <div class="v35-section-kicker">ROSTER · V8.5</div>
+        <div id="rosterList" class="roster-list-v35"></div>
+        <p>选择角色，查看动作和当前穿戴外观。</p>
+      </aside>
+      <section id="characterTurntable" class="turntable-v35" aria-label="拖动角色查看角度">
+        <div class="turntable-ring"></div>
+        <button id="anglePrev" class="angle-arrow left" aria-label="上一角度">‹</button>
+        <img id="characterStageImage" src="assets/characters/Yara/20260814.png" alt="角色展示">
+        <button id="angleNext" class="angle-arrow right" aria-label="下一角度">›</button>
+        <div class="turntable-floor"></div>
+        <div class="angle-hint"><span id="angleLabel">正面</span><i></i><span id="modelStatus">V5.0 Yara 定稿 · 稳定展示</span></div>
+        <div class="v44-view-controls" aria-label="角色快捷视角"><button data-v44-view="front">正面</button><button data-v44-view="right">右侧</button><button data-v44-view="back">背面</button><button data-v44-view="left">左侧</button><button id="v44ViewReset">重置</button></div><div class="v66-animation-controls" aria-label="角色动作预览"><button data-v66-anim="Idle">Idle</button><button data-v66-anim="Victory">Victory</button><button data-v66-anim="Cultivate">Cultivate</button></div>
+      </section>
+      <aside class="character-dossier-v35">
+        <div class="dossier-top"><span id="charNo">NO. 001</span><em id="charPlayStatus">当前版本可进入战斗</em></div>
+        <h3 id="charName">Yara</h3>
+        <div class="char-title-row"><b id="charTitle">山海剑心</b><span id="charElement">五行 · 金</span></div>
+        <p id="charRole" class="character-role-v35">均衡剑士 / 高机动 / 中近距离</p>
+        <p id="charDesc">载入角色资料中…</p>
+        <div class="char-growth-snapshot"><span>等级 <b id="charLevel">Lv.1</b></span><span>经验 <b id="charExp">0 / 100</b></span><span>技能点 <b id="charPoints">0</b></span></div>
+        <div id="charStats" class="v35-stats"></div>
+        <div class="basic-logic"><small>普攻逻辑</small><div id="charBasic"></div></div>
+        <div id="charSkills" class="skill-strip-v35"></div>
+        <div id="charEquipmentSummary" class="char-equipment-v36"></div>
+      </aside>
+    </main>
+  </section>
+
+  <!-- V5.0 山海录：游戏图鉴 -->
+  <section id="shanhaiView" class="view v49-codex-view">
+    <div class="v49-scene-bg v49-codex-bg"></div><div class="v49-scene-shade"></div>
+    <header class="v49-head">
+      <button class="v49-back" data-back><span>←</span><b>返回</b><kbd>ESC</kbd></button>
+      <div class="v49-title"><small>THE SHANHAI ARCHIVE</small><h2>山海录</h2><p>角色 · 怪物 · Boss · 装备 · 五行 · 攻略</p></div>
+      <div class="v49-head-mark">ARCHIVE / V8.5</div>
+    </header>
+    <main class="v49-codex-shell">
+      <aside class="v49-codex-nav"><div class="v49-panel-cap">目录</div><div id="archiveTabs" class="v49-codex-tabs"></div></aside>
+      <section class="v49-codex-gallery">
+        <div class="v49-codex-heading"><div><small id="archiveKicker">ARCHIVE</small><h3 id="archiveTitle">角色</h3></div><p id="archiveIntro">查看已收录角色的定位、技能与战斗特征。</p></div>
+        <div id="archiveEntries" class="v49-codex-entries"></div>
+      </section>
+      <aside id="archiveDetail" class="v49-codex-detail"><div class="v49-empty"><span>卷</span><p>选择条目查看图像、标签、属性、弱点与掉落。</p></div></aside>
+    </main>
+  </section>
+
+  <!-- V4.8 我的洞天：场景式总览 -->
+  <section id="growthHallView" class="view growth-hall-view v48-growth-view">
+    <div class="growth-bg"></div><div class="growth-shade"></div>
+    <header class="minimal-head light-head growth-head v48-growth-head">
+      <button class="back-btn" data-back><span class="back-icon">←</span><span>返回</span><kbd>ESC</kbd></button>
+      <div class="page-title compact"><span>THE CULTIVATION HALL</span><h2>我的洞天</h2></div>
+      <div id="growthAccount" class="growth-account"></div>
+    </header>
+    <main class="growth-scene v48-growth-scene">
+      <section class="v48-growth-caption"><small>山海洞天 · 我的洞天</small><h3>云山静修 · 自在洞天</h3><p>直接点击场景中的木鱼、聚灵阵、药圃、丹炉、藏经阁、灵泉与静修台进入对应洞府功能。</p></section>
+      <div id="growthCharacterV48" class="v48-growth-character" aria-label="Yara"></div>
+      <div id="growthHotspots" class="growth-hotspots v48-growth-hotspots"></div>
+      <nav id="growthDockV48" class="v48-growth-dock" aria-label="修行快捷入口"></nav>
+      <div class="v48-growth-tip"><span>悬停物件查看名称与等级</span><i></i><span>点击物件进入洞府</span></div>
+    </main>
+  </section>
+
+  <!-- V4.1 修复：V3.6 经济系统原有 JS/CSS 已存在，但 V4.0 整合时漏掉了页面容器，导致装备/背包/商店进入黑屏 -->
+  <section id="economyView" class="view economy-v36-view">
+    <div class="economy-v36-bg"></div><div class="economy-v36-shade"></div>
+    <header class="minimal-head light-head economy-head-v36">
+      <button id="economyBack" class="back-btn"><span class="back-icon">←</span><span>我的洞天</span><kbd>ESC</kbd></button>
+      <div class="page-title compact"><span>EQUIPMENT · INVENTORY · MERCHANT</span><h2 id="economyTitleV47">角色装备</h2></div>
+      <div id="economyCurrency" class="economy-currency-v36 v47-economy-status">
+        <span>Yara <b>Lv.1</b></span><span>主线 <b>1/20</b></span><span>灵石 <b>0</b></span>
+      </div>
+    </header>
+    <nav class="economy-tabs-v36" aria-label="经济系统分类">
+      <button data-econ-tab="equipment" class="active">装备</button>
+      <button data-econ-tab="inventory">背包</button>
+      <button data-econ-tab="shop">商店</button>
+    </nav>
+    <main class="economy-shell-v36">
+      <section id="economyMain" class="economy-main-v36"><div class="econ-loading">正在整理行囊…</div></section>
+      <aside id="economySide" class="economy-side-v36"><div class="econ-side-placeholder"><b>山海行囊</b><p>选择装备、背包或商店查看详细内容。</p></div></aside>
+    </main>
+  </section>
+
+  <!-- V4.8 洞府：真实场景热点 / 小型HUD / 境界脉络 -->
+  <section id="cultivateView" class="view cultivation-v37-view v48-sanctum-view">
+    <div class="sanctum-bg"></div><div class="sanctum-shade"></div>
+    <header class="minimal-head light-head sanctum-head v48-sanctum-head">
+      <button id="v48SanctumBack" class="back-btn"><span class="back-icon">←</span><span>我的洞天</span><kbd>ESC</kbd></button>
+      <div class="page-title compact"><span>THE INNER SANCTUM</span><h2>洞天 · 灵府</h2></div>
+      <div class="sanctum-head-stats"><span>角色 <b id="v37Character">Yara</b></span><span>灵石 <b id="v37Stones">0</b></span><span>修炼效率 <b id="v37Rate">0/秒</b></span></div>
+    </header>
+    <main class="sanctum-stage v48-sanctum-stage">
+      <aside class="v48-realm-rail">
+        <section class="v48-realm-summary">
+          <small>REALM PROGRESS</small><h3 id="v37RealmName">凡人</h3>
+          <div class="sanctum-progress"><i id="v37RealmBar"></i></div>
+          <div class="realm-progress-text"><span id="v37StageExp">0 / 0</span><em>下一境界：<b id="v37NextRealm">练气1层</b></em></div>
+        </section>
+        <div id="v48RealmTrack" class="v48-realm-track"></div>
+        <button id="v37BreakBtn" class="breakthrough-trigger v48-breakthrough-trigger">突破境界</button>
+      </aside>
+
+      <section class="sanctum-character-zone v48-character-zone" aria-label="打坐角色">
+        <div class="cultivator-aura"></div><div class="v48-spirit-ring"></div><div id="cultivatorAvatar" class="cultivator-avatar"></div>
+        <div class="meditation-caption"><b>打坐修炼</b><span>累计 <i id="v37MeditationTime">0小时00分00秒</i></span></div>
+      </section>
+
+      <div id="v37Facilities" class="sanctum-hotspots v48-sanctum-hotspots"></div>
+      <div id="v48SceneFx" class="v48-scene-fx" aria-hidden="true"></div>
+
+      <aside id="v37FacilityDrawer" class="sanctum-drawer v48-facility-hud"></aside>
+
+      <section class="sanctum-bottom-strip v48-bottom-strip">
+        <div><span>木鱼今日</span><b id="v37MuyuToday">0/100</b></div>
+        <div><span>药材概览</span><b id="v37HerbSummary">灵草 0 · 赤参 0 · 雪莲 0</b></div>
+        <button id="v37CollectGarden">药圃收取</button>
+      </section>
+      <div id="v37Toast" class="sanctum-toast"></div>
+    </main>
+
+    <div class="v37-legacy-bridge" aria-hidden="true">
+      <b id="realmName"></b><b id="cultExp"></b><b id="spiritStone"></b><b id="herbCount"></b><b id="muyuCount"></b><b id="onlineTime"></b><i id="realmBar"></i><span id="realmHint"></span><b id="cultRate"></b>
+      <button id="meditateBtn"></button><button id="muyuBtn"></button><em id="muyuPop"></em><b id="pillQi"></b><b id="pillBody"></b><b id="pillSpirit"></b>
+      <button data-craft="qi"></button><button data-craft="body"></button><button data-craft="spirit"></button><button data-use="qi"></button><button data-use="body"></button><button data-use="spirit"></button>
+    </div>
+
+    <div id="offlineRewardModal" class="sanctum-modal v48-settlement-modal hidden">
+      <div class="sanctum-modal-card offline-card v48-settlement-card">
+        <small>OFFLINE CULTIVATION REPORT</small><h3>洞府结算</h3><p>聚灵阵、药圃与洞府灵脉在你离开期间持续运转。</p>
+        <div class="v48-settlement-time"><span>离线时长</span><b class="offline-time">0</b></div>
+        <div class="v48-settlement-grid"><div><span>修为</span><b class="offline-cult">+0</b></div><div><span>灵石</span><b class="offline-stones">+0</b></div><div class="wide"><span>药材</span><b class="offline-herbs">无</b></div></div>
+        <button data-close-offline>领取并返回洞府</button><small class="cap-note">离线收益上限：10小时</small>
+      </div>
+    </div>
+
+    <div id="breakthroughModal" class="sanctum-modal v48-break-modal hidden">
+      <div class="sanctum-modal-card breakthrough-card v48-break-card">
+        <small>REALM BREAKTHROUGH</small><h3>破境</h3>
+        <div class="breakthrough-visual"><span class="break-from">凡人</span><i>→</i><span class="break-to">练气1层</span></div>
+        <div class="v48-break-requirements"><div><span>修为</span><b class="break-need-cult">0</b></div><div><span>灵石</span><b class="break-need-stones">0</b></div><div><span>材料 / 破境丹</span><b class="break-need-materials">无</b></div></div>
+        <p class="break-need" hidden></p><div class="break-status"></div>
+        <div class="break-actions"><button data-close-break>稍后再说</button><button data-break-now class="sanctum-primary">开始突破</button></div>
+        <small>稳定突破：满足条件即可成功，不加入高惩罚失败。</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- V5.0 技能树：中央核心 + 四向分支 -->
+  <section id="techniqueView" class="view"></section>
+  <section id="skillTreeView" class="view v49-skill-view" data-element="metal">
+    <div class="v49-scene-bg v49-skill-bg"></div><div class="v49-scene-shade"></div>
+    <header class="v49-head">
+      <button class="v49-back" data-back><span>←</span><b>返回</b><kbd>ESC</kbd></button>
+      <div class="v49-title"><small>FIVE ELEMENTS · INSIGHT TREE</small><h2>心法参悟</h2><p>四脉归心 · 循序点亮</p></div>
+      <div class="v49-skill-points">当前角色 <b id="v38SkillChar">Yara</b><i></i>技能点 <b id="v38SkillPoints">0</b></div>
+    </header>
+    <main class="v49-skill-shell">
+      <aside id="v38SkillRoster" class="v49-skill-roster"></aside>
+      <section class="v49-skill-atlas-wrap">
+        <div id="v38SkillAtlas" class="v49-skill-atlas">
+          <div id="v38ElementRing" class="v49-skill-core"></div>
+          <div id="v38SkillBranches" class="v49-skill-branches"></div>
+        </div>
+        <div class="v49-skill-legend"><span><i class="learned"></i>已学习</span><span><i class="available"></i>可学习</span><span><i class="locked"></i>未解锁</span></div>
+      </section>
+      <aside id="v38SkillDetail" class="v49-skill-detail"><small>SKILL PREVIEW</small><h3>选择一个技能节点</h3><p>节点会沿连接路径逐步点亮。首次重置免费，之后需要洗髓丹。</p></aside>
+    </main>
+  </section>
+
+  <section id="helpView" class="view v49-help-view">
+    <div class="v49-scene-bg v49-help-bg"></div><div class="v49-scene-shade"></div>
+    <header class="v49-head">
+      <button class="v49-back" data-back><span>←</span><b>返回</b><kbd>ESC</kbd></button>
+      <div class="v49-title"><small>HOW TO PLAY</small><h2>操作说明</h2><p>按键 · 动作预览 · 战斗机制</p></div>
+      <div class="v49-help-tabs"><button class="active" data-help-tab="controls">键位</button><button data-help-tab="mechanics">战斗机制</button></div>
+    </header>
+    <main class="v49-help-shell">
+      <section id="v49HelpControls" class="v49-help-page active">
+        <div class="v49-key-grid">
+          <article class="v49-key-card wide"><div class="v49-motion"><img data-v69-action="run" src="assets/production/characters/Yara_v66_fallback/combat/actions/run_right.webp" alt="移动动作"></div><div><small>MOVEMENT</small><h3><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 移动</h3><p>方向键同样可用。横版战斗以平地推进为主。</p></div></article>
+          <article class="v49-key-card"><div class="v49-motion"><img data-v69-action="attack_1" src="assets/production/characters/Yara_v66_fallback/combat/actions/attack_1_right.webp" alt="攻击动作"></div><div><small>COMBO</small><h3><kbd>J</kbd> 三段普攻</h3><p>J-J-J，第三段硬直更强。</p></div></article>
+          <article class="v49-key-card"><div class="v49-motion"><img data-v69-action="double_jump" src="assets/production/characters/Yara_v66_fallback/combat/actions/double_jump_right.webp" alt="跳跃动作"></div><div><small>JUMP</small><h3><kbd>K</kbd> 二段跳</h3><p>空中再次按 K 触发第二段。</p></div></article>
+          <article class="v49-key-card"><div class="v49-motion"><img data-v69-action="dash_L" src="assets/production/characters/Yara_v66_fallback/combat/actions/dash_L_right.webp" alt="闪现动作"></div><div><small>DASH</small><h3><kbd>L</kbd> 流光闪</h3><p>位移并可取消部分攻击后摇。</p></div></article>
+          <article class="v49-key-card"><div class="v49-motion"><img data-v69-action="skill_U" src="assets/production/characters/Yara_v66_fallback/combat/actions/skill_U_right.webp" alt="回风斩"></div><div><small>SKILL</small><h3><kbd>U</kbd> 回风斩</h3><p>近身范围斩击。</p></div></article>
+          <article class="v49-key-card"><div class="v49-motion"><img data-v69-action="skill_I" src="assets/production/characters/Yara_v66_fallback/combat/actions/skill_I_right.webp" alt="星芒弹"></div><div><small>SKILL</small><h3><kbd>I</kbd> 星芒弹</h3><p>中距离牵制。</p></div></article>
+          <article class="v49-key-card"><div class="v49-motion"><img data-v69-action="musou" src="assets/production/characters/Yara_v66_fallback/combat/actions/musou_right.webp" alt="无双"></div><div><small>MUSOU</small><h3><kbd>SPACE</kbd> 无双</h3><p>积蓄能量后释放爆发。</p></div></article>
+        </div>
+      </section>
+      <section id="v49HelpMechanics" class="v49-help-page">
+        <div class="v49-mechanics-grid">
+          <article class="v49-mechanic-panel timeline"><small>ATTACK TIMELINE</small><h3>windup → active → recover</h3><div class="v49-timeline"><span class="windup">前摇</span><span class="active">有效帧</span><span class="recover">后摇</span></div><p>只有 active 阶段的 hitbox 命中才会造成伤害；身体接触默认不扣血。</p></article>
+          <article class="v49-mechanic-panel hitbox"><small>HITBOX</small><h3>判定区域</h3><div class="v49-hitbox-demo"><i class="body"></i><i class="hit"></i><b>角色</b><span>有效攻击区域</span></div><p>伤害判定与角色身体碰撞分离。</p></article>
+          <article class="v49-mechanic-panel elements"><small>FIVE ELEMENTS</small><h3>五行克制</h3><div class="v49-element-cycle"><span class="wood">木</span><i>→</i><span class="earth">土</span><i>→</i><span class="water">水</span><i>→</i><span class="fire">火</span><i>→</i><span class="metal">金</span><i>→</i><span class="wood">木</span></div><p>克制约 1.25×，被克约 0.85×，保持温和，不制造强制卡关。</p></article>
+          <article class="v49-mechanic-panel status"><small>STATUS EFFECTS</small><h3>元素状态</h3><div class="v49-status-list"><span class="fire">灼烧</span><span class="water">迟缓</span><span class="wood">缠绕 / 回复</span><span class="metal">破甲 / 流血</span><span class="earth">护盾 / 震晕</span></div></article>
+          <article class="v49-mechanic-panel system"><small>SYSTEM</small><h3>系统快捷键</h3><div class="v49-system-keys"><span><kbd>P / ESC</kbd> 暂停</span><span><kbd>R</kbd> 重生</span><span><kbd>M</kbd> 返回诸界舆图</span></div></article>
+        </div>
+      </section>
+    </main>
+  </section>
+
+  <section id="settingsView" class="view v49-settings-view">
+    <div class="v49-scene-bg v49-settings-bg"></div><div class="v49-scene-shade"></div>
+    <header class="v49-head">
+      <button class="v49-back" data-back><span>←</span><b>返回</b><kbd>ESC</kbd></button>
+      <div class="v49-title"><small>SYSTEM / DISPLAY / AUDIO / SAVE</small><h2>设置</h2><p>统一游戏 HUD · 画质 · 音频 · 存档</p></div>
+      <div class="v49-head-mark">SYSTEM / V8.5</div>
+    </header>
+    <main class="v49-settings-shell">
+      <aside class="v49-settings-nav"><button data-settings-section="0">画质</button><button data-settings-section="1">声音</button><button data-settings-section="2">存档</button><div class="v49-settings-note">1920×1080 逻辑分辨率<br>devicePixelRatio 自适应</div></aside>
+      <section class="v49-settings-content">
+        <article class="v49-settings-card"><div class="v49-settings-icon">◫</div><div><small>GRAPHICS QUALITY</small><h3>画质</h3><p>逻辑分辨率固定 1920×1080，内部渲染倍率结合设备与画质档调整。</p><div id="v40Quality" class="v49-quality-switch"><button data-quality="high">高</button><button data-quality="medium">中</button><button data-quality="low">低</button></div><dl><div><dt>当前渲染倍率</dt><dd id="v40Dpr">1.00×</dd></div></dl></div></article>
+        <article class="v49-settings-card"><div class="v49-settings-icon">♪</div><div><small>AUDIO</small><h3>声音</h3><label>总音量 <input id="v40MasterVolume" type="range" min="0" max="1" step="0.05"></label><label>音乐 <input id="v40MusicVolume" type="range" min="0" max="1" step="0.05"></label><label>音效 <input id="v40SfxVolume" type="range" min="0" max="1" step="0.05"></label><label class="v49-toggle"><input id="v40Mute" type="checkbox"><span></span>静音</label></div></article>
+        <article class="v49-settings-card"><div class="v49-settings-icon">◇</div><div><small>SAVE MODE</small><h3>存档</h3><p id="v40SaveMode">正在检测存档方式…</p><div class="v50-save-actions"><button id="v82SaveFromSettings" class="v49-primary-btn">立即保存</button><button id="v40ExportFromSettings" class="v49-primary-btn">导出当前存档</button><button id="v82ImportFromSettings" class="v49-primary-btn">导入为新存档</button><button id="v82LoadFromSettings" class="v49-primary-btn">读取其他旅程</button><button id="v50RestoreBackup" class="v49-primary-btn secondary">恢复本地备份</button></div><p id="v82SaveMessage" role="status"></p><p class="v49-muted">BAT 模式保存到 <code>saves/save_v5.json</code>，写前自动备份为 <code>save_v5.backup.json</code>。浏览器模式退出前建议导出 JSON。</p></div></article>
+      </section>
+      <aside class="v49-settings-status"><small>RUNTIME STATUS</small><h3>当前配置</h3><div><span>画质</span><b id="v49QualityStatus">HIGH</b></div><div><span>渲染倍率</span><b id="v49DprStatus">1.00×</b></div><div><span>存档模式</span><b id="v49SaveStatus">检测中</b></div><div><span>资源状态</span><b id="v70ResourceStatus">检测中</b></div><div class="v49-settings-rule"></div><p>V8.5 使用统一单屏布局系统：<code>layout_v67.css</code> + <code>responsive_v67.css</code>。</p></aside>
+    </main>
+  </section>
+
+
+  <aside id="v50PerfPanel" class="v50-perf-panel hidden" aria-live="polite"><b>V8.5 PERF</b><span>FPS --</span><span>Draw --</span><span>Images --</span><span>Objects --</span><span>Memory --</span></aside>
+
+  <section id="gameView" class="view game-view">
+    <div class="canvas-wrap"><canvas id="gameCanvas" tabindex="0" aria-label="战斗画面" width="1920" height="1080"></canvas></div>
+    <div id="loading" class="loading"><b>Yara冒险日记</b><span id="loadingText">正在检查本地服务与数据…</span><pre id="loadingError" class="loading-error hidden"></pre><button id="loadingRetry" class="loading-retry hidden" onclick="location.reload()">重新载入</button></div>
+    <div id="v82Result" class="hidden"><article><small>旅程 · 试炼结算</small><h2>试炼完成</h2><p id="v82ResultStats"></p><nav><button id="v82ResultNext">下一关</button><button id="v82ResultReplay">重新挑战</button><button id="v82ResultMap">返回舆图</button><button id="v82ResultHome">返回主界面</button></nav></article></div><div id="pausePanel" class="pause-panel hidden"><div class="pause-card glass"><h2>暂停</h2><button id="resumeBtn" class="primary">继续</button><button id="restartBtn">重新开始</button><button id="backLevelsBtn">返回诸界舆图</button><button id="pauseMenuBtn">返回主界面</button></div></div>
+  </section>
+</div>
+<script src="engine/qa-error-report.js"></script>
+<script src="ui/layout_v67.js"></script>
+<script src="engine/state-machine.js"></script>
+<script src="engine/animation-registry.js"></script>
+<script src="engine/action-runtime.js"></script>
+<script src="engine/combat-runtime.js"></script>
+<script src="engine/battle-room.js"></script>
+<script src="engine/economy-runtime.js"></script>
+<script src="engine/cultivation-runtime.js"></script>
+<script src="engine/element-runtime.js"></script>
+<script src="engine/skill-tree-runtime.js"></script>
+<script src="engine/difficulty-runtime.js"></script>
+<script src="engine/progression-runtime.js"></script>
+<script src="engine/save-runtime.js"></script>
+<script src="engine/audio-runtime.js"></script>
+<script src="engine/render-runtime.js"></script>
+<script src="engine/resource-runtime.js"></script>
+<script src="engine/pool-runtime.js"></script>
+<script src="engine/model-adapter.js"></script>
+<script src="engine/v66-resource-registry.js"></script>
+<script src="engine/v70-resource-audit.js"></script>
+<script src="ui/v44-character-viewer.js"></script>
+<script src="ui/v43-world-map.js"></script>
+<script src="ui/v34-codex.js"></script>
+<script src="ui/v35-characters.js"></script>
+<script src="ui/v35-growth-hall.js"></script>
+<script src="ui/v36-economy.js"></script>
+<script src="ui/v37-cultivation.js"></script>
+<script src="ui/v38-skill-tree.js"></script>
+<script src="engine/slots-v82.js"></script>
+<script src="ui/v90-refinements.js"></script>
+<script src="game.js"></script>
+<script src="ui/v40-settings.js"></script>
+<script src="ui/v49-help.js"></script>
+<script src="ui/v69-enhancements.js"></script>
+<script src="ui/v80-presentation.js"></script>
+<script src="ui/v81-interactions.js"></script>
+<script src="ui/v81-effects.js"></script>
+<script src="ui/v82-shell.js"></script>
+<script src="ui/v82-catalog.js"></script>
+<script src="ui/v83-skins.js"></script><script src="ui/v85-motion-runtime.js"></script><script src="ui/v85-weapon-runtime.js"></script><script src="ui/v83-sanctum.js"></script>
+<script src="ui/portable-save.js"></script></body>
+</html>
+

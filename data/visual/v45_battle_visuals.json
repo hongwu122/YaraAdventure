@@ -1,0 +1,110 @@
+{
+  "version": "4.5",
+  "baseY": 910,
+  "levels": {
+    "1": {
+      "ground": "assets/terrain/v45/level1_ground.webp",
+      "platform": "assets/terrain/v45/level1_platform.webp",
+      "decor": [
+        {
+          "type": "bridge",
+          "asset": "assets/terrain/v45/level1_bridge.webp",
+          "x": 1520,
+          "y": 865,
+          "w": 740,
+          "h": 92
+        },
+        {
+          "type": "bridge",
+          "asset": "assets/terrain/v45/level1_bridge.webp",
+          "x": 3370,
+          "y": 865,
+          "w": 650,
+          "h": 92
+        }
+      ]
+    },
+    "2": {
+      "ground": "assets/terrain/v45/level2_ground.webp",
+      "platform": "assets/terrain/v45/level2_platform.webp",
+      "decor": [
+        {
+          "type": "bridge",
+          "asset": "assets/terrain/v45/level2_bridge.webp",
+          "x": 1650,
+          "y": 864,
+          "w": 760,
+          "h": 94
+        },
+        {
+          "type": "bridge",
+          "asset": "assets/terrain/v45/level2_bridge.webp",
+          "x": 3520,
+          "y": 864,
+          "w": 620,
+          "h": 94
+        }
+      ]
+    },
+    "3": {
+      "ground": "assets/terrain/v45/level3_ground.webp",
+      "platform": "assets/terrain/v45/level3_platform.webp",
+      "decor": [
+        {
+          "type": "steps",
+          "x": 1550,
+          "y": 850,
+          "w": 620,
+          "h": 60
+        },
+        {
+          "type": "steps",
+          "x": 3450,
+          "y": 850,
+          "w": 640,
+          "h": 60
+        }
+      ]
+    },
+    "4": {
+      "ground": "assets/terrain/v45/level4_ground.webp",
+      "platform": "assets/terrain/v45/level4_platform.webp",
+      "decor": [
+        {
+          "type": "lava_crack",
+          "x": 1680,
+          "y": 891,
+          "w": 520,
+          "h": 34
+        },
+        {
+          "type": "lava_crack",
+          "x": 3580,
+          "y": 891,
+          "w": 620,
+          "h": 34
+        }
+      ]
+    },
+    "5": {
+      "ground": "assets/terrain/v45/level5_ground.webp",
+      "platform": "assets/terrain/v45/level5_platform.webp",
+      "decor": [
+        {
+          "type": "jade",
+          "x": 1630,
+          "y": 858,
+          "w": 650,
+          "h": 52
+        },
+        {
+          "type": "jade",
+          "x": 3650,
+          "y": 858,
+          "w": 630,
+          "h": 52
+        }
+      ]
+    }
+  }
+}

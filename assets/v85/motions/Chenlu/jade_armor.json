@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Chenlu",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          119,
+          25,
+          323,
+          487
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          605,
+          35,
+          376,
+          477
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          92,
+          535,
+          363,
+          486
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          565,
+          547,
+          434,
+          477
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          81,
+          1059,
+          402,
+          431
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          563,
+          1066,
+          412,
+          425
+        ]
+      ]
+    }
+  }
+}

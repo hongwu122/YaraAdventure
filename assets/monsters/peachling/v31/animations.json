@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "entity": "peachling",
+  "displayName": "桃芽灵",
+  "spritesheet": "v31_actions.webp",
+  "cols": 8,
+  "rows": 8,
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "prototype": true,
+  "notes": "V3.1动作接口样例。hurt/knockback/stun/dead 由现有素材变形生成，仅用于验证状态机与资源规范；V3.2需替换成真正绘制/生成的动作帧。",
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": 6,
+      "fps": 6
+    },
+    "run": {
+      "row": 1,
+      "frames": 8,
+      "fps": 10
+    },
+    "jump": {
+      "row": 2,
+      "frames": 6,
+      "fps": 9,
+      "prototype": true
+    },
+    "attack": {
+      "row": 3,
+      "frames": 8,
+      "fps": 12,
+      "timing": {
+        "windup": 0.34,
+        "active": 0.16,
+        "recover": 0.48
+      },
+      "activeFrames": [
+        4,
+        5
+      ],
+      "hitbox": {
+        "forward": 82,
+        "height": 72,
+        "damage": 13
+      }
+    },
+    "hurt": {
+      "row": 4,
+      "frames": 4,
+      "fps": 12,
+      "reactionLock": 0.2
+    },
+    "knockback": {
+      "row": 5,
+      "frames": 5,
+      "fps": 10,
+      "reactionLock": 0.34
+    },
+    "stun": {
+      "row": 6,
+      "frames": 6,
+      "fps": 7,
+      "reactionLock": 0.72
+    },
+    "dead": {
+      "row": 7,
+      "frames": 8,
+      "fps": 8,
+      "loop": false
+    }
+  },
+  "directionMode": "mirror-horizontal"
+}

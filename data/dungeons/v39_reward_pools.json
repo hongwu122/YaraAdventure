@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "pools": [
+    {
+      "id": "main_11_15",
+      "levels": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "focus": [
+        "mat_refined_iron",
+        "mat_spirit_dust",
+        "potion_red",
+        "potion_blue"
+      ],
+      "rarityCap": "immortal"
+    },
+    {
+      "id": "main_16_20",
+      "levels": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "focus": [
+        "mat_refined_iron",
+        "mat_spirit_dust",
+        "mat_peach_core"
+      ],
+      "rarityCap": "heaven"
+    },
+    {
+      "id": "dungeon_material",
+      "dungeon": "herb_valley",
+      "bonus": {
+        "materialDrop": 1.8,
+        "equipmentDrop": 0.7
+      }
+    },
+    {
+      "id": "dungeon_equipment",
+      "dungeon": "iron_tomb",
+      "bonus": {
+        "materialDrop": 0.8,
+        "equipmentDrop": 1.85
+      }
+    },
+    {
+      "id": "dungeon_boss",
+      "dungeon": "boss_realm",
+      "bonus": {
+        "bossMaterial": 2.0,
+        "highRarityEquipment": 1.55
+      }
+    },
+    {
+      "id": "dungeon_element",
+      "dungeon": "five_trial",
+      "bonus": {
+        "elementMaterial": 2.0,
+        "skillResource": 1.4
+      }
+    }
+  ]
+}

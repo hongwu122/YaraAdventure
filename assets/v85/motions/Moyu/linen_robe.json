@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Moyu",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          85,
+          9,
+          366,
+          503
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          527,
+          48,
+          473,
+          464
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          50,
+          525,
+          434,
+          487
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          516,
+          546,
+          488,
+          470
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          42,
+          1038,
+          470,
+          471
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "linen_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          542,
+          1034,
+          453,
+          471
+        ]
+      ]
+    }
+  }
+}

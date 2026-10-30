@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "powerFormula": "level*55 + maxHp*0.55 + maxMp*0.22 + attackBonus*7 + defense*5 + crit*240",
+  "levels": [
+    {
+      "id": 1,
+      "recommendedLevel": 1,
+      "recommendedPower": 340,
+      "recommendedElement": "metal",
+      "bossWeakness": "wood",
+      "tip": "先熟悉J-J-J，第三段打硬直。",
+      "normalScale": {
+        "hp": 0.92,
+        "damage": 0.9
+      },
+      "eliteScale": {
+        "hp": 1.05,
+        "damage": 1.0
+      },
+      "bossScale": {
+        "hp": 0.94,
+        "damage": 0.9
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 0
+    },
+    {
+      "id": 2,
+      "recommendedLevel": 2,
+      "recommendedPower": 390,
+      "recommendedElement": "metal",
+      "bossWeakness": "wood",
+      "tip": "保持中距离，等长枪前摇后闪现反打。",
+      "normalScale": {
+        "hp": 0.975,
+        "damage": 0.95
+      },
+      "eliteScale": {
+        "hp": 1.105,
+        "damage": 1.05
+      },
+      "bossScale": {
+        "hp": 0.99,
+        "damage": 0.945
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 0
+    },
+    {
+      "id": 3,
+      "recommendedLevel": 3,
+      "recommendedPower": 455,
+      "recommendedElement": "wood",
+      "bossWeakness": "earth",
+      "tip": "木克土；U范围技适合清石守。",
+      "normalScale": {
+        "hp": 1.03,
+        "damage": 1.0
+      },
+      "eliteScale": {
+        "hp": 1.16,
+        "damage": 1.1
+      },
+      "bossScale": {
+        "hp": 1.04,
+        "damage": 0.99
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 0
+    },
+    {
+      "id": 4,
+      "recommendedLevel": 5,
+      "recommendedPower": 540,
+      "recommendedElement": "water",
+      "bossWeakness": "fire",
+      "tip": "水克火；优先携带蓝药保证技能循环。",
+      "normalScale": {
+        "hp": 1.085,
+        "damage": 1.05
+      },
+      "eliteScale": {
+        "hp": 1.215,
+        "damage": 1.15
+      },
+      "bossScale": {
+        "hp": 1.09,
+        "damage": 1.035
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 1
+    },
+    {
+      "id": 5,
+      "recommendedLevel": 6,
+      "recommendedPower": 640,
+      "recommendedElement": "fire",
+      "bossWeakness": "metal",
+      "tip": "火克金；Boss飞行时用I远程牵制。",
+      "normalScale": {
+        "hp": 1.14,
+        "damage": 1.1
+      },
+      "eliteScale": {
+        "hp": 1.27,
+        "damage": 1.2
+      },
+      "bossScale": {
+        "hp": 1.14,
+        "damage": 1.08
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 1
+    },
+    {
+      "id": 6,
+      "recommendedLevel": 8,
+      "recommendedPower": 760,
+      "recommendedElement": "earth",
+      "bossWeakness": "water",
+      "tip": "土克水；避免连续吃冻结与迟缓。",
+      "normalScale": {
+        "hp": 1.195,
+        "damage": 1.15
+      },
+      "eliteScale": {
+        "hp": 1.325,
+        "damage": 1.25
+      },
+      "bossScale": {
+        "hp": 1.19,
+        "damage": 1.125
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 1
+    },
+    {
+      "id": 7,
+      "recommendedLevel": 9,
+      "recommendedPower": 880,
+      "recommendedElement": "earth",
+      "bossWeakness": "water",
+      "tip": "识别分身，保留L应对突袭。",
+      "normalScale": {
+        "hp": 1.25,
+        "damage": 1.2
+      },
+      "eliteScale": {
+        "hp": 1.38,
+        "damage": 1.3
+      },
+      "bossScale": {
+        "hp": 1.24,
+        "damage": 1.17
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 1
+    },
+    {
+      "id": 8,
+      "recommendedLevel": 11,
+      "recommendedPower": 1030,
+      "recommendedElement": "wood",
+      "bossWeakness": "earth",
+      "tip": "木克土；建议先清精英再打Boss。",
+      "normalScale": {
+        "hp": 1.305,
+        "damage": 1.25
+      },
+      "eliteScale": {
+        "hp": 1.435,
+        "damage": 1.35
+      },
+      "bossScale": {
+        "hp": 1.29,
+        "damage": 1.215
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 2
+    },
+    {
+      "id": 9,
+      "recommendedLevel": 13,
+      "recommendedPower": 1200,
+      "recommendedElement": "metal",
+      "bossWeakness": "wood",
+      "tip": "金克木；第三段普攻和无双压制回复。",
+      "normalScale": {
+        "hp": 1.36,
+        "damage": 1.3
+      },
+      "eliteScale": {
+        "hp": 1.49,
+        "damage": 1.4
+      },
+      "bossScale": {
+        "hp": 1.34,
+        "damage": 1.26
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 2
+    },
+    {
+      "id": 10,
+      "recommendedLevel": 15,
+      "recommendedPower": 1400,
+      "recommendedElement": "water",
+      "bossWeakness": "fire",
+      "tip": "水克火；建议在前关补1~3次等级与装备。",
+      "normalScale": {
+        "hp": 1.415,
+        "damage": 1.35
+      },
+      "eliteScale": {
+        "hp": 1.545,
+        "damage": 1.45
+      },
+      "bossScale": {
+        "hp": 1.39,
+        "damage": 1.305
+      },
+      "expectedAttempts": "1~3次",
+      "farmSuggestion": 3
+    }
+  ]
+}

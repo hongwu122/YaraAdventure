@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 3,
+  "levelId": 2,
+  "name": "翠竹密林",
+  "width": 5350,
+  "platforms": [
+    [
+      0,
+      910,
+      5350,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 翠竹密林战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1727,
+      "cameraLeft": 90,
+      "cameraRight": 1817,
+      "waveDelay": 0.84,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "golem",
+              "x": 769
+            },
+            {
+              "type": "redpanda",
+              "x": 1138
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 翠竹密林战场",
+      "triggerX": 1857,
+      "lockLeft": 1797,
+      "lockRight": 3343,
+      "cameraLeft": 1707,
+      "cameraRight": 3433,
+      "waveDelay": 0.84,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "golem",
+              "x": 2386
+            },
+            {
+              "type": "redpanda",
+              "x": 2754
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "golem",
+              "x": 2386
+            },
+            {
+              "type": "redpanda",
+              "x": 2754
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 翠竹密林深处",
+      "triggerX": 3473,
+      "lockLeft": 3413,
+      "lockRight": 4960,
+      "cameraLeft": 3323,
+      "cameraRight": 5050,
+      "waveDelay": 0.84,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "redpandaBoss",
+              "x": 4187
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "metal",
+  "dropPool": "level_02_main",
+  "stageBoss": false
+}

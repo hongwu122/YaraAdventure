@@ -1,0 +1,57 @@
+{
+  "id": "shadowfox",
+  "gameId": "shadowfox",
+  "name": "暗影狐",
+  "category": "monster",
+  "version": "6.4",
+  "element": "dark",
+  "stageLevels": [
+    6,
+    7,
+    11,
+    16,
+    17
+  ],
+  "status": "concept_art_complete_model_and_prerender_pending",
+  "sourceArt": "concept_sheet.webp",
+  "portrait": "portrait.webp",
+  "model": {
+    "expected": "model/shadowfox.glb",
+    "present": false,
+    "note": "Real GLB pending; no fake model included."
+  },
+  "renderSpec": {
+    "frameSize": [
+      512,
+      512
+    ],
+    "format": "webp",
+    "alpha": true,
+    "anchor": [
+      0.5,
+      0.92
+    ]
+  },
+  "requiredActions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Turn",
+    "Spawn",
+    "AttackA",
+    "AttackB",
+    "HurtLight",
+    "HurtHeavy",
+    "Knockback",
+    "Stun",
+    "Knockdown",
+    "Getup",
+    "Dead"
+  ],
+  "designBrief": "暗紫灵狐，尾焰与耳尖形成识别轮廓，轻威胁但不具Boss级装甲。",
+  "designRules": {
+    "ordinaryMonsterLightweight": true,
+    "bossMustHaveUniqueSilhouette": false,
+    "bossScaleOnlyForbidden": false
+  }
+}

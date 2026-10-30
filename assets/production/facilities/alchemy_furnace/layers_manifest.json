@@ -1,0 +1,18 @@
+{
+  "id": "alchemy_furnace",
+  "states": [
+    {
+      "state": "idle",
+      "file": "states/idle.webp"
+    },
+    {
+      "state": "flame",
+      "file": "states/flame.webp"
+    },
+    {
+      "state": "craft_success",
+      "file": "states/craft_success.webp"
+    }
+  ],
+  "transparentBackground": true
+}

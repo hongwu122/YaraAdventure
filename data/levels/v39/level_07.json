@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 3,
+  "levelId": 7,
+  "name": "夜海蜃楼",
+  "width": 6100,
+  "platforms": [
+    [
+      0,
+      910,
+      6100,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 夜海蜃楼战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1510,
+      "cameraLeft": 90,
+      "cameraRight": 1600,
+      "waveDelay": 0.94,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 697
+            },
+            {
+              "type": "shadowfox",
+              "x": 993
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 622
+            },
+            {
+              "type": "shadowfox",
+              "x": 845
+            },
+            {
+              "type": "shadowfox",
+              "x": 1068
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 夜海蜃楼战场",
+      "triggerX": 1640,
+      "lockLeft": 1580,
+      "lockRight": 2910,
+      "cameraLeft": 1490,
+      "cameraRight": 3000,
+      "waveDelay": 0.94,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 2097
+            },
+            {
+              "type": "shadowfox",
+              "x": 2393
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 2022
+            },
+            {
+              "type": "shadowfox",
+              "x": 2245
+            },
+            {
+              "type": "shadowfox",
+              "x": 2468
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 夜海蜃楼战场",
+      "triggerX": 3040,
+      "lockLeft": 2980,
+      "lockRight": 4310,
+      "cameraLeft": 2890,
+      "cameraRight": 4400,
+      "waveDelay": 0.94,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 3497
+            },
+            {
+              "type": "shadowfox",
+              "x": 3793
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 3422
+            },
+            {
+              "type": "shadowfox",
+              "x": 3645
+            },
+            {
+              "type": "shadowfox",
+              "x": 3868
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "runegolem",
+              "x": 3422
+            },
+            {
+              "type": "shadowfox",
+              "x": 3645
+            },
+            {
+              "type": "shadowfox",
+              "x": 3868
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 夜海蜃楼深处",
+      "triggerX": 4440,
+      "lockLeft": 4380,
+      "lockRight": 5710,
+      "cameraLeft": 4290,
+      "cameraRight": 5800,
+      "waveDelay": 0.94,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "shadowfoxBoss",
+              "x": 5045
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "earth",
+  "dropPool": "level_07_main",
+  "stageBoss": false
+}

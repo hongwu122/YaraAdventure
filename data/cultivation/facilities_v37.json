@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "facilities": [
+    {
+      "id": "cushion",
+      "label": "静修台",
+      "icon": "🧘",
+      "x": 50,
+      "y": 69,
+      "maxLevel": 5,
+      "baseLevel": 1,
+      "effect": "onlineCultivation",
+      "levels": [
+        {
+          "level": 1,
+          "rateBonus": 0.0,
+          "costStones": 80
+        },
+        {
+          "level": 2,
+          "rateBonus": 0.12,
+          "costStones": 320
+        },
+        {
+          "level": 3,
+          "rateBonus": 0.24,
+          "costStones": 720
+        },
+        {
+          "level": 4,
+          "rateBonus": 0.36,
+          "costStones": 1280
+        },
+        {
+          "level": 5,
+          "rateBonus": 0.48,
+          "costStones": 2000
+        }
+      ]
+    },
+    {
+      "id": "muyu",
+      "label": "木鱼",
+      "icon": "🥁",
+      "x": 23,
+      "y": 76,
+      "maxLevel": 5,
+      "baseLevel": 1,
+      "effect": "muyu",
+      "levels": [
+        {
+          "level": 1,
+          "autoEfficiency": 0.28,
+          "costStones": 70
+        },
+        {
+          "level": 2,
+          "autoEfficiency": 0.32,
+          "costStones": 280
+        },
+        {
+          "level": 3,
+          "autoEfficiency": 0.36,
+          "costStones": 630
+        },
+        {
+          "level": 4,
+          "autoEfficiency": 0.4,
+          "costStones": 1120
+        },
+        {
+          "level": 5,
+          "autoEfficiency": 0.44,
+          "costStones": 1750
+        }
+      ]
+    },
+    {
+      "id": "spirit_array",
+      "label": "聚灵阵",
+      "icon": "✦",
+      "x": 21,
+      "y": 46,
+      "maxLevel": 5,
+      "baseLevel": 1,
+      "effect": "cultivationRate",
+      "levels": [
+        {
+          "level": 1,
+          "rateBonus": 0.0,
+          "costStones": 140,
+          "needDust": 0
+        },
+        {
+          "level": 2,
+          "rateBonus": 0.18,
+          "costStones": 560,
+          "needDust": 1
+        },
+        {
+          "level": 3,
+          "rateBonus": 0.36,
+          "costStones": 1260,
+          "needDust": 2
+        },
+        {
+          "level": 4,
+          "rateBonus": 0.54,
+          "costStones": 2240,
+          "needDust": 3
+        },
+        {
+          "level": 5,
+          "rateBonus": 0.72,
+          "costStones": 3500,
+          "needDust": 4
+        }
+      ]
+    },
+    {
+      "id": "furnace",
+      "label": "丹炉",
+      "icon": "⚗",
+      "x": 68,
+      "y": 46,
+      "maxLevel": 5,
+      "baseLevel": 1,
+      "effect": "alchemy",
+      "levels": [
+        {
+          "level": 1,
+          "qualityBonus": 0.0,
+          "costStones": 130,
+          "needIron": 0
+        },
+        {
+          "level": 2,
+          "qualityBonus": 0.07,
+          "costStones": 520,
+          "needIron": 1
+        },
+        {
+          "level": 3,
+          "qualityBonus": 0.14,
+          "costStones": 1170,
+          "needIron": 2
+        },
+        {
+          "level": 4,
+          "qualityBonus": 0.21,
+          "costStones": 2080,
+          "needIron": 3
+        },
+        {
+          "level": 5,
+          "qualityBonus": 0.28,
+          "costStones": 3250,
+          "needIron": 4
+        }
+      ]
+    },
+    {
+      "id": "garden",
+      "label": "药圃",
+      "icon": "🌿",
+      "x": 37,
+      "y": 47,
+      "maxLevel": 5,
+      "baseLevel": 1,
+      "effect": "garden",
+      "levels": [
+        {
+          "level": 1,
+          "yieldMult": 1.0,
+          "costStones": 110
+        },
+        {
+          "level": 2,
+          "yieldMult": 1.35,
+          "costStones": 440
+        },
+        {
+          "level": 3,
+          "yieldMult": 1.7,
+          "costStones": 990
+        },
+        {
+          "level": 4,
+          "yieldMult": 2.05,
+          "costStones": 1760
+        },
+        {
+          "level": 5,
+          "yieldMult": 2.4,
+          "costStones": 2750
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "label": "藏经阁",
+      "icon": "📜",
+      "x": 74,
+      "y": 33,
+      "maxLevel": 5,
+      "baseLevel": 1,
+      "effect": "scripture",
+      "levels": [
+        {
+          "level": 1,
+          "cultivationBonus": 0.0,
+          "costStones": 150
+        },
+        {
+          "level": 2,
+          "cultivationBonus": 0.06,
+          "costStones": 600
+        },
+        {
+          "level": 3,
+          "cultivationBonus": 0.12,
+          "costStones": 1350
+        },
+        {
+          "level": 4,
+          "cultivationBonus": 0.18,
+          "costStones": 2400
+        },
+        {
+          "level": 5,
+          "cultivationBonus": 0.24,
+          "costStones": 3750
+        }
+      ]
+    },
+    {
+      "id": "spring",
+      "label": "灵泉",
+      "icon": "💧",
+      "x": 83,
+      "y": 71,
+      "maxLevel": 5,
+      "baseLevel": 1,
+      "effect": "recovery",
+      "levels": [
+        {
+          "level": 1,
+          "recoveryBonus": 0.0,
+          "costStones": 120
+        },
+        {
+          "level": 2,
+          "recoveryBonus": 0.15,
+          "costStones": 480
+        },
+        {
+          "level": 3,
+          "recoveryBonus": 0.3,
+          "costStones": 1080
+        },
+        {
+          "level": 4,
+          "recoveryBonus": 0.45,
+          "costStones": 1920
+        },
+        {
+          "level": 5,
+          "recoveryBonus": 0.6,
+          "costStones": 3000
+        }
+      ]
+    }
+  ]
+}

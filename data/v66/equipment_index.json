@@ -1,0 +1,720 @@
+{
+  "version": "6.5",
+  "count": 21,
+  "items": [
+    {
+      "id": "eq_bamboo_blade",
+      "name": "青竹短刃",
+      "slot": "weapon",
+      "slotCN": "武器",
+      "rarity": "凡品",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Hand_R",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "竹节短刃、轻便清秀",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_wood_sword",
+      "name": "桃木小剑",
+      "slot": "weapon",
+      "slotCN": "武器",
+      "rarity": "灵秀",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Hand_R",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "桃木剑身、护手温润",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_spirit_saber",
+      "name": "流光灵刃",
+      "slot": "weapon",
+      "slotCN": "武器",
+      "rarity": "玄品",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Hand_R",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "弯月形灵刃，青白流光",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_peach_hairpin",
+      "name": "桃瓣发簪",
+      "slot": "head",
+      "slotCN": "头饰",
+      "rarity": "凡品",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Head",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "小巧桃花簪",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_bamboo_headband",
+      "name": "翠竹额饰",
+      "slot": "head",
+      "slotCN": "头饰",
+      "rarity": "灵秀",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Head",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "竹纹发箍与玉珠",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_moon_crown",
+      "name": "望月冠饰",
+      "slot": "head",
+      "slotCN": "头饰",
+      "rarity": "仙珍",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Head",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "半月冠环、垂星穗",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_travel_robe",
+      "name": "游方白袍",
+      "slot": "body",
+      "slotCN": "衣甲",
+      "rarity": "凡品",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Chest",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": true,
+      "notes": "轻便白衣外袍",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_cloud_robe",
+      "name": "流云法衣",
+      "slot": "body",
+      "slotCN": "衣甲",
+      "rarity": "灵秀",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Chest",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": true,
+      "notes": "云纹白青法衣",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_star_brocade",
+      "name": "星锦灵衣",
+      "slot": "body",
+      "slotCN": "衣甲",
+      "rarity": "玄品",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Chest",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": true,
+      "notes": "星纹披衣、肩袖略华丽",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_linen_sash",
+      "name": "素麻腰带",
+      "slot": "waist",
+      "slotCN": "腰饰",
+      "rarity": "凡品",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Pelvis",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": true,
+      "notes": "朴素细腰带",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_spirit_belt",
+      "name": "聚灵束带",
+      "slot": "waist",
+      "slotCN": "腰饰",
+      "rarity": "灵秀",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Pelvis",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": true,
+      "notes": "灵纹束带，挂小玉牌",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_jade_waist",
+      "name": "鸣玉腰佩",
+      "slot": "waist",
+      "slotCN": "腰饰",
+      "rarity": "仙珍",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Pelvis",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": true,
+      "notes": "双玉佩与流苏",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_straw_shoes",
+      "name": "踏云草履",
+      "slot": "shoes",
+      "slotCN": "鞋履",
+      "rarity": "凡品",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Foot_R",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "草履形轻鞋",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_cloud_shoes",
+      "name": "轻云短靴",
+      "slot": "shoes",
+      "slotCN": "鞋履",
+      "rarity": "灵秀",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Foot_R",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "白青色短靴",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_thunder_boots",
+      "name": "逐电灵靴",
+      "slot": "shoes",
+      "slotCN": "鞋履",
+      "rarity": "玄品",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Foot_R",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "鞋边带电纹",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_peach_talisman",
+      "name": "桃灵符印",
+      "slot": "talisman",
+      "slotCN": "法宝",
+      "rarity": "凡品",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Chest",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "桃形小符牌",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_spirit_talisman",
+      "name": "聚灵符箓",
+      "slot": "talisman",
+      "slotCN": "法宝",
+      "rarity": "灵秀",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Chest",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "圆形符盘与灵纹",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_sun_talisman",
+      "name": "曜阳法宝",
+      "slot": "talisman",
+      "slotCN": "法宝",
+      "rarity": "天工",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Chest",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": false,
+      "notes": "日轮法盘",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_shell_necklace",
+      "name": "贝珠项链",
+      "slot": "necklace",
+      "slotCN": "项链",
+      "rarity": "凡品",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Neck",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": true,
+      "notes": "小贝珠串",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_jade_necklace",
+      "name": "清玉坠链",
+      "slot": "necklace",
+      "slotCN": "项链",
+      "rarity": "灵秀",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Neck",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": true,
+      "notes": "玉坠与银链",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    },
+    {
+      "id": "eq_lotus_necklace",
+      "name": "莲华灵链",
+      "slot": "necklace",
+      "slotCN": "项链",
+      "rarity": "仙珍",
+      "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+      "attachBone": "Neck",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "localRotation": [
+        0,
+        0,
+        0
+      ],
+      "localScale": [
+        1,
+        1,
+        1
+      ],
+      "allowMirror": true,
+      "notes": "莲形坠饰与浮光",
+      "deliverablesPresent": [
+        "icon.webp",
+        "preview.webp",
+        "attachment.json"
+      ],
+      "missingDeliverables": [
+        "attachment.glb"
+      ]
+    }
+  ]
+}

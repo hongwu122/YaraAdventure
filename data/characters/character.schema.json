@@ -1,0 +1,27 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Yara Adventure V3.5 Character Registration",
+  "type":"object",
+  "required":["id","displayName","playable","role","element","baseStats","basicAttack","growthDefaults","render"],
+  "properties":{
+    "id":{"type":"string"},
+    "displayName":{"type":"string"},
+    "playable":{"type":"boolean"},
+    "role":{"type":"string"},
+    "element":{"enum":["metal","wood","water","fire","earth"]},
+    "baseStats":{"type":"object"},
+    "basicAttack":{"type":"object"},
+    "skills":{"type":"array"},
+    "growthDefaults":{"type":"object"},
+    "render":{
+      "type":"object",
+      "required":["mode","portrait","previewAngles","model"],
+      "properties":{
+        "mode":{"enum":["pseudo3d-webp","glb"]},
+        "portrait":{"type":"string"},
+        "previewAngles":{"type":"array","items":{"type":"string"}},
+        "model":{"type":"object","properties":{"type":{"const":"glb"},"path":{"type":["string","null"]},"loader":{"const":"threejs"}}}
+      }
+    }
+  }
+}

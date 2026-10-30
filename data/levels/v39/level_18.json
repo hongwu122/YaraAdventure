@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 3,
+  "levelId": 18,
+  "name": "苍梧神木",
+  "width": 7750,
+  "platforms": [
+    [
+      0,
+      910,
+      7750,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140,
+    6660,
+    7180
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 苍梧神木战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1560,
+      "cameraLeft": 90,
+      "cameraRight": 1650,
+      "waveDelay": 1.16,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 713
+            },
+            {
+              "type": "sunling",
+              "x": 1027
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 635
+            },
+            {
+              "type": "sunling",
+              "x": 870
+            },
+            {
+              "type": "golemElite",
+              "x": 1105
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 苍梧神木战场",
+      "triggerX": 1690,
+      "lockLeft": 1630,
+      "lockRight": 3010,
+      "cameraLeft": 1540,
+      "cameraRight": 3100,
+      "waveDelay": 1.16,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 2163
+            },
+            {
+              "type": "sunling",
+              "x": 2477
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 2085
+            },
+            {
+              "type": "sunling",
+              "x": 2320
+            },
+            {
+              "type": "sunling",
+              "x": 2555
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 2085
+            },
+            {
+              "type": "sunling",
+              "x": 2320
+            },
+            {
+              "type": "sunling",
+              "x": 2555
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 苍梧神木战场",
+      "triggerX": 3140,
+      "lockLeft": 3080,
+      "lockRight": 4460,
+      "cameraLeft": 2990,
+      "cameraRight": 4550,
+      "waveDelay": 1.16,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 3613
+            },
+            {
+              "type": "sunling",
+              "x": 3927
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 3488
+            },
+            {
+              "type": "sunling",
+              "x": 3676
+            },
+            {
+              "type": "sunling",
+              "x": 3864
+            },
+            {
+              "type": "golemElite",
+              "x": 4052
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 苍梧神木战场",
+      "triggerX": 4590,
+      "lockLeft": 4530,
+      "lockRight": 5910,
+      "cameraLeft": 4440,
+      "cameraRight": 6000,
+      "waveDelay": 1.16,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 5063
+            },
+            {
+              "type": "sunling",
+              "x": 5377
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 4938
+            },
+            {
+              "type": "sunling",
+              "x": 5126
+            },
+            {
+              "type": "sunling",
+              "x": 5314
+            },
+            {
+              "type": "sunling",
+              "x": 5502
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "sunling",
+              "x": 4938
+            },
+            {
+              "type": "sunling",
+              "x": 5126
+            },
+            {
+              "type": "sunling",
+              "x": 5314
+            },
+            {
+              "type": "sunling",
+              "x": 5502
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "E",
+      "label": "E区 · 苍梧神木深处",
+      "triggerX": 6040,
+      "lockLeft": 5980,
+      "lockRight": 7360,
+      "cameraLeft": 5890,
+      "cameraRight": 7450,
+      "waveDelay": 1.16,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "sunlingBoss",
+              "x": 6670
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "metal",
+  "dropPool": "level_18_main",
+  "stageBoss": false
+}

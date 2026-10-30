@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "characters": [
+    {
+      "id": "Yara",
+      "file": "yara_tree_v38.json"
+    },
+    {
+      "id": "Aster",
+      "file": "aster_tree_v38.json"
+    },
+    {
+      "id": "Moyu",
+      "file": "moyu_tree_v38.json"
+    },
+    {
+      "id": "Langa",
+      "file": "langa_tree_v38.json"
+    },
+    {
+      "id": "Chenlu",
+      "file": "chenlu_tree_v38.json"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 3,
+  "levelId": 9,
+  "name": "神木浮屿",
+  "width": 6400,
+  "platforms": [
+    [
+      0,
+      910,
+      6400,
+      170
+    ]
+  ],
+  "hazards": [],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 神木浮屿战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1585,
+      "cameraLeft": 90,
+      "cameraRight": 1675,
+      "waveDelay": 0.98,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 722
+            },
+            {
+              "type": "sunling",
+              "x": 1043
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 641
+            },
+            {
+              "type": "sunling",
+              "x": 882
+            },
+            {
+              "type": "sunling",
+              "x": 1124
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 神木浮屿战场",
+      "triggerX": 1715,
+      "lockLeft": 1655,
+      "lockRight": 3060,
+      "cameraLeft": 1565,
+      "cameraRight": 3150,
+      "waveDelay": 0.98,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 2197
+            },
+            {
+              "type": "sunling",
+              "x": 2518
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 2116
+            },
+            {
+              "type": "sunling",
+              "x": 2358
+            },
+            {
+              "type": "golemElite",
+              "x": 2599
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 神木浮屿战场",
+      "triggerX": 3190,
+      "lockLeft": 3130,
+      "lockRight": 4535,
+      "cameraLeft": 3040,
+      "cameraRight": 4625,
+      "waveDelay": 0.98,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 3672
+            },
+            {
+              "type": "sunling",
+              "x": 3993
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 3591
+            },
+            {
+              "type": "sunling",
+              "x": 3832
+            },
+            {
+              "type": "sunling",
+              "x": 4074
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "abyssling",
+              "x": 3591
+            },
+            {
+              "type": "sunling",
+              "x": 3832
+            },
+            {
+              "type": "sunling",
+              "x": 4074
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 神木浮屿深处",
+      "triggerX": 4665,
+      "lockLeft": 4605,
+      "lockRight": 6010,
+      "cameraLeft": 4515,
+      "cameraRight": 6100,
+      "waveDelay": 0.98,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "sunlingBoss",
+              "x": 5308
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "metal",
+  "dropPool": "level_09_main",
+  "stageBoss": false
+}

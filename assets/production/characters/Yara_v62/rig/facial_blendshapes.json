@@ -1,0 +1,38 @@
+{
+  "character": "Yara_v61",
+  "required": [
+    {
+      "name": "blink_L",
+      "type": "eye"
+    },
+    {
+      "name": "blink_R",
+      "type": "eye"
+    },
+    {
+      "name": "smile",
+      "type": "mouth"
+    },
+    {
+      "name": "angry",
+      "type": "brow_mouth"
+    },
+    {
+      "name": "hurt",
+      "type": "eye_mouth"
+    },
+    {
+      "name": "surprised",
+      "type": "eye_mouth"
+    }
+  ],
+  "recommended": [
+    "blink_both",
+    "mouth_open",
+    "mouth_o",
+    "mouth_e",
+    "sad",
+    "focus"
+  ],
+  "style": "Stylized chibi facial shapes; avoid realistic muscle deformation."
+}

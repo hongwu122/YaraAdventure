@@ -1,0 +1,34 @@
+{
+  "id": "eq_peach_hairpin",
+  "name": "桃瓣发簪",
+  "slot": "head",
+  "slotCN": "头饰",
+  "rarity": "凡品",
+  "status": "CONCEPT_READY_ATTACHMENT_GLB_MISSING",
+  "attachBone": "Head",
+  "localPosition": [
+    0,
+    0,
+    0
+  ],
+  "localRotation": [
+    0,
+    0,
+    0
+  ],
+  "localScale": [
+    1,
+    1,
+    1
+  ],
+  "allowMirror": false,
+  "notes": "小巧桃花簪",
+  "deliverablesPresent": [
+    "icon.webp",
+    "preview.webp",
+    "attachment.json"
+  ],
+  "missingDeliverables": [
+    "attachment.glb"
+  ]
+}

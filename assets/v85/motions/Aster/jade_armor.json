@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Aster",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          57,
+          16,
+          415,
+          496
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          541,
+          41,
+          457,
+          466
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          34,
+          532,
+          440,
+          475
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          543,
+          528,
+          463,
+          496
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          23,
+          1037,
+          479,
+          453
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "jade_armor.png"
+        ]
+      },
+      "frameRects": [
+        [
+          525,
+          1034,
+          472,
+          459
+        ]
+      ]
+    }
+  }
+}

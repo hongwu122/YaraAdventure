@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 3,
+  "levelId": 10,
+  "name": "归墟天外",
+  "width": 6550,
+  "platforms": [
+    [
+      0,
+      910,
+      6550,
+      170
+    ],
+    [
+      2107,
+      725,
+      330,
+      28
+    ],
+    [
+      4334,
+      725,
+      330,
+      28
+    ]
+  ],
+  "hazards": [
+    [
+      2227,
+      1006,
+      90,
+      74
+    ],
+    [
+      4454,
+      1006,
+      90,
+      74
+    ]
+  ],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620,
+    6140
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 归墟天外战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1622,
+      "cameraLeft": 90,
+      "cameraRight": 1712,
+      "waveDelay": 1.0,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 734
+            },
+            {
+              "type": "abyssling",
+              "x": 1068
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 651
+            },
+            {
+              "type": "abyssling",
+              "x": 901
+            },
+            {
+              "type": "golemElite",
+              "x": 1152
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 归墟天外战场",
+      "triggerX": 1752,
+      "lockLeft": 1692,
+      "lockRight": 3135,
+      "cameraLeft": 1602,
+      "cameraRight": 3225,
+      "waveDelay": 1.0,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 2247
+            },
+            {
+              "type": "abyssling",
+              "x": 2581
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 2163
+            },
+            {
+              "type": "abyssling",
+              "x": 2414
+            },
+            {
+              "type": "abyssling",
+              "x": 2664
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 归墟天外战场",
+      "triggerX": 3265,
+      "lockLeft": 3205,
+      "lockRight": 4648,
+      "cameraLeft": 3115,
+      "cameraRight": 4738,
+      "waveDelay": 1.0,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 3759
+            },
+            {
+              "type": "abyssling",
+              "x": 4093
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 3676
+            },
+            {
+              "type": "abyssling",
+              "x": 3926
+            },
+            {
+              "type": "abyssling",
+              "x": 4177
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "peachling",
+              "x": 3676
+            },
+            {
+              "type": "abyssling",
+              "x": 3926
+            },
+            {
+              "type": "golemElite",
+              "x": 4177
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 归墟天外深处",
+      "triggerX": 4778,
+      "lockLeft": 4718,
+      "lockRight": 6160,
+      "cameraLeft": 4628,
+      "cameraRight": 6250,
+      "waveDelay": 1.0,
+      "waves": [
+        {
+          "label": "Boss 第一阶段",
+          "enemies": [
+            {
+              "type": "abysslingBoss",
+              "x": 5439
+            }
+          ]
+        },
+        {
+          "label": "Boss 第二阶段 · 场景异变",
+          "enemies": [
+            {
+              "type": "abysslingBoss",
+              "x": 5439
+            }
+          ]
+        }
+      ],
+      "sceneShift": true
+    }
+  ],
+  "environmentElement": "water",
+  "dropPool": "level_10_main",
+  "stageBoss": true
+}

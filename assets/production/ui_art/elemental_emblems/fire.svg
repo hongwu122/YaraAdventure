@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+    <circle cx="64" cy="64" r="54" fill="#13202d" stroke="#ff8b64" stroke-width="5"/>
+    <circle cx="64" cy="64" r="42" fill="none" stroke="#ff8b6488" stroke-width="2"/>
+    <text x="64" y="76" text-anchor="middle" font-size="46" fill="#ff8b64" font-family="sans-serif">火</text>
+    </svg>

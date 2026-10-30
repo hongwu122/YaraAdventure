@@ -1,0 +1,22 @@
+{
+  "id": "herb_garden",
+  "states": [
+    {
+      "state": "empty",
+      "file": "states/empty.webp"
+    },
+    {
+      "state": "growing",
+      "file": "states/growing.webp"
+    },
+    {
+      "state": "ready",
+      "file": "states/ready.webp"
+    },
+    {
+      "state": "harvest",
+      "file": "states/harvest.webp"
+    }
+  ],
+  "transparentBackground": true
+}

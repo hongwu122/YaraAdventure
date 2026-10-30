@@ -1,0 +1,88 @@
+[
+  {
+    "id": "Yara",
+    "part": "core",
+    "desc": "Yara, cute chibi girl, large warm brown eyes, brown high bun, ivory wrap hoodie, ivory shorts, white soft shoes. Preserve the original cute face, hair and casual ivory outfit exactly; short gold-jade sword only in combat poses.",
+    "refs": [
+      "Yara"
+    ]
+  },
+  {
+    "id": "Yara",
+    "part": "skills",
+    "desc": "Yara, cute chibi girl, large warm brown eyes, brown high bun, ivory wrap hoodie, ivory shorts, white soft shoes. Preserve the original cute face, hair and casual ivory outfit exactly; short gold-jade sword only in combat poses.",
+    "refs": [
+      "Yara"
+    ]
+  },
+  {
+    "id": "Aster",
+    "part": "core",
+    "desc": "星遥, water element mage, long silver-lavender hair with navy star ornament, blue eyes, dark navy and pale blue gold-trimmed mage dress, ornate blue crystal staff. Preserve these identifiers but use the same softly painted cute chibi proportions and material detail as the Yara reference.",
+    "refs": [
+      "Yara",
+      "Aster"
+    ]
+  },
+  {
+    "id": "Aster",
+    "part": "skills",
+    "desc": "星遥, water element mage, long silver-lavender hair with navy star ornament, blue eyes, dark navy and pale blue gold-trimmed mage dress, ornate blue crystal staff. Preserve these identifiers but use the same softly painted cute chibi proportions and material detail as the Yara reference.",
+    "refs": [
+      "Yara",
+      "Aster"
+    ]
+  },
+  {
+    "id": "Moyu",
+    "part": "core",
+    "desc": "红舞, fire element agile fighter, long dark brown high ponytail, red ribbons, ruby eyes, dark crimson and black gold-trimmed short fighter outfit, black boots, twin slender crimson blades. Preserve these identifiers but use the same softly painted cute chibi proportions and material detail as the Yara reference.",
+    "refs": [
+      "Yara",
+      "Moyu"
+    ]
+  },
+  {
+    "id": "Moyu",
+    "part": "skills",
+    "desc": "红舞, fire element agile fighter, long dark brown high ponytail, red ribbons, ruby eyes, dark crimson and black gold-trimmed short fighter outfit, black boots, twin slender crimson blades. Preserve these identifiers but use the same softly painted cute chibi proportions and material detail as the Yara reference.",
+    "refs": [
+      "Yara",
+      "Moyu"
+    ]
+  },
+  {
+    "id": "Langa",
+    "part": "core",
+    "desc": "岚歌, wood element nature mage, long pale silver-green hair, leaf and white blossom ornaments, green eyes, ivory and emerald leaf-layered dress, green crystal vine staff. Preserve these identifiers but use the same softly painted cute chibi proportions and material detail as the Yara reference.",
+    "refs": [
+      "Yara",
+      "Langa"
+    ]
+  },
+  {
+    "id": "Langa",
+    "part": "skills",
+    "desc": "岚歌, wood element nature mage, long pale silver-green hair, leaf and white blossom ornaments, green eyes, ivory and emerald leaf-layered dress, green crystal vine staff. Preserve these identifiers but use the same softly painted cute chibi proportions and material detail as the Yara reference.",
+    "refs": [
+      "Yara",
+      "Langa"
+    ]
+  },
+  {
+    "id": "Chenlu",
+    "part": "core",
+    "desc": "辰露, new original earth element guardian chibi girl. Warm amber eyes, dark chestnut medium bob with small braided bun, amber hairpin, ochre ivory and bronze short Chinese fantasy guard robe, dark brown sturdy boots, jade-bronze round shield and small stone hammer. Distinct individual face; soft cute chibi proportions and material detail matching Yara. No borrowed character design.",
+    "refs": [
+      "Yara"
+    ]
+  },
+  {
+    "id": "Chenlu",
+    "part": "skills",
+    "desc": "辰露, new original earth element guardian chibi girl. Warm amber eyes, dark chestnut medium bob with small braided bun, amber hairpin, ochre ivory and bronze short Chinese fantasy guard robe, dark brown sturdy boots, jade-bronze round shield and small stone hammer. Distinct individual face; soft cute chibi proportions and material detail matching Yara. No borrowed character design.",
+    "refs": [
+      "Yara"
+    ]
+  }
+]

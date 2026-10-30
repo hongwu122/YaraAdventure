@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 2,
+  "entityId": "peach_spirit_guardian",
+  "displayName": "桃花灵使",
+  "entityType": "boss",
+  "directionMode": "explicit-left-right",
+  "frameConvention": "horizontal-strip",
+  "source": {
+    "file": "spritesheet.webp",
+    "grid": [
+      6,
+      9
+    ],
+    "cell": [
+      170,
+      170
+    ]
+  },
+  "notes": "V3.2 Boss resource prototype. phase_change uses a color/contrast derivative of the full special body-motion row so the subject still visibly performs an action; it is not a placeholder circle/flash. A fully unique phase-change redraw is recommended later.",
+  "animations": {
+    "idle": {
+      "frames": 6,
+      "fps": 6,
+      "loop": true,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/idle_right.webp",
+        "left": "actions/idle_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 0
+      }
+    },
+    "walk": {
+      "frames": 6,
+      "fps": 9,
+      "loop": true,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/walk_right.webp",
+        "left": "actions/walk_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 1
+      }
+    },
+    "attack_A": {
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/attack_A_right.webp",
+        "left": "actions/attack_A_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 2
+      },
+      "timing": {
+        "windup": 0.24,
+        "active": 0.14,
+        "recover": 0.36
+      }
+    },
+    "attack_B": {
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/attack_B_right.webp",
+        "left": "actions/attack_B_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 3
+      },
+      "timing": {
+        "windup": 0.34,
+        "active": 0.18,
+        "recover": 0.42
+      }
+    },
+    "attack_C": {
+      "frames": 6,
+      "fps": 11,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/attack_C_right.webp",
+        "left": "actions/attack_C_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 4
+      },
+      "timing": {
+        "windup": 0.46,
+        "active": 0.22,
+        "recover": 0.52
+      }
+    },
+    "special": {
+      "frames": 6,
+      "fps": 11,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/special_right.webp",
+        "left": "actions/special_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 5
+      },
+      "timing": {
+        "windup": 0.65,
+        "active": 0.42,
+        "recover": 0.8
+      }
+    },
+    "hurt": {
+      "frames": 6,
+      "fps": 10,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/hurt_right.webp",
+        "left": "actions/hurt_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 6
+      }
+    },
+    "stagger": {
+      "frames": 6,
+      "fps": 7,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/stagger_right.webp",
+        "left": "actions/stagger_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 7
+      }
+    },
+    "phase_change": {
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/phase_change_right.webp",
+        "left": "actions/phase_change_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 5
+      },
+      "derivedPrototype": true
+    },
+    "dead": {
+      "frames": 6,
+      "fps": 6,
+      "loop": false,
+      "frameSize": [
+        170,
+        170
+      ],
+      "directions": {
+        "right": "actions/dead_right.webp",
+        "left": "actions/dead_left.webp"
+      },
+      "source": {
+        "sheet": "spritesheet.webp",
+        "row": 8
+      }
+    }
+  },
+  "stateAliases": {
+    "hurt_light": "hurt",
+    "hurt_heavy": "stagger",
+    "knockback": "stagger",
+    "stun": "stagger",
+    "knockdown": "stagger",
+    "getup": "phase_change",
+    "run": "walk",
+    "jump": "walk"
+  }
+}

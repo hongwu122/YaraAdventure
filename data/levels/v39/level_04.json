@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 3,
+  "levelId": 4,
+  "name": "熔岩地穴",
+  "width": 5650,
+  "platforms": [
+    [
+      0,
+      910,
+      5650,
+      170
+    ],
+    [
+      2818,
+      725,
+      330,
+      28
+    ]
+  ],
+  "hazards": [
+    [
+      2938,
+      1006,
+      90,
+      74
+    ]
+  ],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 熔岩地穴战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1827,
+      "cameraLeft": 90,
+      "cameraRight": 1917,
+      "waveDelay": 0.88,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "fireling",
+              "x": 802
+            },
+            {
+              "type": "fireling",
+              "x": 1204
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 熔岩地穴战场",
+      "triggerX": 1957,
+      "lockLeft": 1897,
+      "lockRight": 3543,
+      "cameraLeft": 1807,
+      "cameraRight": 3633,
+      "waveDelay": 0.88,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "fireling",
+              "x": 2519
+            },
+            {
+              "type": "fireling",
+              "x": 2921
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "fireling",
+              "x": 2519
+            },
+            {
+              "type": "fireling",
+              "x": 2921
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 熔岩地穴深处",
+      "triggerX": 3673,
+      "lockLeft": 3613,
+      "lockRight": 5260,
+      "cameraLeft": 3523,
+      "cameraRight": 5350,
+      "waveDelay": 0.88,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "firelingBoss",
+              "x": 4437
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "water",
+  "dropPool": "level_04_main",
+  "stageBoss": false
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "version": "4.4",
+  "characterId": "Yara",
+  "productionReady": false,
+  "installed": false,
+  "glb": "yara.glb",
+  "reason": "High-quality GLB is intentionally not fabricated from a single 2D reference. Drop a validated rigged GLB here to activate the Three.js path.",
+  "referenceImage": "../source_master.webp",
+  "textures": {
+    "referenceAlbedo2K": "../textures/yara_reference_albedo_2k.webp",
+    "faceReference2K": "../textures/yara_face_reference_2k.webp"
+  },
+  "meshSpec": {
+    "targetTriangles": [
+      20000,
+      50000
+    ],
+    "metersTall": 1.12,
+    "style": "Q-version stylized, exact face/hair/white outfit proportions from approved master",
+    "materials": "PBR, 2K WebP/PNG textures allowed at authoring; GLB final embeds or references textures"
+  },
+  "skeleton": {
+    "file": "skeleton.json",
+    "root": "Root",
+    "requiredBones": [
+      "Root",
+      "Pelvis",
+      "Spine_01",
+      "Spine_02",
+      "Chest",
+      "Neck",
+      "Head",
+      "HairRoot",
+      "UpperArm_L",
+      "LowerArm_L",
+      "Hand_L",
+      "UpperArm_R",
+      "LowerArm_R",
+      "Hand_R",
+      "Thigh_L",
+      "Calf_L",
+      "Foot_L",
+      "Toe_L",
+      "Thigh_R",
+      "Calf_R",
+      "Foot_R",
+      "Toe_R"
+    ]
+  },
+  "animationClips": {
+    "file": "animation_clips.json",
+    "required": [
+      "Idle",
+      "Run",
+      "Turn",
+      "JumpStart",
+      "JumpLoop",
+      "DoubleJump",
+      "Fall",
+      "Land",
+      "Attack01",
+      "Attack02",
+      "Attack03",
+      "SkillU",
+      "SkillI",
+      "Dash",
+      "Musou",
+      "HurtLight",
+      "HurtHeavy",
+      "Knockback",
+      "Stun",
+      "Knockdown",
+      "Getup",
+      "Death",
+      "Cultivate"
+    ]
+  },
+  "viewer": {
+    "cameraFov": 28,
+    "cameraDistance": 3.4,
+    "autoRotateDegPerSec": 5,
+    "minDistance": 2.1,
+    "maxDistance": 5.2,
+    "target": [
+      0,
+      0.58,
+      0
+    ]
+  },
+  "validation": {
+    "mustMatchMaster": true,
+    "noFaceRedesign": true,
+    "noHairRedesign": true,
+    "noOutfitRedesign": true,
+    "noProportionRedesign": true
+  }
+}

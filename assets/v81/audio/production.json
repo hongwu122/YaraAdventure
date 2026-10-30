@@ -1,0 +1,8 @@
+{
+  "version": "8.1",
+  "method": "Original procedural plucked-string synthesis and designed noise/transient effects. No external recordings.",
+  "sampleRate": 22050,
+  "tracks": 3,
+  "sfx": 10,
+  "seed": 81
+}

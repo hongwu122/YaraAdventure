@@ -1,0 +1,20 @@
+{
+  "id": "herb_garden",
+  "name": "药圃",
+  "description": "灵草产出与收取",
+  "states": [
+    "empty",
+    "growing",
+    "ready",
+    "harvest"
+  ],
+  "deliverablesPresent": [
+    "preview.webp",
+    "states/empty.webp",
+    "states/growing.webp",
+    "states/ready.webp",
+    "states/harvest.webp"
+  ],
+  "realGLB": false,
+  "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+}

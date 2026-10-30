@@ -1,0 +1,80 @@
+{
+  "version": "4.3",
+  "background": "assets/backgrounds/cultivation_courtyard.webp",
+  "title": "修行总殿",
+  "subtitle": "一座主殿，统领修仙、装备、技能、行囊与图鉴。",
+  "hotspots": [
+    {
+      "id": "cultivation",
+      "label": "洞天灵府",
+      "note": "境界 · 打坐 · 木鱼 · 突破",
+      "x": 20,
+      "y": 34,
+      "action": "cultivateView",
+      "status": "active"
+    },
+    {
+      "id": "equipment",
+      "label": "装备阁",
+      "note": "七部位装备 · 属性比较",
+      "x": 17,
+      "y": 72,
+      "action": "economy:equipment",
+      "status": "active"
+    },
+    {
+      "id": "skills",
+      "label": "心法参悟",
+      "note": "五行 · 技能树 · 预览加点",
+      "x": 35,
+      "y": 78,
+      "action": "skillTreeView",
+      "status": "active"
+    },
+    {
+      "id": "cave",
+      "label": "灵脉场",
+      "note": "聚灵阵 · 药圃 · 藏经阁 · 灵泉",
+      "x": 53,
+      "y": 34,
+      "action": "cultivateView",
+      "status": "active"
+    },
+    {
+      "id": "alchemy",
+      "label": "丹房",
+      "note": "七类丹方 · 四档品质",
+      "x": 46,
+      "y": 58,
+      "action": "cultivateView",
+      "status": "active"
+    },
+    {
+      "id": "shop",
+      "label": "行商铺",
+      "note": "药水 · 材料 · 基础装备",
+      "x": 78,
+      "y": 40,
+      "action": "economy:shop",
+      "status": "active"
+    },
+    {
+      "id": "bag",
+      "label": "行囊",
+      "note": "分类 · 出售 · 分解",
+      "x": 75,
+      "y": 72,
+      "action": "economy:inventory",
+      "status": "active"
+    },
+    {
+      "id": "archive",
+      "label": "山海录",
+      "note": "图鉴 · 攻略 · 记事",
+      "x": 88,
+      "y": 58,
+      "action": "shanhaiView",
+      "status": "active"
+    }
+  ]
+}

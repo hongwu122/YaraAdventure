@@ -1,0 +1,36 @@
+{
+  "version": "3.2",
+  "purpose": "animation-resource-pack",
+  "actors": [
+    {
+      "id": "Yara",
+      "type": "character",
+      "name": "Yara",
+      "metadata": "../assets/characters/Yara/v32/animations.json"
+    },
+    {
+      "id": "peachling",
+      "type": "normal_enemy",
+      "name": "桃灵",
+      "metadata": "../assets/monsters/peachling/v32/animations.json"
+    },
+    {
+      "id": "redpanda",
+      "type": "normal_enemy",
+      "name": "竹笠狸兵",
+      "metadata": "../assets/monsters/redpanda/v32/animations.json"
+    },
+    {
+      "id": "golem",
+      "type": "normal_enemy",
+      "name": "古寺石守",
+      "metadata": "../assets/monsters/golem/v32/animations.json"
+    },
+    {
+      "id": "peach_spirit_guardian",
+      "type": "boss",
+      "name": "桃花灵使",
+      "metadata": "../assets/bosses/peach_spirit_guardian/v32/animations.json"
+    }
+  ]
+}

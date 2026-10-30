@@ -1,0 +1,48 @@
+{
+  "version": "6.6",
+  "base": "YaraAdventure V5.0",
+  "resourcePacks": [
+    "V6.1",
+    "V6.2",
+    "V6.3",
+    "V6.4",
+    "V6.5"
+  ],
+  "yara": {
+    "v61GLB": false,
+    "v62RealActionWebPs": 0,
+    "v62PriorityLoader": true,
+    "legacyFallback": "assets/characters/Yara/v32/animations.json",
+    "v44CombatRemovedFromRuntime": true
+  },
+  "monsters": {
+    "productionConceptFolders": 11,
+    "realRuntimeActionPacks": 0,
+    "legacyActionFallback": true
+  },
+  "bosses": {
+    "independentProductionFolders": 13,
+    "runtimeIndependentBossMapping": true,
+    "realRuntimeActionPacks": 0,
+    "conceptPortraitFallback": true,
+    "stageBossOverrides": {
+      "10": "abysslingBoss",
+      "15": "phoenixBoss_stage15",
+      "20": "golemBoss_stage20"
+    }
+  },
+  "equipment": {
+    "folders": 21,
+    "realGLBAttachments": 0
+  },
+  "facilities": {
+    "folders": 7,
+    "webpStateLayers": 18
+  },
+  "limitations": [
+    "No genuine yara_v61.glb is present in V6.1 pack.",
+    "V6.2 contains animation production contracts but no rendered action WebPs.",
+    "V6.3/V6.4 contain concept/action sheets but no per-action production WebPs/GLBs.",
+    "Boss combat therefore uses independent production portrait fallback instead of enlarged ordinary monsters; it is not claimed as finished animation."
+  ]
+}

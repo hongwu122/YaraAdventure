@@ -1,0 +1,27 @@
+{
+  "version": "8.2",
+  "animations": {
+    "effect": {
+      "frames": 6,
+      "fps": 12,
+      "frameImages": {
+        "right": [
+          "../../v81/effects/star_00.png",
+          "../../v81/effects/star_01.png",
+          "../../v81/effects/star_02.png",
+          "../../v81/effects/star_03.png",
+          "../../v81/effects/star_04.png",
+          "../../v81/effects/star_05.png"
+        ],
+        "left": [
+          "../../v81/effects/star_00.png",
+          "../../v81/effects/star_01.png",
+          "../../v81/effects/star_02.png",
+          "../../v81/effects/star_03.png",
+          "../../v81/effects/star_04.png",
+          "../../v81/effects/star_05.png"
+        ]
+      }
+    }
+  }
+}

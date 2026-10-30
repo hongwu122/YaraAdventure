@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 3,
+  "levelId": 6,
+  "name": "霜桥雪岭",
+  "width": 5950,
+  "platforms": [
+    [
+      0,
+      910,
+      5950,
+      170
+    ],
+    [
+      2974,
+      760,
+      330,
+      28
+    ]
+  ],
+  "hazards": [
+    [
+      3094,
+      1006,
+      90,
+      74
+    ]
+  ],
+  "coins": [
+    420,
+    940,
+    1460,
+    1980,
+    2500,
+    3020,
+    3540,
+    4060,
+    4580,
+    5100,
+    5620
+  ],
+  "rooms": [
+    {
+      "id": "A",
+      "label": "A区 · 霜桥雪岭战场",
+      "triggerX": 240,
+      "lockLeft": 180,
+      "lockRight": 1472,
+      "cameraLeft": 90,
+      "cameraRight": 1562,
+      "waveDelay": 0.92,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 684
+            },
+            {
+              "type": "frostling",
+              "x": 968
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 684
+            },
+            {
+              "type": "frostling",
+              "x": 968
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "B",
+      "label": "B区 · 霜桥雪岭战场",
+      "triggerX": 1602,
+      "lockLeft": 1542,
+      "lockRight": 2835,
+      "cameraLeft": 1452,
+      "cameraRight": 2925,
+      "waveDelay": 0.92,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 2047
+            },
+            {
+              "type": "frostling",
+              "x": 2331
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 2047
+            },
+            {
+              "type": "frostling",
+              "x": 2331
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "C",
+      "label": "C区 · 霜桥雪岭战场",
+      "triggerX": 2965,
+      "lockLeft": 2905,
+      "lockRight": 4198,
+      "cameraLeft": 2815,
+      "cameraRight": 4288,
+      "waveDelay": 0.92,
+      "waves": [
+        {
+          "label": "第1波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 3409
+            },
+            {
+              "type": "frostling",
+              "x": 3693
+            }
+          ]
+        },
+        {
+          "label": "第2波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 3409
+            },
+            {
+              "type": "frostling",
+              "x": 3693
+            }
+          ]
+        },
+        {
+          "label": "第3波",
+          "enemies": [
+            {
+              "type": "shadowfox",
+              "x": 3409
+            },
+            {
+              "type": "frostling",
+              "x": 3693
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    },
+    {
+      "id": "D",
+      "label": "D区 · 霜桥雪岭深处",
+      "triggerX": 4328,
+      "lockLeft": 4268,
+      "lockRight": 5560,
+      "cameraLeft": 4178,
+      "cameraRight": 5650,
+      "waveDelay": 0.92,
+      "waves": [
+        {
+          "label": "镇守者",
+          "enemies": [
+            {
+              "type": "frostlingBoss",
+              "x": 4914
+            }
+          ]
+        }
+      ],
+      "sceneShift": false
+    }
+  ],
+  "environmentElement": "earth",
+  "dropPool": "level_06_main",
+  "stageBoss": false
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Chenlu",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          116,
+          12,
+          330,
+          500
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          566,
+          16,
+          398,
+          496
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          70,
+          524,
+          394,
+          468
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          524,
+          527,
+          460,
+          496
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          67,
+          1029,
+          434,
+          476
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          554,
+          1031,
+          443,
+          471
+        ]
+      ]
+    }
+  }
+}

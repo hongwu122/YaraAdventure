@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "levelId": 1,
+  "name": "桃花山谷",
+  "width": 5000,
+  "platforms": [[0,910,1710,170],[1790,910,1590,170],[3480,910,1520,170],[1020,790,360,28],[2620,800,420,28],[4080,785,390,28]],
+  "hazards": [[1710,1020,80,60],[3380,1020,100,60]],
+  "coins": [420,980,1450,2100,2700,3200,3900,4480],
+  "rooms": [
+    {"id":"A","label":"A区 · 桃溪入口","triggerX":430,"lockLeft":260,"lockRight":1590,"cameraLeft":180,"cameraRight":1710,"waveDelay":0.7,"waves":[{"label":"第1波","enemies":[{"type":"peachling","x":830},{"type":"peachling","x":1080},{"type":"peachling","x":1360}]}]},
+    {"id":"B","label":"B区 · 落英古道","triggerX":1940,"lockLeft":1880,"lockRight":3300,"cameraLeft":1740,"cameraRight":3440,"waveDelay":0.9,"waves":[{"label":"第1波","enemies":[{"type":"peachling","x":2250},{"type":"peachling","x":2570},{"type":"peachling","x":2910}]},{"label":"第2波","enemies":[{"type":"peachling","x":2140},{"type":"peachling","x":2440},{"type":"peachling","x":2750},{"type":"peachling","x":3110}]}]},
+    {"id":"C","label":"C区 · 桃源镇守","triggerX":3650,"lockLeft":3560,"lockRight":4850,"cameraLeft":3440,"cameraRight":5000,"waveDelay":0.8,"waves":[{"label":"Boss","enemies":[{"type":"peachGuardian","x":4320}]}]}
+  ]
+}

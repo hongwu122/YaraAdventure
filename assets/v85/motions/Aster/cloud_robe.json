@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Aster",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          50,
+          15,
+          399,
+          494
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          530,
+          37,
+          455,
+          465
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          13,
+          519,
+          476,
+          479
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          512,
+          530,
+          497,
+          479
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          12,
+          1028,
+          495,
+          472
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          520,
+          1026,
+          491,
+          472
+        ]
+      ]
+    }
+  }
+}

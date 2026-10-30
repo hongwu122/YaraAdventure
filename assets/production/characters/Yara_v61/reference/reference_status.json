@@ -1,0 +1,14 @@
+{
+  "approved": [
+    "front.webp",
+    "proportion_sheet.webp"
+  ],
+  "missing": [
+    "back.webp",
+    "left.webp",
+    "right.webp",
+    "front_left.webp",
+    "front_right.webp"
+  ],
+  "warning": "Do not fabricate orthographic views by mirroring/shearing the front image. They must be authored from the real 3D model or a consistent multi-view generation pipeline."
+}

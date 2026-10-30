@@ -1,0 +1,16 @@
+{
+  "id": "cultivation_seat",
+  "name": "静修台",
+  "description": "打坐点与灵气圈",
+  "states": [
+    "idle",
+    "aura"
+  ],
+  "deliverablesPresent": [
+    "preview.webp",
+    "states/idle.webp",
+    "states/aura.webp"
+  ],
+  "realGLB": false,
+  "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+}

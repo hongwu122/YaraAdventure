@@ -1,0 +1,16 @@
+{
+  "id": "library",
+  "name": "藏经阁",
+  "description": "静态建筑与知识光效",
+  "states": [
+    "idle",
+    "glow"
+  ],
+  "deliverablesPresent": [
+    "preview.webp",
+    "states/idle.webp",
+    "states/glow.webp"
+  ],
+  "realGLB": false,
+  "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+}

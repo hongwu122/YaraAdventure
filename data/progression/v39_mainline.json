@@ -1,0 +1,1013 @@
+{
+  "schemaVersion": 1,
+  "mainline": [
+    {
+      "id": 1,
+      "name": "桃花山谷",
+      "subtitle": "风起花落 · 初试锋芒",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 1,
+      "recommendedPower": 340,
+      "recommendedElement": "metal",
+      "environmentElement": "metal",
+      "bossWeakness": "wood",
+      "normalEnemy": "peachling",
+      "bossName": "桃灵头领",
+      "normalScale": {
+        "hp": 0.92,
+        "damage": 0.9
+      },
+      "eliteScale": {
+        "hp": 1.05,
+        "damage": 1.0
+      },
+      "bossScale": {
+        "hp": 0.94,
+        "damage": 0.9
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 0,
+      "tip": "先熟悉J-J-J，第三段打硬直。",
+      "background": "assets/backgrounds/level1_peach_valley.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "starter_materials_and_common"
+    },
+    {
+      "id": 2,
+      "name": "翠竹密林",
+      "subtitle": "竹影横斜 · 枪影伏行",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 2,
+      "recommendedPower": 390,
+      "recommendedElement": "metal",
+      "environmentElement": "metal",
+      "bossWeakness": "wood",
+      "normalEnemy": "redpanda",
+      "bossName": "竹笠教头",
+      "normalScale": {
+        "hp": 0.975,
+        "damage": 0.95
+      },
+      "eliteScale": {
+        "hp": 1.105,
+        "damage": 1.05
+      },
+      "bossScale": {
+        "hp": 0.99,
+        "damage": 0.945
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 0,
+      "tip": "保持中距离，等长枪前摇后闪现反打。",
+      "background": "assets/backgrounds/level2_bamboo_forest.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "starter_materials_and_common"
+    },
+    {
+      "id": 3,
+      "name": "古寺秘境",
+      "subtitle": "残钟古佛 · 石守苏醒",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 3,
+      "recommendedPower": 455,
+      "recommendedElement": "wood",
+      "environmentElement": "wood",
+      "bossWeakness": "earth",
+      "normalEnemy": "golem",
+      "bossName": "玄石护法",
+      "normalScale": {
+        "hp": 1.03,
+        "damage": 1.0
+      },
+      "eliteScale": {
+        "hp": 1.16,
+        "damage": 1.1
+      },
+      "bossScale": {
+        "hp": 1.04,
+        "damage": 0.99
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 0,
+      "tip": "木克土；U范围技适合清石守。",
+      "background": "assets/backgrounds/level3_ancient_temple.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "starter_materials_and_common"
+    },
+    {
+      "id": 4,
+      "name": "熔岩地穴",
+      "subtitle": "赤焰翻涌 · 火脉试炼",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 5,
+      "recommendedPower": 540,
+      "recommendedElement": "water",
+      "environmentElement": "water",
+      "bossWeakness": "fire",
+      "normalEnemy": "fireling",
+      "bossName": "赤焰长老",
+      "normalScale": {
+        "hp": 1.085,
+        "damage": 1.05
+      },
+      "eliteScale": {
+        "hp": 1.215,
+        "damage": 1.15
+      },
+      "bossScale": {
+        "hp": 1.09,
+        "damage": 1.035
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 1,
+      "tip": "水克火；优先携带蓝药保证技能循环。",
+      "background": "assets/backgrounds/level4_lava_cavern.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "starter_materials_and_common"
+    },
+    {
+      "id": 5,
+      "name": "天宫之巅",
+      "subtitle": "云海天门 · 五境终试",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 6,
+      "recommendedPower": 640,
+      "recommendedElement": "fire",
+      "environmentElement": "fire",
+      "bossWeakness": "metal",
+      "normalEnemy": "phoenix",
+      "bossName": "霁羽天凰",
+      "normalScale": {
+        "hp": 1.14,
+        "damage": 1.1
+      },
+      "eliteScale": {
+        "hp": 1.27,
+        "damage": 1.2
+      },
+      "bossScale": {
+        "hp": 1.14,
+        "damage": 1.08
+      },
+      "expectedAttempts": "1~3次",
+      "farmSuggestion": 1,
+      "tip": "火克金；Boss飞行时用I远程牵制。",
+      "background": "assets/backgrounds/level5_sky_palace.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "starter_materials_and_common"
+    },
+    {
+      "id": 6,
+      "name": "霜桥雪岭",
+      "subtitle": "寒桥入云 · 冰息凝霜",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 8,
+      "recommendedPower": 760,
+      "recommendedElement": "earth",
+      "environmentElement": "earth",
+      "bossWeakness": "water",
+      "normalEnemy": "frostling",
+      "bossName": "霜心灵主",
+      "normalScale": {
+        "hp": 1.195,
+        "damage": 1.15
+      },
+      "eliteScale": {
+        "hp": 1.325,
+        "damage": 1.25
+      },
+      "bossScale": {
+        "hp": 1.19,
+        "damage": 1.125
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 1,
+      "tip": "土克水；避免连续吃冻结与迟缓。",
+      "background": "assets/backgrounds/level6_frost_bridge.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "mid_materials_and_verdant_arcane"
+    },
+    {
+      "id": 7,
+      "name": "夜海蜃楼",
+      "subtitle": "月影沉波 · 幻雾无常",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 9,
+      "recommendedPower": 880,
+      "recommendedElement": "earth",
+      "environmentElement": "earth",
+      "bossWeakness": "water",
+      "normalEnemy": "shadowfox",
+      "bossName": "蜃夜巡守",
+      "normalScale": {
+        "hp": 1.25,
+        "damage": 1.2
+      },
+      "eliteScale": {
+        "hp": 1.38,
+        "damage": 1.3
+      },
+      "bossScale": {
+        "hp": 1.24,
+        "damage": 1.17
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 1,
+      "tip": "识别分身，保留L应对突袭。",
+      "background": "assets/backgrounds/level7_night_mirage.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "mid_materials_and_verdant_arcane"
+    },
+    {
+      "id": 8,
+      "name": "龙窟遗城",
+      "subtitle": "古纹复苏 · 地脉轰鸣",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 11,
+      "recommendedPower": 1030,
+      "recommendedElement": "wood",
+      "environmentElement": "wood",
+      "bossWeakness": "earth",
+      "normalEnemy": "runegolem",
+      "bossName": "龙纹石将",
+      "normalScale": {
+        "hp": 1.305,
+        "damage": 1.25
+      },
+      "eliteScale": {
+        "hp": 1.435,
+        "damage": 1.35
+      },
+      "bossScale": {
+        "hp": 1.29,
+        "damage": 1.215
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 2,
+      "tip": "木克土；建议先清精英再打Boss。",
+      "background": "assets/backgrounds/level8_dragon_ruins.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "mid_materials_and_verdant_arcane"
+    },
+    {
+      "id": 9,
+      "name": "神木浮屿",
+      "subtitle": "金叶照云 · 灵根化形",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 13,
+      "recommendedPower": 1200,
+      "recommendedElement": "metal",
+      "environmentElement": "metal",
+      "bossWeakness": "wood",
+      "normalEnemy": "sunling",
+      "bossName": "神木灵尊",
+      "normalScale": {
+        "hp": 1.36,
+        "damage": 1.3
+      },
+      "eliteScale": {
+        "hp": 1.49,
+        "damage": 1.4
+      },
+      "bossScale": {
+        "hp": 1.34,
+        "damage": 1.26
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 2,
+      "tip": "金克木；第三段普攻和无双压制回复。",
+      "background": "assets/backgrounds/level9_divine_tree.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "mid_materials_and_verdant_arcane"
+    },
+    {
+      "id": 10,
+      "name": "归墟天外",
+      "subtitle": "星火沉渊 · 十境问道",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 15,
+      "recommendedPower": 1400,
+      "recommendedElement": "water",
+      "environmentElement": "water",
+      "bossWeakness": "fire",
+      "normalEnemy": "abyssling",
+      "bossName": "归墟炎主",
+      "normalScale": {
+        "hp": 1.415,
+        "damage": 1.35
+      },
+      "eliteScale": {
+        "hp": 1.545,
+        "damage": 1.45
+      },
+      "bossScale": {
+        "hp": 1.39,
+        "damage": 1.305
+      },
+      "expectedAttempts": "1~3次",
+      "farmSuggestion": 3,
+      "tip": "水克火；建议在前关补1~3次等级与装备。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": true,
+      "bossPlan": "二阶段Boss：第二阶段触发场景色调变化",
+      "dropPool": "mid_materials_and_verdant_arcane"
+    },
+    {
+      "id": 11,
+      "name": "青丘雾林",
+      "subtitle": "狐火引路 · 雾隐迷踪",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 17,
+      "recommendedPower": 1610,
+      "recommendedElement": "metal",
+      "environmentElement": "metal",
+      "bossWeakness": "wood",
+      "normalEnemy": "shadowfox",
+      "bossName": "青丘狐将",
+      "normalScale": {
+        "hp": 1.475,
+        "damage": 1.395
+      },
+      "eliteScale": {
+        "hp": 1.635,
+        "damage": 1.52
+      },
+      "bossScale": {
+        "hp": 1.555,
+        "damage": 1.448
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 1,
+      "tip": "优先使用metal系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level7_night_mirage.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "v39_mid_immortal"
+    },
+    {
+      "id": 12,
+      "name": "雷泽荒原",
+      "subtitle": "雷鼓裂野 · 泽气奔涌",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 19,
+      "recommendedPower": 1820,
+      "recommendedElement": "earth",
+      "environmentElement": "earth",
+      "bossWeakness": "water",
+      "normalEnemy": "runegolem",
+      "bossName": "雷泽石魁",
+      "normalScale": {
+        "hp": 1.53,
+        "damage": 1.44
+      },
+      "eliteScale": {
+        "hp": 1.69,
+        "damage": 1.57
+      },
+      "bossScale": {
+        "hp": 1.61,
+        "damage": 1.496
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 1,
+      "tip": "优先使用earth系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level8_dragon_ruins.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "v39_mid_immortal"
+    },
+    {
+      "id": 13,
+      "name": "赤沙古道",
+      "subtitle": "残阳万里 · 沙海伏袭",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 21,
+      "recommendedPower": 2030,
+      "recommendedElement": "water",
+      "environmentElement": "water",
+      "bossWeakness": "fire",
+      "normalEnemy": "fireling",
+      "bossName": "赤沙夜叉",
+      "normalScale": {
+        "hp": 1.585,
+        "damage": 1.485
+      },
+      "eliteScale": {
+        "hp": 1.745,
+        "damage": 1.62
+      },
+      "bossScale": {
+        "hp": 1.665,
+        "damage": 1.544
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 1,
+      "tip": "优先使用water系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level3_ancient_temple.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "v39_mid_immortal"
+    },
+    {
+      "id": 14,
+      "name": "镜湖天阶",
+      "subtitle": "水镜浮阶 · 倒影成阵",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 23,
+      "recommendedPower": 2240,
+      "recommendedElement": "earth",
+      "environmentElement": "earth",
+      "bossWeakness": "water",
+      "normalEnemy": "frostling",
+      "bossName": "镜湖司水",
+      "normalScale": {
+        "hp": 1.64,
+        "damage": 1.53
+      },
+      "eliteScale": {
+        "hp": 1.8,
+        "damage": 1.67
+      },
+      "bossScale": {
+        "hp": 1.72,
+        "damage": 1.592
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 1,
+      "tip": "优先使用earth系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level6_frost_bridge.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "v39_mid_immortal"
+    },
+    {
+      "id": 15,
+      "name": "昆仑玉阙",
+      "subtitle": "玉阙凌霄 · 仙门再试",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 25,
+      "recommendedPower": 2450,
+      "recommendedElement": "fire",
+      "environmentElement": "fire",
+      "bossWeakness": "metal",
+      "normalEnemy": "phoenix",
+      "bossName": "昆仑玉君",
+      "normalScale": {
+        "hp": 1.695,
+        "damage": 1.575
+      },
+      "eliteScale": {
+        "hp": 1.855,
+        "damage": 1.72
+      },
+      "bossScale": {
+        "hp": 1.775,
+        "damage": 1.64
+      },
+      "expectedAttempts": "1~3次",
+      "farmSuggestion": 2,
+      "tip": "优先使用fire系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level5_sky_palace.webp",
+      "stageBoss": true,
+      "bossPlan": "二阶段Boss：第二阶段触发场景色调变化",
+      "dropPool": "v39_mid_immortal"
+    },
+    {
+      "id": 16,
+      "name": "幽都鬼市",
+      "subtitle": "灯火如昼 · 百鬼夜行",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 27,
+      "recommendedPower": 2660,
+      "recommendedElement": "metal",
+      "environmentElement": "metal",
+      "bossWeakness": "wood",
+      "normalEnemy": "jiangshi",
+      "bossName": "幽都巡司",
+      "normalScale": {
+        "hp": 1.75,
+        "damage": 1.62
+      },
+      "eliteScale": {
+        "hp": 1.91,
+        "damage": 1.77
+      },
+      "bossScale": {
+        "hp": 1.83,
+        "damage": 1.688
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 2,
+      "tip": "优先使用metal系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level7_night_mirage.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "v39_late_heaven"
+    },
+    {
+      "id": 17,
+      "name": "星河渡口",
+      "subtitle": "星桥渡夜 · 潮生天际",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 29,
+      "recommendedPower": 2870,
+      "recommendedElement": "earth",
+      "environmentElement": "earth",
+      "bossWeakness": "water",
+      "normalEnemy": "shadowfox",
+      "bossName": "星河渡使",
+      "normalScale": {
+        "hp": 1.805,
+        "damage": 1.665
+      },
+      "eliteScale": {
+        "hp": 1.965,
+        "damage": 1.82
+      },
+      "bossScale": {
+        "hp": 1.885,
+        "damage": 1.736
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 2,
+      "tip": "优先使用earth系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level8_dragon_ruins.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "v39_late_heaven"
+    },
+    {
+      "id": 18,
+      "name": "苍梧神木",
+      "subtitle": "万枝垂云 · 木灵共鸣",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 31,
+      "recommendedPower": 3080,
+      "recommendedElement": "metal",
+      "environmentElement": "metal",
+      "bossWeakness": "wood",
+      "normalEnemy": "sunling",
+      "bossName": "苍梧木皇",
+      "normalScale": {
+        "hp": 1.86,
+        "damage": 1.71
+      },
+      "eliteScale": {
+        "hp": 2.02,
+        "damage": 1.87
+      },
+      "bossScale": {
+        "hp": 1.94,
+        "damage": 1.784
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 2,
+      "tip": "优先使用metal系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level6_frost_bridge.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "v39_late_heaven"
+    },
+    {
+      "id": 19,
+      "name": "天雷禁地",
+      "subtitle": "金雷落阵 · 罡风裂空",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 33,
+      "recommendedPower": 3290,
+      "recommendedElement": "fire",
+      "environmentElement": "fire",
+      "bossWeakness": "metal",
+      "normalEnemy": "runegolem",
+      "bossName": "雷狱金将",
+      "normalScale": {
+        "hp": 1.915,
+        "damage": 1.755
+      },
+      "eliteScale": {
+        "hp": 2.075,
+        "damage": 1.92
+      },
+      "bossScale": {
+        "hp": 1.995,
+        "damage": 1.832
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 2,
+      "tip": "优先使用fire系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level9_divine_tree.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "v39_late_heaven"
+    },
+    {
+      "id": 20,
+      "name": "九霄神庭",
+      "subtitle": "九霄问心 · 神庭终试",
+      "playable": true,
+      "plannedOnly": false,
+      "recommendedLevel": 35,
+      "recommendedPower": 3500,
+      "recommendedElement": "wood",
+      "environmentElement": "wood",
+      "bossWeakness": "earth",
+      "normalEnemy": "golem",
+      "bossName": "九霄镇天君",
+      "normalScale": {
+        "hp": 1.97,
+        "damage": 1.8
+      },
+      "eliteScale": {
+        "hp": 2.13,
+        "damage": 1.97
+      },
+      "bossScale": {
+        "hp": 2.05,
+        "damage": 1.88
+      },
+      "expectedAttempts": "1~3次",
+      "farmSuggestion": 3,
+      "tip": "优先使用wood系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": true,
+      "bossPlan": "二阶段Boss：第二阶段触发场景色调变化",
+      "dropPool": "v39_late_heaven"
+    },
+    {
+      "id": 21,
+      "name": "万骨荒冢",
+      "subtitle": "骨灯沉野 · 古怨复苏",
+      "playable": false,
+      "plannedOnly": true,
+      "recommendedLevel": 39,
+      "recommendedPower": 3760,
+      "recommendedElement": "fire",
+      "environmentElement": "fire",
+      "bossWeakness": "metal",
+      "normalEnemy": "jiangshi",
+      "bossName": "白骨冥帅",
+      "normalScale": {
+        "hp": 2.025,
+        "damage": 1.845
+      },
+      "eliteScale": {
+        "hp": 2.185,
+        "damage": 2.02
+      },
+      "bossScale": {
+        "hp": 2.105,
+        "damage": 1.928
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 3,
+      "tip": "优先使用fire系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "planned"
+    },
+    {
+      "id": 22,
+      "name": "碧落天池",
+      "subtitle": "碧水接天 · 灵潮倒卷",
+      "playable": false,
+      "plannedOnly": true,
+      "recommendedLevel": 41,
+      "recommendedPower": 4020,
+      "recommendedElement": "earth",
+      "environmentElement": "earth",
+      "bossWeakness": "water",
+      "normalEnemy": "frostling",
+      "bossName": "碧落水君",
+      "normalScale": {
+        "hp": 2.08,
+        "damage": 1.89
+      },
+      "eliteScale": {
+        "hp": 2.24,
+        "damage": 2.07
+      },
+      "bossScale": {
+        "hp": 2.16,
+        "damage": 1.976
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 3,
+      "tip": "优先使用earth系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "planned"
+    },
+    {
+      "id": 23,
+      "name": "金乌神殿",
+      "subtitle": "日轮焚空 · 神火照殿",
+      "playable": false,
+      "plannedOnly": true,
+      "recommendedLevel": 43,
+      "recommendedPower": 4280,
+      "recommendedElement": "water",
+      "environmentElement": "water",
+      "bossWeakness": "fire",
+      "normalEnemy": "fireling",
+      "bossName": "金乌祭主",
+      "normalScale": {
+        "hp": 2.135,
+        "damage": 1.935
+      },
+      "eliteScale": {
+        "hp": 2.295,
+        "damage": 2.12
+      },
+      "bossScale": {
+        "hp": 2.215,
+        "damage": 2.024
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 3,
+      "tip": "优先使用water系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "planned"
+    },
+    {
+      "id": 24,
+      "name": "北冥寒渊",
+      "subtitle": "玄冰万丈 · 深渊无声",
+      "playable": false,
+      "plannedOnly": true,
+      "recommendedLevel": 45,
+      "recommendedPower": 4540,
+      "recommendedElement": "earth",
+      "environmentElement": "earth",
+      "bossWeakness": "water",
+      "normalEnemy": "frostling",
+      "bossName": "北冥玄鲲",
+      "normalScale": {
+        "hp": 2.19,
+        "damage": 1.98
+      },
+      "eliteScale": {
+        "hp": 2.35,
+        "damage": 2.17
+      },
+      "bossScale": {
+        "hp": 2.27,
+        "damage": 2.072
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 3,
+      "tip": "优先使用earth系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "planned"
+    },
+    {
+      "id": 25,
+      "name": "玄都道宫",
+      "subtitle": "万法归宫 · 道纹流转",
+      "playable": false,
+      "plannedOnly": true,
+      "recommendedLevel": 47,
+      "recommendedPower": 4800,
+      "recommendedElement": "wood",
+      "environmentElement": "wood",
+      "bossWeakness": "earth",
+      "normalEnemy": "runegolem",
+      "bossName": "玄都道将",
+      "normalScale": {
+        "hp": 2.245,
+        "damage": 2.025
+      },
+      "eliteScale": {
+        "hp": 2.405,
+        "damage": 2.22
+      },
+      "bossScale": {
+        "hp": 2.325,
+        "damage": 2.12
+      },
+      "expectedAttempts": "1~3次",
+      "farmSuggestion": 3,
+      "tip": "优先使用wood系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": false,
+      "bossPlan": "二阶段Boss：第二阶段触发场景色调变化",
+      "dropPool": "planned"
+    },
+    {
+      "id": 26,
+      "name": "万妖古林",
+      "subtitle": "妖影重重 · 百兽听令",
+      "playable": false,
+      "plannedOnly": true,
+      "recommendedLevel": 49,
+      "recommendedPower": 5060,
+      "recommendedElement": "metal",
+      "environmentElement": "metal",
+      "bossWeakness": "wood",
+      "normalEnemy": "shadowfox",
+      "bossName": "万妖古王",
+      "normalScale": {
+        "hp": 2.3,
+        "damage": 2.07
+      },
+      "eliteScale": {
+        "hp": 2.46,
+        "damage": 2.27
+      },
+      "bossScale": {
+        "hp": 2.38,
+        "damage": 2.168
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 3,
+      "tip": "优先使用metal系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "planned"
+    },
+    {
+      "id": 27,
+      "name": "天墟战场",
+      "subtitle": "残旗落日 · 古战再燃",
+      "playable": false,
+      "plannedOnly": true,
+      "recommendedLevel": 51,
+      "recommendedPower": 5320,
+      "recommendedElement": "water",
+      "environmentElement": "water",
+      "bossWeakness": "fire",
+      "normalEnemy": "golem",
+      "bossName": "天墟战魂",
+      "normalScale": {
+        "hp": 2.355,
+        "damage": 2.115
+      },
+      "eliteScale": {
+        "hp": 2.515,
+        "damage": 2.32
+      },
+      "bossScale": {
+        "hp": 2.435,
+        "damage": 2.216
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 3,
+      "tip": "优先使用water系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "planned"
+    },
+    {
+      "id": 28,
+      "name": "蓬莱仙岛",
+      "subtitle": "云涛绕岛 · 仙禽守门",
+      "playable": false,
+      "plannedOnly": true,
+      "recommendedLevel": 53,
+      "recommendedPower": 5580,
+      "recommendedElement": "fire",
+      "environmentElement": "fire",
+      "bossWeakness": "metal",
+      "normalEnemy": "phoenix",
+      "bossName": "蓬莱仙禽",
+      "normalScale": {
+        "hp": 2.41,
+        "damage": 2.16
+      },
+      "eliteScale": {
+        "hp": 2.57,
+        "damage": 2.37
+      },
+      "bossScale": {
+        "hp": 2.49,
+        "damage": 2.264
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 3,
+      "tip": "优先使用fire系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "planned"
+    },
+    {
+      "id": 29,
+      "name": "太虚星门",
+      "subtitle": "星门洞开 · 虚空回响",
+      "playable": false,
+      "plannedOnly": true,
+      "recommendedLevel": 55,
+      "recommendedPower": 5840,
+      "recommendedElement": "earth",
+      "environmentElement": "earth",
+      "bossWeakness": "water",
+      "normalEnemy": "abyssling",
+      "bossName": "太虚门灵",
+      "normalScale": {
+        "hp": 2.465,
+        "damage": 2.205
+      },
+      "eliteScale": {
+        "hp": 2.625,
+        "damage": 2.42
+      },
+      "bossScale": {
+        "hp": 2.545,
+        "damage": 2.312
+      },
+      "expectedAttempts": "1~2次",
+      "farmSuggestion": 3,
+      "tip": "优先使用earth系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": false,
+      "bossPlan": "单阶段Boss，保留精英波铺垫",
+      "dropPool": "planned"
+    },
+    {
+      "id": 30,
+      "name": "山海归墟",
+      "subtitle": "诸境合流 · 山海终章",
+      "playable": false,
+      "plannedOnly": true,
+      "recommendedLevel": 57,
+      "recommendedPower": 6100,
+      "recommendedElement": "wood",
+      "environmentElement": "wood",
+      "bossWeakness": "earth",
+      "normalEnemy": "abyssling",
+      "bossName": "山海归一尊",
+      "normalScale": {
+        "hp": 2.52,
+        "damage": 2.25
+      },
+      "eliteScale": {
+        "hp": 2.68,
+        "damage": 2.47
+      },
+      "bossScale": {
+        "hp": 2.6,
+        "damage": 2.36
+      },
+      "expectedAttempts": "1~3次",
+      "farmSuggestion": 3,
+      "tip": "优先使用wood系技能克制Boss；保留L闪现处理大招前摇。",
+      "background": "assets/backgrounds/level10_abyss.webp",
+      "stageBoss": false,
+      "bossPlan": "二阶段Boss：第二阶段触发场景色调变化",
+      "dropPool": "planned"
+    }
+  ],
+  "dungeonEntries": [
+    {
+      "dungeonId": "herb_valley",
+      "afterLevel": 4
+    },
+    {
+      "dungeonId": "iron_tomb",
+      "afterLevel": 8
+    },
+    {
+      "dungeonId": "boss_realm",
+      "afterLevel": 10
+    },
+    {
+      "dungeonId": "five_trial",
+      "afterLevel": 12
+    }
+  ]
+}

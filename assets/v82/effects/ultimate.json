@@ -1,0 +1,27 @@
+{
+  "version": "8.2",
+  "animations": {
+    "effect": {
+      "frames": 6,
+      "fps": 12,
+      "frameImages": {
+        "right": [
+          "../../v81/effects/ultimate_00.png",
+          "../../v81/effects/ultimate_01.png",
+          "../../v81/effects/ultimate_02.png",
+          "../../v81/effects/ultimate_03.png",
+          "../../v81/effects/ultimate_04.png",
+          "../../v81/effects/ultimate_05.png"
+        ],
+        "left": [
+          "../../v81/effects/ultimate_00.png",
+          "../../v81/effects/ultimate_01.png",
+          "../../v81/effects/ultimate_02.png",
+          "../../v81/effects/ultimate_03.png",
+          "../../v81/effects/ultimate_04.png",
+          "../../v81/effects/ultimate_05.png"
+        ]
+      }
+    }
+  }
+}

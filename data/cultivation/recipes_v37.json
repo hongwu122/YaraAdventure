@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "qualities": [
+    {
+      "id": "low",
+      "label": "下品",
+      "multiplier": 1.0
+    },
+    {
+      "id": "mid",
+      "label": "中品",
+      "multiplier": 1.25
+    },
+    {
+      "id": "high",
+      "label": "上品",
+      "multiplier": 1.6
+    },
+    {
+      "id": "supreme",
+      "label": "极品",
+      "multiplier": 2.1
+    }
+  ],
+  "recipes": [
+    {
+      "id": "qi_pill",
+      "label": "聚气丹",
+      "effect": "cultivation",
+      "baseValue": 160,
+      "stones": 35,
+      "ingredients": {
+        "spirit_grass": 3,
+        "red_ginseng": 1
+      }
+    },
+    {
+      "id": "body_pill",
+      "label": "强身丹",
+      "effect": "hp",
+      "baseValue": 18,
+      "stones": 55,
+      "ingredients": {
+        "spirit_grass": 3,
+        "red_ginseng": 2
+      }
+    },
+    {
+      "id": "spirit_pill",
+      "label": "灵元丹",
+      "effect": "mp",
+      "baseValue": 10,
+      "stones": 55,
+      "ingredients": {
+        "spirit_grass": 3,
+        "snow_lotus": 1
+      }
+    },
+    {
+      "id": "wind_pill",
+      "label": "疾风丹",
+      "effect": "speed_temp",
+      "baseValue": 0.1,
+      "durationSec": 600,
+      "stones": 70,
+      "ingredients": {
+        "red_ginseng": 2,
+        "snow_lotus": 1
+      }
+    },
+    {
+      "id": "breakthrough_pill",
+      "label": "破境丹",
+      "effect": "breakthrough",
+      "baseValue": 1,
+      "stones": 120,
+      "ingredients": {
+        "red_ginseng": 3,
+        "snow_lotus": 2,
+        "fire_pith": 1
+      }
+    },
+    {
+      "id": "marrow_pill",
+      "label": "洗髓丹",
+      "effect": "respec",
+      "baseValue": 1,
+      "stones": 160,
+      "ingredients": {
+        "snow_lotus": 2,
+        "dragon_leaf": 1,
+        "star_dust": 1
+      }
+    },
+    {
+      "id": "healing_pill",
+      "label": "回春丹",
+      "effect": "heal",
+      "baseValue": 0.35,
+      "stones": 45,
+      "ingredients": {
+        "spirit_grass": 2,
+        "red_ginseng": 1
+      }
+    }
+  ]
+}

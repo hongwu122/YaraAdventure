@@ -1,0 +1,56 @@
+{
+  "id": "sunlingBoss",
+  "gameId": "sunlingBoss",
+  "name": "太阳神兽",
+  "category": "boss",
+  "version": "6.4",
+  "element": "fire",
+  "stageLevels": [
+    9,
+    18
+  ],
+  "status": "concept_art_complete_model_and_prerender_pending",
+  "sourceArt": "concept_sheet.webp",
+  "portrait": "portrait.webp",
+  "model": {
+    "expected": "model/sunlingBoss.glb",
+    "present": false,
+    "note": "Real GLB pending; no fake model included."
+  },
+  "renderSpec": {
+    "frameSize": [
+      768,
+      768
+    ],
+    "format": "webp",
+    "alpha": true,
+    "anchor": [
+      0.5,
+      0.92
+    ]
+  },
+  "requiredActions": [
+    "Phase1",
+    "Idle",
+    "Walk",
+    "Turn",
+    "AttackA",
+    "AttackB",
+    "AttackC",
+    "Special01",
+    "Special02",
+    "Ultimate",
+    "Hurt",
+    "Stagger",
+    "Knockback",
+    "PhaseChange",
+    "Phase2",
+    "Death"
+  ],
+  "designBrief": "独立太阳神兽：大型光翼、日轮与神兽头冠；Phase2日轮展开、羽翼数量和光焰显著升级。",
+  "designRules": {
+    "ordinaryMonsterLightweight": false,
+    "bossMustHaveUniqueSilhouette": true,
+    "bossScaleOnlyForbidden": true
+  }
+}

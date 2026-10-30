@@ -1,0 +1,16 @@
+{
+  "id": "spring",
+  "name": "灵泉",
+  "description": "水流循环",
+  "states": [
+    "loop_01",
+    "loop_02"
+  ],
+  "deliverablesPresent": [
+    "preview.webp",
+    "states/loop_01.webp",
+    "states/loop_02.webp"
+  ],
+  "realGLB": false,
+  "notes": "Independent transparent WebP state layers delivered; real GLB prop can be produced later if needed."
+}

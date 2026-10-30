@@ -1,0 +1,47 @@
+[
+  {
+    "id": "cushion",
+    "file": "assets/v82/facilities/cushion.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha": true
+  },
+  {
+    "id": "furnace",
+    "file": "assets/v82/facilities/furnace.png",
+    "size": [
+      1312,
+      1199
+    ],
+    "alpha": true
+  },
+  {
+    "id": "library",
+    "file": "assets/v82/facilities/library.png",
+    "size": [
+      1312,
+      1199
+    ],
+    "alpha": true
+  },
+  {
+    "id": "spirit_array",
+    "file": "assets/v82/facilities/spirit_array.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha": true
+  },
+  {
+    "id": "spring",
+    "file": "assets/v82/facilities/spring.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha": true
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Langa",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          64,
+          25,
+          396,
+          487
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          524,
+          30,
+          437,
+          470
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          48,
+          526,
+          421,
+          439
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          512,
+          528,
+          483,
+          484
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          37,
+          1039,
+          461,
+          441
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "cloud_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          529,
+          1044,
+          471,
+          437
+        ]
+      ]
+    }
+  }
+}

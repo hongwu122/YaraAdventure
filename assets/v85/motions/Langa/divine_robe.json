@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 3,
+  "entityId": "Langa",
+  "animations": {
+    "idle": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          54,
+          12,
+          401,
+          500
+        ]
+      ]
+    },
+    "run": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          518,
+          54,
+          451,
+          458
+        ]
+      ]
+    },
+    "jump": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          44,
+          526,
+          430,
+          470
+        ]
+      ]
+    },
+    "attack_1": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          522,
+          542,
+          481,
+          482
+        ]
+      ]
+    },
+    "meditate": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          27,
+          1043,
+          463,
+          459
+        ]
+      ]
+    },
+    "knock": {
+      "frames": 1,
+      "fps": 4,
+      "frameImages": {
+        "right": [
+          "divine_robe.png"
+        ]
+      },
+      "frameRects": [
+        [
+          519,
+          1037,
+          490,
+          462
+        ]
+      ]
+    }
+  }
+}

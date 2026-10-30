@@ -1,0 +1,108 @@
+{
+  "id": "Langa",
+  "displayName": "岚歌",
+  "number": "004",
+  "playable": true,
+  "title": "青岚灵祝",
+  "role": "木灵术 / 远程 / 控场",
+  "element": "wood",
+  "elementLabel": "木",
+  "description": "操纵青藤与灵芽的木系术者。",
+  "baseStats": {
+    "hp": 300,
+    "mp": 165,
+    "attack": 18,
+    "defense": 11,
+    "speed": 305,
+    "crit": 0.07,
+    "healBonus": 0.18
+  },
+  "basicAttack": {
+    "type": "spirit_seed_chain",
+    "pattern": "J-J-J",
+    "summary": "灵种三连，以木灵之力牵制敌人。",
+    "element": "wood",
+    "status": "root",
+    "damageType": "arcane",
+    "stagger": 0.12
+  },
+  "skills": [
+    {
+      "key": "L",
+      "name": "岚步",
+      "role": "位移",
+      "element": "wood",
+      "status": "regen",
+      "damageType": "movement",
+      "stagger": 0
+    },
+    {
+      "key": "U",
+      "name": "青藤缚",
+      "role": "控制",
+      "element": "wood",
+      "status": "root",
+      "damageType": "arcane",
+      "stagger": 0.38
+    },
+    {
+      "key": "I",
+      "name": "灵芽飞矢",
+      "role": "远程",
+      "element": "wood",
+      "status": "regen",
+      "damageType": "arcane",
+      "stagger": 0.18
+    },
+    {
+      "key": "Space",
+      "name": "万木回春",
+      "role": "无双 / 范围攻击",
+      "element": "wood",
+      "status": "regen",
+      "damageType": "arcane",
+      "stagger": 0.58
+    }
+  ],
+  "growthDefaults": {
+    "level": 1,
+    "exp": 0,
+    "nextExp": 100,
+    "skillPoints": 0,
+    "equipment": {
+      "weapon": null,
+      "head": null,
+      "body": null,
+      "waist": null,
+      "shoes": null,
+      "talisman": null,
+      "necklace": null
+    },
+    "skills": {},
+    "stats": {
+      "vit": 0,
+      "spi": 0,
+      "agi": 0,
+      "pow": 0
+    },
+    "pillBonus": {
+      "hp": 0,
+      "mp": 0
+    }
+  },
+  "render": {
+    "mode": "sprite-2d",
+    "portrait": "../../v82/characters/Langa/portrait.png",
+    "previewAngles": [
+      "../../v82/characters/Langa/portrait.png"
+    ],
+    "model": {
+      "type": "none",
+      "installed": false
+    }
+  },
+  "version": "8.2",
+  "combatAssets": {
+    "animations": "../../v82/characters/Langa/animations.json"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "version": "8.2",
+  "frameSpec": {
+    "size": [
+      768,
+      768
+    ],
+    "format": "webp",
+    "alpha": true,
+    "anchor": [
+      0.5,
+      0.92
+    ]
+  },
+  "bosses": [
+    {
+      "id": "frostlingBoss",
+      "gameId": "frostlingBoss",
+      "name": "霜灵冰女王",
+      "element": "water",
+      "levels": [
+        6,
+        14
+      ],
+      "stageBossLevel": null,
+      "path": "assets/production/bosses/frostlingBoss/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/frostlingBoss/animations.json"
+    },
+    {
+      "id": "shadowfoxBoss",
+      "gameId": "shadowfoxBoss",
+      "name": "九尾幽月",
+      "element": "dark",
+      "levels": [
+        7,
+        11,
+        17
+      ],
+      "stageBossLevel": null,
+      "path": "assets/production/bosses/shadowfoxBoss/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/shadowfoxBoss/animations.json"
+    },
+    {
+      "id": "abysslingBoss",
+      "gameId": "abysslingBoss",
+      "name": "归墟魔灵",
+      "element": "dark",
+      "levels": [
+        10
+      ],
+      "stageBossLevel": 10,
+      "path": "assets/production/bosses/abysslingBoss/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/abysslingBoss/animations.json"
+    },
+    {
+      "id": "runegolemBoss",
+      "gameId": "runegolemBoss",
+      "name": "远古符文巨像",
+      "element": "earth",
+      "levels": [
+        8,
+        12,
+        19
+      ],
+      "stageBossLevel": null,
+      "path": "assets/production/bosses/runegolemBoss/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/runegolemBoss/animations.json"
+    },
+    {
+      "id": "jiangshiBoss",
+      "gameId": "jiangshiBoss",
+      "name": "玄冥尸王",
+      "element": "dark",
+      "levels": [
+        16
+      ],
+      "stageBossLevel": null,
+      "path": "assets/production/bosses/jiangshiBoss/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/jiangshiBoss/animations.json"
+    },
+    {
+      "id": "sunlingBoss",
+      "gameId": "sunlingBoss",
+      "name": "太阳神兽",
+      "element": "fire",
+      "levels": [
+        9,
+        18
+      ],
+      "stageBossLevel": null,
+      "path": "assets/production/bosses/sunlingBoss/",
+      "status": "ready_2d",
+      "runtime": "assets/v8/sunlingBoss/animations.json"
+    },
+    {
+      "id": "phoenixBoss_stage15",
+      "gameId": "phoenixBoss",
+      "name": "昆仑天凰·第15关",
+      "element": "fire",
+      "levels": [
+        15
+      ],
+      "stageBossLevel": 15,
+      "path": "assets/production/bosses/phoenixBoss_stage15/",
+      "status": "ready_2d",
+      "sourceFromV63": "celestial_phoenix",
+      "runtime": "assets/v8/phoenixBoss/animations.json"
+    },
+    {
+      "id": "golemBoss_stage20",
+      "gameId": "golemBoss",
+      "name": "九霄镇界石皇·第20关",
+      "element": "earth",
+      "levels": [
+        20
+      ],
+      "stageBossLevel": 20,
+      "path": "assets/production/bosses/golemBoss_stage20/",
+      "status": "ready_2d",
+      "sourceFromV63": "stone_guardian",
+      "runtime": "assets/v8/golemBoss/animations.json"
+    }
+  ]
+}

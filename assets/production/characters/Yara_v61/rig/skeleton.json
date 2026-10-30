@@ -1,0 +1,48 @@
+{
+  "skeletonName": "Yara_v61_Skeleton",
+  "root": "Root",
+  "bones": [
+    "Root",
+    "Pelvis",
+    "Spine_01",
+    "Spine_02",
+    "Chest",
+    "Neck",
+    "Head",
+    "HairRoot",
+    "UpperArm_L",
+    "LowerArm_L",
+    "Hand_L",
+    "UpperArm_R",
+    "LowerArm_R",
+    "Hand_R",
+    "Thigh_L",
+    "Calf_L",
+    "Foot_L",
+    "Toe_L",
+    "Thigh_R",
+    "Calf_R",
+    "Foot_R",
+    "Toe_R"
+  ],
+  "recommendedOptionalBones": [
+    "Hair_Bang_L",
+    "Hair_Bang_R",
+    "Hair_Bun",
+    "Sleeve_L",
+    "Sleeve_R",
+    "Jaw",
+    "EyeAim_L",
+    "EyeAim_R"
+  ],
+  "orientation": {
+    "upAxis": "+Y",
+    "forwardAxis": "+Z",
+    "origin": "feet_center"
+  },
+  "rigNotes": [
+    "Sleeve helper bones required.",
+    "Hair helper bones required.",
+    "Keep deformation clean at shoulders, elbows, hips, knees, neck."
+  ]
+}
